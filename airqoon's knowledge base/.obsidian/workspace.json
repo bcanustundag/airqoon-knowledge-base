@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "e2092874ecd20f1f",
+    "type": "split",
+    "children": [
+      {
+        "id": "670962647e569c62",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "957042de43ff1301",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bb564b6b40b9eb42",
+    "type": "split",
+    "children": [
+      {
+        "id": "73975530aab8696b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4876613da360b23b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a494657d1d61aa2c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "e6535e01b128bc97",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4627efdee10bc5f5",
+    "type": "split",
+    "children": [
+      {
+        "id": "ab03387173927ca9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0087a95f7e081f0b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "5645ce54d2623f54",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "1b254f2e3e5c3a85",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "21fe51ba02fdf462",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "2cd52fa4bd74ed31",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "957042de43ff1301",
+  "lastOpenFiles": [
+    "CLAUDE.md",
+    "log.md",
+    "index.md",
+    "Welcome.md",
+    "raw/articles/Target-Sectors.md",
+    "raw/articles/Kurumsal-Pazar-Analizi.md",
+    "raw/articles/Field-Recovery.md",
+    "raw/articles/Certificates-&-Standards-&-Technical-Specifications.md",
+    "raw/articles/Airqoon-Sensor-Üniteleri-Test-Süreci-17660.md",
+    "raw/articles/Airqoon-Units-Sensor-Calibration.md",
+    "raw/articles/Hava-Ölçümleri-ve-Hava-Sensör-Sistemleri.md",
+    "raw/articles/Airqoon-Üniteleri-Sensör-Kalibrasyonu.md",
+    "raw/articles/Pre-Test-Süreci-Talimatları.md",
+    "raw/articles/Airqoon-Başlangıç-Kılavuzu-v2.md",
+    "raw/articles/Kullanım-Alanları.md",
+    "raw/articles/Gothenburg-Protocol-Analysis.md",
+    "raw/articles/Use-Cases.md",
+    "raw/articles/Airqoon-M-Başlangıç-Kılavuzu-Noise.md",
+    "raw/articles/GEFF-Türkiye-fizibilite-çalışması.md",
+    "raw/articles/Taslak-MET’lerde-İzleme.md",
+    "raw/articles/Unit-M-Maintenance-Manual.md",
+    "raw/articles/Airqoon-M-Bakım-Kılavuzu.md",
+    "raw/articles/Unit-M-–-SIM-Installation-and-Replacement-Guide.md",
+    "raw/articles/Airqoon-L-SIM-Kurulumu-ve-Değişimi.md",
+    "raw/articles/Airqoon-M-SIM-Kurulumu-ve-Değişimi.md",
+    "raw/articles/Research-Labs-Evaluating-Air-Quality-Sensor-Performance.md",
+    "scratch/export-notion.mjs",
+    "scratch",
+    "raw/matrix",
+    "wiki/analyses",
+    "wiki/sources",
+    "wiki/concepts",
+    "wiki/entities",
+    "raw/slack",
+    "raw/papers",
+    "raw/meetings"
+  ]
+}
