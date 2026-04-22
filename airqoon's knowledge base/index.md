@@ -18,7 +18,87 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 
 | Page | Source File | Date Added | Topics |
 |------|-------------|------------|--------|
-| *(none yet)* | | | |
+| [[wiki/sources/airqoon-vs-oizom-comparison]] | notion/airqoon-vs-oizom-comparison.md | 2026-04-23 | competitor, Unit L vs Polludrone, pricing |
+| [[wiki/sources/product-page]] | notion/product-page.md | 2026-04-23 | ecosystem, Lens, Map, AI, sectors |
+| [[wiki/sources/customer-success-scenarios]] | notion/customer-success-scenarios.md | 2026-04-23 | personas, use cases, regulatory |
+| [[wiki/sources/use-cases]] | articles/Use-Cases.md | 2026-04-23 | marketing, 10 use cases |
+| [[wiki/sources/distributor-partnership-search]] | notion/distributor-partnership-search.md | 2026-04-23 | global distribution, outreach |
+| [[wiki/sources/pace-projesi]] | notion/pace-projesi.md | 2026-04-23 | EU/GIZ grant, earthquake recovery |
+
+### Raw files pending source pages (ingested to raw/, not yet summarised)
+
+<details>
+<summary>30 Resource Docs articles (click to expand)</summary>
+
+- Air-Sensors-Standardization-and-Evaluation-Efforts.md
+- Airqoon-Başlangıç-Kılavuzu-v2.md / v4.md
+- Airqoon-L-SIM-Kurulumu-ve-Değişimi.md
+- Airqoon-M-Bakım-Kılavuzu.md / Başlangıç-Kılavuzu.md / Noise.md
+- Airqoon-M-SIM-Kurulumu-ve-Değişimi.md
+- Airqoon-Sensor-Üniteleri-Test-Süreci-17660.md
+- Airqoon-Units-Sensor-Calibration.md / Üniteleri-Sensör-Kalibrasyonu.md
+- Certificates-&-Standards-&-Technical-Specifications.md
+- Field-Recovery.md
+- GEFF-Türkiye-fizibilite-çalışması.md
+- Gothenburg-Protocol-Analysis.md
+- Hava-Ölçümleri-ve-Hava-Sensör-Sistemleri.md
+- Kullanım-Alanları.md
+- Kurumsal-Pazar-Analizi.md
+- Measurement-Methods-in-Monitoring-Air-Quality.md
+- Pre-Test-Süreci-Talimatları.md
+- Research-Labs-Evaluating-Air-Quality-Sensor-Performance.md
+- Sectoral-Air-Pollution-in-Numbers.md
+- Target-Sectors.md
+- Taslak-MET'lerde-İzleme.md
+- Unit-L-Getting-Started-Guide-v3.md
+- Unit-M-Maintenance-Manual.md / SIM-Installation.md
+- airqoon-Weekly-Meeting-Structure.md / Haftalık-Toplantı-Yapısı.md
+
+</details>
+
+<details>
+<summary>37 Notion marketing/sales/growth pages (click to expand)</summary>
+
+- gathering-testimonials.md
+- outbound-marketing-linkedin-templates.md
+- marketing-documents.md
+- airqoon-lens-yeni-ozellik-mesaj.md
+- iot-hava-kalitesi-izleme-bursa.md
+- n8n-templates.md
+- satis-arastirma.md
+- unite-l.md
+- airqoon-lens.md
+- istanbul-hava-kalitesi-olcumu.md
+- copernicus.md
+- surdurulebilirlik-nedir.md
+- emisyon-ve-imisyon-olcumleri.md
+- clean-air-zone-caz.md
+- yonetmelik-guncel.md
+- air-sensors-growth-marketing-staj.md
+- ngos.md
+- konular.md
+- usa-hava-kirliligi-olcum-arastirmasi.md
+- archive.md
+- 2026-potential-events.md
+- target-sectors.md
+- sales-funnel.md
+- merhaba-iletisim.md
+- projeler.md
+- azerbaijan.md
+- iraq.md
+- scewc2023.md
+- sales-pipeline-active-leads.md
+- potential-lead-companies.md
+- mbb-hava-kirliligi-kentsel-doku.md
+- cimento-potansiyel-kurumlar.md
+- partnerships-crm.md
+- partner-onboarding.md
+- tweet-akisi.md
+- sensor-tanitim-paylasim-metni.md
+- marketing-content-calendar.md (database, 141 entries)
+- social-media-sharing-calendar.md (database, 36 entries)
+
+</details>
 
 ---
 
@@ -28,7 +108,10 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 
 | Page | Type | Summary |
 |------|------|---------|
-| *(none yet)* | | |
+| [[wiki/entities/airqoon]] | Company | Airqoon — Turkish air quality monitoring company |
+| [[wiki/entities/unit-l]] | Product | Unit L — flagship outdoor sensor unit |
+| [[wiki/entities/airqoon-lens]] | Product | Airqoon Lens — cloud analytics platform + AI module |
+| [[wiki/entities/oizom]] | Company | Oizom — primary competitor (Polludrone) |
 
 ---
 
@@ -38,7 +121,9 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 
 | Page | Summary |
 |------|---------|
-| *(none yet)* | |
+| [[wiki/concepts/low-cost-air-sensors]] | Technology, standards, market context for affordable AQ sensors |
+| [[wiki/concepts/clean-air-zones]] | CAZ/LEZ regulatory framework creating monitoring demand |
+| [[wiki/concepts/perimeter-monitoring]] | Industrial fence-line monitoring use case |
 
 ---
 
@@ -52,4 +137,4 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 
 ---
 
-*Last updated: 2026-04-22*
+*Last updated: 2026-04-23*
