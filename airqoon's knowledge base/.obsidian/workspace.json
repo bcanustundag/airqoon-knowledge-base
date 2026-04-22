@@ -178,6 +178,16 @@
   },
   "active": "957042de43ff1301",
   "lastOpenFiles": [
+    "scratch/all_readmes.md",
+    "wiki/overview.md",
+    "wiki/entities/baris-can-ustundag.md",
+    "wiki/sources/claude-conv-helper-memory.md",
+    "wiki/sources/claude-programming-memory.md",
+    "wiki/sources/claude-business-memory.md",
+    "raw/assets/claude-conv-helper-project-memory.md",
+    "raw/assets/claude-programming-project-memory.md",
+    "raw/assets/claude-business-project-memory.md",
+    "raw/assets/claude-project-memory.md",
     "wiki/sources/pace_047_logframe.md",
     "scratch/pace047_logframe.txt",
     "raw/articles/PACE047_Annex 3_Logframe.docx",
@@ -203,16 +213,6 @@
     "wiki/sources/airqoon-autoreporter.md",
     "wiki/sources/airqoon-aqi-calculator.md",
     "wiki/sources/airqoon-su-local-fw.md",
-    "wiki/sources/LCF.md",
-    "wiki/sources/lens-ui.md",
-    "wiki/sources/airqoon-base-map-external-api.md",
-    "wiki/sources/airqoon-data-external-projection.md",
-    "wiki/sources/airqoon-sim-feeder.md",
-    "wiki/sources/airqoon-widget-ui.md",
-    "wiki/sources/lens-api.md",
-    "wiki/sources/LCM.md",
-    "wiki/sources/airqoon-basic-map-api.md",
-    "wiki/sources/airqoon-ops-engine.md",
-    "wiki/sources/airqoon-base-map-ui.md"
+    "wiki/sources/LCF.md"
   ]
 }

@@ -53,6 +53,9 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 | [[wiki/sources/distributor-partnership-search]] | notion/distributor-partnership-search.md | 2026-04-23 | global distribution, outreach |
 | [[wiki/sources/pace-projesi]] | notion/pace-projesi.md | 2026-04-23 | EU/GIZ grant, earthquake recovery |
 | [[wiki/sources/pace_047_logframe]] | articles/PACE047_Annex 3_Logframe.docx | 2026-04-23 | logframe, Hatay Defne, indoor/outdoor schools |
+| [[wiki/sources/claude-business-memory]] | raw/assets/claude-business-project-memory.md | 2026-04-23 | Baris, operations, sales, strategy, network |
+| [[wiki/sources/claude-programming-memory]] | raw/assets/claude-programming-project-memory.md | 2026-04-23 | infra, devops, thingsboard, keycloak, coolify |
+| [[wiki/sources/claude-conv-helper-memory]] | raw/assets/claude-conv-helper-project-memory.md | 2026-04-23 | philosophy, communication, consultative sales |
 
 ### Raw files pending source pages (ingested to raw/, not yet summarised)
 
@@ -138,6 +141,7 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 | Page | Type | Summary |
 |------|------|---------|
 | [[wiki/entities/airqoon]] | Company | Airqoon — Turkish air quality monitoring company |
+| [[wiki/entities/baris-can-ustundag]] | Person | Barış Can Üstündağ — Co-founder & CEO |
 | [[wiki/entities/unit-l]] | Product | Unit L — flagship outdoor sensor unit |
 | [[wiki/entities/airqoon-lens]] | Product | Airqoon Lens — cloud analytics platform + AI module |
 | [[wiki/entities/oizom]] | Company | Oizom — primary competitor (Polludrone) |
