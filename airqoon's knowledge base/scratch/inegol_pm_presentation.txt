@@ -1,0 +1,244 @@
+Spatiotemporal Assessment of
+Particulate Matter in an Organized
+Industrial Zone
+Using Low-Cost Sensor Networks: A Case Study from İnegöl, Türkiye
+Barış Can Üstündağ 1, Coşkun Ayvaz 2, Ülkü Alver Şahin 2
+1Airqoon, Istanbul, Türkiye
+2Istanbul University -Cerrahpaşa, Engineering Faculty, Environmental Engineering Department, Istanbul, 
+Türkiye
+Monitoring · Data Quality · Source Attribution · Exposure Assessment
+
+Air Quality in Türkiye – The National Picture
+İnegöl
+Istanbul
+Bursa
+Türkiye’s national PM10 limit: 40 ug/m3 annual mean –
+aligned with previous EU standard.
+No national annual limit exists for PM2.5.
+Monitoring network is sparse, regulatory stations are 
+concentrated in major metropolitan areas, leaving mid-
+sized industrial cities largely unobserved.
+Bursa province is one of Türklye’smost industrialized 
+regions – automotive, textile and furniture manufacturing.
+İnegöl sits within Bursa specialized furniture and 
+production hub, surrounded by ‘Organized Industrial 
+Zones (OIZs).
+Why Inegol ? — Motivation & Context
+2 / 12
+İnegöl at a Glance
+294,000 population (2023), rapidly 
+growing
+4,000+ furniture enterprises — 48% of 
+exports
+Multiple OIZs organized industrial zones in & 
+around city
+Residential areas sit directly adjacent to industrial 
+zones
+NO prior comprehensive PM monitoring 
+study
+What We Already Know
+PM₁₀ 75.8 µg/m³ recorded in İnegöl in 2017; slight 
+downward trend over 2014–2017 
+(Çalışkan et al., 2025)
+30% PAH in particulate phase — above typical 
+urban range; attributed to furniture 
+sector emissions
+BTEX 34.7 µg/m³ average — benzene, toluene & 
+xylenes from wood processing and 
+coatings (Çalışkan et al., 2022)
+Gap No spatially dense PM network or OIZ 
+source-attribution study had been 
+conducted before this work
+Study Objectives
+① Quantify PM₁₀ & PM₂.₅
+Across 10 strategically selected sites over a full year 
+(2021–2022)
+② Evaluate OIZ Influence
+Assess organized industrial zones' contribution to local & 
+regional PM levels
+③ Source–Receptor Analysis
+Identify pollution hotspots and quantify increments above 
+background
+④ Wind & Morphology Effects
+Analyse how meteorological conditions drive 
+spatiotemporal PM variability
+3 / 12
+
+Monitoring Network & Site Classification
+4 / 12
+Network Highlights
+10 sites across İnegöl district
+Airqoon® IoT-enabled, solar-powered 
+sensors
+Continuous PM₁₀, PM₂.₅, temp, humidity
+2021–2022 one full year of monitoring
+Sensor Calibration & Data Quality
+Calibration Approach
+Co-location at the Turgutalp reference station (Ministry of Environment — MEUCC)
+Field calibration against BAM regulatory monitors for PM₁₀
+5 / 12
+Hourly PM10 r2-score: 0.84, daily PM10 r2-score: 0.96, Daily MAE: 4.5 µg/m³
+
+Annual Mean PM Concentrations
+96.6 µg/m³
+HUZ – highest urban PM₁₀
+(solid fuel heating)
+85.2 µg/m³
+SIN1 – highest industrial PM₁₀
+(metal + furniture + textile)
+5–11×
+WHO PM₂.₅ guideline (5 µg/m³)
+exceeded across ALL sites
+100%
+Sites exceed national
+HKDYY PM₁₀ limit (40 µg/m³)
+6 / 12
+
+Source Increment Analysis
+12
+12
+32
+43
+59
+65
+111
+13
+12
+41
+43
+52
+65
+106
+0 20 40 60 80 100 120
+SIN2
+YUE
+TUR
+OSM
+SIN3
+SIN1
+HUZ
+PM Increment Above Urban Background (%)
+PM₂.₅ increment (%) PM₁₀ increment (%)
+Residential Heating (HUZ)
++111% PM₁₀ | +106% PM₂.₅
+Solid fuel use in low-income area
+Industrial OIZ (SIN1)
++65% PM₁₀ | +65% PM₂.₅
+Metal, textile, furniture sector
+Traffic (OSM)
++43% PM₁₀ | +43% PM₂.₅
+Exceeds Istanbul, Berlin & London
+7 / 12
+
+Seasonal & Diurnal Patterns
+78
+65
+52
+47
+38
+26 22
+17 16 13
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+HUZ SIN1 OSM TUR YUE
+Winter vs Summer PM ₂.₅ (µg/m³) — Key Sites
+Winter Avg PM₂.₅ Summer Avg PM₂.₅
+Winter 2–3× Summer
+Residential heating & secondary aerosol 
+formation drive cold-season peaks
+Traffic Peaks at OSM
+Morning (08:00–09:00) & evening rush hours 
+clearly captured
+HUZ — Dual Daily Peak
+Midday secondary aerosol + nighttime solid fuel 
+combustion peak
+Lowest on Sundays
+Except HUZ & HAM — residential heating peaks 
+on weekends
+8 / 12
+
+Wind–PM₂.₅ Coupling
+South winds → elevated PM₂.₅
+Dominant pattern at most sites. Transports emissions 
+from Sinanbey industrial zone southward into 
+residential areas.
+West winds → SIN2, SIN3 peaks
+Sinanbey industrial complex lies entirely to the 
+west flow concentrates metal & furniture 
+emissions at these sensors.
+Calm winds = highest local loading
+Dense circular patterns in polar plots near OSM & 
+HAM indicate stagnant air causes pollutant 
+trapping under low-dispersion conditions.
+9 / 12
+
+Spatial Heterogeneity Analysis
+R = 0.41
+Pearson correlation
+between sites
+vs. Istanbul R = 0.72
+COD < 0.15
+Coefficient of Divergence
+(spatial uniformity index)
+Local sources dominate
+What This T ells Us
+Weaker inter-site correlation (R = 0.41) than Istanbul (R = 0.72) confirms 
+more complex local PM variability in İnegöl.
+Spatial heterogeneity is driven by local emission sources — industrial 
+zones, traffic, and solid fuel heating — not regional background transport.
+Unlike São Paulo, Beijing, or Augsburg, inter-site distance is NOT a 
+predictor of PM variability in İnegöl — local morphology dominates.
+Influence of Inter-Station Distance
+10 / 12
+Influence of Absolute Concentration Difference
+Key T akeaways & Policy Implications
+Industrial OIZs are dominant pollution drivers
+Sinanbey (SIN1) recorded 65% above background PM. 
+Industrial siting and emission controls need urgent review.
+Solid fuel heating creates extreme winter peaks
+HUZ concentrations reach 3× summer levels. Transitioning 
+low-income areas to clean energy is a public health priority.
+Traffic emissions exceed international benchmarks
+PM₂.₅ increment at OSM (10 µg/m³) surpasses Istanbul, 
+Berlin, London. Urban traffic management is critical.
+Dense LCAQS networks fill monitoring gaps
+Low-cost sensors effectively resolve fine-scale pollution 
+gradients that sparse official networks miss.
+Urban morphology governs exposure
+Building layout and wind corridors create stagnation zones 
+with up to 2× elevated concentrations.
+11 / 12
+Conclusions & Future Directions
+Key Conclusions
+▸ All sites exceed national (HKDYY) and international (WHO) PM 
+limits
+▸ Industrial OIZs, solid fuel heating & traffic are the three 
+dominant source classes
+▸ Winter-to-summer ratio of 2–3× confirms seasonal 
+combustion as a major driver
+▸ Spatial heterogeneity is locally controlled — not distance-
+dependent
+▸ Dense LCAQS networks are a scalable tool for industrial zone 
+monitoring
+Future Research
+▸ Multi-height sensor deployments in street canyons & 
+courtyards
+▸ Real-time meteorological coupling & wet/dry deposition 
+modeling
+▸ Indoor–outdoor PM infiltration monitoring for exposure 
+assessment
+▸ Comparative analysis across Turkish industrial mid-sized cities
+▸ Linking PM data to health outcomes for evidence-based policy
+12 / 12
+
+Thank you!
+For questions: bariscan@airqoon.com
+

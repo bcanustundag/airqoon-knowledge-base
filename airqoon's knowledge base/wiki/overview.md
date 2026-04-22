@@ -4,7 +4,7 @@ type: overview
 tags: [airqoon, overview]
 created: 2026-04-22
 updated: 2026-04-23
-sources: [Use-Cases.md, Certificates-&-Standards-&-Technical-Specifications.md, Target-Sectors.md, product-page.md, airqoon-vs-oizom-comparison.md, airqoon-lens.md, unite-l.md, customer-success-scenarios.md, distributor-partnership-search.md, outbound-marketing-linkedin-templates.md, Kullanım-Alanları.md, Unit-L-Getting-Started-Guide-v3.md, Unit-M-Maintenance-Manual.md, pace-projesi.md, satis-arastirma.md, clean-air-zone-caz.md]
+sources: [Use-Cases.md, Certificates-&-Standards-&-Technical-Specifications.md, Target-Sectors.md, product-page.md, airqoon-vs-oizom-comparison.md, airqoon-lens.md, unite-l.md, customer-success-scenarios.md, distributor-partnership-search.md, outbound-marketing-linkedin-templates.md, Kullanım-Alanları.md, Unit-L-Getting-Started-Guide-v3.md, Unit-M-Maintenance-Manual.md, pace-projesi.md, satis-arastirma.md, clean-air-zone-caz.md, pace_047_logframe.md]
 ---
 
 # Airqoon — Overview
@@ -55,6 +55,13 @@ Customer-facing cloud analytics platform:
 - Flexible data export & API integration
 - On-premise deployment option for security-sensitive clients
 
+**Backend Services:**
+- **[[lens-api]]**: Core environmental intelligence REST API providing endpoints for device mapping, report management, and device comparisons.
+- **[[lens-ui]]**: The enterprise dashboard frontend (React/TypeScript).
+- **[[lens-mcp]]**: Model Context Protocol (MCP) server for Lens.
+- **[[airqoon-alarm-worker]]**: Python async service listening to RabbitMQ streams to evaluate alarm configurations.
+- **[[airqoon-autoreporter]]**: CLI tool generating multi-tenant air quality reports using PostgreSQL and S3.
+
 ### Software — [[Airqoon Lens AI]]
 
 GenAI-backed analysis module:
@@ -74,6 +81,20 @@ Open-access real-time air quality map:
 - Custom branded maps for organisations
 - Mobile-friendly interface
 
+**Backend Services:**
+- **[[airqoon-base-map-consumer]]**: Node.js backend consuming, processing, and syncing telemetry data from IoT devices.
+- **[[airqoon-base-map-external-api]]**: High-performance REST API aggregating sensor data.
+- **[[airqoon-base-map-tile-server]]**: Vector tile server rendering Mapbox Vector Tiles (.pbf) for map rendering.
+- **[[airqoon-basic-map-api]]**: Fastify-based REST API with MongoDB backend.
+- **[[airqoon-base-map-ui]]**: Frontend web application.
+
+### Internal Tooling & Firmware
+
+- **Firmware:** ESP32-based firmware using FreeRTOS for multi-tasking (reading ADS7828 ADCs and BME280 sensors), outputting via UART and MQTT (ThingsBoard). Repos include `airqoon-su-fw`, `airqoon-su-local-fw`, and `LCF`.
+- **Calibration Tooling:** `AirqoonCalibrationToolBackend` (Qoonify) integrating with IBB (Istanbul Metropolitan Municipality) APIs and ThingsBoard, `cal-app` (Streamlit app), `LCM` (Serial Data Plotter).
+- **Operations:** `airqoon-ops-engine` for batch and component tracking via Notion.
+- **Simulator:** `acme_aq_simulator` mimicking telemetry (e.g. realistic NO2/Ozone oscillations) to ThingsBoard over MQTT.
+
 ---
 
 ## Key Entities
@@ -84,7 +105,8 @@ Open-access real-time air quality map:
 - **Customers:** [[Akçansa]] (cement), [[EnerjiSA Üretim]] (energy), [[Kadıköy Belediyesi]], [[Bursa Büyükşehir Belediyesi]], [[GİSAŞ]]
 - **Partners/prospects:** HAK Automation (Egypt), Alpha Scientific (Australia), REDA Safe (Saudi Arabia), Codico, Connected IoT, Senseair distributors
 - **Standards bodies:** CEN TC 264, EPA, WMO, BSI (PAS 4023)
-- **Projects:** [[PACE Projesi]] (EU/GIZ funded, earthquake zone), [[GEFF Turkey]]
+- **Projects:** [[PACE Projesi]] ("Clean Air Hatay" - EU/GIZ funded, earthquake zone recovery with 10 pilot schools, indoor/outdoor networks, and metagenomic dust analysis), [[GEFF Turkey]]
+- **Research & Case Studies:** İnegöl PM Assessment (OIZ influence, ASIC2026), Eastern Anatolia Observatory, Kahramanmaraş Earthquake monitoring, "Clean Air Hatay" post-earthquake metagenomic dust analysis (planned 2027).
 
 ---
 
@@ -101,16 +123,13 @@ Open-access real-time air quality map:
 
 ---
 
-## Target Sectors
+## Top 5 Use Cases & Target Sectors
 
-1. **Cities & Municipalities** — urban monitoring networks, public awareness, smart city integration
-2. **Cement Industry** — perimeter monitoring, dust control, regulatory compliance
-3. **Mining Operations** — open pit/underground air quality, blast monitoring
-4. **Oil & Gas** — fugitive emission monitoring, leak detection (CH₄, tVOC)
-5. **Organized Industrial Zones (OIZ)** — hotspot identification, source attribution
-6. **Schools & Playgrounds** — indoor/outdoor child health protection
-7. **Aluminum Industry** — environmental impact monitoring
-8. **Shopping Mall Play Areas** — indoor air quality
+1. **Industrial Fenceline & Environmental Impact Monitoring** — Cement, Mining & Quarries, Oil & Gas, Iron & Steel (moving from reactive complaint handling to proactive pollution prevention via wind-based source attribution).
+2. **Municipal Air Quality & Noise Monitoring Network** — Metropolitan & District Municipalities (providing neighborhood-resolution data and public transparency).
+3. **Indoor Air Quality for Public & Commercial Spaces** — Shopping Malls, Schools, Hospitals, Offices (early detection of HVAC failures, ESG reporting).
+4. **Organized Industrial Zone (OIZ) Environmental Management** — OIZ Management, Free Zones (evidence-based tenant management and source identification).
+5. **Research, Scientific Studies & Emergency Response** — Universities, NGOs, Disaster Response (publishable data, rapid deployment).
 
 ---
 
@@ -184,7 +203,6 @@ Airqoon builds to **indicative monitoring** standards per 2008/50/EC and is prep
 - **Unit N specs** — mentioned in internal docs but no details available
 - **ISO 17025 calibration** — Oizom has it; does Airqoon plan to pursue?
 - **Revenue model details** — pricing structure beyond hardware (SaaS? subscription for Lens?)
-- **Data pipeline architecture** — technical details of cloud infrastructure not yet documented
 - **Two Notion databases inaccessible** — IDs `8d49471d` and `347c3f2b` not shared with integration; content unknown
 
 ---

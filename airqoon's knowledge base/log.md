@@ -91,3 +91,11 @@ Digested 73 raw files (30 Resource Docs + 43 Notion pages). Created:
 Updated `index.md` with all new pages and pending raw file inventory.
 
 Remaining: ~67 raw files have content in `raw/` but do not yet have individual source summary pages in `wiki/sources/`. Their knowledge has been incorporated into the overview, entity, and concept pages where relevant.
+## [2026-04-23] ingest | Ingested 23 GitHub repositories into wiki/sources
+## [2026-04-23] edit | Digested 23 GitHub repositories, updated overview.md with new software architecture details (Airqoon Map, Lens API, firmware, simulators).
+## [2026-04-23] ingest | Digested Top 5 Use Cases and İnegöl PM Presentation (ASIC2026)
+- Converted `Airqoon_Top5_UseCases_SalesReference.docx` to text, parsed `inegol_pm_presentation_2.pdf`.
+- Created two new source pages: `wiki/sources/airqoon_top5_use_cases.md` and `wiki/sources/inegol_pm_presentation.md`.
+- Updated `index.md` with links to both new sources.
+- Updated `wiki/overview.md` by replacing the `Target Sectors` list with the new `Top 5 Use Cases & Target Sectors` and adding the İnegöl study under `Research & Case Studies` in the Key Entities section.
+- Digested `PACE047_Annex 3_Logframe.docx` (Clean Air Hatay project logframe). Created `wiki/sources/pace_047_logframe.md`, and updated `index.md` and `wiki/overview.md` to reflect the new project details including 10 pilot schools, metagenomic dust analysis, and Corsi-Rosenthal boxes.

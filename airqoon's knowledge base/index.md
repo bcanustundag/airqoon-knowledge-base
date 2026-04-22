@@ -14,6 +14,32 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 
 ## Sources
 
+### GitHub Repositories
+- [[AirqoonCalibrationToolBackend]] - Qoonify Backend
+- [[LCF]] - ESP32 ADC Data Logger & Environmental Monitoring System
+- [[LCM]] - LCM Serial Data Plotter
+- [[acme_aq_simulator]] - Airqoon Environmental Sensor Simulator
+- [[airqoon-alarm-worker]] - Airqoon Alarm Worker
+- [[airqoon-aqi-calculator]] - Airqoon AQI Calculator
+- [[airqoon-autoreporter]] - Airqoon Auto Reporter
+- [[airqoon-base-map-consumer]] - Airqoon Base Map Consumer
+- [[airqoon-base-map-external-api]] - Airqoon Base Map External API
+- [[airqoon-base-map-tile-server]] - Airqoon Base Map Tile Server
+- [[airqoon-base-map-ui]] - Airqoon Base Map UI
+- [[airqoon-basic-map-api]] - Airqoon Basic Map API
+- [[airqoon-brief]] - Airqoon Brief
+- [[airqoon-data-external-projection]] - Airqoon Data External Projection
+- [[airqoon-ops-engine]] - Airqoon Ops Engine
+- [[airqoon-sim-feeder]] - Airqoon SIM Feeder
+- [[airqoon-su-fw]] - Smart IoT Modules (SMs) - Firmware
+- [[airqoon-su-local-fw]] - Airqoon Sensor Unit Local Firmware
+- [[airqoon-widget-ui]] - Airqoon Widget UI
+- [[aq-prov-app]] - Airqoon Provisioning App
+- [[cal-app]] - 🌍 Air Quality Sensor Calibration System
+- [[lens-api]] - Lens API
+- [[lens-ui]] - Airqoon Lens (Enterprise Dashboard)
+
+
 *One summary page per ingested raw source.*
 
 | Page | Source File | Date Added | Topics |
@@ -22,8 +48,11 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 | [[wiki/sources/product-page]] | notion/product-page.md | 2026-04-23 | ecosystem, Lens, Map, AI, sectors |
 | [[wiki/sources/customer-success-scenarios]] | notion/customer-success-scenarios.md | 2026-04-23 | personas, use cases, regulatory |
 | [[wiki/sources/use-cases]] | articles/Use-Cases.md | 2026-04-23 | marketing, 10 use cases |
+| [[wiki/sources/airqoon_top5_use_cases]] | articles/Airqoon_Top5_UseCases_SalesReference.docx | 2026-04-23 | top 5 use cases, sales reference |
+| [[wiki/sources/inegol_pm_presentation]] | articles/inegol_pm_presentation_2.pdf | 2026-04-23 | ASIC2026 presentation, Inegol PM case study |
 | [[wiki/sources/distributor-partnership-search]] | notion/distributor-partnership-search.md | 2026-04-23 | global distribution, outreach |
 | [[wiki/sources/pace-projesi]] | notion/pace-projesi.md | 2026-04-23 | EU/GIZ grant, earthquake recovery |
+| [[wiki/sources/pace_047_logframe]] | articles/PACE047_Annex 3_Logframe.docx | 2026-04-23 | logframe, Hatay Defne, indoor/outdoor schools |
 
 ### Raw files pending source pages (ingested to raw/, not yet summarised)
 

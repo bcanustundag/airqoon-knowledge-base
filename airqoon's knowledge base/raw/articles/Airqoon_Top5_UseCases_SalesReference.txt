@@ -1,0 +1,223 @@
+
+Reliable and easy-to-use environmental monitoring at scale
+TOP 5 USE CASES
+Sales Reference Document
+A practical guide for identifying customer fit, leading the conversation, and positioning the right product.
+Prepared for:   Sales Partner
+Prepared by:    Airqoon — İNNOVATHİNK MÜHENDİSLİK SAN. VE TİC. A.Ş.
+Version:           1.0
+Date:               April 2026
+
+
+
+
+
+
+
+
+
+
+
+
+About this document
+This document summarizes the five strongest commercial use cases for Airqoon's environmental monitoring hardware and software. It is designed as a practical reference for sales conversations — you can open on any use case, identify whether the prospect fits, and walk them through the problem, the solution, the products involved, and what they get in return.
+What Airqoon does
+Airqoon is a full-stack environmental monitoring company. We design and manufacture IoT-based air quality and noise sensor units, operate a cloud analytics platform (Airqoon Lens) with GenAI-powered reporting, and provide calibration and operational services. Our systems are deployed in over 30 cities across 5+ countries in the EMEA region, serving municipalities, industrial operators, and research institutions.
+Our core products at a glance
+PRODUCT
+WHAT IT IS
+Unit L
+Outdoor air quality sensor unit. Measures PM1/PM2.5/PM4/PM10, gases (NO₂, O₃, SO₂, CO and optional CO₂, H₂S, VOC, CH₄, N₂O), meteorology. Solar-powered, 4G/NB-IoT, IP34, pole-mountable. 5-minute install.
+Unit M
+Indoor air quality sensor unit. Measures PM, CO₂, VOC, temperature, humidity. Compact, WiFi/4G, designed for schools, offices, shopping malls, public indoor spaces.
+Unit N
+Network-based environmental noise sensor. IEC 61672 compliant, ISO 17025-calibrated option, 30–130 dB range. Does not record audio — monitors sound pressure levels only.
+External Add-ons
+Anemometer (wind speed/direction), extended solar power package, additional gas modules.
+Airqoon Lens
+Cloud SaaS platform. Real-time dashboards, multi-location management, AI-powered automatic reporting, source attribution using wind data, API integration, alerts, compliance tracking.
+Public Map
+Citizen-facing web interface. Real-time air quality widgets, complaint collection, public transparency — particularly valuable for municipalities.
+How to use this document
+Each use case follows the same structure:
+	•	The problem — the pain point the customer is actually feeling.
+	•	How Airqoon solves it — the approach and why it works.
+	•	Products & services in this use case — exactly what you are selling.
+	•	What the customer gets — the tangible business outcomes you can promise.
+Match the prospect to the most relevant use case first. Most customers will fit one or two. Lead with their pain point, not our product.
+
+USE CASE 01
+Industrial Fenceline & Environmental Impact Monitoring
+
+Target sectors:  Cement • Mining & Quarries • Oil & Gas • Iron & Steel • Power Generation • Chemical Plants
+The problem
+Heavy industrial facilities generate fugitive dust and diffuse gas emissions that are not captured by stack monitoring (SEÖS/SAİS). These emissions escape along the perimeter, trigger complaints from nearby communities, risk regulatory penalties, and damage the social license to operate. Traditional reference stations are too expensive and too few to cover an entire facility boundary or access road network, and they cannot tell the operator when and where an event is actually happening.
+How Airqoon solves it
+Airqoon deploys a network of outdoor sensor units along the fenceline, around material handling areas, haul roads, and the closest receptor points (schools, residential zones). Integrated anemometers let the Airqoon Lens platform correlate pollution spikes with wind direction — so the operator knows not just that there was an event, but which operational activity caused it. Real-time alerts move the facility from reactive complaint handling to proactive pollution prevention. We are a proven solution for ambient/immissions monitoring — not a replacement for stack CEMS — and our positioning reflects that clearly.
+Products & services in this use case
+	•	Unit L outdoor sensor units (PM2.5, PM10, NO₂, SO₂, CO, O₃, optional H₂S and VOC for oil & gas)
+	•	Anemometer add-on for wind-based source attribution
+	•	Airqoon Lens platform with alerts, multi-location dashboard, and AI-generated monthly compliance reports
+	•	Unit N noise sensors (IEC 61672 compliant) for combined dust + noise fenceline monitoring
+	•	Calibration and operational service (T1 baseline)
+	•	Rental model available — typical device payback ~18 months, cost recovery ~5 months
+What the customer gets
+	•	Continuous, 24/7 view of fenceline emissions versus regulatory and internal thresholds
+	•	Up to 80% reduction in community complaints (proven case: major cement facility reduced from 5 to 1 complaints/month)
+	•	Response time from hours to minutes — 720× faster event detection
+	•	Documented evidence to defend against regulatory penalties and community disputes
+	•	Source attribution linking events to specific operations (crusher, stockpile, truck routes)
+	•	Measurable environmental impact of investments in dust suppression, enclosures, and BAT upgrades
+
+USE CASE 02
+Municipal Air Quality & Noise Monitoring Network
+
+Target sectors:  Metropolitan Municipalities • District Municipalities • Environmental Agencies • Smart City Programs
+The problem
+Most municipalities have at best one or two national reference stations covering hundreds of square kilometers. They cannot see neighborhood-level pollution differences, cannot respond to citizen complaints with data, and cannot demonstrate whether the environmental policies they are implementing are actually working. They also face growing public demand for transparent, real-time air quality information, and increasing regulatory pressure under EU and national air quality directives.
+How Airqoon solves it
+Airqoon establishes dense, city-wide monitoring networks — typically 5 to 30+ sensor units deployed on existing lamp posts, traffic lights, and municipal buildings. Citizens access a Public Map with real-time air quality widgets, can submit pollution complaints tied to location data, and see how their city is performing. Municipal technical staff use Airqoon Lens to identify hotspots, track the effectiveness of traffic or heating policies, and produce stakeholder-ready reports automatically. The combination of dense coverage, public transparency, and AI-powered analytics turns air quality from a political liability into a policy asset.
+Products & services in this use case
+	•	Unit L outdoor sensor units — typically 5–30+ units per city for meaningful spatial coverage
+	•	Unit N noise sensors for urban traffic, nightlife zones, construction, and industrial boundary points
+	•	Anemometer add-ons for key reference points
+	•	Airqoon Lens platform — multi-device dashboard, regional comparisons, source identification, automatic monthly reports
+	•	Public Map with citizen-facing widgets and complaint collection feature
+	•	Optional forest fire early-warning integration (proven in Bursa deployment)
+What the customer gets
+	•	Neighborhood-resolution data the national network cannot provide
+	•	Transparent public communication — builds political capital and citizen trust
+	•	Data-driven prioritization of traffic, heating-fuel, and urban-planning interventions
+	•	Measurable evidence of policy effectiveness for council, ministry, and EU reporting
+	•	Proven deployments: Bursa Metropolitan (31 sensors), Kadıköy (8 points, EU climate adaptation project), Mudanya (5 coastal units), İnegöl, Avcılar, Denizli
+	•	Eligible for EU funding, World Bank projects, and national smart city grants
+
+USE CASE 03
+Indoor Air Quality for Public & Commercial Spaces
+
+Target sectors:  Shopping Malls • Schools & Universities • Entertainment Centers • Hospitals • Corporate Offices • Hotels
+The problem
+Indoor environments where children, patients, employees, and customers spend hours daily can have pollutant levels several times higher than outdoors — especially CO₂ (ventilation adequacy), VOCs (cleaning products, furniture, renovations), and particulate matter (cooking, traffic infiltration). Operators of these spaces face growing liability exposure, ESG reporting requirements, and competitive pressure to demonstrate they are taking indoor health seriously. Most have no continuous visibility into what their HVAC systems are actually delivering.
+How Airqoon solves it
+Airqoon deploys compact Unit M indoor sensors across high-traffic zones — play areas, classrooms, open-plan offices, food courts, waiting rooms. The system integrates with existing building management systems or operates standalone via WiFi/4G. Real-time dashboards and automatic alerts allow facility managers to adjust ventilation, escalate maintenance, or trigger deep cleaning. For customer-facing spaces, the data becomes a marketing asset — proof that the operator invests in customer and employee wellbeing.
+Products & services in this use case
+	•	Unit M indoor sensor units (PM1/2.5/4/10, CO₂, VOC, temperature, humidity)
+	•	Airqoon Lens platform for facility managers — multi-location view, threshold alerts, monthly reports
+	•	Optional public-facing display widgets for lobbies and entrances
+	•	BMS/API integration for automated HVAC response
+	•	Annual calibration and maintenance program
+What the customer gets
+	•	Continuous proof of healthy indoor environment for parents, patients, employees, and regulators
+	•	Early detection of HVAC failures and ventilation under-performance — prevents costly escalation
+	•	Supports ESG, occupational health, and corporate wellness reporting
+	•	Proven deployments: Neomarin Shopping Mall children's playgrounds, KidZania Entertainment Center
+	•	Differentiator in marketing and customer experience — especially in premium retail and education
+
+USE CASE 04
+Organized Industrial Zone (OIZ) Environmental Management
+
+Target sectors:  OIZ Management • Free Zones • Industrial Parks • Logistics Hubs
+The problem
+Organized Industrial Zones host dozens or hundreds of tenant facilities with different emission profiles. When complaints arise from surrounding communities, OIZ management rarely has the data to identify which tenant is responsible. Conversely, well-operated tenants get unfairly blamed when a single bad actor creates problems. As OIZs compete for green-certified tenants and sustainable investment, environmental transparency becomes a commercial differentiator. EU CBAM, EU Industrial Emissions Directive updates, and national regulations are all raising the bar.
+How Airqoon solves it
+Airqoon designs a network that covers the OIZ perimeter, internal traffic corridors, and the boundary points closest to residential areas. Source attribution using wind data lets OIZ management identify which tenant or zone is responsible for specific events — enabling targeted enforcement instead of blanket pressure. The platform generates shared dashboards for OIZ management, individual tenant portals, and public transparency widgets. This positions the OIZ as a 'Green OIZ' attractive to sustainable investment, international tenants, and development bank financing.
+Products & services in this use case
+	•	Unit L outdoor sensor network across OIZ boundaries and internal corridors (typically 10–25+ units)
+	•	Multiple anemometers for robust wind-rose source attribution
+	•	Unit N noise sensors at residential boundary points
+	•	Airqoon Lens platform with multi-tenant access control and per-zone reporting
+	•	Public Map for community transparency and complaint collection
+	•	AI-powered automatic monthly reports for OIZ management and regulators
+What the customer gets
+	•	Evidence-based tenant management — identify violators, protect compliant tenants
+	•	Green OIZ positioning for international investment attraction and tenant recruitment
+	•	Reduced legal and reputational exposure from community disputes
+	•	Compliance support for EU IED, CBAM, and national environmental permitting processes
+	•	Shared infrastructure cost — OIZ funds the network, tenants benefit collectively
+	•	Eligible for EBRD, World Bank, and EU green-transition financing
+
+USE CASE 05
+Research, Scientific Studies & Emergency Response
+
+Target sectors:  Universities & Research Institutes • Ministries & Environmental Agencies • International NGOs • Observatories • Disaster Response Teams
+The problem
+Research teams and agencies need flexible, fast-deploying, reliable monitoring equipment for specific campaigns: epidemiological studies, source apportionment research, climate-air quality interaction studies, pilot deployments for future regulation, and emergency response after disasters when reference infrastructure is damaged or absent. Reference-grade monitors are too expensive, too slow to deploy, and too fragile for these applications. But quality matters — the data needs to be publishable, defensible, and traceable.
+How Airqoon solves it
+Airqoon's Unit L deploys in under 5 minutes, operates solar-powered for 24/7/365 operation, and transmits over 4G or NB-IoT — making it suitable for remote observatories, disaster zones, and temporary research campaigns. Our smart calibration process and ISO 17025 references provide the scientific rigor researchers need. API access and flexible data export (CSV, JSON, PDF) integrate directly into research workflows. This use case is also the lowest-friction entry point for new markets and government relationships.
+Products & services in this use case
+	•	Unit L outdoor sensor units — rapid-deployment, extended solar power option for remote sites
+	•	Unit M for indoor exposure studies (schools, homes, workplaces)
+	•	Full API access and raw data export in CSV/JSON
+	•	Airqoon Lens platform with advanced visualization and custom reporting
+	•	Scientific calibration support and traceability documentation
+	•	Consortium partnership model for EU, TÜBİTAK, Horizon Europe, and LIFE program proposals
+What the customer gets
+	•	Publishable, traceable data for peer-reviewed research
+	•	Rapid deployment in emergency scenarios where reference infrastructure has failed
+	•	Proven deployments: Eastern Anatolia Observatory (Erzurum), Kahramanmaraş Earthquake emergency monitoring (Ministry of Environment), Boğaziçi University / University of Crete (MELTEM, GETMAP)
+	•	Entry point to larger institutional and municipal relationships
+	•	Co-publication and co-funding opportunities with academic and public partners
+Quick reference: Use case × Product matrix
+Use this matrix to match a prospect conversation to the right product configuration.
+USE CASE
+Unit L
+Unit M
+Unit N
+Lens
+Public Map
+1. Industrial Fenceline
+●
+○
+●
+●
+○
+2. Municipal Network
+●
+○
+●
+●
+●
+3. Indoor Public Spaces
+○
+●
+○
+●
+○
+4. Organized Industrial Zones
+●
+○
+●
+●
+●
+5. Research & Emergency
+●
+○
+○
+●
+○
+
+●  Core to this use case   ○  Optional / upsell
+Commercial notes for the sales conversation
+Pricing approach
+	•	USD-denominated for international clients; TRL for Turkish clients (Airqoon absorbs currency risk as a strategic concession in some cases — confirm before committing).
+	•	T1 operational service is approximately $700 per unit per year as a baseline.
+	•	Rental model is common for industrial clients — device payback ~18 months, cost recovery ~5 months.
+	•	For partners: commission structures are negotiable, typically 20–25% of revenue for sales partners; tiered arrangements recommended for rental deals.
+What to lead with
+	•	Relationship first, traction second, product third.
+	•	Lead with the customer's pain (complaints, penalties, compliance, public scrutiny), not our feature list.
+	•	For industrial prospects, be consultative: understand their operation before pitching. Ask about current stack monitoring, past complaints, recent inspections.
+	•	For public tenders in Turkey: Airqoon's domestic manufacturer certificate provides a 15% price advantage under Procurement Law 4734.
+What we are not
+	•	Not a stack emissions (SEÖS/SAİS) or continuous emissions monitoring (CEMS) solution.
+	•	Not a carbon accounting platform.
+	•	Not a replacement for reference-grade regulatory stations — we complement them with dense spatial coverage.
+Red flags — conversations to escalate before committing
+	•	Requests for third-party sensor integration (Milesight, Hongyuv, generic Modbus/MQTT devices) — not currently supported, handle as future upsell.
+	•	Turkish public sector clients with strict data residency requirements
+	•	Any request naming a specific competitor's device — escalate to Airqoon for positioning guidance.
+Contact
+Barış Can Üstündağ — Co-founder & CEO
+Email: bariscan@airqoon.com
+Calendly: https://calendly.com/airqoon/45min
+Airqoon Brief (Turkey air quality intelligence): brief.airqoon.com

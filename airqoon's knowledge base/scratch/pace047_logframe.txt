@@ -1,0 +1,210 @@
+PACE047 — Annex 3: Logical Framework (Logframe)
+Project title: Clean Air Hatay: Post-Earthquake Air Quality Awareness and Protection Project in Schools
+
+Intervention Logic
+Indicators
+Baseline (2025)
+Targets (April 2027)
+Sources & Means of Verification
+Assumptions
+Overall Objective (Impact)
+To improve the quality of public service delivery by earthquake-affected local authorities and to enable civic engagement in recovery efforts.
+N.A.
+N.A.
+N.A.
+N.A.
+N.A.
+Specific Objective (Outcome)
+Students, teachers, and municipal staff in Defne district have improved capacity to monitor, understand, and respond to air quality risks in school environments, resulting in measurable improvements in protective behaviour and institutional environmental service capacity.
+Outcome Indicator 1: Percentage of participating students who demonstrate improved knowledge of air quality health risks and adoption of at least two protective behaviours in post-survey, disaggregated by sex.
+0% (no prior structured education on school air quality delivered; baseline established through pre-survey, May 2026)
+At least 70% of participating students (disaggregated by sex: at least 70% girls and 70% boys) demonstrate improved knowledge and protective behaviour adoption by April 2027
+Pre-post student surveys administered by project coordinator; gender-disaggregated analysis report; April 2027
+Students remain enrolled throughout project period; survey participation rates adequate; school calendar disruptions do not prevent workshop delivery
+
+Outcome Indicator 2: Percentage of trained mentor teachers who have integrated at least one air quality-related project activity into their regular teaching practice by project end, disaggregated by sex.
+0% (no structured air quality capacity in place for school staff; baseline confirmed through pre-training needs assessment)
+At least 80% of trained mentor teachers (disaggregated by sex) report active integration of air quality project activities into teaching practice by April 2027
+Post-training follow-up survey; structured reflection session records; project coordinator field visits; April 2027
+Mentor teachers remain in post throughout project period; school administrations support ongoing activity; no major curriculum restructuring
+
+Outcome Indicator 3: Degree to which Defne Municipality Environment and Health units have operationalised air quality monitoring data into at least one service planning or communication activity by project end.
+No systematic air quality monitoring data available to municipal units; no trained staff in this area (confirmed through partnership agreement)
+Defne Municipality has produced at least one documented output (report, public communication, or service planning decision) using project air quality data by April 2027
+Municipal staff training records; documented municipal output (report or communication); project coordinator verification; April 2027
+Municipal staff trained remain in post; municipality commits to post-project system ownership; institutional priorities do not shift during project period
+Output 1: Outdoor air quality monitoring system established and operational at 10 pilot schools; district-level pollution map produced
+Output Indicator 1.1: Number of outdoor PM2.5/PM10 sensors installed and operational at pilot school sites, disaggregated by school
+0 sensors installed at Defne school sites (2025)
+10 outdoor sensors installed and transmitting data continuously by Month 3 (July 2026)
+Sensor installation records; Airqoon commissioning report; data platform access log; July 2026
+School administrations grant site access; sensor procurement completed on schedule; no major technical infrastructure issues
+
+Output Indicator 1.2: District-level air quality pollution map produced and shared with Defne Municipality
+No district-level school air quality map exists (2025)
+1 interactive district pollution map produced and shared with Defne Municipality by Month 5 (September 2026)
+Published pollution map; municipal handover record; project coordinator documentation; September 2026
+Sufficient data collected from all 10 sensor sites; data platform functions correctly; municipal interest sustained
+Output 2: Indoor offline monitoring and LED warning systems installed in 20 classrooms across 10 pilot schools
+Output Indicator 2.1: Number of classrooms equipped with functional indoor offline LED warning systems, disaggregated by school
+0 indoor air quality warning systems in Defne schools (2025)
+20 classrooms across 10 schools equipped with functional LED warning systems by Month 4 (August 2026)
+Installation records; Airqoon commissioning report; teacher orientation attendance sheets; August 2026
+School administrations approve classroom installation; procurement completed on schedule; teachers oriented on system use
+
+Output Indicator 2.2: Number of teachers oriented on LED warning system interpretation and response protocols, disaggregated by sex
+0 teachers with formal air quality alert response training (2025)
+At least 20 teachers (disaggregated by sex) oriented on LED system use by Month 4 (August 2026)
+Signed teacher orientation attendance sheets; project coordinator records; August 2026
+Teachers available for orientation sessions; school schedules accommodate training
+Output 3: 20 Corsi-Rosenthal Box air purifiers built by students and deployed in 20 classrooms
+Output Indicator 3.1: Number of Corsi-Rosenthal Box devices produced by student groups and deployed in classrooms, disaggregated by school
+0 student-built air purifiers in Defne schools (2025)
+20 CR Box devices built and deployed in 20 classrooms across 10 schools by Month 6 (October 2026)
+Device completion records per school; photographic documentation; deployment confirmation by mentor teachers; October 2026
+Materials available in local markets; mentor teachers successfully facilitate production groups; student attendance adequate during workshop period
+
+Output Indicator 3.2: Number of students directly participating in CR Box production groups, disaggregated by sex and refugee/migrant status
+0 students with hands-on air purifier production experience (2025)
+At least 60 students (disaggregated by sex: at least 50% girls; including students from refugee/migrant backgrounds) participate in production groups by Month 6 (October 2026)
+Signed student participation lists per school; mentor teacher records; project coordinator field visit reports; October 2026
+Gender balance in production groups confirmed with school administrations; refugee/migrant students included in group selection
+
+Output Indicator 3.3: Duration of continuous CR Box operation prior to filter collection (months)
+N.A.
+All 20 devices operated continuously for minimum 2 months before filter collection
+Device operation logs; mentor teacher monthly reports; filter collection records; December 2026
+No major device failures; school term continuity maintained; mentor teachers ensure consistent operation
+Output 4: Metagenomic analysis of filter samples completed; scientific report and policy summary produced
+Output Indicator 4.1: Number of filter samples collected and submitted for laboratory analysis
+No post-earthquake construction dust analysis from Defne school environments conducted (2025)
+20 filter samples collected from all devices and submitted to laboratory by Month 8 (December 2026)
+Sample collection records; laboratory submission receipts; project coordinator documentation; December 2026
+Devices operated for minimum required period; laboratory partner capacity available; no supply chain issues for sample preservation materials
+
+Output Indicator 4.2: Scientific report and policy summary produced and disseminated to Defne Municipality and relevant national bodies
+No systematic chemical/microbiological analysis of school classroom dust in post-earthquake Defne (2025)
+1 full scientific report and 1 policy summary produced and formally shared with Defne Municipality by Month 10 (February 2027)
+Scientific report publication; documented distribution to municipality; February 2027
+Laboratory analysis completed within agreed timeframe; academic partners available for interpretation and writing; no unexpected analysis complications
+Output 5: 10 mentor teachers and 20 municipal staff trained
+Output Indicator 5.1: Number of mentor teachers completing 3-day intensive training programme, disaggregated by sex
+0 school staff with structured air quality management training in Defne (2025)
+10 mentor teachers (disaggregated by sex: at least 50% women) complete 3-day training programme by Month 4 (August 2026)
+Signed attendance sheets; training completion certificates; post-training reflection records; August 2026
+Selected teachers available for training period; school administrations release teachers; university academics available for co-delivery
+
+Output Indicator 5.2: Number of Defne Municipality staff completing 2-day air quality training programme, disaggregated by sex
+0 municipal staff with formal air quality monitoring and interpretation training (2025)
+20 municipal Environment and Health Affairs staff (disaggregated by sex) complete 2-day training programme by Month 10 (February 2027)
+Signed attendance sheets; training completion certificates; municipality training records; February 2027
+Municipal staff available for training; metagenomic analysis completed in time to inform training content; institutional support maintained
+Output 6: 300 students participate in awareness workshops; project impact evaluated through pre-post surveys
+Output Indicator 6.1: Number of students participating in awareness workshops, disaggregated by sex, school, and refugee/migrant status
+0 students reached through structured air quality awareness education in Defne schools (2025)
+300 students (disaggregated by sex: at least 50% girls; including students from refugee/migrant backgrounds) participate in awareness workshops by Month 11 (March 2027)
+Signed workshop participation lists; gender and vulnerability-disaggregated attendance records; project coordinator documentation; March 2027
+School calendars accommodate workshop scheduling; students present during workshop period; workshop materials appropriate for student age and language levels
+
+Output Indicator 6.2: Number of schools where pre-post surveys are successfully administered and analysed
+No baseline survey data exists (pre-survey to be administered May–August 2026)
+Pre-post surveys administered and analysed in all 10 pilot schools; impact assessment report produced by Month 12 (April 2027)
+Survey administration records; completed survey forms (anonymised); impact assessment report; April 2027
+Adequate student participation in both pre and post surveys; survey instruments validated; analysis capacity available
+Output 7: 'Defne Model' replication guide produced and disseminated through closing workshop
+Output Indicator 7.1: Replication guide produced and distributed to participating and neighbouring municipalities
+No replication guide or documented model exists for this type of intervention in Turkey (2025)
+1 'Defne Model' replication guide produced and distributed to at least 5 municipalities by Month 12 (April 2027)
+Published replication guide; distribution records; closing workshop attendance list; April 2027
+Documentation systematically maintained throughout project; sufficient time for guide preparation in final phase; municipalities express interest in replication
+
+Output Indicator 7.2: Number of participants attending 2-day closing workshop, disaggregated by institution type
+N.A.
+At least 50 participants from pilot schools, Defne Municipality, neighbouring municipalities, and provincial education authorities attend closing workshop by Month 12 (April 2027)
+Signed attendance list disaggregated by institution; workshop documentation; April 2027
+Stakeholder interest maintained; closing workshop logistics secured; neighbouring municipalities available to attend
+Key Activities
+Means
+Costs
+Assumptions
+1.1 Pilot school selection and site analysis
+Association staff; Defne Municipality coordination; site visits
+Staff costs (Project Coordinator)
+School administrations cooperative; site access granted
+1.2 Sensor procurement, installation and data platform configuration (Airqoon)
+Airqoon contracted services; outdoor sensors (10 units); data platform
+External services (Airqoon sensor system and installation)
+Procurement completed on schedule; technical infrastructure available
+1.3 District pollution map development and publication
+Airqoon data visualisation services; Association staff
+External services (Airqoon); staff costs
+Sufficient data collected from all 10 sites
+2.1 Indoor sensor/LED system procurement and installation (Airqoon)
+Airqoon contracted services; offline indoor sensor/LED units (20)
+External services (Airqoon indoor systems)
+School administrations approve installation; procurement on schedule
+2.2 Teacher orientation on LED system use
+Association Training Coordinator; Airqoon technical support
+Staff costs (Training Coordinator); travel
+Teachers available; school schedules flexible
+3.1 STEM workshop curriculum and materials development
+Training Coordinator; academic partners; design and printing
+Staff costs; external services (academic consultancy, printing)
+Academic partners available; curriculum development on schedule
+3.2 Mentor teacher 3-day intensive training
+University academics (co-delivery); Training Coordinator; venue; catering; accommodation
+Staff costs; external services (academic training); travel/accommodation; consumables
+University academics available; all 10 mentor teachers participate
+3.3 Student production groups established and CR Box construction
+Mentor teachers (school-based); locally procured materials (fan, filters, tape, cardboard)
+Third-party beneficiary payments (mentor teacher support); procurement (CR Box materials)
+Mentor teachers return to schools and establish groups; materials available locally
+3.4 Device deployment and 2-month operation
+Mentor teachers; students; Association coordinator monitoring
+Staff costs (monitoring visits); consumables
+Devices functional; school term not interrupted; mentor teachers maintain oversight
+4.1 Filter collection and submission for laboratory analysis
+Project Coordinator; laboratory partner logistics; sample preservation materials
+Staff costs; external services (laboratory analysis)
+Devices operated for minimum required period; laboratory partner ready to receive samples
+4.2 Laboratory metagenomic analysis (heavy metals + microbiological profile)
+University laboratory facilities; academic specialists; analysis equipment and reagents
+External services (university laboratory analysis)
+Laboratory capacity available; analysis within agreed timeframe
+4.3 Scientific report and policy summary production
+University academics; Project Coordinator; design and printing
+Staff costs; external services (academic consultancy, printing)
+Findings interpretable; academics available for writing; no unexpected results requiring extended analysis
+5.2 Municipal staff 2-day training programme
+University academics; Training Coordinator; venue; catering
+Staff costs; external services (academic training); consumables
+Metagenomic results available; municipal staff available; venue secured
+6.1 Pre-survey administration
+Training Coordinator; Project Coordinator; survey printing
+Staff costs; printing/consumables
+Students present; school cooperation secured
+6.2 Awareness workshop materials development
+Training Coordinator; academic partners; designer; printer
+Staff costs; external services (design, printing)
+Metagenomic results available and interpretable for age-appropriate communication
+6.3 Awareness workshops in 10 schools
+Training Coordinator; Association staff; academic guest presenters
+Staff costs; travel; consumables (refreshments)
+School schedules accommodate workshops; student participation adequate
+6.4 Post-survey administration and impact analysis
+Project Coordinator; Training Coordinator; M&E consultant
+Staff costs; external services (M&E consultant)
+Survey participation adequate; data complete for analysis
+7.1 Ongoing project documentation
+Project Coordinator; all project staff
+Staff costs (included in core staff budget)
+Documentation maintained consistently throughout project
+7.2 Replication guide preparation
+Project Coordinator; Training Coordinator; designer; printer
+Staff costs; external services (design, printing)
+Documentation sufficient; time available in final phase
+7.3 2-day closing workshop
+Project Coordinator; all partners; external participants; venue; catering; travel support
+Staff costs; travel; consumables (venue, catering, participant travel support)
+Neighbouring municipalities and stakeholders available; venue secured; project outputs ready for presentation
+
