@@ -1,4 +1,7 @@
-# Airqoon Knowledge Base — Index
+# Airqoon Knowledge Base
+
+*See also: [[log.md|Activity Log]] | [[CLAUDE.md|System Schema]]*
+ — Index
 
 Master catalog of all wiki pages. The LLM reads this first when answering queries to find relevant pages. Updated on every ingest and every new page creation.
 
@@ -15,29 +18,29 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 ## Sources
 
 ### GitHub Repositories
-- [[AirqoonCalibrationToolBackend]] - Qoonify Backend
-- [[LCF]] - ESP32 ADC Data Logger & Environmental Monitoring System
-- [[LCM]] - LCM Serial Data Plotter
-- [[acme_aq_simulator]] - Airqoon Environmental Sensor Simulator
-- [[airqoon-alarm-worker]] - Airqoon Alarm Worker
-- [[airqoon-aqi-calculator]] - Airqoon AQI Calculator
-- [[airqoon-autoreporter]] - Airqoon Auto Reporter
-- [[airqoon-base-map-consumer]] - Airqoon Base Map Consumer
-- [[airqoon-base-map-external-api]] - Airqoon Base Map External API
-- [[airqoon-base-map-tile-server]] - Airqoon Base Map Tile Server
-- [[airqoon-base-map-ui]] - Airqoon Base Map UI
-- [[airqoon-basic-map-api]] - Airqoon Basic Map API
-- [[airqoon-brief]] - Airqoon Brief
-- [[airqoon-data-external-projection]] - Airqoon Data External Projection
-- [[airqoon-ops-engine]] - Airqoon Ops Engine
-- [[airqoon-sim-feeder]] - Airqoon SIM Feeder
-- [[airqoon-su-fw]] - Smart IoT Modules (SMs) - Firmware
-- [[airqoon-su-local-fw]] - Airqoon Sensor Unit Local Firmware
-- [[airqoon-widget-ui]] - Airqoon Widget UI
-- [[aq-prov-app]] - Airqoon Provisioning App
-- [[cal-app]] - 🌍 Air Quality Sensor Calibration System
-- [[lens-api]] - Lens API
-- [[lens-ui]] - Airqoon Lens (Enterprise Dashboard)
+- [[wiki/sources/AirqoonCalibrationToolBackend]] - Qoonify Backend
+- [[wiki/sources/LCF]] - ESP32 ADC Data Logger & Environmental Monitoring System
+- [[wiki/sources/LCM]] - LCM Serial Data Plotter
+- [[wiki/sources/acme_aq_simulator]] - Airqoon Environmental Sensor Simulator
+- [[wiki/sources/airqoon-alarm-worker]] - Airqoon Alarm Worker
+- [[wiki/sources/airqoon-aqi-calculator]] - Airqoon AQI Calculator
+- [[wiki/sources/airqoon-autoreporter]] - Airqoon Auto Reporter
+- [[wiki/sources/airqoon-base-map-consumer]] - Airqoon Base Map Consumer
+- [[wiki/sources/airqoon-base-map-external-api]] - Airqoon Base Map External API
+- [[wiki/sources/airqoon-base-map-tile-server]] - Airqoon Base Map Tile Server
+- [[wiki/sources/airqoon-base-map-ui]] - Airqoon Base Map UI
+- [[wiki/sources/airqoon-basic-map-api]] - Airqoon Basic Map API
+- [[wiki/sources/airqoon-brief]] - Airqoon Brief
+- [[wiki/sources/airqoon-data-external-projection]] - Airqoon Data External Projection
+- [[wiki/sources/airqoon-ops-engine]] - Airqoon Ops Engine
+- [[wiki/sources/airqoon-sim-feeder]] - Airqoon SIM Feeder
+- [[wiki/sources/airqoon-su-fw]] - Smart IoT Modules (SMs) - Firmware
+- [[wiki/sources/airqoon-su-local-fw]] - Airqoon Sensor Unit Local Firmware
+- [[wiki/sources/airqoon-widget-ui]] - Airqoon Widget UI
+- [[wiki/sources/aq-prov-app]] - Airqoon Provisioning App
+- [[wiki/sources/cal-app]] - 🌍 Air Quality Sensor Calibration System
+- [[wiki/sources/lens-api]] - Lens API
+- [[wiki/sources/lens-ui]] - Airqoon Lens (Enterprise Dashboard)
 
 
 *One summary page per ingested raw source.*
@@ -56,82 +59,82 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 | [[wiki/sources/claude-business-memory]] | raw/assets/claude-business-project-memory.md | 2026-04-23 | Baris, operations, sales, strategy, network |
 | [[wiki/sources/claude-programming-memory]] | raw/assets/claude-programming-project-memory.md | 2026-04-23 | infra, devops, thingsboard, keycloak, coolify |
 | [[wiki/sources/claude-conv-helper-memory]] | raw/assets/claude-conv-helper-project-memory.md | 2026-04-23 | philosophy, communication, consultative sales |
-| [[wiki/sources/en17660-n3553-voting-letter]] | articles/CEN-TC 264_N3553_Letter_Result_of_voting_prelNWIs_EN17660-1_and_-2_WG42.pdf | 2026-04-23 | CEN voting, prEN 17660-1 & -2 adopted, Decisions 1486/1487 |
-| [[wiki/sources/en17660-1-gaseous-pollutants]] | articles/CEN:TC 17660-1-2021.pdf | 2026-04-23 | gaseous sensor test protocol, Classes 1-3, DQO, lab+field steps |
-| [[wiki/sources/en17660-2-particulate-matter]] | articles/CEN:TC 17660-2-2024.pdf | 2026-04-23 | PM sensor test protocol, Classes 1-3, field co-location, RH effects |
+| [[wiki/concepts/en17660-standard]] | articles/CEN-TC 264_N3553_Letter_Result_of_voting_prelNWIs_EN17660-1_and_-2_WG42.pdf | 2026-04-23 | CEN voting, prEN 17660-1 & -2 adopted, Decisions 1486/1487 |
+| [[wiki/concepts/en17660-standard]] | articles/CEN:TC 17660-1-2021.pdf | 2026-04-23 | gaseous sensor test protocol, Classes 1-3, DQO, lab+field steps |
+| [[wiki/concepts/en17660-standard]] | articles/CEN:TC 17660-2-2024.pdf | 2026-04-23 | PM sensor test protocol, Classes 1-3, field co-location, RH effects |
 
 ### Raw files pending source pages (ingested to raw/, not yet summarised)
 
 <details>
 <summary>30 Resource Docs articles (click to expand)</summary>
 
-- Air-Sensors-Standardization-and-Evaluation-Efforts.md
-- Airqoon-Başlangıç-Kılavuzu-v2.md / v4.md
-- Airqoon-L-SIM-Kurulumu-ve-Değişimi.md
-- Airqoon-M-Bakım-Kılavuzu.md / Başlangıç-Kılavuzu.md / Noise.md
-- Airqoon-M-SIM-Kurulumu-ve-Değişimi.md
-- Airqoon-Sensor-Üniteleri-Test-Süreci-17660.md
-- Airqoon-Units-Sensor-Calibration.md / Üniteleri-Sensör-Kalibrasyonu.md
-- Certificates-&-Standards-&-Technical-Specifications.md
-- Field-Recovery.md
-- GEFF-Türkiye-fizibilite-çalışması.md
-- Gothenburg-Protocol-Analysis.md
-- Hava-Ölçümleri-ve-Hava-Sensör-Sistemleri.md
-- Kullanım-Alanları.md
-- Kurumsal-Pazar-Analizi.md
-- Measurement-Methods-in-Monitoring-Air-Quality.md
-- Pre-Test-Süreci-Talimatları.md
-- Research-Labs-Evaluating-Air-Quality-Sensor-Performance.md
-- Sectoral-Air-Pollution-in-Numbers.md
-- Target-Sectors.md
-- Taslak-MET'lerde-İzleme.md
-- Unit-L-Getting-Started-Guide-v3.md
-- Unit-M-Maintenance-Manual.md / SIM-Installation.md
-- airqoon-Weekly-Meeting-Structure.md / Haftalık-Toplantı-Yapısı.md
+- [[Air-Sensors-Standardization-and-Evaluation-Efforts.md]]
+- [[Airqoon-Başlangıç-Kılavuzu-v2.md]] / [[v4.md]]
+- [[Airqoon-L-SIM-Kurulumu-ve-Değişimi.md]]
+- [[Airqoon-M-Bakım-Kılavuzu.md]] / [[Başlangıç-Kılavuzu.md]] / [[Noise.md]]
+- [[Airqoon-M-SIM-Kurulumu-ve-Değişimi.md]]
+- [[Airqoon-Sensor-Üniteleri-Test-Süreci-17660.md]]
+- [[Airqoon-Units-Sensor-Calibration.md]] / [[Üniteleri-Sensör-Kalibrasyonu.md]]
+- [[Certificates-&-Standards-&-Technical-Specifications.md]]
+- [[Field-Recovery.md]]
+- [[GEFF-Türkiye-fizibilite-çalışması.md]]
+- [[Gothenburg-Protocol-Analysis.md]]
+- [[Hava-Ölçümleri-ve-Hava-Sensör-Sistemleri.md]]
+- [[Kullanım-Alanları.md]]
+- [[Kurumsal-Pazar-Analizi.md]]
+- [[Measurement-Methods-in-Monitoring-Air-Quality.md]]
+- [[Pre-Test-Süreci-Talimatları.md]]
+- [[Research-Labs-Evaluating-Air-Quality-Sensor-Performance.md]]
+- [[Sectoral-Air-Pollution-in-Numbers.md]]
+- [[Target-Sectors.md]]
+- [[Taslak-MET'lerde-İzleme.md]]
+- [[Unit-L-Getting-Started-Guide-v3.md]]
+- [[Unit-M-Maintenance-Manual.md]] / [[SIM-Installation.md]]
+- [[airqoon-Weekly-Meeting-Structure.md]] / [[Haftalık-Toplantı-Yapısı.md]]
 
 </details>
 
 <details>
 <summary>37 Notion marketing/sales/growth pages (click to expand)</summary>
 
-- gathering-testimonials.md
-- outbound-marketing-linkedin-templates.md
-- marketing-documents.md
-- airqoon-lens-yeni-ozellik-mesaj.md
-- iot-hava-kalitesi-izleme-bursa.md
-- n8n-templates.md
-- satis-arastirma.md
-- unite-l.md
-- airqoon-lens.md
-- istanbul-hava-kalitesi-olcumu.md
-- copernicus.md
-- surdurulebilirlik-nedir.md
-- emisyon-ve-imisyon-olcumleri.md
-- clean-air-zone-caz.md
-- yonetmelik-guncel.md
-- air-sensors-growth-marketing-staj.md
-- ngos.md
-- konular.md
-- usa-hava-kirliligi-olcum-arastirmasi.md
-- archive.md
-- 2026-potential-events.md
-- target-sectors.md
-- sales-funnel.md
-- merhaba-iletisim.md
-- projeler.md
-- azerbaijan.md
-- iraq.md
-- scewc2023.md
-- sales-pipeline-active-leads.md
-- potential-lead-companies.md
-- mbb-hava-kirliligi-kentsel-doku.md
-- cimento-potansiyel-kurumlar.md
-- partnerships-crm.md
-- partner-onboarding.md
-- tweet-akisi.md
-- sensor-tanitim-paylasim-metni.md
-- marketing-content-calendar.md (database, 141 entries)
-- social-media-sharing-calendar.md (database, 36 entries)
+- [[gathering-testimonials.md]]
+- [[outbound-marketing-linkedin-templates.md]]
+- [[marketing-documents.md]]
+- [[airqoon-lens-yeni-ozellik-mesaj.md]]
+- [[iot-hava-kalitesi-izleme-bursa.md]]
+- [[n8n-templates.md]]
+- [[satis-arastirma.md]]
+- [[unite-l.md]]
+- [[airqoon-lens.md]]
+- [[istanbul-hava-kalitesi-olcumu.md]]
+- [[copernicus.md]]
+- [[surdurulebilirlik-nedir.md]]
+- [[emisyon-ve-imisyon-olcumleri.md]]
+- [[clean-air-zone-caz.md]]
+- [[yonetmelik-guncel.md]]
+- [[air-sensors-growth-marketing-staj.md]]
+- [[ngos.md]]
+- [[konular.md]]
+- [[usa-hava-kirliligi-olcum-arastirmasi.md]]
+- [[archive.md]]
+- [[2026-potential-events.md]]
+- [[target-sectors.md]]
+- [[sales-funnel.md]]
+- [[merhaba-iletisim.md]]
+- [[projeler.md]]
+- [[azerbaijan.md]]
+- [[iraq.md]]
+- [[scewc2023.md]]
+- [[sales-pipeline-active-leads.md]]
+- [[potential-lead-companies.md]]
+- [[mbb-hava-kirliligi-kentsel-doku.md]]
+- [[cimento-potansiyel-kurumlar.md]]
+- [[partnerships-crm.md]]
+- [[partner-onboarding.md]]
+- [[tweet-akisi.md]]
+- [[sensor-tanitim-paylasim-metni.md]]
+- [[marketing-content-calendar.md]] (database, 141 entries)
+- [[social-media-sharing-calendar.md]] (database, 36 entries)
 
 </details>
 
@@ -175,3 +178,4 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 ---
 
 *Last updated: 2026-04-23 (EN 17660 PDFs ingested)*
+

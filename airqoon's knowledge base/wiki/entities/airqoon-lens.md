@@ -85,4 +85,4 @@ GenAI-powered analysis layer providing:
 
 ---
 
-*See also: [[Airqoon]], [[Unit L]], [[Airqoon Map]]*
+*See also: [[Airqoon]], [[Unit L]], Airqoon Map*

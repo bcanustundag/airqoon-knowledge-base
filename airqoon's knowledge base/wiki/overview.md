@@ -32,7 +32,7 @@ Airqoon's solution consists of three pillars:
 | Unit | Description | Key Specs |
 |------|-------------|-----------|
 | **[[Unit L]]** | Flagship outdoor sensor | 3.2 kg, solar-powered, 14-day battery backup, 4G/NB-IoT/WiFi, 5-min deployment, −10 °C to +65 °C, IP34 |
-| **[[Unit M]]** | Compact/indoor unit | Smaller form factor, 2G/4G connectivity, designed for enclosed or semi-enclosed environments |
+| **Unit M** | Compact/indoor unit | Smaller form factor, 2G/4G connectivity, designed for enclosed or semi-enclosed environments |
 | **Unit N** | *(planned)* | Mentioned in internal docs; details TBD |
 
 **Measurement parameters:**
@@ -58,11 +58,11 @@ Customer-facing cloud analytics platform:
 **Backend Services:**
 - **[[lens-api]]**: Core environmental intelligence REST API providing endpoints for device mapping, report management, and device comparisons.
 - **[[lens-ui]]**: The enterprise dashboard frontend (React/TypeScript).
-- **[[lens-mcp]]**: Model Context Protocol (MCP) server for Lens.
+- **lens-mcp**: Model Context Protocol (MCP) server for Lens.
 - **[[airqoon-alarm-worker]]**: Python async service listening to RabbitMQ streams to evaluate alarm configurations.
 - **[[airqoon-autoreporter]]**: CLI tool generating multi-tenant air quality reports using PostgreSQL and S3.
 
-### Software — [[Airqoon Lens AI]]
+### Software — Airqoon Lens AI
 
 GenAI-backed analysis module:
 - Automated monthly assessment reports with executive summaries
@@ -72,7 +72,7 @@ GenAI-backed analysis module:
 - Actionable recommendations for policy makers
 - Device performance monitoring & calibration tracking
 
-### [[Airqoon Map]] — Public Platform
+### Airqoon Map — Public Platform
 
 Open-access real-time air quality map:
 - Citizen-facing interface showing live pollution data
@@ -102,24 +102,24 @@ Open-access real-time air quality map:
 - **[[Airqoon]]** — the company itself (entity page)
 - **[[Baris Can Ustundag]]** — Co-founder
 - **[[Oizom]]** — primary competitor (Polludrone)
-- **Customers:** [[Akçansa]] (cement), [[EnerjiSA Üretim]] (energy), [[Kadıköy Belediyesi]], [[Bursa Büyükşehir Belediyesi]], [[GİSAŞ]]
+- **Customers:** Akçansa (cement), EnerjiSA Üretim (energy), Kadıköy Belediyesi, Bursa Büyükşehir Belediyesi, GİSAŞ
 - **Partners/prospects:** HAK Automation (Egypt), Alpha Scientific (Australia), REDA Safe (Saudi Arabia), Codico, Connected IoT, Senseair distributors
 - **Standards bodies:** CEN TC 264, EPA, WMO, BSI (PAS 4023)
-- **Projects:** [[PACE Projesi]] ("Clean Air Hatay" - EU/GIZ funded, earthquake zone recovery with 10 pilot schools, indoor/outdoor networks, and metagenomic dust analysis), [[GEFF Turkey]]
+- **Projects:** [[wiki/sources/pace-projesi|PACE Projesi]] ("Clean Air Hatay" - EU/GIZ funded, earthquake zone recovery with 10 pilot schools, indoor/outdoor networks, and metagenomic dust analysis), GEFF Turkey
 - **Research & Case Studies:** İnegöl PM Assessment (OIZ influence, ASIC2026), Eastern Anatolia Observatory, Kahramanmaraş Earthquake monitoring, "Clean Air Hatay" post-earthquake metagenomic dust analysis (planned 2027).
 
 ---
 
 ## Key Concepts
 
-- [[Indicative Monitoring]] — Airqoon's positioning (supplementary/indicative per 2008/50/EC)
-- [[CEN TS 17660]] — EU performance evaluation standard for sensor systems (Parts 1 & 2)
+- Indicative Monitoring — Airqoon's positioning (supplementary/indicative per 2008/50/EC)
+- [[wiki/concepts/en17660-standard|CEN TS 17660]] — EU performance evaluation standard for sensor systems (Parts 1 & 2)
 - [[Low-Cost Air Sensors]] — the broader sensor movement Airqoon belongs to
-- [[Clean Air Zone]] — regulatory concept relevant to city customers
-- [[Fugitive Emissions]] — industrial monitoring use case (TS EN 15446)
+- [[wiki/concepts/clean-air-zones|Clean Air Zone]] — regulatory concept relevant to city customers
+- Fugitive Emissions — industrial monitoring use case (TS EN 15446)
 - [[Perimeter Monitoring]] — core industrial use case
-- [[Urban Heat Island]] — use case for cities
-- [[Sustainability Reporting]] — ESRS, EU Taxonomy, ESG reporting drivers
+- Urban Heat Island — use case for cities
+- Sustainability Reporting — ESRS, EU Taxonomy, ESG reporting drivers
 
 ---
 

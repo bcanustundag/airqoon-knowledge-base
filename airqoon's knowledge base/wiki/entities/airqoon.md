@@ -31,13 +31,13 @@ sources: [product-page.md, unite-l.md, airqoon-vs-oizom-comparison.md, airqoon-l
 
 ### Hardware
 - **[[Unit L]]** — Flagship outdoor air quality sensor (3.2 kg, solar-powered, 14-day battery)
-- **[[Unit M]]** — Compact/indoor unit with noise monitoring capabilities
+- **Unit M** — Compact/indoor unit with noise monitoring capabilities
 - **Unit N** — Planned unit (details TBD)
 
 ### Software
 - **[[Airqoon Lens]]** — Customer analytics platform (real-time dashboards, compare mode, reports, alerts, API)
-- **[[Airqoon Lens AI]]** — GenAI-backed monthly assessment reports, pollution source detection, trend analysis
-- **[[Airqoon Map]]** — Public-facing real-time air quality map with citizen engagement features
+- **Airqoon Lens AI** — GenAI-backed monthly assessment reports, pollution source detection, trend analysis
+- **Airqoon Map** — Public-facing real-time air quality map with citizen engagement features
 
 ---
 
@@ -73,7 +73,7 @@ Consulting/enterprise partnerships explored with: Bureau Veritas, DNV, TÜV SÜD
 
 ## Key Projects
 
-- **[[PACE Projesi]]** — EU/GIZ-funded earthquake recovery project; air monitoring in 11 affected Turkish provinces
+- **[[wiki/sources/pace-projesi|PACE Projesi]]** — EU/GIZ-funded earthquake recovery project; air monitoring in 11 affected Turkish provinces
 - **GEFF Turkey** — Feasibility study (green finance)
 - **SCEWC 2023** — Smart City Expo World Congress participation / lead generation
 

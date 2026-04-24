@@ -32,4 +32,4 @@ Marketing/onboarding document describing 10 air quality monitoring use cases. Pr
 - "Cost-effective air monitoring systems... encourage innovation in air monitoring approaches"
 
 ## Entities Referenced
-→ [[Airqoon]], [[WHO]], [[PM2.5]]
+→ [[Airqoon]], WHO, PM2.5

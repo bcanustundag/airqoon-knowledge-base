@@ -30,4 +30,4 @@ EU and German government (GIZ/BMZ) funded grant program targeting earthquake-aff
 - Malatya, Elazığ, Osmaniye: various contacts
 
 ## Entities Referenced
-→ [[Airqoon]], [[GIZ]], [[EU]]
+→ [[Airqoon]], GIZ, EU

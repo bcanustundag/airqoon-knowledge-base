@@ -23,4 +23,4 @@ Internal product page copy defining Airqoon's three-pillar ecosystem: Sensor Uni
 - SEO keywords (TR): hava izleme, hava kirliliği, hava kalitesi sensörleri, yapay zeka, sürekli izleme
 
 ## Entities Referenced
-→ [[Airqoon]], [[Airqoon Lens]], [[Airqoon Map]], [[Unit L]]
+→ [[Airqoon]], [[Airqoon Lens]], Airqoon Map, [[Unit L]]

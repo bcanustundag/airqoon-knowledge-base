@@ -37,7 +37,7 @@ airqoon's knowledge base/
 2. **The wiki is the product.** The LLM writes and maintains all files in `wiki/`.
 3. **Index stays current.** Update `index.md` on every ingest or new wiki page creation.
 4. **Log everything.** Append an entry to `log.md` after every operation.
-5. **Cross-reference aggressively.** Use `[[WikiLinks]]` liberally. Every entity and concept mentioned in a page should link to its own page if one exists.
+5. **Cross-reference aggressively.** Use `WikiLinks` liberally. Every entity and concept mentioned in a page should link to its own page if one exists.
 6. **Frontmatter on all wiki pages.** Every wiki file should have YAML frontmatter (see format below).
 
 ## Wiki Page Frontmatter Format
@@ -75,7 +75,7 @@ A single source will typically touch 5–15 wiki pages.
 When the user asks a question:
 
 1. Read `index.md` to identify relevant wiki pages.
-2. Read those pages and synthesize an answer with `[[WikiLinks]]` citations.
+2. Read those pages and synthesize an answer with `WikiLinks` citations.
 3. If the answer is valuable (a comparison, analysis, or new connection), offer to file it as a new page in `wiki/analyses/`.
 4. If filed, update `index.md` and `log.md`.
 

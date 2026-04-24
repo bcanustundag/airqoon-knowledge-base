@@ -42,4 +42,4 @@ Internal sales document defining target customer personas and success scenarios.
 CEN TS 17660 and EPA standards are cited as the regulatory enabler — once adopted, indicative sensors become officially "usable" as alternatives to expensive reference stations.
 
 ## Entities Referenced
-→ [[Airqoon]], [[Unit L]], [[GİSAŞ]]
+→ [[Airqoon]], [[Unit L]], GİSAŞ
