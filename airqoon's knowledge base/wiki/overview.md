@@ -137,16 +137,16 @@ Open-access real-time air quality map:
 
 ### Airqoon vs [[Oizom]] (Polludrone)
 
-| Dimension | Airqoon Unit L | Oizom Polludrone |
-|-----------|---------------|-----------------|
-| **Weight** | 3.2 kg | 8 kg |
-| **Battery backup** | **14 days** | 24 hours |
-| **Deployment time** | **5 minutes** | Complex mounting |
-| **Price** | **$2,500–5,500** | >$8,000 |
-| **Public map** | **Yes** | No |
-| **AI reports** | **GenAI monthly** | No |
-| **IP rating** | IP34 | IP66 |
-| **Temp range** | −10 to +65 °C | −20 to +60 °C |
+| Dimension           | Airqoon Unit L    | Oizom Polludrone |
+| ------------------- | ----------------- | ---------------- |
+| **Weight**          | 3.2 kg            | 8 kg             |
+| **Battery backup**  | **14 days**       | 24 hours         |
+| **Deployment time** | **5 minutes**     | Complex mounting |
+| **Price**           | **$2,500–5,500**  | >$8,000          |
+| **Public map**      | **Yes**           | No               |
+| **AI reports**      | **GenAI monthly** | No               |
+| **IP rating**       | IP34              | IP66             |
+| **Temp range**      | −10 to +65 °C     | −20 to +60 °C    |
 
 **Airqoon advantage:** 40–60% cost advantage, superior battery life, faster deployment, public engagement platform, AI analytics. **Oizom advantage:** higher IP protection, wider temperature range, more connectivity options (LoRa, Ethernet, Satellite), UV radiation sensor.
 
