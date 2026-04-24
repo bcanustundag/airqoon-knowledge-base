@@ -59,6 +59,13 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 | [[wiki/sources/claude-business-memory]] | raw/assets/claude-business-project-memory.md | 2026-04-23 | Baris, operations, sales, strategy, network |
 | [[wiki/sources/claude-programming-memory]] | raw/assets/claude-programming-project-memory.md | 2026-04-23 | infra, devops, thingsboard, keycloak, coolify |
 | [[wiki/sources/claude-conv-helper-memory]] | raw/assets/claude-conv-helper-project-memory.md | 2026-04-23 | philosophy, communication, consultative sales |
+| [[wiki/sources/airquest-symposium-poster]] | chat_upload | 2026-04-24 | event, BSB, symposium, Zonguldak |
+| [[wiki/sources/unit-l-teknik-foy-v1-1]] | chat_upload | 2026-04-24 | Unit L, datasheet, specs, PM, gas |
+| [[wiki/sources/miniature-teknik-analiz]] | /Users/bcan/Downloads/miniature_teknik_analiz.md | 2026-04-24 | hardware, debug, pm-sensor, voc |
+| [[wiki/sources/unit-l-teknik-foy-v1-2]] | raw/articles/urun_teknik_foyu_v1.2.docx | 2026-04-24 | Unit L, datasheet, specs, updated |
+| [[wiki/sources/unit-l-product-sheet-v2-2]] | raw/articles/Product_sheet_v2.2.docx | 2026-04-24 | Unit L, datasheet, specs, updated, english |
+| [[wiki/sources/bettair-ficha-tecnica]] | raw/articles/Bettair-Ficha-tecnica.pdf | 2026-04-24 | competitor, bettair, specs, certification |
+| [[wiki/sources/bettair-faq-mk2]] | raw/articles/FAQs-Bettair-MK2_rev9_EN.pdf | 2026-04-24 | competitor, bettair, business-model, faq |
 | [[wiki/concepts/en17660-standard]] | articles/CEN-TC 264_N3553_Letter_Result_of_voting_prelNWIs_EN17660-1_and_-2_WG42.pdf | 2026-04-23 | CEN voting, prEN 17660-1 & -2 adopted, Decisions 1486/1487 |
 | [[wiki/concepts/en17660-standard]] | articles/CEN:TC 17660-1-2021.pdf | 2026-04-23 | gaseous sensor test protocol, Classes 1-3, DQO, lab+field steps |
 | [[wiki/concepts/en17660-standard]] | articles/CEN:TC 17660-2-2024.pdf | 2026-04-23 | PM sensor test protocol, Classes 1-3, field co-location, RH effects |

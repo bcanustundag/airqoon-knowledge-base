@@ -123,3 +123,20 @@ Key insight: Directive 2024/2881 tightens PM₂.₅ LV from 25 to 10 µg/m³ —
 - Updated `wiki/overview.md` by replacing the `Target Sectors` list with the new `Top 5 Use Cases & Target Sectors` and adding the İnegöl study under `Research & Case Studies` in the Key Entities section.
 - Digested `PACE047_Annex 3_Logframe.docx` (Clean Air Hatay project logframe). Created `wiki/sources/pace_047_logframe.md`, and updated `index.md` and `wiki/overview.md` to reflect the new project details including 10 pilot schools, metagenomic dust analysis, and Corsi-Rosenthal boxes.
 - Digested 3 Claude Project Memory files from `raw/assets`: `claude-business-project-memory.md`, `claude-programming-project-memory.md`, and `claude-conv-helper-project-memory.md`. Created corresponding source pages and a dedicated entity page `wiki/entities/baris-can-ustundag.md` documenting technical scope, BD philosophy, and strategic objectives. Updated `index.md`.
+
+## [2026-04-24] ingest | Digested Chat Uploads: AirQuest Poster and Unit L Datasheet
+
+Ingested two documents provided via chat:
+- **AirQuest International Symposium Poster**: Created `wiki/sources/airquest-symposium-poster.md`. Captured event details (Zonguldak, April 2026, Interreg BSB) and design critique (missing EU logos, QR code).
+- **Unit L Teknik Föy v1.1**: Created `wiki/sources/unit-l-teknik-foy-v1-1.md`. Captured technical specs, sensor performance, packages, and feedback on document professionalization (language consistency, CEN/TS 17660 certification addition, software ecosystem mention).
+
+Updated `index.md` with the new source pages.
+
+## [2026-04-24] ingest | Digested 5 New Documents
+
+Ingested five newly added documents:
+- **Miniature Cihazlar Teknik Analiz**: Created `wiki/sources/miniature-teknik-analiz.md`. Captured firmware debug session regarding PM sensor data drops and VOC resets under sleep conditions.
+- **Unit L Teknik Föy v1.2 (TR)** & **Unit L Product Sheet v2.2 (EN)**: Created `wiki/sources/unit-l-teknik-foy-v1-2.md` and `wiki/sources/unit-l-product-sheet-v2-2.md`. Tracked the addition of CEN/TS 17660 compliance into the datasheets.
+- **Bettair MK2 Ficha Tecnica** & **FAQs**: Created `wiki/sources/bettair-ficha-tecnica.md` and `wiki/sources/bettair-faq-mk2.md`. Extracted competitor pricing strategies (software/calibration included in price) and certification marketing approaches.
+
+Updated `index.md` with the new source pages.
