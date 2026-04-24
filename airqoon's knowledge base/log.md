@@ -93,6 +93,29 @@ Updated `index.md` with all new pages and pending raw file inventory.
 Remaining: ~67 raw files have content in `raw/` but do not yet have individual source summary pages in `wiki/sources/`. Their knowledge has been incorporated into the overview, entity, and concept pages where relevant.
 ## [2026-04-23] ingest | Ingested 23 GitHub repositories into wiki/sources
 ## [2026-04-23] edit | Digested 23 GitHub repositories, updated overview.md with new software architecture details (Airqoon Map, Lens API, firmware, simulators).
+## [2026-04-23] ingest | Ingested 3 EN 17660 PDFs — voting letter and both standard parts
+
+Digested three PDFs from `raw/articles/`:
+
+1. **CEN-TC 264_N3553_Letter_Result_of_voting_prelNWIs_EN17660-1_and_-2_WG42.pdf**
+   - Date: 2026-03-11. Formal CEN/TC 264 letter announcing 100% approval vote to advance both EN 17660 parts from Technical Specifications to full European Standards (Decisions 1486 and 1487). TSE (Turkey) abstained. Only comment: France flagged need to reference Directive 2024/2881 instead of Directive 2008/50/EC.
+   - Created: `wiki/sources/en17660-n3553-voting-letter.md`
+
+2. **CEN:TC 17660-1-2021.pdf** (89 pages, image-only, OCR'd)
+   - CEN/TS 17660-1:2021 — Test protocol and DQOs for gaseous pollutants (NO₂, SO₂, O₃, CO). 4-step protocol (pre-test → lab → field or extended field). 3 classes: Class 1 (≤25% expanded uncertainty at LV), Class 2 (≤30%), Class 3 (≤50%). Measurement uncertainty budget components: lack of fit, drift, cross-sensitivity, T/RH, memory, pressure, EMF.
+   - Created: `wiki/sources/en17660-1-gaseous-pollutants.md`
+
+3. **CEN:TC 17660-2-2024.pdf** (58 pages, image-only, OCR'd)
+   - FprCEN/TS 17660-2:2024 — Test protocol and DQOs for PM sensors (PM₂.₅, PM₁₀, coarse). 2-step: lab coarse particle test + mandatory field co-location with EN 12341 (reference) and EN 16450 (equivalent). Same 3-class framework. RH sensitivity is the key PM-specific challenge.
+   - Created: `wiki/sources/en17660-2-particulate-matter.md`
+
+Additionally created:
+- `wiki/concepts/en17660-standard.md` — Synthesis concept page covering both parts, classes, regulatory linkage (Directive 2024/2881 implications), and Airqoon's certification gaps.
+
+Updated `index.md` with 3 source pages + 1 concept page.
+
+Key insight: Directive 2024/2881 tightens PM₂.₅ LV from 25 to 10 µg/m³ — this makes Class 1 certification significantly harder (25% of 10 µg/m³ = 2.5 µg/m³ allowed uncertainty). Airqoon should determine its current EN 17660 class status and plan for EN conversion timeline (est. 2026-2028).
+
 ## [2026-04-23] ingest | Digested Top 5 Use Cases and İnegöl PM Presentation (ASIC2026)
 - Converted `Airqoon_Top5_UseCases_SalesReference.docx` to text, parsed `inegol_pm_presentation_2.pdf`.
 - Created two new source pages: `wiki/sources/airqoon_top5_use_cases.md` and `wiki/sources/inegol_pm_presentation.md`.

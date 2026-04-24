@@ -56,6 +56,9 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 | [[wiki/sources/claude-business-memory]] | raw/assets/claude-business-project-memory.md | 2026-04-23 | Baris, operations, sales, strategy, network |
 | [[wiki/sources/claude-programming-memory]] | raw/assets/claude-programming-project-memory.md | 2026-04-23 | infra, devops, thingsboard, keycloak, coolify |
 | [[wiki/sources/claude-conv-helper-memory]] | raw/assets/claude-conv-helper-project-memory.md | 2026-04-23 | philosophy, communication, consultative sales |
+| [[wiki/sources/en17660-n3553-voting-letter]] | articles/CEN-TC 264_N3553_Letter_Result_of_voting_prelNWIs_EN17660-1_and_-2_WG42.pdf | 2026-04-23 | CEN voting, prEN 17660-1 & -2 adopted, Decisions 1486/1487 |
+| [[wiki/sources/en17660-1-gaseous-pollutants]] | articles/CEN:TC 17660-1-2021.pdf | 2026-04-23 | gaseous sensor test protocol, Classes 1-3, DQO, lab+field steps |
+| [[wiki/sources/en17660-2-particulate-matter]] | articles/CEN:TC 17660-2-2024.pdf | 2026-04-23 | PM sensor test protocol, Classes 1-3, field co-location, RH effects |
 
 ### Raw files pending source pages (ingested to raw/, not yet summarised)
 
@@ -157,6 +160,7 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 | [[wiki/concepts/low-cost-air-sensors]] | Technology, standards, market context for affordable AQ sensors |
 | [[wiki/concepts/clean-air-zones]] | CAZ/LEZ regulatory framework creating monitoring demand |
 | [[wiki/concepts/perimeter-monitoring]] | Industrial fence-line monitoring use case |
+| [[wiki/concepts/en17660-standard]] | EN 17660 standard series — classification, test protocol, Classes 1-3, Directive 2024/2881 implications |
 
 ---
 
@@ -170,4 +174,4 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 
 ---
 
-*Last updated: 2026-04-23*
+*Last updated: 2026-04-23 (EN 17660 PDFs ingested)*
