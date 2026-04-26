@@ -140,3 +140,16 @@ Ingested five newly added documents:
 - **Bettair MK2 Ficha Tecnica** & **FAQs**: Created `wiki/sources/bettair-ficha-tecnica.md` and `wiki/sources/bettair-faq-mk2.md`. Extracted competitor pricing strategies (software/calibration included in price) and certification marketing approaches.
 
 Updated `index.md` with the new source pages.
+
+## [2026-04-26] ingest | Digested two Kunak Technologies PDFs
+- Extracted text from `1a5a8ef68ae3edcafb87c70f9bad47b7e4e1e48bf5a07bb3cb524df1fe445839.pdf` and `b7a6f0fc2fd37207330aa809fa5557c0304f80e39f6d3b5d09d3dbaaf6d725a2.pdf` using `pdftotext`.
+- Created source page `wiki/sources/kunak-standardization-intro.md` outlining Kunak's presentation on sensor certifications, testing protocols, and market trends.
+- Created source page `wiki/sources/kunak-air-pro-performance-tests.md` detailing Kunak AIR Pro's co-location field study results (R² and U(exp)) across multiple pollutants.
+- Created entity page `wiki/entities/kunak-technologies.md` for the competitor Kunak Technologies.
+- Updated `wiki/concepts/low-cost-air-sensors.md` to reference Kunak as a competitor driving the certification trend.
+- Updated `index.md` with the new pages.
+
+## [2026-04-26] edit | Created Competitors node
+- Created `wiki/entities/bettair.md` to establish the Bettair entity from previously ingested sources.
+- Created `wiki/concepts/competitors.md` to synthesize the competitive landscape, grouping Oizom, Kunak, and Bettair.
+- Updated `index.md` to reflect the new entity and concept pages.

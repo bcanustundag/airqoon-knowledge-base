@@ -1,0 +1,945 @@
+Co-location field studies
+
+Test procedure
+
+▪ Installation: On top of AQS (3-4meters).
+▪ Stabilization time: 2 days.
+▪ Calibration procedure: None.
+
+▪ Post-processing: None. Real corrected data is calculated directly in the device without any delay. No re-calibrations
+or corrections are applied during the field tests unless specified. Then, the initial calibration is maintained during the
+whole field tests and results shown in this study.
+▪ Sampling period: data is averaged every hour to match data from reference station.
+▪ 100% of Kunak AIR data is used for analysis, therefore, any possible outlier is included in the statistics.
+▪ Validation: statistics are only calculated if valid Reference Data is available.
+
+2
+
+Analysis and characterization procedure
+
+▪
+
+Accuracy: is obtained as the mean absolute error (MAE) between Kunak AIR measurements and the reference
+instruments.
+
+▪
+
+90% Confidence Interval: the 90% of the measurements are below this error. Also, the relative error of the
+maximum error in the 90% of measurements is shown.
+
+▪
+
+Relative expanded uncertainty:
+
+U exp = k ∗
+
+RSS
+− 𝑢 𝑏𝑠, 𝑅𝑀 2
+n−2
+
++ 𝑎+ 𝑏−1 ∗𝐿 2
+
+▪
+
+Data Quality Objective (DQO): concentration value from which DQO defined in the EU Air Quality Directive
+(2008/50/EC) is met. Also, it is shown the DQ obtained for the Limit Values set in EU directive for indicative
+measurements.
+
+▪
+
+Availability: is defined as the number of 1 hour averaged samples sent by the device/number of hours in the month.
+
+▪
+
+Results also include the average concentrations (AVG. GC) during the whole tests.
+
+▪
+
+Temporal plots, Scatter plots, DQO plot and Time Variation of the Mean are used to analyze the test results.
+
+▪
+
+Field test main objectives:
+1.
+
+Check the performance of KUNAKAIR V3 device vs. Reference equipment over time, obtaining the statistics
+defined previously during autumn, winter and spring time.
+3
+
+NO
+
+Nitrogen monoxide
+4
+
+Nitrogen Monoxide (NO), Lille (France) - Mar’21 – Jun’21
+
+Kunak AIR Pro 2
+
+R² = 0.97
+Y = 1.1*X – 0.029
+
+Kunak AIR Pro
+1 6
+RENT
+Kunak AIR Pro 1 - NO concentration values (ppb)
+
+Reference Data
+
+Reference Data – NO concentration values (ppb)
+
+Reference Data – NO concentration values (ppb)
+
+Kunak AIR Pro 1
+
+R² = 0.9
+Y = 0.99*X – 0.69
+
+Kunak AIR Pro
+RENT
+2 8
+
+Kunak AIR Pro 2 - NO concentration values (ppb)
+
+5
+
+Nitrogen Monoxide (NO), Lille (France) - Mar’21 – Jun’21
+
+Kunak AIR Pro 1
+
+Kunak AIR Pro 2
+
+Reference Data
+
+Device
+
+R²
+
+Accy.
+(ppb)
+
+90% Conf.
+(ppb)
+
+U(exp)/U(exp) cal
+(<25%)
+
+N > LV
+(160 ppb)
+
+Avg. GC. DUT
+(ppb)
+
+Avg. GC. Ref.
+(ppb)
+
+Kunak AIR Pro 1
+
+0.97
+
+0.79
+
+1.96
+
+17.98%
+
+0
+
+1.80
+
+1.84
+
+Kunak AIR Pro 2
+
+0.90
+
+1.48
+
+4.03
+
+4.54%
+
+0
+
+2.67
+
+1.84
+
+6
+
+NO2
+
+Nitrogen dioxide
+7
+
+Nitrogen Dioxide (NO2), Stockholm (Sweden), Oct’21-Nov’21
+
+Reference Data – NO2 concentration values (ppb)
+
+Kunak AIR Pro 1
+
+Reference Data
+
+R² = 0.83
+Y = 1*X + 3.1
+
+Kunak AIR Pro 1
+
+Kunak AIR Pro 1 - NO2 concentration values (ppb)
+
+8
+
+Nitrogen Dioxide (NO2), Stockholm (Sweden), Oct’21-Nov’21
+
+Kunak AIR Pro 1
+
+Reference Data
+
+Device
+
+R²
+
+Accy.
+(ppb)
+
+90% Conf.
+(ppb)
+
+U(exp)
+(<25%)
+
+N > LV
+(105 ppb)
+
+Avg. GC. DUT
+(ppb)
+
+Avg. GC. Ref.
+(ppb)
+
+Availability
+Ref. / DUT
+
+Kunak AIR Pro 1
+
+0.83
+
+3.89
+
+8.42
+
+15.99%
+
+0
+
+8.37
+
+11.53
+
+100% / 100%
+9
+
+O3
+
+Ozone
+10
+
+Ozone (O3), Barcelona (Spain), Feb’21-Mar’21
+
+Reference Data
+
+Reference Data – O3 concentration values (ppb)
+
+Kunak AIR Pro 1
+
+R² = 0.95
+Y = 1*X + 1.4
+
+Kunak AIR Pro 1
+
+Kunak AIR Pro 1 - O3 concentration values (ppb)
+
+11
+
+Ozone (O3), Barcelona (Spain), Feb’21-Mar’21
+
+Kunak AIR Pro 1
+
+Reference Data
+
+Device
+
+R²
+
+Accy.
+(ppb)
+
+90% Conf.
+(ppb)
+
+U(exp)
+(<25%)
+
+N > LV
+(60 ppb)
+
+Avg. GC. Ref.
+(ppb)
+
+Avg. GC. DUT
+(ppb)
+
+Availability
+Ref. / DUT
+
+Kunak AIR Pro 1
+
+0.95
+
+2.06
+
+4.08
+
+11.66%
+
+0
+
+28.26
+
+26.44
+
+99% / 99%
+
+12
+
+CO
+
+Carbon monoxide
+13
+
+Carbon Monoxide (CO), Mexico City (Mexico), May’19-Aug’ 19
+
+Reference Data – CO concentration values (ppb)
+
+Kunak AIR Pro 1
+
+ReferenceData
+Data
+Reference
+
+R² = 0.95
+Y = 0.92*X + 51
+
+Kunak AIR Pro 1
+
+Kunak AIR Pro 1 - CO concentration values (ppb)
+
+14
+
+Carbon Monoxide (CO), Mexico City (Mexico), May’19-Aug’ 19
+
+Kunak AIR Pro 1
+
+Reference Data
+
+Device
+
+R²
+
+Accy.
+(ppb)
+
+90% Conf.
+(ppb)
+
+U(exp)
+(<25%)
+
+N > LV
+(8733 ppb)
+
+Avg. GC. Ref.
+(ppb)
+
+Avg. GC.
+DUT (ppb)
+
+Availability
+Ref. / DUT
+
+Kunak AIR Pro 1
+
+0.95
+
+45.18
+
+90.20
+
+10.57%
+
+0
+
+456.78
+
+470.19
+
+99.4% / 100%
+15
+
+SO2
+
+Sulphur dioxide
+16
+
+Sulphur dioxide (SO2), Le Havre (France), Jun’23-Jul’23
+
+R² = 0.85
+Y = 1.1*X + 0.99
+
+Kunak AIR Pro 1 – SO2 concentration values (ppb)
+
+Kunak AIR Pro 1
+
+Kunak AIR Pro 2
+Reference Data – SO2 concentration values (ppb)
+
+Reference Data – SO2 concentration values (ppb)
+
+Reference Data
+
+R² = 0.84
+Y = 1*X + 0.49
+
+Kunak AIR Pro 2 – SO2 concentration values (ppb)
+
+17
+
+Sulphur dioxide (SO2), Le Havre (France), Jun’23-Jul’23
+
+Reference Data
+
+Kunak AIR Pro 1
+
+Kunak AIR Pro 2
+
+Device
+
+R²
+
+MAE
+(ppb)
+
+90% Conf.
+(ppb)
+
+Avg. GC. Ref.
+(ppb)
+
+Avg. Gc. DUT
+(ppb)
+
+U(exp)
+(<25%)
+
+N > LV
+(47 ppb)
+
+Kunak AIR Pro 1
+
+0.85
+
+1.46
+
+3.38
+
+2.01
+
+1.45
+
+24.86%
+
+1
+
+Kunak AIR Pro 2
+
+0.84
+
+1.55
+
+3.94
+
+2.01
+
+1.77
+
+5.91%
+
+1
+
+18
+
+H2S
+
+Hydrogen sulphide
+19
+
+Hydrogen Sulphide (H2S), Madrid (Spain), Dec’22-Jan’23
+
+Reference Data – H2S concentration values (ppb)
+
+Reference Data
+
+Kunak AIR Pro
+
+R² = 0.77
+Y = 1.09*X - 5
+
+20
+Kunak AIR Pro – H2S concentration values (ppb)
+
+Hydrogen Sulphide (H2S), Madrid (Spain), Dec’22-Jan’23
+Time variation Kunak AIR Pro and Reference Data: H2S GCC
+
+Kunak AIR Pro 1
+
+Reference Data
+
+Device
+
+R²
+
+MAE
+(ppb)
+
+90% Conf.
+(ppb)
+
+Avg. GC. Ref.
+(ppb)
+
+Avg. Gc. DUT
+(ppb)
+
+U(exp)
+(<25%)
+
+Kunak AIR Pro 1
+
+0.77
+
+6.98
+
+15.07
+
+12.19
+
+15.20
+
+NA
+
+21
+
+PM1
+
+Particulate Matter
+22
+
+Reference Data – PM1 concentration values (µg/m3)
+
+Particles (PM1), Manchester (UK), Jun’21-Jul’21
+R² = 0.92
+Y = 0.82*X + 1.3
+
+Kunak AIR Pro 1
+
+Reference Data – PM1 concentration values (µg/m3)
+
+Kunak AIR Pro 1 – PM1 concentration values (µg/m3)
+
+R² = 0.91
+Y = 0.82*X + 1.2
+
+Kunak AIR Pro 2
+
+Kunak AIR Pro 1
+
+Kunak AIR Pro 2
+
+Kunak AIR Pro 3
+
+Reference Data
+
+Reference Data – PM1 concentration values (µg/m3)
+
+Kunak AIR Pro 2 – PM1 concentration values (µg/m3)
+
+R² = 0.92
+Y = 1.1*X + 1.1
+
+Kunak AIR Pro 3
+
+Kunak AIR Pro 3 – PM1 concentration values (µg/m3)
+
+23
+
+Particles (PM1), Manchester (UK), Jun’21-Jul’21
+
+Kunak AIR Pro 1
+Kunak AIR Pro 3
+
+Kunak AIR Pro 2
+Reference Data
+
+Device
+
+R²
+
+Accy.
+(µg/m3)
+
+90% Conf.
+(µg/m3)
+
+U(exp)
+(<50%)
+
+N > LV
+(15 µg/m3)
+
+Avg. GC. Ref.
+(µg/m3)
+
+Avg. GC. DUT
+(µg/m3)
+
+Availability
+Ref. / DUT
+
+Kunak AIR Pro 1
+
+0.95
+
+2.06
+
+4.08
+
+11.66%
+
+0
+
+28.26
+
+26.44
+
+100% / 100%
+
+Kunak AIR Pro 2
+
+0.91
+
+1.05
+
+2.04
+
+17.64%
+
+1
+
+5.54
+
+4.77
+
+100%/100%
+
+Kunak AIR Pro 3
+
+0.92
+
+1.26
+
+2.40
+
+26.98%
+
+1
+
+5.54
+
+4.36
+
+100%/100%
+
+24
+
+PM2.5
+
+Particulate Matter
+25
+
+Reference Data – PM2.5 concentration values (µg/m3)
+
+Particles (PM2.5), Manchester (UK), Jun’21-Jul’21
+R² = 0.88
+Y = 0.72*X + 2.1
+
+Kunak AIR Pro 1
+
+Reference Data – PM2.5 concentration values (µg/m3)
+
+Kunak AIR Pro 1 – PM2.5 concentration values (µg/m3)
+
+R² = 0.88
+Y = 0.71*X + 2
+
+Kunak AIR Pro 2
+
+Kunak AIR Pro 1
+
+Kunak AIR Pro 2
+
+Kunak AIR Pro 3
+
+Reference Data
+
+Reference Data – PM2.5 concentration values (µg/m3)
+
+Kunak AIR Pro 2 – PM2.5 concentration values (µg/m3)
+
+R² = 0.89
+Y = 0.97*X + 1.8
+
+Kunak AIR Pro 3
+
+Kunak AIR Pro 3 – PM2.5 concentration values (µg/m3)
+
+26
+
+Particles (PM2.5), Manchester (UK), Jun’21-Jul’21
+
+Kunak AIR Pro 1
+Kunak AIR Pro 3
+
+Kunak AIR Pro 2
+Reference Data
+
+Device
+
+R²
+
+Accy.
+(µg/m3)
+
+90% Conf.
+(µg/m3)
+
+U(exp)
+(<50%)
+
+N > LV
+(15 µg/m3)
+
+Avg. GC. Ref.
+(µg/m3)
+
+Avg. GC. DUT
+(µg/m3)
+
+Availability
+Ref. / DUT
+
+Kunak AIR Pro 1
+
+0.88
+
+1.43
+
+2.67
+
+32.89%
+
+0
+
+6.68
+
+5.88
+
+100%/100%
+
+Kunak AIR Pro 2
+
+0.88
+
+1.40
+
+2.52
+
+31.91%
+
+0
+
+6.68
+
+5.93
+
+100%/100%
+
+Kunak AIR Pro 3
+
+0.89
+
+1.46
+
+2.73
+
+21.63%
+
+0
+
+6.68
+
+5.54
+
+100%/100%
+
+27
+
+PM10
+
+Particulate Matter
+28
+
+Reference Data – PM10 concentration values (µg/m3)
+
+Particles (PM10), Manchester (UK), Jun’21-Jul’21
+R² = 0.79
+Y = 0.78*X + 3.4
+
+Kunak AIR Pro 1
+
+Reference Data – PM10 concentration values (µg/m3)
+
+Kunak AIR Pro 1 – PM10 concentration values (µg/m3)
+
+R² = 0.78
+Y = 0.77*X + 3.5
+
+Kunak AIR Pro 2
+
+Kunak AIR Pro 1
+
+Kunak AIR Pro 2
+
+Kunak AIR Pro 3
+
+Reference Data
+
+Reference Data – PM10 concentration values (µg/m3)
+
+Kunak AIR Pro 2 – PM10 concentration values (µg/m3)
+
+R² = 0.78
+Y = 0.88*X + 2.5
+
+Kunak AIR Pro 3
+Kunak AIR Pro 3 – PM10 concentration values (µg/m3)
+
+29
+
+Particles (PM10), Manchester (UK), Jun’21-Jul’21
+
+Kunak AIR Pro 1
+Kunak AIR Pro 3
+
+Kunak AIR Pro 2
+Reference Data
+
+Device
+
+R²
+
+Accy.
+(µg/m3)
+
+90% Conf.
+(µg/m3)
+
+U(exp)
+(<50%)
+
+N > LV
+(15 µg/m3)
+
+Avg. GC. Ref.
+(µg/m3)
+
+Avg. GC. DUT
+(µg/m3)
+
+Availability
+Ref. / DUT
+
+Kunak AIR Pro 1
+
+0.79
+
+2.18
+
+3.99
+
+42.28%
+
+0
+
+10.14
+
+9.13
+
+100%/100%
+
+Kunak AIR Pro 2
+
+0.78
+
+2.21
+
+4.15
+
+42.71%
+
+0
+
+10.14
+
+9.12
+
+100%/100%
+
+Kunak AIR Pro 3
+
+0.78
+
+1.97
+
+3.79
+
+32.28%
+
+0
+
+10.14
+
+9.54
+
+100%/100%
+
+30
+
+Want to know more?
+
++34 848 470 055
+
+www.kunakair.com
+
+contact@kunakair.com
+31
+
+

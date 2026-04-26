@@ -1,0 +1,710 @@
+ith
+W
+
+d!
+te
+da
+Up
+
+w
+ne
+
+S
+U
+
+A
+EP
+
+s
+rt
+po
+Re
+
+Outdoor
+Air Quality
+Sensors
+& Sensor
+Systems
+Selection
+
+5
+2.
+M
+rP
+fo
+
+3
+O
+
+V2.0 April 21
+
+&
+
+An Introduction to
+International
+Standarization,
+Testing & Certifications
+
+You are here
+
+1
+2
+
+3
+
+About the trends
+driving the
+exponential growth.
+And challenges for
+professionals.
+A not exhaustive list of
+Certifications and
+Testing Protocols and
+Programs
+How you too can lead
+this transformation
+
+2021 is the year
+of Suplementary
+Air Quality
+Networks
+Sensor-based Air monitors are
+lower in cost, portable and
+easier to operate than
+regulatory grade monitors.
+They are growing in numbers,
+widely used to understand air
+quality conditions.
+We are talking about NO, NO2,
+O3, CO, H2S, SO2, VOCs, CO2,
+PM10, PM2.5, PM1
+
+#shifthappens
+
+However, there is
+currently no
+regulation for
+these technologies
+These sensors are currently
+entering the market with
+limited information as to their
+repeatability, sensitivity,
+linearity, cross interferences,
+temperature impacts, drift,
+and measurement
+uncertainty as compared
+with the more costly
+instruments typically used by
+entities such as government
+agencies.
+
+Trend #1
+Hybrid Networks
+Citizens claim for
+effective actions, but
+official data is difficult
+to understand.
+Cities look desperately
+for Smart innovations
+that provide more
+spatial and temporal
+resolution.
+In other words
+HYPER-LOCAL
+MONITORING
+
+Trend #2
+Beyond
+Regulatory
+Most developing
+countries cannot
+afford traditional
+technologies.
+They need costeffective monitoring
+solutions to impose
+new regulations.
+
+UNEP is doing a
+terrific job
+
+Trend #3
+This changes
+Everything
+
+The COVID-19
+pandemic defines the
+need to apply an
+environmental and
+sustainable policy
+based on the reduction
+of air pollution levels.
+
+The Utopia
+Cities – Industries – Researcherss
+will make better decissions
+based on Suplementary Systems
+with larger & accurate data
+
+Cost-effective
+Type approval
+Accurate
+Scalable
+Integrable
+New Services
+
+You are here
+T
+
+1
+
+2
+3
+
+Trends driving the
+exponential growth.
+Challenges for
+professionals.
+A not exhaustive list
+of Certifications and
+Testing Protocols and
+Programs
+How you too can lead
+this transformation
+
+So, how do we select
+the Best Sensor
+System?
+
+Well, it depends on the
+Performance Targets
+and Testing Protocols
+But now it´s the best moment to start
+considering what certifications and
+test Programs are out there.
+
+Meet the family
+Hi, I am a sensor!
+
+$5 - $500
+
+We come in different types:
+Electrochemical, Metaloxide,
+Laser Scattering.. I need a
+proper integration to work!
+
+Hi, I am a Sensor
+System, or "Monitor"
+
+$500- $10,000
+
+I integrate the sensors,
+electronics, batteries, modems,
+algorithyms. I am usually
+designed to be deployed in
+scalable networks.
+
+Hi, I am a Webbased Software
+$100- $1,000
+/year
+
+I am here to help: to operate
+the network, agregate and
+validate data, calibrate,
+manage alarms, build reports
+and convert data into
+actionable insights.
+
+What are we benchmarking?
+The most common metrics are:
+
+R2 (R-Squared)
+It represents how well a
+sensor performs in
+comparison to the reference
+instruments.
+R2=1 means the sensor has perfect correlation.
+R2=0 would mean no correlation to a reference
+monitor.
+
+U(exp) (Expanded Uncertainty)
+When using U, we try to demonstrate that the
+measurements uncertainty of the sensor system
+is lower than some Data Quality Objectives
+(DQO) previously stated.
+For example, a device with U(exp) < 25% for
+NO2 would meet the current European Directive
+requirements for Indicative Measurements. This
+is one of the conditions for Class 1 Certification
+under future European specification..
+
+Other metrics and factors
+R2 and U have their limitations. Many other
+metrics and statistics are applied:
+RMSE, Slope of regression line, Intravariability,
+Response time, Calibration, Hysteresis, Limit of
+Detection, Repeatability, Short term drifts,
+Long term drifts, Cross sensitivities,
+Effect of temperature and humidity
+
+Is there Literature?
+The few testing centers with enough lab and
+field equipment are gaining valuable
+expericence. While guidelines and
+specifiations are created in Working Groups.
+But of course there are some papers useful
+as reference. To cite a few:
+
+Karagulian, et al., A. Review of the Performance
+of Low-Cost Sensors for Air Quality Monitoring,
+2019
+VE
+IT
+
+LO
+
+Schneider et al. Toward a Unified Terminology
+of Processing Levels for Low-Cost Air-Quality
+Sensors, 2019
+Nuria Castell et al. Can commercial low-cost
+sensor platforms contribute to air quality
+monitoring and exposure estimates?, 2017
+Hagan, D. H. and Kroll, J. H.: Assessing the
+accuracy of low-cost optical particle sensors
+using a physics-based approach, 2020
+World Meteorological Organization. Lewis et al.
+Low-cost sensors for the measurement of
+atmospheric composition: overview of topic and
+future applications, 2018
+
+Following, a non exhaustive
+list of Certification Programs,
+Testing Facilities, Challenges
+and Guides to continue
+educating yourself.
+
+The Category:
+Non-regulatory Supplemental and
+Informational Monitoring (NSIM)
+
+US EPA Reports
+N
+ew
+Air Sensor Toolbox
+Recomended Testing Protocols for
+PM2.5 and Ozone
+The EPA has developed two reports
+outlining recommended testing
+protocols, metrics, and target values for
+evaluating the performance of fine
+particulate matter (PM2.5) and ozone
+(O3) air sensors. The objective of these
+reports is to provide a consistent
+approach for evaluating air sensors
+specifically for non-regulatory
+supplemental and informational
+monitoring (NSIM) applications for use in
+ambient, outdoor, fixed-site
+environments. The reports are:
+Ozone Report
+Fine Particulate Matter Report
+https://www.epa.gov/air-sensor-toolbox
+
+CEN TC 264 WG 42
+
+Future EU Technical Specification
+A protocol describing specific
+performance requirements and test
+methods under prescribed laboratory
+and field conditions for Gas and PMs.
+Rules for a new Certification Scheme.
+The categories are related to Data
+Quality Objectives of methods set in the
+Directive 2008/50/EC:
+Class 1 sensor system: consistent
+with indicative methods
+Class 2 sensor system: consistent
+with objective estimations methods
+Class 3 sensor system: not formally
+associated with any mandatory target
+https://www.epa.gov/sites/production/files/201908/documents/gerboles_european_union_perspec
+tive_on_sensor_standards.pdf
+
+AQSPEC by AQMD
+
+Air Quality Sensor Performance
+Evaluation Center (AQ-SPEC)
+Not a certification. But provides with
+lots of results under ambient (field)
+and controlled (laboratory) conditions,
+made public, for free.
+Main Goals & Objectives:
+- Evaluate the performance of
+commercially available "low-cost" air
+quality sensors in both field and
+laboratory settings
+- Provide guidance and clarity for everevolving sensor technology and data
+interpretation
+- Catalyze the successful evolution,
+development, and use of sensor
+technology
+http://www.aqmd.gov/aq-spec
+
+A NEW TESTING
+PROTOCOL FOR
+MOBILE
+MEASUREMENTS WAS
+JUST PUBLISHED!
+
+ASTM WK64899
+
+New Practice for Performance
+Evaluation of Ambient Air
+Quality Sensors and Other
+Sensor-Based Instruments
+Not a Certification. This practice
+establishes standardized tests and
+assessment criteria
+American Society for Testing and
+Materials (ASTM) International is an
+organization that develops voluntary
+consensus standards for a variety of
+products and services.
+
+https://www.epa.gov/air-sensor-toolbox/airsensor-performance-targets-and-testingprotocols
+
+Wildland Fire Challenge
+
+Wildland Fire Sensors Challenge
+An evaluation of Sensor systems to
+measure air pollution during wildland
+fires
+This challenge seeked a field-ready
+prototype system capable of measuring
+constituents of smoke, including
+particulates, carbon monoxide, ozone,
+and carbon dioxide, over the wide range
+of levels expected during wildland fires.
+
+Just Published, Atmospheric Environment, 2021:
+Matthew S. Landis, et al.
+The U.S. EPA wildland fire sensor challenge:
+Performance and evaluation of solver submitted
+multi-pollutant sensor systems.
+
+https://www.challenge.gov/challenge/w
+ildland-fire-sensors-challenge/
+
+INERIS/LNE Certification
+
+A Certification of sensors
+system for air quality
+monitoring
+A voluntary certification under "AIR
+Quality Sensor".
+- Division A compliant with the data
+quality objectives (uncertainty, data
+capture) for Indicative Measurement as
+described in the Directive 2008/50/EC.
+- Division B compliant with the data
+quality objectives (uncertainty, data
+capture) for Objective Estimation as
+described in the Directive 2008/50/EC.
+- Division C out of the scope of the
+Directive 2008/50/EC. Sufficient for
+citizen science studies, educational
+action, etc.. defined as Awarness
+Studies
+https://prestations.ineris.fr/en/certificati
+on/certification-sensors-system-airquality-monitoring
+
+VITO Validation Center
+
+Sensor Validation Center
+Voluntary iIndependent determination
+of the performance of sensors and
+sensor-based devices.
+
+Validation under controlled lab
+conditions
+Validation for industrial applications
+Validation for urban applications
+Validation for indoor applications
+Validation for odour monitoring
+applications
+
+https://aqsensors.vito.be/en/sensorvalidation-center
+
+Airlab Challenge
+
+Micro-sensors Challenge
+The clarity provided by AIRLAB’s
+transparent process enable buyers to
+choose devices that best fit their
+needs.
+Over a period of four months, Airparif
+tests the selected devices on 12
+pollutants using no less than 28
+parameters. Each sensor compete in one
+or more category of usage (indoor air,
+outdoor air, static device, mobile device,
+public awareness…) and is evaluated
+according to 5 criteria: Accuracy of
+measurements, ergonomics, relevance of
+the pollutants measured, portability and
+cost. Special attention is given to data
+accessibility. The shortlisted devices are
+assigned a 1-5 star rating.
+
+http://www.airlab.solutions/en/projects/
+microsensor-challenge
+
+The Bluetech Award
+
+Tackling Air Pollution with
+Innovative Clean Air
+Technology
+A uniform, systematic assessment
+methodology to examine all
+technologies for practical, real-life
+results
+
+Advanced pollution source and air quality
+monitoring:
+- Ambient and indoor air quality
+monitoring technologies.
+- Pollution source monitoring
+technologies, such as online VOCs
+monitoring devices, portable devices.
+
+http://en.bluetechaward.com/
+
+MCERTs for PMs
+
+IMCERTS Performance
+Standards for Indicative
+Ambient Particulate Monitors
+The MCERTS certification scheme
+was established by the UK's
+Environment Agency and is built
+around international and European
+standards to ensure high-quality
+environmental data monitoring.
+The indicative dust monitoring analyser(s) can be
+operated in one of two ways:
+For qualitative measurements: Providing qualitative
+measurement data for the analysis of particulate
+pollution trends, and source identification studies based
+for example on pollution roses etc. Such
+application can rely on instrument factory calibration
+only.
+For quantitative measurements: Providing measurement
+data with the uncertainty defined for
+indicative instruments (±50%), as specified by the Air
+Quality Directive (2008).
+
+https://www.csagroupuk.org/services/m
+certs/
+
+The Lima Resolution
+
+Guidelines for the
+performance evaluation of
+low-cost sensors for Ambient
+Air Quality Monitoring
+A set of metrics and Data Quality
+Objectives to test sensor & sensor
+systems, so that the data can be
+agregated to the analysis, together
+with data from egulatory networks.
+
+http://smia.munlima.gob.pe/normas/det
+alle/480
+
+Making the Invisible Visible
+
+A guide for mapping
+hyperlocal air ollution to
+drive clean air action
+Not a Certification Program, not a
+protocol, but a guide that provides
+actionable advice on how to design,
+fund, implement, analyze, and
+leverage data from a hyperlocal air
+quality monitoring network, so you
+can develop solutions to improve
+health in your community.
+
+https://www.edf.org/sites/default/files/
+content/making-the-invisible-visible.pdf
+
+Assessing air quality
+through citizen science
+
+Engaging citizens in
+measuring air
+quality using low-cost devices
+The text is partly based on an earlier
+report prepared by the European
+Topic Centre (ETC) on Air Pollution
+and Climate Change Mitigation:
+ETC/ACM report no 2018/21, Low
+cost sensor systems for air quality
+assessment: possibilities and
+challenges.
+
+https://www.eea.europa.eu/publications
+/assessing-air-quality-through-citizensciencef
+
+https://www.eionet.europa.eu/etcs/etcatni/products/etc-atni-reports/etc-acmreport-no-2018-21-low-cost-sensorsystems-for-air-quality-assessmentpossibilities-and-challenges
+
+You are here
+
+1
+
+2
+
+3
+
+Trends driving the
+exponential growth.
+Challenges for
+professionals.
+A not exhaustive list of
+Certifications and
+Testing Protocols and
+Programs
+How you too can
+lead this
+transformation
+
+Ok, let´s take a
+breath
+You saw that.
+The best minds in the
+industry are building
+the blocks for a more
+reasonable adoption.
+
+Yes. It´s still a bit
+confusing.
+But just take the time
+to review those reports,
+and realize that there is
+consistency in the
+results of just a handful
+of manufacturers.
+
+Your Next Steps
+You can lead this movement too, using
+this knowledge in your projects:
+
+0
+
+Ask for tests results
+And don´t buy that device, if it hasn´t
+gone through plenty of field tests. Do
+you know how to interpret them?
+
+1
+
+Ask for certifications
+Too soon, but stay tuned. Btw, if
+you think you need them, you are
+not ready to start this journey yet.
+
+2
+
+Accept 3rd party assesment
+Good strategy to benchmark. Which
+one is a better fit? Do you know how
+to put that in a tender specification?
+
+3
+
+Design your own protocol
+Costly. Do you have the time and
+resources to develop and later apply?
+
+4
+
+Test, using the protocols
+Better. If you have the
+capacity and time, it´s a smart
+move.
+
+The next chapter...?
+I think we need to review some
+real-world Tender Specifications.
+And see how the most thoughtful
+procurement officers are
+implementing these criteria, today.
+Stay Tuned!
+
+Standarization and use of
+Air Quality Sensors
+contributes to the SDGs
+
+Kunak Technologies
+Kunak has just presented
+the new Kunak AIR Pro.
+An evolution of his
+predecessors, it is a
+cost-effective station,
+designed for type
+approval. Scalable,
+accurate and easy to use
+by professionals and
+newbies.
+
+Kunak was awarded
+in the Wildland Fire
+Challenge
+
+Now, join the
+movement to
+improve Air Quality.
+Unreasonably easily.
+Like never before.
+
+What they say
+about Kunak
+“The three sensors showed
+an absolute intra-model
+variability of 0.32 ppb, 0.33
+ppb and 0.002 ppm for O3,
+NO2 and CO
+measurements,
+respectively.”
+“Sensor nodes have very
+small form factor and
+weight that are practical for
+response field
+deployments.”
+Kunak was awarded
+by EPA in the Wildland
+Fire Challenge
+
+“Its very professional design
+provides a large list of
+pollutants (NO2, O3, PM1,
+PM2.5 and PM10)
+and weather parameters.”
+More:
+Best option as a multiparametric air quality
+monitoring system at AQSPEC
+www.kunak.es/en/blog/comparativeassessment-aqspec-field-evaluation-reports/
+
+Do you think we can help you
+manage the Air Quality better?
+
+Get in touch
+Miguel Escribano
+Business Development
+Director
+
+mescribano@kunak.es
+
+Large data is the goal.
+But accurate data is the key.
+
+

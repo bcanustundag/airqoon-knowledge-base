@@ -180,6 +180,13 @@
   },
   "active": "d3000831b1789caa",
   "lastOpenFiles": [
+    "wiki/concepts/competitors.md",
+    "wiki/entities/bettair.md",
+    "wiki/entities/kunak-technologies.md",
+    "wiki/sources/kunak-air-pro-performance-tests.md",
+    "wiki/sources/kunak-standardization-intro.md",
+    "scratch/article2.txt",
+    "scratch/article1.txt",
     "raw/articles/Kunak_AIR_Pro_Datasheet_EN.pdf",
     "raw/articles/Attachment_0-3.pdf",
     "raw/articles/Kunak_Smart_Environment_EN_low.pdf",
@@ -188,9 +195,6 @@
     "raw/articles/PERFORMANCETESTINGPROTOCOLSMETRICSANDTARGETVALUESFORFINEPARTICULATEMATTERAIRSENSORSUSEINAMBIENT-1.PDF",
     "raw/articles/NO2-CO-SO2 SENSOR TARGETS EXTERNAL REPORT_CLEAN 2024021_508 TAGGED.PDF",
     "raw/articles/b7a6f0fc2fd37207330aa809fa5557c0304f80e39f6d3b5d09d3dbaaf6d725a2.pdf",
-    "raw/articles/1a5a8ef68ae3edcafb87c70f9bad47b7e4e1e48bf5a07bb3cb524df1fe445839.pdf",
-    "raw/Quote_20231024.1.JB_Penta_1KunakAirPro.pdf",
-    "raw/PM10 SENSOR TARGETS REPORT CLEAN_20231220 508 TAGGED.PDF",
     "Untitled.canvas",
     "wiki/overview.md",
     "index.md",
@@ -212,10 +216,6 @@
     "log.md",
     "wiki/sources/en17660-1-gaseous-pollutants.md",
     "wiki/sources/en17660-2-particulate-matter.md",
-    "wiki/sources/en17660-n3553-voting-letter.md",
-    "raw/github_repos/airqoon-ops-engine.md",
-    "raw/articles/notion/pace-projesi.md",
-    "raw/articles/Airqoon-Units-Sensor-Calibration.md",
-    "raw/articles/Field-Recovery.md"
+    "wiki/sources/en17660-n3553-voting-letter.md"
   ]
 }

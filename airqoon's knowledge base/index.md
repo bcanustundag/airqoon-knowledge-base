@@ -69,6 +69,8 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 | [[wiki/concepts/en17660-standard]] | articles/CEN-TC 264_N3553_Letter_Result_of_voting_prelNWIs_EN17660-1_and_-2_WG42.pdf | 2026-04-23 | CEN voting, prEN 17660-1 & -2 adopted, Decisions 1486/1487 |
 | [[wiki/concepts/en17660-standard]] | articles/CEN:TC 17660-1-2021.pdf | 2026-04-23 | gaseous sensor test protocol, Classes 1-3, DQO, lab+field steps |
 | [[wiki/concepts/en17660-standard]] | articles/CEN:TC 17660-2-2024.pdf | 2026-04-23 | PM sensor test protocol, Classes 1-3, field co-location, RH effects |
+| [[wiki/sources/kunak-standardization-intro]] | articles/1a5a8ef68ae3edcafb87c70f9bad47b7e4e1e48bf5a07bb3cb524df1fe445839.pdf | 2026-04-26 | competitor, kunak, certification, standard |
+| [[wiki/sources/kunak-air-pro-performance-tests]] | articles/b7a6f0fc2fd37207330aa809fa5557c0304f80e39f6d3b5d09d3dbaaf6d725a2.pdf | 2026-04-26 | competitor, kunak, performance testing, field study |
 
 ### Raw files pending source pages (ingested to raw/, not yet summarised)
 
@@ -158,6 +160,8 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 | [[wiki/entities/unit-l]] | Product | Unit L — flagship outdoor sensor unit |
 | [[wiki/entities/airqoon-lens]] | Product | Airqoon Lens — cloud analytics platform + AI module |
 | [[wiki/entities/oizom]] | Company | Oizom — primary competitor (Polludrone) |
+| [[wiki/entities/kunak-technologies]] | Company | Kunak Technologies — prominent competitor, focus on certifications |
+| [[wiki/entities/bettair]] | Company | Bettair — competitor, focus on bundled pricing and certifications |
 
 ---
 
@@ -171,6 +175,7 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 | [[wiki/concepts/clean-air-zones]] | CAZ/LEZ regulatory framework creating monitoring demand |
 | [[wiki/concepts/perimeter-monitoring]] | Industrial fence-line monitoring use case |
 | [[wiki/concepts/en17660-standard]] | EN 17660 standard series — classification, test protocol, Classes 1-3, Directive 2024/2881 implications |
+| [[wiki/concepts/competitors]] | Competitive landscape overview (Oizom, Kunak, Bettair) |
 
 ---
 
@@ -184,5 +189,5 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 
 ---
 
-*Last updated: 2026-04-23 (EN 17660 PDFs ingested)*
+*Last updated: 2026-04-26 (Kunak PDFs ingested)*
 

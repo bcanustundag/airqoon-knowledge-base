@@ -69,6 +69,7 @@ The global trend is toward **denser sensor networks** complementing sparse refer
 - EU regulatory evolution toward accepting indicative data
 - Smart city and digital twin initiatives requiring environmental layers
 - ESG/sustainability reporting requirements (ESRS, EU Taxonomy)
+- Competitors (like [[wiki/entities/kunak-technologies|Kunak]]) are actively using standards compliance (e.g. CEN/TS 17660) as a differentiator to win tenders.
 
 ---
 
