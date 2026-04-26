@@ -11,14 +11,10 @@
             "id": "3520d565ff1f203c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/overview.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "overview"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -194,6 +190,13 @@
   },
   "active": "3520d565ff1f203c",
   "lastOpenFiles": [
+    "raw/github_repos/airqoon-alarm-worker.md",
+    "raw/github_repos/airqoon-sim-feeder.md",
+    "wiki/overview.md",
+    "wiki/sources/airqoon-base-map-external-api.md",
+    "wiki/entities/airqoon.md",
+    "wiki/sources/airqoon-base-map-consumer.md",
+    "wiki/entities/kunak-technologies.md",
     "Unit L.md",
     "log.md",
     "index.md",
@@ -207,10 +210,8 @@
     "scratch/lint_wiki.py",
     "raw/articles/Airqoon-Başlangıç-Kılavuzu-v4.md",
     "scratch/all_readmes.md",
-    "wiki/overview.md",
     "wiki/concepts/competitors.md",
     "wiki/entities/bettair.md",
-    "wiki/entities/kunak-technologies.md",
     "wiki/sources/kunak-air-pro-performance-tests.md",
     "wiki/sources/kunak-standardization-intro.md",
     "scratch/article2.txt",
@@ -220,16 +221,11 @@
     "raw/articles/Kunak_Smart_Environment_EN_low.pdf",
     "raw/articles/Quote_20231024.1.JB_Penta_1KunakAirPro.pdf",
     "raw/articles/PM10 SENSOR TARGETS REPORT CLEAN_20231220 508 TAGGED.PDF",
-    "wiki/entities/airqoon.md",
     "wiki/sources/bettair-faq-mk2.md",
     "wiki/sources/bettair-ficha-tecnica.md",
     "wiki/sources/unit-l-product-sheet-v2-2.md",
     "wiki/sources/unit-l-teknik-foy-v1-2.md",
     "wiki/sources/miniature-teknik-analiz.md",
-    "wiki/concepts/perimeter-monitoring.md",
-    "wiki/concepts/low-cost-air-sensors.md",
-    "wiki/concepts/en17660-standard.md",
-    "wiki/concepts/clean-air-zones.md",
-    "wiki/sources/unit-l-teknik-foy-v1-1.md"
+    "wiki/concepts/perimeter-monitoring.md"
   ]
 }
