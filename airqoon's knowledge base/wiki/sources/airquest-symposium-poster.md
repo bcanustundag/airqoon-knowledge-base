@@ -28,4 +28,4 @@ An invitation poster for the "AirQuest International Symposium: Clean Air for a 
 - **Critique/Review:** Poster lacks EU visibility logos (Interreg, EU emblem, University logos), lacks city/country info ("Zonguldak, Türkiye"), uses generic imagery instead of data-driven tech visuals suitable for Airqoon's perspective, and lacks a QR code for printout purposes.
 
 ## Entities Referenced
-→ [[AirQuest]], [[Interreg BSB]]
+→ AirQuest, Interreg BSB

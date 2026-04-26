@@ -39,5 +39,5 @@ A compilation of co-location field studies showcasing the performance of the Kun
 | **PM₁₀** | Manchester, UK | Jun-Jul '21 | 0.79 | 32.28% (<50% limit) | 15 µg/m³ |
 
 ## Relevance to Airqoon
-- **Benchmarking**: Kunak is achieving <25% uncertainty for key gases and <50% for PM, meeting Class 1 indicative measurement standards under EU Directives. Airqoon's [[Unit L]] needs to match or exceed these R² and uncertainty metrics to remain competitive.
+- **Benchmarking**: Kunak is achieving <25% uncertainty for key gases and <50% for PM, meeting Class 1 indicative measurement standards under EU Directives. Airqoon's [[wiki/entities/unit-l|Unit L]] needs to match or exceed these R² and uncertainty metrics to remain competitive.
 - **Transparency in Marketing**: Publishing raw field co-location data builds massive credibility. Airqoon should structure its own co-location reports similarly (detailing test procedure, stabilization time, lack of post-processing, and clear DQO metrics).

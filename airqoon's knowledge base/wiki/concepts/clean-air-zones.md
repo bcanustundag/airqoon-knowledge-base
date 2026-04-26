@@ -64,4 +64,4 @@ CAZ charges fund: zero-emission buses, vehicle replacement subsidies, hydrogen d
 
 ---
 
-*See also: [[Low-Cost Air Sensors]], Indicative Monitoring, [[wiki/overview]]*
+*See also: [[wiki/concepts/low-cost-air-sensors|Low-Cost Air Sensors]], Indicative Monitoring, [[wiki/overview]]*

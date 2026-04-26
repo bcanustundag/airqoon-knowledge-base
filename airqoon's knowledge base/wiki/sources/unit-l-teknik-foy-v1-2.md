@@ -24,4 +24,4 @@ Updated Turkish technical datasheet (v1.2) for Airqoon Unit L. This version addr
 - **Remaining Issues:** The bottom section containing the device diagram and contact info is still in English ("7 W Solar Panel", "IP34 protection", "Core box", "Address: Marmara University...").
 
 ## Entities Referenced
-→ [[Unit L]], [[Airqoon]]
+→ [[wiki/entities/unit-l|Unit L]], [[Airqoon]]

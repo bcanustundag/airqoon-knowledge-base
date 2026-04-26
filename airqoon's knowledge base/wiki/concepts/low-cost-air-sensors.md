@@ -84,4 +84,4 @@ Key labs evaluating sensor performance:
 
 ---
 
-*See also: [[Airqoon]], [[Unit L]], [[wiki/concepts/en17660-standard|CEN TS 17660]], Indicative Monitoring*
+*See also: [[Airqoon]], [[wiki/entities/unit-l|Unit L]], [[wiki/concepts/en17660-standard|CEN TS 17660]], Indicative Monitoring*

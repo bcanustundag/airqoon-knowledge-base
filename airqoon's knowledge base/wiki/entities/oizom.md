@@ -73,4 +73,4 @@ Features shared with Airqoon Lens:
 
 ---
 
-*See also: [[Airqoon]], [[Unit L]], [[Airqoon Lens]]*
+*See also: [[Airqoon]], [[wiki/entities/unit-l|Unit L]], [[wiki/entities/airqoon-lens|Airqoon Lens]]*

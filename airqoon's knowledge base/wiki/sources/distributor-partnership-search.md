@@ -41,4 +41,4 @@ Internal business development tracker for finding global distribution partners. 
 3. 2 weeks later: share relevant report/article
 
 ## Entities Referenced
-→ [[Airqoon]], [[Baris Can Ustundag]]
+→ [[Airqoon]], [[wiki/entities/baris-can-ustundag|Baris Can Ustundag]]

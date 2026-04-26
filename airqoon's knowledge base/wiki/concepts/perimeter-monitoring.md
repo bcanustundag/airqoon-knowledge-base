@@ -26,8 +26,8 @@ Perimeter monitoring involves placing multiple sensor units around the fence-lin
 ## How Airqoon Enables It
 
 Airqoon's monitoring system consists of:
-- **Sensor units** (typically [[Unit L]]) mounted at strategic points around the facility perimeter
-- **Cloud platform** ([[Airqoon Lens]]) aggregating data into real-time dashboards, alerts, and reports
+- **Sensor units** (typically [[wiki/entities/unit-l|Unit L]]) mounted at strategic points around the facility perimeter
+- **Cloud platform** ([[wiki/entities/airqoon-lens|Airqoon Lens]]) aggregating data into real-time dashboards, alerts, and reports
 - **AI analysis** providing source attribution, wind-correlated dispersion analysis, and compliance status
 
 ### Airqoon vs Traditional Approach
@@ -65,4 +65,4 @@ Airqoon's monitoring system consists of:
 
 ---
 
-*See also: [[Unit L]], [[Airqoon Lens]], [[Low-Cost Air Sensors]], [[Airqoon]]*
+*See also: [[wiki/entities/unit-l|Unit L]], [[wiki/entities/airqoon-lens|Airqoon Lens]], [[wiki/concepts/low-cost-air-sensors|Low-Cost Air Sensors]], [[Airqoon]]*

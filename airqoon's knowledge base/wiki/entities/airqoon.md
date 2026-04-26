@@ -21,7 +21,7 @@ sources: [product-page.md, unite-l.md, airqoon-vs-oizom-comparison.md, airqoon-l
 | **Type** | Product & Solution Company |
 | **Domain** | Air quality monitoring, environmental data intelligence |
 | **HQ** | Turkey |
-| **Founders** | [[Baris Can Ustundag]] (Co-founder), others unnamed in sources |
+| **Founders** | [[wiki/entities/baris-can-ustundag|Baris Can Ustundag]] (Co-founder), others unnamed in sources |
 | **Active markets** | Turkey (20+ cities), Azerbaijan, Iraq, Egypt (prospecting), Australia (prospecting) |
 | **Website** | airqoon.com |
 
@@ -30,12 +30,12 @@ sources: [product-page.md, unite-l.md, airqoon-vs-oizom-comparison.md, airqoon-l
 ## Product Portfolio
 
 ### Hardware
-- **[[Unit L]]** — Flagship outdoor air quality sensor (3.2 kg, solar-powered, 14-day battery)
+- **[[wiki/entities/unit-l|Unit L]]** — Flagship outdoor air quality sensor (3.2 kg, solar-powered, 14-day battery)
 - **Unit M** — Compact/indoor unit with noise monitoring capabilities
 - **Unit N** — Planned unit (details TBD)
 
 ### Software
-- **[[Airqoon Lens]]** — Customer analytics platform (real-time dashboards, compare mode, reports, alerts, API)
+- **[[wiki/entities/airqoon-lens|Airqoon Lens]]** — Customer analytics platform (real-time dashboards, compare mode, reports, alerts, API)
 - **Airqoon Lens AI** — GenAI-backed monthly assessment reports, pollution source detection, trend analysis
 - **Airqoon Map** — Public-facing real-time air quality map with citizen engagement features
 
@@ -79,4 +79,4 @@ Consulting/enterprise partnerships explored with: Bureau Veritas, DNV, TÜV SÜD
 
 ---
 
-*See also: [[wiki/overview]], [[Unit L]], [[Airqoon Lens]], [[Oizom]]*
+*See also: [[wiki/overview]], [[wiki/entities/unit-l|Unit L]], [[wiki/entities/airqoon-lens|Airqoon Lens]], [[Oizom]]*

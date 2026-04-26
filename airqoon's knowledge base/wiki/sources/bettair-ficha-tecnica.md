@@ -27,4 +27,4 @@ A short technical/promotional leaflet for the Bettair MK2 sensor node.
 - **Competitive Insight:** Bettair leverages Class 1 CEN/TS 17660 certification heavily in its marketing, reinforcing the urgency for Airqoon to formalize its own compliance.
 
 ## Entities Referenced
-→ [[Bettair]], [[CEN/TS 17660-1]]
+→ [[Bettair]], [[wiki/concepts/en17660-standard|CEN/TS 17660-1]]

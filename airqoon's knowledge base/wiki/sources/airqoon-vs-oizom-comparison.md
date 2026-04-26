@@ -21,4 +21,4 @@ Detailed side-by-side comparison of Airqoon Unit L vs Oizom Polludrone covering 
 - 3–5 year TCO advantage positions Airqoon as superior ROI
 
 ## Entities Referenced
-→ [[Airqoon]], [[Unit L]], [[Oizom]], [[Airqoon Lens]]
+→ [[Airqoon]], [[wiki/entities/unit-l|Unit L]], [[Oizom]], [[wiki/entities/airqoon-lens|Airqoon Lens]]

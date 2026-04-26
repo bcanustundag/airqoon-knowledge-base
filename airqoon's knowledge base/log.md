@@ -153,3 +153,10 @@ Updated `index.md` with the new source pages.
 - Created `wiki/entities/bettair.md` to establish the Bettair entity from previously ingested sources.
 - Created `wiki/concepts/competitors.md` to synthesize the competitive landscape, grouping Oizom, Kunak, and Bettair.
 - Updated `index.md` to reflect the new entity and concept pages.
+
+## [2026-04-26] lint | Health check summary
+- Ran a Python-based linting script across all `wiki/` pages to identify broken links and orphan pages.
+- Identified and fixed ~30 auto-fixable broken links caused by case and spacing mismatches (e.g., changing `[[Airqoon Lens]]` to `[[wiki/entities/airqoon-lens|Airqoon Lens]]`).
+- Removed broken links to non-existent concepts (`AirQuest`, `Interreg BSB`) in `wiki/sources/airquest-symposium-poster.md`.
+- Verified that there are **0 orphan pages** in the knowledge base.
+- Knowledge base is highly connected and structurally sound.

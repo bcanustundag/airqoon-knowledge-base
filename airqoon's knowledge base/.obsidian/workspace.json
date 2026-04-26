@@ -11,14 +11,10 @@
             "id": "d3000831b1789caa",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/overview.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "overview"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -194,6 +190,12 @@
   },
   "active": "d3000831b1789caa",
   "lastOpenFiles": [
+    "scratch/fix_links.py",
+    "scratch/lint_wiki2.py",
+    "scratch/lint_wiki.py",
+    "raw/articles/Airqoon-Başlangıç-Kılavuzu-v4.md",
+    "scratch/all_readmes.md",
+    "wiki/overview.md",
     "index.md",
     "Unit L.md",
     "wiki/concepts/competitors.md",
@@ -209,10 +211,7 @@
     "raw/articles/Quote_20231024.1.JB_Penta_1KunakAirPro.pdf",
     "raw/articles/PM10 SENSOR TARGETS REPORT CLEAN_20231220 508 TAGGED.PDF",
     "raw/articles/PERFORMANCETESTINGPROTOCOLSMETRICSANDTARGETVALUESFORFINEPARTICULATEMATTERAIRSENSORSUSEINAMBIENT-1.PDF",
-    "raw/articles/NO2-CO-SO2 SENSOR TARGETS EXTERNAL REPORT_CLEAN 2024021_508 TAGGED.PDF",
-    "raw/articles/b7a6f0fc2fd37207330aa809fa5557c0304f80e39f6d3b5d09d3dbaaf6d725a2.pdf",
     "Untitled.canvas",
-    "wiki/overview.md",
     "wiki/entities/airqoon.md",
     "wiki/sources/bettair-faq-mk2.md",
     "wiki/sources/bettair-ficha-tecnica.md",
@@ -227,9 +226,6 @@
     "wiki/sources/airquest-symposium-poster.md",
     "Baris Can Ustundag.md",
     "CLAUDE.md",
-    "log.md",
-    "wiki/sources/en17660-1-gaseous-pollutants.md",
-    "wiki/sources/en17660-2-particulate-matter.md",
-    "wiki/sources/en17660-n3553-voting-letter.md"
+    "log.md"
   ]
 }

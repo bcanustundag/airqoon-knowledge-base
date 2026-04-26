@@ -31,7 +31,7 @@ Airqoon's solution consists of three pillars:
 
 | Unit | Description | Key Specs |
 |------|-------------|-----------|
-| **[[Unit L]]** | Flagship outdoor sensor | 3.2 kg, solar-powered, 14-day battery backup, 4G/NB-IoT/WiFi, 5-min deployment, −10 °C to +65 °C, IP34 |
+| **[[wiki/entities/unit-l|Unit L]]** | Flagship outdoor sensor | 3.2 kg, solar-powered, 14-day battery backup, 4G/NB-IoT/WiFi, 5-min deployment, −10 °C to +65 °C, IP34 |
 | **Unit M** | Compact/indoor unit | Smaller form factor, 2G/4G connectivity, designed for enclosed or semi-enclosed environments |
 | **Unit N** | *(planned)* | Mentioned in internal docs; details TBD |
 
@@ -43,7 +43,7 @@ Airqoon's solution consists of three pillars:
 
 **Design philosophy:** Modular sensor cartridge system — sensors can be swapped on-site without dismounting the device. Solar-powered with configurable sampling intervals (1–60 min).
 
-### Software — [[Airqoon Lens]] Platform
+### Software — [[wiki/entities/airqoon-lens|Airqoon Lens]] Platform
 
 Customer-facing cloud analytics platform:
 - Real-time data dashboard with live data streaming
@@ -100,7 +100,7 @@ Open-access real-time air quality map:
 ## Key Entities
 
 - **[[Airqoon]]** — the company itself (entity page)
-- **[[Baris Can Ustundag]]** — Co-founder
+- **[[wiki/entities/baris-can-ustundag|Baris Can Ustundag]]** — Co-founder
 - **[[Oizom]]** — primary competitor (Polludrone)
 - **Customers:** Akçansa (cement), EnerjiSA Üretim (energy), Kadıköy Belediyesi, Bursa Büyükşehir Belediyesi, GİSAŞ
 - **Partners/prospects:** HAK Automation (Egypt), Alpha Scientific (Australia), REDA Safe (Saudi Arabia), Codico, Connected IoT, Senseair distributors
@@ -114,10 +114,10 @@ Open-access real-time air quality map:
 
 - Indicative Monitoring — Airqoon's positioning (supplementary/indicative per 2008/50/EC)
 - [[wiki/concepts/en17660-standard|CEN TS 17660]] — EU performance evaluation standard for sensor systems (Parts 1 & 2)
-- [[Low-Cost Air Sensors]] — the broader sensor movement Airqoon belongs to
+- [[wiki/concepts/low-cost-air-sensors|Low-Cost Air Sensors]] — the broader sensor movement Airqoon belongs to
 - [[wiki/concepts/clean-air-zones|Clean Air Zone]] — regulatory concept relevant to city customers
 - Fugitive Emissions — industrial monitoring use case (TS EN 15446)
-- [[Perimeter Monitoring]] — core industrial use case
+- [[wiki/concepts/perimeter-monitoring|Perimeter Monitoring]] — core industrial use case
 - Urban Heat Island — use case for cities
 - Sustainability Reporting — ESRS, EU Taxonomy, ESG reporting drivers
 

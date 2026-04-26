@@ -36,4 +36,4 @@ Technical datasheet (v1.1) for Airqoon Unit L (Sensör Ünitesi L) presented in 
 - **Review/Feedback:** The document contains mixed languages (English diagram labels in a Turkish datasheet), redundant contact info, missing software (Airqoon Lens) integration highlights, and lacks the key CEN/TS 17660 certification highlight.
 
 ## Entities Referenced
-→ [[Unit L]], [[Airqoon]], [[Airqoon Lens]]
+→ [[wiki/entities/unit-l|Unit L]], [[Airqoon]], [[wiki/entities/airqoon-lens|Airqoon Lens]]

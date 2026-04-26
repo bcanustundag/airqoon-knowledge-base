@@ -23,4 +23,4 @@ Updated English technical datasheet (v2.2) for Airqoon Unit L.
 - Content mirrors the Turkish v1.2 datasheet with appropriate English terminology ("Sampling Period", "Enclosure IP34 rated", "Included Components").
 
 ## Entities Referenced
-→ [[Unit L]], [[Airqoon]]
+→ [[wiki/entities/unit-l|Unit L]], [[Airqoon]]
