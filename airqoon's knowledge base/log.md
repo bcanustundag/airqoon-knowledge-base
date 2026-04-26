@@ -160,3 +160,8 @@ Updated `index.md` with the new source pages.
 - Removed broken links to non-existent concepts (`AirQuest`, `Interreg BSB`) in `wiki/sources/airquest-symposium-poster.md`.
 - Verified that there are **0 orphan pages** in the knowledge base.
 - Knowledge base is highly connected and structurally sound.
+
+## [2026-04-26] edit | Created Airqoon Unit L vs Bettair analysis
+- Synthesized technical and strategic information from Unit L and Bettair sources.
+- Created `wiki/analyses/airqoon-vs-bettair.md` to formalize the competitive analysis.
+- Updated `index.md` to index the new analysis page.

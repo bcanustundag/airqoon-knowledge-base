@@ -185,9 +185,8 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 
 | Page | Question / Topic | Date |
 |------|-----------------|------|
-| *(none yet)* | | |
+| [[wiki/analyses/airqoon-vs-bettair]] | Competitive Analysis: Airqoon Unit L vs. Bettair MK2 | 2026-04-26 |
 
 ---
 
-*Last updated: 2026-04-26 (Kunak PDFs ingested)*
-
+*Last updated: 2026-04-26 (Added Airqoon vs Bettair analysis)*
