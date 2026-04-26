@@ -135,6 +135,8 @@ Open-access real-time air quality map:
 
 ## Competitive Landscape
 
+*For a detailed analysis, see the full [[wiki/concepts/competitors|Competitive Landscape]] node.*
+
 ### Airqoon vs [[Oizom]] (Polludrone)
 
 | Dimension           | Airqoon Unit L    | Oizom Polludrone |
@@ -149,6 +151,14 @@ Open-access real-time air quality map:
 | **Temp range**      | −10 to +65 °C     | −20 to +60 °C    |
 
 **Airqoon advantage:** 40–60% cost advantage, superior battery life, faster deployment, public engagement platform, AI analytics. **Oizom advantage:** higher IP protection, wider temperature range, more connectivity options (LoRa, Ethernet, Satellite), UV radiation sensor.
+
+### Airqoon vs [[wiki/entities/kunak-technologies|Kunak]] (Kunak AIR Pro)
+**Kunak's Strategy:** Focuses heavily on "type approval" and rigorous certifications. They publicly share extensive co-location field study results demonstrating high accuracy (R² > 0.85, U(exp) < 25%).
+**Airqoon's Challenge:** Airqoon needs to match Kunak's transparency by publishing its own co-location data and formalizing its CEN/TS 17660 compliance to remain competitive in high-end tenders.
+
+### Airqoon vs [[wiki/entities/bettair|Bettair]] (Bettair MK2)
+**Bettair's Strategy:** Achieved Class 1 CEN/TS 17660-1 accreditation and offers a unique "Zero Maintenance Cost" model. They bundle software subscriptions and EU connectivity into the cost of pre-calibrated replacement cartridges.
+**Airqoon's Challenge:** Airqoon must effectively position its SIM replacement workflow and software ecosystem (Lens/Map) against Bettair's compelling "all-in-one" bundled pricing model, especially in EU markets.
 
 ### Other competitors mentioned in research:
 - **Reference station vendors:** Szutest, Referans Çevre, Junray
@@ -207,4 +217,4 @@ Airqoon builds to **indicative monitoring** standards per 2008/50/EC and is prep
 
 ---
 
-*Sources: 73 raw files (30 Resources Docs + 43 Notion marketing/sales/growth pages) | Last updated: 2026-04-23*
+*Sources: 75 raw files (30 Resources Docs + 45 Notion marketing/sales/growth pages and PDFs) | Last updated: 2026-04-26*
