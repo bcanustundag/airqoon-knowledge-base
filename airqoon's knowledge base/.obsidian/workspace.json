@@ -188,8 +188,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3520d565ff1f203c",
+  "active": "4876613da360b23b",
   "lastOpenFiles": [
+    "Untitled.canvas",
     "wiki/analyses/airqoon-vs-bettair.md",
     "index.md",
     "wiki/entities/unit-l.md",
@@ -206,7 +207,6 @@
     "Baris Can Ustundag.md",
     "59955bbd4e334a669f9b6fbbe238eb6b.md",
     "raw/github_repos/airqoon-autoreporter.md",
-    "Untitled.canvas",
     "scratch/fix_links.py",
     "scratch/lint_wiki2.py",
     "scratch/lint_wiki.py",
@@ -225,7 +225,6 @@
     "raw/articles/PM10 SENSOR TARGETS REPORT CLEAN_20231220 508 TAGGED.PDF",
     "wiki/sources/bettair-faq-mk2.md",
     "wiki/sources/bettair-ficha-tecnica.md",
-    "wiki/sources/unit-l-product-sheet-v2-2.md",
-    "wiki/sources/unit-l-teknik-foy-v1-2.md"
+    "wiki/sources/unit-l-product-sheet-v2-2.md"
   ]
 }
