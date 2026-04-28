@@ -194,6 +194,7 @@
   },
   "active": "e9ffd8675b2bad4e",
   "lastOpenFiles": [
+    "raw/articles/MELTEM_Presentation_1.pptx",
     "raw/articles/BG_REHBER.pdf",
     "raw/articles/airqoon-catalog-preliminary-v5.2.pdf",
     "raw/articles/MA200 MA300 MA350 Quick Start Guide Rev 02 Mar 2024.pdf",
@@ -226,7 +227,6 @@
     "raw/github_repos/airqoon-autoreporter.md",
     "scratch/fix_links.py",
     "scratch/lint_wiki2.py",
-    "scratch/lint_wiki.py",
     "raw/articles/Airqoon-Başlangıç-Kılavuzu-v4.md",
     "wiki/entities/bettair.md",
     "wiki/sources/kunak-air-pro-performance-tests.md",
