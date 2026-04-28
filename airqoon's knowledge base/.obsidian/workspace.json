@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d854b6f388a42aa3",
+        "id": "d299b85d8441b08d",
         "type": "tabs",
         "children": [
           {
-            "id": "3520d565ff1f203c",
+            "id": "e9ffd8675b2bad4e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "wiki/concepts/low-cost-air-sensors.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "low-cost-air-sensors"
             }
           }
         ]
@@ -188,12 +192,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4876613da360b23b",
+  "active": "e9ffd8675b2bad4e",
   "lastOpenFiles": [
-    "Untitled.canvas",
+    "wiki/concepts/perimeter-monitoring.md",
+    "wiki/concepts/en17660-standard.md",
+    "wiki/concepts/competitors.md",
+    "wiki/concepts/clean-air-zones.md",
     "wiki/analyses/airqoon-vs-bettair.md",
+    "scratch/all_readmes.md",
+    "Baris Can Ustundag.md",
+    "CLAUDE.md",
     "index.md",
+    "Unit L.md",
     "wiki/entities/unit-l.md",
+    "Untitled.canvas",
     "raw/github_repos/airqoon-alarm-worker.md",
     "raw/github_repos/airqoon-sim-feeder.md",
     "wiki/overview.md",
@@ -201,18 +213,13 @@
     "wiki/entities/airqoon.md",
     "wiki/sources/airqoon-base-map-consumer.md",
     "wiki/entities/kunak-technologies.md",
-    "Unit L.md",
     "log.md",
-    "CLAUDE.md",
-    "Baris Can Ustundag.md",
     "59955bbd4e334a669f9b6fbbe238eb6b.md",
     "raw/github_repos/airqoon-autoreporter.md",
     "scratch/fix_links.py",
     "scratch/lint_wiki2.py",
     "scratch/lint_wiki.py",
     "raw/articles/Airqoon-Başlangıç-Kılavuzu-v4.md",
-    "scratch/all_readmes.md",
-    "wiki/concepts/competitors.md",
     "wiki/entities/bettair.md",
     "wiki/sources/kunak-air-pro-performance-tests.md",
     "wiki/sources/kunak-standardization-intro.md",
@@ -223,8 +230,6 @@
     "raw/articles/Kunak_Smart_Environment_EN_low.pdf",
     "raw/articles/Quote_20231024.1.JB_Penta_1KunakAirPro.pdf",
     "raw/articles/PM10 SENSOR TARGETS REPORT CLEAN_20231220 508 TAGGED.PDF",
-    "wiki/sources/bettair-faq-mk2.md",
-    "wiki/sources/bettair-ficha-tecnica.md",
-    "wiki/sources/unit-l-product-sheet-v2-2.md"
+    "wiki/sources/bettair-faq-mk2.md"
   ]
 }
