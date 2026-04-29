@@ -71,6 +71,8 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 | [[wiki/concepts/en17660-standard]] | articles/CEN:TC 17660-2-2024.pdf | 2026-04-23 | PM sensor test protocol, Classes 1-3, field co-location, RH effects |
 | [[wiki/sources/kunak-standardization-intro]] | articles/1a5a8ef68ae3edcafb87c70f9bad47b7e4e1e48bf5a07bb3cb524df1fe445839.pdf | 2026-04-26 | competitor, kunak, certification, standard |
 | [[wiki/sources/kunak-air-pro-performance-tests]] | articles/b7a6f0fc2fd37207330aa809fa5557c0304f80e39f6d3b5d09d3dbaaf6d725a2.pdf | 2026-04-26 | competitor, kunak, performance testing, field study |
+| [[wiki/sources/airqoon-catalog-v5-2]] | articles/airqoon-catalog-preliminary-v5.2.pdf | 2026-04-28 | catalog, unit-l, unit-m, unit-n, specs |
+| [[wiki/sources/unit-l-product-sheet-v2-1]] | articles/1-unit-l-product-sheet-en.pdf | 2026-04-28 | product, datasheet, unit-l, specs |
 
 ### Raw files pending source pages (ingested to raw/, not yet summarised)
 
@@ -189,4 +191,4 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 
 ---
 
-*Last updated: 2026-04-26 (Added Airqoon vs Bettair analysis)*
+*Last updated: 2026-04-28 (Ingested Catalog v5.2 & Unit L Product Sheet)*

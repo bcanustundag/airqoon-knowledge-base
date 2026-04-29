@@ -194,6 +194,10 @@
   },
   "active": "e9ffd8675b2bad4e",
   "lastOpenFiles": [
+    "wiki/sources/unit-l-product-sheet-v2-1.md",
+    "wiki/sources/airqoon-catalog-v5-2.md",
+    "scratch/1-unit-l.txt",
+    "scratch/airqoon-catalog.txt",
     "raw/articles/MELTEM_Presentation_1.pptx",
     "raw/articles/BG_REHBER.pdf",
     "raw/articles/airqoon-catalog-preliminary-v5.2.pdf",
@@ -202,7 +206,6 @@
     "raw/articles/1-unit-l-product-sheet-en.pdf",
     "raw/articles/02-2026-Airqoon_Sunum.pdf",
     "raw/articles/OkullardaHavaKirliligi-ELEKTRONİK.pdf",
-    "raw/OkullardaHavaKirliligi-ELEKTRONİK.pdf",
     "wiki/concepts/perimeter-monitoring.md",
     "wiki/concepts/en17660-standard.md",
     "wiki/concepts/competitors.md",
@@ -225,11 +228,8 @@
     "log.md",
     "59955bbd4e334a669f9b6fbbe238eb6b.md",
     "raw/github_repos/airqoon-autoreporter.md",
-    "scratch/fix_links.py",
-    "scratch/lint_wiki2.py",
     "raw/articles/Airqoon-Başlangıç-Kılavuzu-v4.md",
     "wiki/entities/bettair.md",
-    "wiki/sources/kunak-air-pro-performance-tests.md",
-    "wiki/sources/kunak-standardization-intro.md"
+    "wiki/sources/kunak-air-pro-performance-tests.md"
   ]
 }

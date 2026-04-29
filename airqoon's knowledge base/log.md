@@ -165,3 +165,9 @@ Updated `index.md` with the new source pages.
 - Synthesized technical and strategic information from Unit L and Bettair sources.
 - Created `wiki/analyses/airqoon-vs-bettair.md` to formalize the competitive analysis.
 - Updated `index.md` to index the new analysis page.
+
+## [2026-04-28] ingest | Digested Airqoon Catalog and Unit L Product Sheet PDFs
+- Extracted text from `airqoon-catalog-preliminary-v5.2.pdf` and `1-unit-l-product-sheet-en.pdf` using `pdftotext`.
+- Created source page `wiki/sources/airqoon-catalog-v5-2.md` outlining the preliminary catalog for Unit L, Unit M, Unit N, and addons.
+- Created source page `wiki/sources/unit-l-product-sheet-v2-1.md` documenting Unit L specs and packaging options.
+- Updated `index.md` with the new pages.
