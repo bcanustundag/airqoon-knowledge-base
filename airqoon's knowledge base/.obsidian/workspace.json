@@ -11,10 +11,14 @@
             "id": "5c2013b3a812ba92",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "wiki/analyses/airqoon-use-cases.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "airqoon-use-cases"
             }
           }
         ]
