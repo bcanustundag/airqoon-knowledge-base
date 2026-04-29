@@ -176,3 +176,8 @@ Updated `index.md` with the new source pages.
 - Synthesized use case documentation from the entire knowledge base into a single comprehensive analysis.
 - Created `wiki/analyses/airqoon-use-cases.md` detailing the problem, solution, and outcomes for five core use cases.
 - Updated `index.md` to index the new analysis.
+
+## [2026-04-29] edit | Enriched Airqoon Lens Entity
+- Investigated `lens-api` and `lens-ui` documentation to enrich the `airqoon-lens` entity page.
+- Replaced the QA URL with the production URL (`https://lens.airqoon.com`).
+- Detailed the architecture, tech stack (Fastify, Postgres, RabbitMQ, Puppeteer), and core modules (Alarm System, Data Export, Interactive Map, Dashboard Analytics).
