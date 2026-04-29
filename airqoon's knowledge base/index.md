@@ -165,6 +165,14 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 | [[wiki/entities/kunak-technologies]] | Company | Kunak Technologies — prominent competitor, focus on certifications |
 | [[wiki/entities/bettair]] | Company | Bettair — competitor, focus on bundled pricing and certifications |
 
+**Software / Platforms**
+- [[wiki/entities/airqoon-lens]]
+- [[wiki/entities/airqoon-map]]
+
+**Products / Hardware**
+- [[wiki/entities/unit-l]]
+- [[wiki/entities/unit-m]]
+
 ---
 
 ## Concepts

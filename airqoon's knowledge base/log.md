@@ -181,3 +181,9 @@ Updated `index.md` with the new source pages.
 - Investigated `lens-api` and `lens-ui` documentation to enrich the `airqoon-lens` entity page.
 - Replaced the QA URL with the production URL (`https://lens.airqoon.com`).
 - Detailed the architecture, tech stack (Fastify, Postgres, RabbitMQ, Puppeteer), and core modules (Alarm System, Data Export, Interactive Map, Dashboard Analytics).
+
+## [2026-04-29] edit | Enriched Unit L, Created Unit M and Airqoon Map Entities
+- Updated `wiki/entities/unit-l.md` with new specifications from the v5.2 Catalog and v2.1 Product Sheet (e.g., battery size, weight, packaging options).
+- Created `wiki/entities/unit-m.md` outlining the indoor sensor's capabilities, specs, and troubleshooting workflow.
+- Created `wiki/entities/airqoon-map.md` detailing the public map's architecture, IDW heat maps, satellite fire detection, and citizen reporting features.
+- Updated `index.md` to index the new entity pages.

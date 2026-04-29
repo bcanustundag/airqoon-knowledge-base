@@ -5,7 +5,7 @@ entity_type: product
 tags: [airqoon, hardware, sensor, unit-l]
 created: 2026-04-23
 updated: 2026-04-23
-sources: [unite-l.md, airqoon-vs-oizom-comparison.md, product-page.md, Unit-L-Getting-Started-Guide-v3.md, distributor-partnership-search.md]
+sources: [unite-l.md, airqoon-vs-oizom-comparison.md, product-page.md, Unit-L-Getting-Started-Guide-v3.md, distributor-partnership-search.md, unit-l-product-sheet-v2-1.md, airqoon-catalog-v5-2.md]
 ---
 
 # Unit L
@@ -19,14 +19,14 @@ sources: [unite-l.md, airqoon-vs-oizom-comparison.md, product-page.md, Unit-L-Ge
 | Parameter | Value |
 |-----------|-------|
 | **Dimensions** | 35 cm × 25 cm × 18 cm |
-| **Weight** | 3.2 kg (including solar panel) |
+| **Weight** | ~3.2 kg - 3.5 kg (including solar panel) |
 | **Enclosure** | Aluminium; Sensor Box IP34, Core Box IP66 |
 | **Operating temperature** | −10 °C to +65 °C |
 | **Operating humidity** | 10–99% RH |
 | **Expected lifespan** | 5+ years |
-| **Connectivity** | 2G / 4G / NB-IoT / WiFi |
+| **Connectivity** | Cellular 4G/NB-IoT (with 2G fallback) / WiFi |
 | **Power** | Solar panel + 5 V DC adapter option |
-| **Battery** | 3.7 V, 14 Ah, 50 Wh Li-ion pack |
+| **Battery** | 3.7 V, 15.2 Ah Li-ion pack |
 | **Battery backup** | Up to 14 days without solar/mains |
 | **Sampling intervals** | 1, 5, 10, 15, 30, 60 minutes (configurable) |
 | **Deployment time** | ~5 minutes (single technician) |
@@ -36,16 +36,19 @@ sources: [unite-l.md, airqoon-vs-oizom-comparison.md, product-page.md, Unit-L-Ge
 ## Measurement Capabilities
 
 ### Standard Parameters
-- **PM (Standard):** PM1, PM2.5, PM10 total mass concentration
+- **PM (Standard):** PM1, PM2.5, PM10 total mass concentration (r² > 0.9)
 - **PM-Pro (Optional):** Particle size distribution (particle number)
 - **Gases (up to 4 configurable):** NO₂, O₃, SO₂, CO
 - **Meteorological:** Temperature, humidity, barometric pressure
 
-### Optional Add-ons
-- **Gas-Special:** VOC, H₂S measurements
+### Optional Add-ons & Packages
+- **Lite Package:** PM + Environmental sensors only
+- **Gas Packages (Gas-1 to Gas-4):** Configurable up to 4 gases
+- **Gas-Special Package:** Includes VOC, H₂S measurements
 - **CO₂** measurement
 - **Wind:** Speed & direction via professional-grade anemometer
 - **Noise:** Class-1 & Class-2 monitoring (IEC 61672-1:2013)
+- **Extended Solar Power Package (ESP)** for low-sunlight environments
 
 ---
 
