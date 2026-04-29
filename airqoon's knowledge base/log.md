@@ -187,3 +187,8 @@ Updated `index.md` with the new source pages.
 - Created `wiki/entities/unit-m.md` outlining the indoor sensor's capabilities, specs, and troubleshooting workflow.
 - Created `wiki/entities/airqoon-map.md` detailing the public map's architecture, IDW heat maps, satellite fire detection, and citizen reporting features.
 - Updated `index.md` to index the new entity pages.
+
+## [2026-04-29] ingest | Ingested Innovathink ISO Certificates
+- Extracted and digested `İNNOVATHİNK 9001.pdf` and `İNNOVATHİNK 27001.pdf`.
+- Created source pages `wiki/sources/innovathink-iso-9001.md` and `wiki/sources/innovathink-iso-27001.md` documenting the Quality Management and Information Security Management system certificates for Airqoon's parent company.
+- Updated `index.md` to index the new sources.

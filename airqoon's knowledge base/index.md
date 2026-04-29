@@ -73,6 +73,8 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 | [[wiki/sources/kunak-air-pro-performance-tests]] | articles/b7a6f0fc2fd37207330aa809fa5557c0304f80e39f6d3b5d09d3dbaaf6d725a2.pdf | 2026-04-26 | competitor, kunak, performance testing, field study |
 | [[wiki/sources/airqoon-catalog-v5-2]] | articles/airqoon-catalog-preliminary-v5.2.pdf | 2026-04-28 | catalog, unit-l, unit-m, unit-n, specs |
 | [[wiki/sources/unit-l-product-sheet-v2-1]] | articles/1-unit-l-product-sheet-en.pdf | 2026-04-28 | product, datasheet, unit-l, specs |
+| [[wiki/sources/innovathink-iso-9001]] | articles/İNNOVATHİNK 9001.pdf | 2026-04-29 | certificate, iso-9001, quality-management, innovathink |
+| [[wiki/sources/innovathink-iso-27001]] | articles/İNNOVATHİNK 27001.pdf | 2026-04-29 | certificate, iso-27001, information-security, innovathink |
 
 ### Raw files pending source pages (ingested to raw/, not yet summarised)
 
@@ -200,4 +202,4 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 
 ---
 
-*Last updated: 2026-04-29 (Added Airqoon Use Cases Analysis)*
+*Last updated: 2026-04-29 (Ingested ISO 9001 and ISO 27001 Certificates)*
