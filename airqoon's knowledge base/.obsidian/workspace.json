@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d299b85d8441b08d",
+        "id": "9881e1008ec20cef",
         "type": "tabs",
         "children": [
           {
-            "id": "e9ffd8675b2bad4e",
+            "id": "5c2013b3a812ba92",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -188,10 +188,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e9ffd8675b2bad4e",
+  "active": "5c2013b3a812ba92",
   "lastOpenFiles": [
-    "wiki/entities/unit-l.md",
+    "wiki/analyses/airqoon-vs-bettair.md",
+    "wiki/analyses/airqoon-use-cases.md",
+    "wiki/concepts/clean-air-zones.md",
+    "wiki/concepts/competitors.md",
     "wiki/concepts/low-cost-air-sensors.md",
+    "wiki/concepts/perimeter-monitoring.md",
+    "wiki/entities/unit-l.md",
     "wiki/sources/unit-l-product-sheet-v2-1.md",
     "wiki/sources/airqoon-catalog-v5-2.md",
     "scratch/1-unit-l.txt",
@@ -204,11 +209,7 @@
     "raw/articles/1-unit-l-product-sheet-en.pdf",
     "raw/articles/02-2026-Airqoon_Sunum.pdf",
     "raw/articles/OkullardaHavaKirliligi-ELEKTRONİK.pdf",
-    "wiki/concepts/perimeter-monitoring.md",
     "wiki/concepts/en17660-standard.md",
-    "wiki/concepts/competitors.md",
-    "wiki/concepts/clean-air-zones.md",
-    "wiki/analyses/airqoon-vs-bettair.md",
     "scratch/all_readmes.md",
     "Baris Can Ustundag.md",
     "CLAUDE.md",
@@ -225,7 +226,6 @@
     "log.md",
     "59955bbd4e334a669f9b6fbbe238eb6b.md",
     "raw/github_repos/airqoon-autoreporter.md",
-    "raw/articles/Airqoon-Başlangıç-Kılavuzu-v4.md",
-    "wiki/entities/bettair.md"
+    "raw/articles/Airqoon-Başlangıç-Kılavuzu-v4.md"
   ]
 }

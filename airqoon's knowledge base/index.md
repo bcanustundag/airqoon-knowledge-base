@@ -188,7 +188,8 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 | Page | Question / Topic | Date |
 |------|-----------------|------|
 | [[wiki/analyses/airqoon-vs-bettair]] | Competitive Analysis: Airqoon Unit L vs. Bettair MK2 | 2026-04-26 |
+| [[wiki/analyses/airqoon-use-cases]] | Analysis: Airqoon Core Use Cases | 2026-04-29 |
 
 ---
 
-*Last updated: 2026-04-28 (Ingested Catalog v5.2 & Unit L Product Sheet)*
+*Last updated: 2026-04-29 (Added Airqoon Use Cases Analysis)*

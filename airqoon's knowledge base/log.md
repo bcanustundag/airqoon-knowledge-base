@@ -171,3 +171,8 @@ Updated `index.md` with the new source pages.
 - Created source page `wiki/sources/airqoon-catalog-v5-2.md` outlining the preliminary catalog for Unit L, Unit M, Unit N, and addons.
 - Created source page `wiki/sources/unit-l-product-sheet-v2-1.md` documenting Unit L specs and packaging options.
 - Updated `index.md` with the new pages.
+
+## [2026-04-29] edit | Created Airqoon Use Cases Analysis
+- Synthesized use case documentation from the entire knowledge base into a single comprehensive analysis.
+- Created `wiki/analyses/airqoon-use-cases.md` detailing the problem, solution, and outcomes for five core use cases.
+- Updated `index.md` to index the new analysis.
