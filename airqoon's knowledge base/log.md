@@ -203,3 +203,20 @@ Updated `index.md` with the new source pages.
 - Executed `scratch_ingest.py` to extract text and analyze contents.
 - Created `wiki/sources/ulku-alver-sahin-projects.md` to catalog the research papers, ADEP/1001 applications, and GHG sensor specifications (TDLAS CH4).
 - Updated `index.md` to track the new source page.
+
+## [2026-04-30] ingest | Ingested Teknopark Previous Projects (3 folders)
+- Extracted text from all docx files in `raw/articles/Teknopark/` (1st, 2nd, 3rd project folders).
+- Created `wiki/sources/teknopark-previous-projects.md` synthesizing all 4 STB projects:
+  - **070382** — Akıllı Uç Bilişim (Edge Computing) at Marmara Tek
+  - **076102** — IoT Analiz ve Görselleştirme Platformu (evolved into Airqoon Lens)
+  - **085513** — Floresans Tabanlı Gaz Sensörü Mimarisi
+  - **093950** — 4Blocks IoT Donanım Mimarisi at Teknopark İstanbul
+- Documented company evolution timeline: Inovatink → İnovathink → Airqoon
+- Updated `index.md` with the new source page.
+
+## [2026-04-30] edit | Drafted AQ-CertAI Teknopark Project Proposal
+- Created comprehensive "Kavramsal Tasarım ve Ön Analiz Çalışması" for new Teknopark project.
+- Project: **AQ-CertAI** — AI-powered adaptive sensor calibration for CEN/TS 17660 Class 1 certification.
+- Filled all 4 required sections: aims/scope, competitor comparison, R&D methodology, economic projections.
+- Builds on all 4 previous STB projects as natural continuation.
+- Artifact saved to conversation artifacts directory.
