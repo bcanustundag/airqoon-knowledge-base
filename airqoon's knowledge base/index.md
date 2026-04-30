@@ -193,7 +193,12 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 
 ## Analyses
 
-*Comparisons, explorations, and research answers filed from queries.*
+## Analyses & Research
+
+*Synthesized strategic documents and competitive deep-dives.*
+
+- [[wiki/analyses/airqoon-use-cases]] - Analysis of the 5 core Airqoon use cases.
+- [[wiki/analyses/impact-assessment]] - Synthesis of social, health, and environmental impacts of air quality monitoring.
 
 | Page | Question / Topic | Date |
 |------|-----------------|------|
