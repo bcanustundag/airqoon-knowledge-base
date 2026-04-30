@@ -76,6 +76,7 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 | [[wiki/sources/innovathink-iso-9001]] | articles/İNNOVATHİNK 9001.pdf | 2026-04-29 | certificate, iso-9001, quality-management, innovathink |
 | [[wiki/sources/innovathink-iso-27001]] | articles/İNNOVATHİNK 27001.pdf | 2026-04-29 | certificate, iso-27001, information-security, innovathink |
 | [[wiki/sources/ulku-alver-sahin-projects]] | raw/articles/UlkuAlverSahin | 2026-04-30 | academic, projects, ch4, inegol |
+| [[wiki/sources/teknopark-previous-projects]] | raw/articles/Teknopark/* | 2026-04-30 | teknopark, stb, 4blocks, edge-computing, iot, fluorescence |
 
 ### Raw files pending source pages (ingested to raw/, not yet summarised)
 
@@ -206,4 +207,4 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 
 ---
 
-*Last updated: 2026-04-29 (Ingested ISO 9001 and ISO 27001 Certificates)*
+*Last updated: 2026-04-30 (Ingested Teknopark previous projects; drafted AQ-CertAI proposal)*
