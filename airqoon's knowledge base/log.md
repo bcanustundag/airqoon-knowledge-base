@@ -197,3 +197,9 @@ Updated `index.md` with the new source pages.
 - Created `wiki/analyses/impact-assessment.md` synthesizing the social, health, and environmental impacts of Airqoon's air quality monitoring systems.
 - Highlighted topics including CAZ (Clean Air Zones), EPA/DSÖ health standards, AQI public awareness, and IAQ in schools.
 - Updated `index.md` with the new analysis link.
+
+## [2026-04-30] ingest | Ingested Ülkü Alver Şahin Projects from GDrive
+- Copied project directories from Google Drive (`2024-Istanbul-Uni`, `2209b-Tubitak`, `2025-BC-CH4`, `2025-inegol`, `Balikligol`) into `raw/articles/UlkuAlverSahin/`.
+- Executed `scratch_ingest.py` to extract text and analyze contents.
+- Created `wiki/sources/ulku-alver-sahin-projects.md` to catalog the research papers, ADEP/1001 applications, and GHG sensor specifications (TDLAS CH4).
+- Updated `index.md` to track the new source page.

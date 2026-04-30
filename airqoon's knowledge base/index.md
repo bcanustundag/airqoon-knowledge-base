@@ -75,6 +75,7 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 | [[wiki/sources/unit-l-product-sheet-v2-1]] | articles/1-unit-l-product-sheet-en.pdf | 2026-04-28 | product, datasheet, unit-l, specs |
 | [[wiki/sources/innovathink-iso-9001]] | articles/İNNOVATHİNK 9001.pdf | 2026-04-29 | certificate, iso-9001, quality-management, innovathink |
 | [[wiki/sources/innovathink-iso-27001]] | articles/İNNOVATHİNK 27001.pdf | 2026-04-29 | certificate, iso-27001, information-security, innovathink |
+| [[wiki/sources/ulku-alver-sahin-projects]] | raw/articles/UlkuAlverSahin | 2026-04-30 | academic, projects, ch4, inegol |
 
 ### Raw files pending source pages (ingested to raw/, not yet summarised)
 
@@ -190,8 +191,6 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 | [[wiki/concepts/competitors]] | Competitive landscape overview (Oizom, Kunak, Bettair) |
 
 ---
-
-## Analyses
 
 ## Analyses & Research
 
