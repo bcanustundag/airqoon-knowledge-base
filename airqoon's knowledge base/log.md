@@ -192,3 +192,8 @@ Updated `index.md` with the new source pages.
 - Extracted and digested `İNNOVATHİNK 9001.pdf` and `İNNOVATHİNK 27001.pdf`.
 - Created source pages `wiki/sources/innovathink-iso-9001.md` and `wiki/sources/innovathink-iso-27001.md` documenting the Quality Management and Information Security Management system certificates for Airqoon's parent company.
 - Updated `index.md` to index the new sources.
+
+## [2026-04-30] analysis | Airqoon Impact Assessment
+- Created `wiki/analyses/impact-assessment.md` synthesizing the social, health, and environmental impacts of Airqoon's air quality monitoring systems.
+- Highlighted topics including CAZ (Clean Air Zones), EPA/DSÖ health standards, AQI public awareness, and IAQ in schools.
+- Updated `index.md` with the new analysis link.
