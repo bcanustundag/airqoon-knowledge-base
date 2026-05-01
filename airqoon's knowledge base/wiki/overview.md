@@ -29,11 +29,11 @@ Airqoon's solution consists of three pillars:
 
 ### Hardware — Sensor Units
 
-| Unit | Description | Key Specs |
-|------|-------------|-----------|
-| **[[wiki/entities/unit-l|Unit L]]** | Flagship outdoor sensor | 3.2 kg, solar-powered, 14-day battery backup, 4G/NB-IoT/WiFi, 5-min deployment, −10 °C to +65 °C, IP34 |
-| **Unit M** | Compact/indoor unit | Smaller form factor, 2G/4G connectivity, designed for enclosed or semi-enclosed environments |
-| **Unit N** | *(planned)* | Mentioned in internal docs; details TBD |
+| Unit                     | Description         | Key Specs                                                                                    |                                                                                                        |
+| ------------------------ | ------------------- | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| **[[wiki/entities/unit-l | Unit L]]**          | Flagship outdoor sensor                                                                      | 3.2 kg, solar-powered, 14-day battery backup, 4G/NB-IoT/WiFi, 5-min deployment, −10 °C to +65 °C, IP34 |
+| **Unit M**               | Compact/indoor unit | Smaller form factor, 2G/4G connectivity, designed for enclosed or semi-enclosed environments |                                                                                                        |
+| **Unit N**               | *(planned)*         | Mentioned in internal docs; details TBD                                                      |                                                                                                        |
 
 **Measurement parameters:**
 - **Particulate matter:** PM1, PM2.5, PM10 (optical particle counters); optional particle size distribution (PM-Pro)

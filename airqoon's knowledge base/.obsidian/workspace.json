@@ -11,10 +11,14 @@
             "id": "7020bda8110168c8",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "wiki/overview.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "overview"
             }
           }
         ]
@@ -188,8 +192,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4876613da360b23b",
+  "active": "7020bda8110168c8",
   "lastOpenFiles": [
+    "wiki/concepts/en17660-standard.md",
+    "wiki/concepts/competitors.md",
     "2026-04-30.md",
     "Unit L.md",
     "wiki/sources/teknopark-previous-projects.md",
@@ -220,8 +226,6 @@
     "wiki/entities/airqoon-lens.md",
     "wiki/sources/innovathink-iso-27001.md",
     "wiki/concepts/low-cost-air-sensors.md",
-    "wiki/concepts/en17660-standard.md",
-    "wiki/concepts/competitors.md",
     "wiki/concepts/clean-air-zones.md",
     "CLAUDE.md",
     "Baris Can Ustundag.md",
