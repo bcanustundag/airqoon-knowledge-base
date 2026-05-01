@@ -220,3 +220,10 @@ Updated `index.md` with the new source pages.
 - Filled all 4 required sections: aims/scope, competitor comparison, R&D methodology, economic projections.
 - Builds on all 4 previous STB projects as natural continuation.
 - Artifact saved to conversation artifacts directory.
+
+## [2026-05-01] edit | Revised Teknopark Proposal → AQ-Fusion
+- Rewrote proposal based on user feedback: pivot from internal calibration to **sellable product**.
+- New project: **AQ-Fusion** — Data Fusion + Dispersion Modeling Platform.
+- Core R&D: Optimal Interpolation, Gaussian puff models, inverse dispersion, LSTM forecasting.
+- Commercial output: 3 tiered SaaS products (Lens Fusion Kent/Endüstri/OSB).
+- Removed university partnership. Added SKHKKY/HKKD compliance angle for Turkish market.
