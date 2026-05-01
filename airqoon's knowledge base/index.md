@@ -204,7 +204,8 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 |------|-----------------|------|
 | [[wiki/analyses/airqoon-vs-bettair]] | Competitive Analysis: Airqoon Unit L vs. Bettair MK2 | 2026-04-26 |
 | [[wiki/analyses/airqoon-use-cases]] | Analysis: Airqoon Core Use Cases | 2026-04-29 |
+| [[wiki/analyses/teknopark-aq-fusion-proposal]] | Teknopark AQ-Fusion Project Proposal (Kavramsal Tasarım) | 2026-05-01 |
 
 ---
 
-*Last updated: 2026-04-30 (Ingested Teknopark previous projects; drafted AQ-CertAI proposal)*
+*Last updated: 2026-05-01 (Created AQ-Fusion Teknopark proposal as wiki article)*

@@ -227,3 +227,12 @@ Updated `index.md` with the new source pages.
 - Core R&D: Optimal Interpolation, Gaussian puff models, inverse dispersion, LSTM forecasting.
 - Commercial output: 3 tiered SaaS products (Lens Fusion Kent/Endüstri/OSB).
 - Removed university partnership. Added SKHKKY/HKKD compliance angle for Turkish market.
+
+## [2026-05-01] edit | Enriched AQ-Fusion with ÇSED/SKDM/ESRS/TSRS
+- Added SKDM/CBAM (1 Jan 2026 kesin rejim), ÇSED/ESIA (EBRD/IFC), ESRS E2, TSRS Scope 3 angles.
+- New Section 4.5: Regülasyon Kaynaklı Talep Sürücüleri table.
+- Added 5 new standards (SKDM, ESRS, TSRS, IFC PS3, WB EHS) to Section 3.3.
+
+## [2026-05-01] edit | Created AQ-Fusion proposal as wiki article
+- Saved proposal to `wiki/analyses/teknopark-aq-fusion-proposal.md` with proper frontmatter and cross-references.
+- Updated `index.md` with the new analysis page.

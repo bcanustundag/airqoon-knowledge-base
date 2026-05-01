@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/overview.md",
+                "file": "wiki/analyses/teknopark-aq-fusion-proposal.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "overview"
+              "title": "teknopark-aq-fusion-proposal"
             }
           }
         ]
@@ -194,12 +194,14 @@
   },
   "active": "7020bda8110168c8",
   "lastOpenFiles": [
+    "wiki/overview.md",
+    "wiki/analyses/teknopark-aq-fusion-proposal.md",
+    "wiki/analyses/teknopark-aq-fusion-proposal.md.tmp",
     "wiki/concepts/en17660-standard.md",
     "wiki/concepts/competitors.md",
     "wiki/concepts/low-cost-air-sensors.md",
     "wiki/concepts/perimeter-monitoring.md",
     "wiki/concepts/clean-air-zones.md",
-    "wiki/overview.md",
     "2026-04-30.md",
     "Unit L.md",
     "wiki/sources/teknopark-previous-projects.md",
@@ -216,7 +218,6 @@
     "raw/articles/Teknopark/2nd-project/76102 no'lu proje - sonuç raporu revizyon metinleri.docx",
     "raw/articles/Teknopark/2nd-project/76102 no'lu proje - sonuç raporu revizyon metinleri",
     "raw/articles/Teknopark/2nd-project",
-    "raw/articles/Teknopark/1st-project/raporlar/12. Aralık 2021 Rapor.pdf",
     "wiki/entities/baris-can-ustundag.md",
     "index.md",
     "raw/articles/UlkuAlverSahin/2025-BC-CH4/WhatsApp Image 2025-09-16 at 16.06.43.jpeg",
@@ -234,7 +235,6 @@
     "wiki/analyses/airqoon-vs-bettair.md",
     "wiki/entities/bettair.md",
     "wiki/entities/airqoon-map.md",
-    "wiki/entities/unit-m.md",
     "Untitled.canvas"
   ]
 }
