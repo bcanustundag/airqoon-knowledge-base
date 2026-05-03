@@ -15,8 +15,17 @@ sources: ["raw/github_repos/airqoon-base-map-ui.md"]
 ## Description
 A comprehensive air quality monitoring web application that provides real-time environmental data visualization and user interaction capabilities for hyperlocal air pollution management.
 
-## Content Overview
-This repository contains the source code for Airqoon Base Map UI. Further synthesis is required to extract deep architectural details.
+## Role in Architecture
+
+**Layer:** Frontend Applications
+
+Frontend web application for Airqoon Map — the public real-time air quality monitoring interface. Provides hyperlocal pollution visualization, citizen complaint collection, wildfire maps, and custom branded maps for organisations.
+
+## Tech Stack
+
+React, MapLibre GL JS, TypeScript
 
 ## Related Entities
-- [[Airqoon]]
+- [[wiki/sources/airqoon-cloud-architecture|Cloud Architecture]]
+- [[wiki/entities/airqoon-map|Airqoon Map]]
+- [[wiki/entities/airqoon|Airqoon]]

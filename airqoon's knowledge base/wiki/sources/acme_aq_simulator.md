@@ -15,8 +15,16 @@ sources: ["raw/github_repos/acme_aq_simulator.md"]
 ## Description
 Simulates a network of environmental monitoring devices that send realistic telemetry data to ThingsBoard via MQTT. Generates 15+ environmental parameters including air quality, weather, noise, and battery data with location-based adjustments and **realistic time-based oscillations**.
 
-## Content Overview
-This repository contains the source code for Airqoon Environmental Sensor Simulator. Further synthesis is required to extract deep architectural details.
+## Role in Architecture
+
+**Layer:** Internal Tooling
+
+Simulates a network of environmental monitoring devices sending realistic telemetry data to ThingsBoard via MQTT. Generates 15+ environmental parameters including air quality, weather, noise, and battery data with location-based adjustments and realistic time-based oscillations.
+
+## Tech Stack
+
+Python, MQTT, ThingsBoard
 
 ## Related Entities
-- [[Airqoon]]
+- [[wiki/sources/airqoon-cloud-architecture|Cloud Architecture]]
+- [[wiki/entities/airqoon|Airqoon]]

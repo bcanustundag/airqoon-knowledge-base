@@ -15,8 +15,17 @@ sources: ["raw/github_repos/airqoon-widget-ui.md"]
 ## Description
 Lightweight embeddable widget carousel that renders air quality snapshots per device. This UI consumes the Basic Map API and now targets the v2 widgets aggregate endpoint with AQI scheme selection.
 
-## Content Overview
-This repository contains the source code for Airqoon Widget UI. Further synthesis is required to extract deep architectural details.
+## Role in Architecture
+
+**Layer:** Frontend Applications
+
+Lightweight embeddable widget carousel that renders air quality snapshots per device. Consumes the Basic Map API v2 widgets aggregate endpoint with AQI scheme selection. Designed for embedding on 3rd-party websites.
+
+## Tech Stack
+
+React, TypeScript
 
 ## Related Entities
-- [[Airqoon]]
+- [[wiki/sources/airqoon-cloud-architecture|Cloud Architecture]]
+- [[wiki/entities/airqoon-map|Airqoon Map]]
+- [[wiki/entities/airqoon|Airqoon]]

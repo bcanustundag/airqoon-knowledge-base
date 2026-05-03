@@ -15,8 +15,17 @@ sources: ["raw/github_repos/airqoon-su-local-fw.md"]
 ## Description
 **ESP32-based sensor data acquisition system with Modbus RTU interface**
 
-## Content Overview
-This repository contains the source code for Airqoon Sensor Unit Local Firmware. Further synthesis is required to extract deep architectural details.
+## Role in Architecture
+
+**Layer:** Firmware (ESP32)
+
+Local variant of the sensor unit firmware for indoor/development use. Communicates via local network (WiFi) rather than cellular, used for Unit M and development testing.
+
+## Tech Stack
+
+C/C++, ESP-IDF, FreeRTOS, MQTT, WiFi
 
 ## Related Entities
-- [[Airqoon]]
+- [[wiki/sources/airqoon-cloud-architecture|Cloud Architecture]]
+- [[wiki/entities/unit-l|Unit L]]
+- [[wiki/entities/airqoon|Airqoon]]

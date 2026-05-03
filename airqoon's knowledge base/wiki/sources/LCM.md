@@ -15,8 +15,16 @@ sources: ["raw/github_repos/LCM.md"]
 ## Description
 A professional real-time serial data plotting application with modern UI and advanced data analysis features.
 
-## Content Overview
-This repository contains the source code for LCM Serial Data Plotter. Further synthesis is required to extract deep architectural details.
+## Role in Architecture
+
+**Layer:** Internal Tooling
+
+Serial Data Plotter — desktop tool for real-time visualization of serial port data from sensor units during development and debugging. Plots ADC readings, environmental parameters, and firmware diagnostics.
+
+## Tech Stack
+
+Python, PyQt/PySide, Serial
 
 ## Related Entities
-- [[Airqoon]]
+- [[wiki/sources/airqoon-cloud-architecture|Cloud Architecture]]
+- [[wiki/entities/airqoon|Airqoon]]

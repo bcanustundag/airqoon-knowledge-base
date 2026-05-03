@@ -15,8 +15,17 @@ sources: ["raw/github_repos/lens-api.md"]
 ## Description
 An environmental intelligence platform API that provides endpoints for managing markdown reports, device mapping, device comparison, and other environmental data analysis features.
 
-## Content Overview
-This repository contains the source code for Lens API. Further synthesis is required to extract deep architectural details.
+## Role in Architecture
+
+**Layer:** Backend Microservices (K8s)
+
+Environmental intelligence platform API backend for Airqoon Lens. Provides endpoints for managing markdown reports, device mapping, device comparison, zone management, alarm configuration, data export, and AI-powered analysis features.
+
+## Tech Stack
+
+Fastify, Node.js, TypeScript, PostgreSQL, Prisma ORM, RabbitMQ, Puppeteer
 
 ## Related Entities
-- [[Airqoon]]
+- [[wiki/sources/airqoon-cloud-architecture|Cloud Architecture]]
+- [[wiki/entities/airqoon-lens|Airqoon Lens]]
+- [[wiki/entities/airqoon|Airqoon]]

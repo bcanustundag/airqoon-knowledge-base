@@ -15,8 +15,17 @@ sources: ["raw/github_repos/airqoon-data-external-projection.md"]
 ## Description
 ```bash pnpm install pnpm run prisma:generate ```
 
-## Content Overview
-This repository contains the source code for Airqoon Data External Projection. Further synthesis is required to extract deep architectural details.
+## Role in Architecture
+
+**Layer:** Backend Microservices (K8s)
+
+Projects and transforms external station data (e.g., government reference stations) into Airqoon's internal data format for display on the map platform alongside Airqoon's own sensors.
+
+## Tech Stack
+
+Node.js, TypeScript, Prisma ORM
 
 ## Related Entities
-- [[Airqoon]]
+- [[wiki/sources/airqoon-cloud-architecture|Cloud Architecture]]
+- [[wiki/entities/airqoon-map|Airqoon Map]]
+- [[wiki/entities/airqoon|Airqoon]]

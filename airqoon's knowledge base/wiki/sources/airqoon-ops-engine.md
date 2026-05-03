@@ -15,8 +15,16 @@ sources: ["raw/github_repos/airqoon-ops-engine.md"]
 ## Description
 Internal production tracking tool for Airqoon sensor units. Manages batches, components, QR code generation, and assembly workflows backed by Notion.
 
-## Content Overview
-This repository contains the source code for Airqoon Ops Engine. Further synthesis is required to extract deep architectural details.
+## Role in Architecture
+
+**Layer:** Internal Tooling
+
+Operational management tool for batch and component tracking. Integrates with Notion for managing production runs, component inventory, and quality assurance workflows.
+
+## Tech Stack
+
+Node.js, Notion API
 
 ## Related Entities
-- [[Airqoon]]
+- [[wiki/sources/airqoon-cloud-architecture|Cloud Architecture]]
+- [[wiki/entities/airqoon|Airqoon]]

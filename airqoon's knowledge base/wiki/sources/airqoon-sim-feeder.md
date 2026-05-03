@@ -15,8 +15,17 @@ sources: ["raw/github_repos/airqoon-sim-feeder.md"]
 ## Description
 
 
-## Content Overview
-This repository contains the source code for Airqoon SIM Feeder. Further synthesis is required to extract deep architectural details.
+## Role in Architecture
+
+**Layer:** Backend Microservices (K8s)
+
+Manages SIM card provisioning and cellular connectivity lifecycle for field-deployed sensor units (Unit L/M). Handles SIM activation, data plan tracking, and connectivity status monitoring.
+
+## Tech Stack
+
+Node.js
 
 ## Related Entities
-- [[Airqoon]]
+- [[wiki/sources/airqoon-cloud-architecture|Cloud Architecture]]
+- [[wiki/entities/unit-l|Unit L]]
+- [[wiki/entities/airqoon|Airqoon]]

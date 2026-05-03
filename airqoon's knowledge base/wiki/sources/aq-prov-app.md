@@ -15,8 +15,17 @@ sources: ["raw/github_repos/aq-prov-app.md"]
 ## Description
 Flutter application for provisioning Airqoon ESP32 air quality monitoring devices via SoftAP.
 
-## Content Overview
-This repository contains the source code for Airqoon Provisioning App. Further synthesis is required to extract deep architectural details.
+## Role in Architecture
+
+**Layer:** Internal Tooling
+
+Airqoon Provisioning App — used for initial device provisioning, configuration, and registration of new sensor units before field deployment. Handles device identity, ThingsBoard registration, and initial calibration parameters.
+
+## Tech Stack
+
+Node.js / React Native
 
 ## Related Entities
-- [[Airqoon]]
+- [[wiki/sources/airqoon-cloud-architecture|Cloud Architecture]]
+- [[wiki/entities/unit-l|Unit L]]
+- [[wiki/entities/airqoon|Airqoon]]

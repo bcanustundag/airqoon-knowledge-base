@@ -15,8 +15,16 @@ sources: ["raw/github_repos/airqoon-aqi-calculator.md"]
 ## Description
 A Python service for calculating Air Quality Index (AQI) values from environmental monitoring data. The system processes telemetry data from air quality sensors, calculates hourly and rolling averages, and computes AQI values using multiple international standards.
 
-## Content Overview
-This repository contains the source code for Airqoon AQI Calculator. Further synthesis is required to extract deep architectural details.
+## Role in Architecture
+
+**Layer:** Backend Microservices / ThingsBoard Rule Chain
+
+Python service for calculating Air Quality Index (AQI) values from environmental monitoring data. Processes telemetry, calculates hourly and rolling averages, and computes AQI using multiple international standards (US EPA, EU CAQI, Turkish national).
+
+## Tech Stack
+
+Python, PostgreSQL
 
 ## Related Entities
-- [[Airqoon]]
+- [[wiki/sources/airqoon-cloud-architecture|Cloud Architecture]]
+- [[wiki/entities/airqoon|Airqoon]]

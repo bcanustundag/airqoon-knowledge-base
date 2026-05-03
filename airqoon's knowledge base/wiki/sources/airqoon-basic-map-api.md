@@ -15,8 +15,17 @@ sources: ["raw/github_repos/airqoon-basic-map-api.md"]
 ## Description
 Fastify-based REST API for Airqoon's map services with MongoDB backend.
 
-## Content Overview
-This repository contains the source code for Airqoon Basic Map API. Further synthesis is required to extract deep architectural details.
+## Role in Architecture
+
+**Layer:** Backend Microservices (K8s)
+
+Fastify-based REST API for map services. Serves station metadata and widget data. Consumed by widget-ui and base-map-ui for AQI snapshots and device listings.
+
+## Tech Stack
+
+Fastify, Node.js, MongoDB
 
 ## Related Entities
-- [[Airqoon]]
+- [[wiki/sources/airqoon-cloud-architecture|Cloud Architecture]]
+- [[wiki/entities/airqoon-map|Airqoon Map]]
+- [[wiki/entities/airqoon|Airqoon]]

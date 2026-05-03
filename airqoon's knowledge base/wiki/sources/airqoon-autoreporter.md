@@ -15,8 +15,17 @@ sources: ["raw/github_repos/airqoon-autoreporter.md"]
 ## Description
 A CLI tool for generating and scheduling multi-tenant air quality reports using PostgreSQL data and S3 storage. Reports are produced in Turkish or English Markdown.
 
-## Content Overview
-This repository contains the source code for Airqoon Auto Reporter. Further synthesis is required to extract deep architectural details.
+## Role in Architecture
+
+**Layer:** Backend Microservices (K8s)
+
+CLI tool and API for generating multi-tenant air quality reports. Supports monthly, weekly, and single-page reports in Turkish/English Markdown. AI-powered insights via Anthropic Claude. Uploads to S3 and Notion. Scheduled via cron with email notifications (SMTP).
+
+## Tech Stack
+
+Python, PostgreSQL, MongoDB, AWS S3, Anthropic Claude API, SMTP, Notion API
 
 ## Related Entities
-- [[Airqoon]]
+- [[wiki/sources/airqoon-cloud-architecture|Cloud Architecture]]
+- [[wiki/entities/airqoon-lens|Airqoon Lens]]
+- [[wiki/entities/airqoon|Airqoon]]

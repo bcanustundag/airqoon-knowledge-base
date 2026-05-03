@@ -15,8 +15,16 @@ sources: ["raw/github_repos/cal-app.md"]
 ## Description
 This repository contains a modular Streamlit application for calibrating low‑cost air quality sensors using reference station data. The app helps you:
 
-## Content Overview
-This repository contains the source code for 🌍 Air Quality Sensor Calibration System. Further synthesis is required to extract deep architectural details.
+## Role in Architecture
+
+**Layer:** Internal Tooling
+
+Streamlit-based calibration application for sensor data analysis and calibration parameter tuning. Provides interactive visualization of sensor vs reference data.
+
+## Tech Stack
+
+Python, Streamlit
 
 ## Related Entities
-- [[Airqoon]]
+- [[wiki/sources/airqoon-cloud-architecture|Cloud Architecture]]
+- [[wiki/entities/airqoon|Airqoon]]

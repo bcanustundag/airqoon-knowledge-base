@@ -15,8 +15,17 @@ sources: ["raw/github_repos/airqoon-base-map-tile-server.md"]
 ## Description
 Vector tile server for Airqoon air quality monitoring map. Serves Mapbox Vector Tiles (MVT) in Protocol Buffer format (.pbf) for efficient map rendering.
 
-## Content Overview
-This repository contains the source code for Airqoon Base Map Tile Server. Further synthesis is required to extract deep architectural details.
+## Role in Architecture
+
+**Layer:** Backend Microservices (K8s)
+
+Vector tile server rendering Mapbox Vector Tiles (.pbf) for efficient map rendering. Enables spatial data loading (only visible area), smooth pan/zoom without refetching, and automatic clustering at different zoom levels.
+
+## Tech Stack
+
+Node.js, Protocol Buffers, MapLibre GL JS, MongoDB
 
 ## Related Entities
-- [[Airqoon]]
+- [[wiki/sources/airqoon-cloud-architecture|Cloud Architecture]]
+- [[wiki/entities/airqoon-map|Airqoon Map]]
+- [[wiki/entities/airqoon|Airqoon]]
