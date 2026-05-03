@@ -251,3 +251,8 @@ Updated `index.md` with the new source pages.
 - Each page now has: Role in Architecture, Tech Stack, and cross-references to Cloud Architecture page + relevant entity pages (Airqoon Map, Airqoon Lens, Unit L).
 - This connects previously orphaned graph nodes to the architecture document.
 - Pages updated: base-map-consumer, base-map-external-api, base-map-tile-server, base-map-ui, basic-map-api, widget-ui, data-external-projection, sim-feeder, alarm-worker, autoreporter, aqi-calculator, lens-api, lens-ui, acme_aq_simulator, AirqoonCalibrationToolBackend, cal-app, LCF, LCM, airqoon-su-fw, airqoon-su-local-fw, airqoon-ops-engine, airqoon-brief, aq-prov-app.
+
+## [2026-05-03] edit | Merged raw/github_repos into wiki/sources
+- Deleted 23 raw markdown files from `raw/github_repos/` — their content was already absorbed into the enhanced wiki/sources pages.
+- Updated frontmatter `sources` field in all 23 wiki pages to remove broken `raw/github_repos/` references.
+- This eliminates duplicate orphan nodes in Obsidian graph view.

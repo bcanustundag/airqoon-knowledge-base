@@ -21,7 +21,10 @@ sources: [airqoon-lens.md, product-page.md, airqoon-vs-oizom-comparison.md, airq
 Airqoon Lens transforms raw sensor data into actionable environmental intelligence. It features advanced time-based map visualizations, comprehensive data export capabilities, advanced reporting tools with markdown editing and PDF export, and a complete alarm system for real-time monitoring.
 
 ## Architecture & Tech Stack
-The platform is divided into a frontend Enterprise Dashboard (`lens-ui`) and a robust backend (`lens-api`):
+
+> Full architecture: [[wiki/sources/airqoon-cloud-architecture|Cloud Architecture]]
+
+The platform is divided into a frontend Enterprise Dashboard ([[wiki/sources/lens-ui|lens-ui]]) and a robust backend ([[wiki/sources/lens-api|lens-api]]):
 - **Backend:** Node.js, Fastify, TypeScript, PostgreSQL (for structured data and Markdown reports), MongoDB (for telemetry/weather caching).
 - **Background Processing:** RabbitMQ for asynchronous data export jobs.
 - **Document Generation:** Puppeteer for server-side PDF generation of reports.

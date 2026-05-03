@@ -16,9 +16,18 @@ sources: [airqoon-base-map-ui.md, airqoon-base-map-consumer.md]
 
 ## Architecture & Tech Stack
 
-- **Frontend (Base Map UI):** React 18.2.0 + TypeScript, built with Vite. Uses Redux Toolkit, SCSS, Leaflet 1.9.4 for maps, and Recharts for data visualization. Available as a Dockerized container.
-- **Backend (Base Map Consumer):** Node.js backend service that synchronizes telemetry data from IoT devices. Integrates with AWS SQS, RabbitMQ, MongoDB, and the Airqoon Weather Service.
-- **APIs:** Supports both v1 and v2 API endpoints with automatic error handling, retry logic, and maintenance page fallbacks.
+> Full architecture: [[wiki/sources/airqoon-cloud-architecture|Cloud Architecture]]
+
+| Layer | Service | Role |
+|-------|---------|------|
+| **Frontend** | [[wiki/sources/airqoon-base-map-ui|base-map-ui]] | React + Vite + Leaflet/MapLibre — public map interface |
+| **API** | [[wiki/sources/airqoon-base-map-external-api|base-map-external-api]] | Fastify REST API — devices, telemetry, AQI, tenants |
+| **API** | [[wiki/sources/airqoon-basic-map-api|basic-map-api]] | Fastify REST API — station metadata, widget data |
+| **Backend** | [[wiki/sources/airqoon-base-map-consumer|base-map-consumer]] | Data consumer — SQS/RabbitMQ → MongoDB, AQI calc, weather sync, MODIS fire data |
+| **Backend** | [[wiki/sources/airqoon-data-external-projection|data-external-projection]] | Transforms external (gov) station data into internal format |
+| **Backend** | [[wiki/sources/airqoon-base-map-tile-server|base-map-tile-server]] | Vector tile server (.pbf) for efficient spatial rendering |
+| **Embeddable** | [[wiki/sources/airqoon-widget-ui|widget-ui]] | Lightweight AQI widget carousel for 3rd-party sites |
+| **Database** | MongoDB | Telemetry snapshots, station configs, external stations |
 
 ---
 
@@ -37,4 +46,4 @@ sources: [airqoon-base-map-ui.md, airqoon-base-map-consumer.md]
 
 ---
 
-*See also: [[Airqoon]], [[wiki/entities/airqoon-lens|Airqoon Lens]], [[wiki/entities/unit-l|Unit L]]*
+*See also: [[Airqoon]], [[wiki/entities/airqoon-lens|Airqoon Lens]], [[wiki/entities/unit-l|Unit L]], [[wiki/sources/airqoon-cloud-architecture|Cloud Architecture]]*
