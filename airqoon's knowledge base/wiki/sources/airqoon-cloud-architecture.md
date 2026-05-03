@@ -16,8 +16,7 @@ related:
 
 This document synthesises the full cloud backend architecture from the company's internal architecture diagram, enriched with details from repository documentation and engineering notes.
 
-![Airqoon Cloud Architecture Diagram (original)](
-obsidian://open?vault=airqoon's%20knowledge%20base&file=raw%2Fassets%2Fairqoon-cloud-architecture-diagram.jpg))
+![Airqoon Cloud Architecture Diagram (original)|697](raw/assets/airqoon-cloud-architecture-diagram.jpg)
 
 ---
 

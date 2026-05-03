@@ -3,8 +3,8 @@ title: "Airqoon — Overview"
 type: overview
 tags: [airqoon, overview]
 created: 2026-04-22
-updated: 2026-04-23
-sources: [Use-Cases.md, Certificates-&-Standards-&-Technical-Specifications.md, Target-Sectors.md, product-page.md, airqoon-vs-oizom-comparison.md, airqoon-lens.md, unite-l.md, customer-success-scenarios.md, distributor-partnership-search.md, outbound-marketing-linkedin-templates.md, Kullanım-Alanları.md, Unit-L-Getting-Started-Guide-v3.md, Unit-M-Maintenance-Manual.md, pace-projesi.md, satis-arastirma.md, clean-air-zone-caz.md, pace_047_logframe.md]
+updated: 2026-05-03
+sources: [Use-Cases.md, Certificates-&-Standards-&-Technical-Specifications.md, Target-Sectors.md, product-page.md, airqoon-vs-oizom-comparison.md, airqoon-lens.md, unite-l.md, customer-success-scenarios.md, distributor-partnership-search.md, outbound-marketing-linkedin-templates.md, Kulım-Alanları.md, Unit-L-Getting-Started-Guide-v3.md, Unit-M-Maintenance-Manual.md, pace-projesi.md, satis-arastirma.md, clean-air-zone-caz.md, pace_047_logframe.md, claude-business-project-memory.md]
 ---
 
 # Airqoon — Overview
@@ -15,9 +15,9 @@ sources: [Use-Cases.md, Certificates-&-Standards-&-Technical-Specifications.md, 
 
 ## What is Airqoon?
 
-**Airqoon** is a Turkish air quality monitoring and management company that provides **low-cost, continuous, real-time environmental intelligence** to enterprises, cities, and institutions. The company positions itself as a "product & solution company" delivering an integrated ecosystem of hardware sensors, cloud analytics, and AI-powered reporting.
+**[[wiki/entities/airqoon|Airqoon]]** (operating under İNNOVATHİNK MÜHENDİSLİK SANAYİ VE TİCARET A.Ş.) is a Turkish environmental monitoring company delivering **low-cost, continuous, real-time environmental intelligence** to enterprises, cities, and institutions. The company provides an integrated ecosystem of hardware sensors, cloud analytics (Lens), public maps, and AI-powered reporting.
 
-Founded in Turkey, Airqoon has deployed sensors in **20+ cities and industrial sites** across Turkey and is expanding internationally — targeting markets in the EU, Eastern Europe, the Middle East (Azerbaijan, Iraq), North Africa (Egypt), Australia, and beyond.
+Founded in Istanbul (~2018, as Inovatink → İnovathink → Airqoon), the company has deployed **200+ sensor nodes across 30+ cities in 5+ countries** (Turkey, Azerbaijan, Iraq, and prospecting in Egypt, Australia, EU). Headquartered at Marmara Üniversitesi Teknoloji Geliştirme Bölgesi, Maltepe, Istanbul. Holds **Teknopark status** (zero corporate tax) and ISO 9001:2015 / ISO 27001:2022 certifications.
 
 **Core value proposition:** Make air quality monitoring **accessible, affordable, and actionable** — filling the gap between expensive reference stations and the need for dense, real-time spatial coverage.
 
@@ -56,11 +56,14 @@ Customer-facing cloud analytics platform:
 - On-premise deployment option for security-sensitive clients
 
 **Backend Services:**
-- **[[lens-api]]**: Core environmental intelligence REST API providing endpoints for device mapping, report management, and device comparisons.
-- **[[lens-ui]]**: The enterprise dashboard frontend (React/TypeScript).
-- **lens-mcp**: Model Context Protocol (MCP) server for Lens.
-- **[[airqoon-alarm-worker]]**: Python async service listening to RabbitMQ streams to evaluate alarm configurations.
-- **[[airqoon-autoreporter]]**: CLI tool generating multi-tenant air quality reports using PostgreSQL and S3.
+
+> Full backend architecture: [[wiki/sources/airqoon-cloud-architecture|Cloud Architecture]]
+
+- **[[wiki/sources/lens-api|lens-api]]**: Core environmental intelligence REST API (Fastify, PostgreSQL, RabbitMQ).
+- **[[wiki/sources/lens-ui|lens-ui]]**: Enterprise dashboard frontend (React/TypeScript).
+- **lens-mcp**: Model Context Protocol (MCP) server for Lens AI.
+- **[[wiki/sources/airqoon-alarm-worker|alarm-worker]]**: Python async service — RabbitMQ streams → alarm evaluation → notifications.
+- **[[wiki/sources/airqoon-autoreporter|auto-reporter]]**: Multi-tenant report generator (Python, PostgreSQL, S3, Anthropic Claude).
 
 ### Software — Airqoon Lens AI
 
@@ -82,31 +85,38 @@ Open-access real-time air quality map:
 - Mobile-friendly interface
 
 **Backend Services:**
-- **[[airqoon-base-map-consumer]]**: Node.js backend consuming, processing, and syncing telemetry data from IoT devices.
-- **[[airqoon-base-map-external-api]]**: High-performance REST API aggregating sensor data.
-- **[[airqoon-base-map-tile-server]]**: Vector tile server rendering Mapbox Vector Tiles (.pbf) for map rendering.
-- **[[airqoon-basic-map-api]]**: Fastify-based REST API with MongoDB backend.
-- **[[airqoon-base-map-ui]]**: Frontend web application.
+- **[[wiki/sources/airqoon-base-map-consumer|base-map-consumer]]**: Node.js — SQS/RabbitMQ telemetry consumer, AQI calc, weather sync, MODIS fire data.
+- **[[wiki/sources/airqoon-base-map-external-api|base-map-external-api]]**: Fastify REST API — devices, telemetry, AQI, multi-tenant access.
+- **[[wiki/sources/airqoon-base-map-tile-server|base-map-tile-server]]**: Vector tile server (.pbf) for spatial map rendering.
+- **[[wiki/sources/airqoon-basic-map-api|basic-map-api]]**: Fastify REST API — station metadata, widget data.
+- **[[wiki/sources/airqoon-data-external-projection|data-external-projection]]**: Transforms external (gov) station data into internal format.
+- **[[wiki/sources/airqoon-base-map-ui|base-map-ui]]**: React frontend — MapLibre GL JS, heatmaps, device markers.
+- **[[wiki/sources/airqoon-widget-ui|widget-ui]]**: Embeddable AQI widget carousel for 3rd-party sites.
 
 ### Internal Tooling & Firmware
 
-- **Firmware:** ESP32-based firmware using FreeRTOS for multi-tasking (reading ADS7828 ADCs and BME280 sensors), outputting via UART and MQTT (ThingsBoard). Repos include `airqoon-su-fw`, `airqoon-su-local-fw`, and `LCF`.
-- **Calibration Tooling:** `AirqoonCalibrationToolBackend` (Qoonify) integrating with IBB (Istanbul Metropolitan Municipality) APIs and ThingsBoard, `cal-app` (Streamlit app), `LCM` (Serial Data Plotter).
-- **Operations:** `airqoon-ops-engine` for batch and component tracking via Notion.
-- **Simulator:** `acme_aq_simulator` mimicking telemetry (e.g. realistic NO2/Ozone oscillations) to ThingsBoard over MQTT.
+- **Firmware:** ESP32-based, FreeRTOS, MQTT/TLS port 8883. Repos: [[wiki/sources/airqoon-su-fw|airqoon-su-fw]], [[wiki/sources/airqoon-su-local-fw|airqoon-su-local-fw]], [[wiki/sources/LCF|LCF]].
+- **Calibration Tooling:** [[wiki/sources/AirqoonCalibrationToolBackend|Qoonify]] (IBB + ThingsBoard integration), [[wiki/sources/cal-app|cal-app]] (Streamlit), [[wiki/sources/LCM|LCM]] (Serial Data Plotter).
+- **Operations:** [[wiki/sources/airqoon-ops-engine|airqoon-ops-engine]] for batch/component tracking via Notion.
+- **Simulator:** [[wiki/sources/acme_aq_simulator|acme_aq_simulator]] — realistic telemetry to ThingsBoard over MQTT.
+- **Provisioning:** [[wiki/sources/aq-prov-app|aq-prov-app]] — device registration and initial configuration.
 
 ---
 
 ## Key Entities
 
-- **[[Airqoon]]** — the company itself (entity page)
-- **[[wiki/entities/baris-can-ustundag|Baris Can Ustundag]]** — Co-founder
-- **[[Oizom]]** — primary competitor (Polludrone)
-- **Customers:** Akçansa (cement), EnerjiSA Üretim (energy), Kadıköy Belediyesi, Bursa Büyükşehir Belediyesi, GİSAŞ
-- **Partners/prospects:** HAK Automation (Egypt), Alpha Scientific (Australia), REDA Safe (Saudi Arabia), Codico, Connected IoT, Senseair distributors
-- **Standards bodies:** CEN TC 264, EPA, WMO, BSI (PAS 4023)
-- **Projects:** [[wiki/sources/pace-projesi|PACE Projesi]] ("Clean Air Hatay" - EU/GIZ funded, earthquake zone recovery with 10 pilot schools, indoor/outdoor networks, and metagenomic dust analysis), GEFF Turkey
-- **Research & Case Studies:** İnegöl PM Assessment (OIZ influence, ASIC2026), Eastern Anatolia Observatory, Kahramanmaraş Earthquake monitoring, "Clean Air Hatay" post-earthquake metagenomic dust analysis (planned 2027).
+- **[[wiki/entities/airqoon|Airqoon]]** — the company itself
+- **[[wiki/entities/baris-can-ustundag|Barış Can Üstündağ]]** — Co-founder & CEO
+- **Team:** Orhun Hazneci (technical/ops), Gülkan Güner (support/service)
+- **Municipal clients:** Bursa Büyükşehir, Denizli, Kadıköy, Mudanya, İnegöl, Avcılar belediyeleri
+- **Industrial clients:** Akçansa (cement), Oyak Çimento, Çimsa, Çimentaş, TÜPRAŞ, Enerjisa Üretim, GİSAŞ
+- **Competitors:** [[wiki/entities/oizom|Oizom]], [[wiki/entities/bettair|Bettair]], [[wiki/entities/kunak-technologies|Kunak]], Clarity Movement, Envirosuite
+- **Partners/prospects:** HAK Automation (Egypt), Alpha Scientific (Australia), REDA Safe (Saudi Arabia), Codico, Connected IoT, BCN Smart Tech (Malaysia)
+- **Academic partners:** Prof. Dr. Ülkü Alver Şahin (İÜ-Cerrahpaşa), Prof. Fatma Öztürk (Boğaziçi/MELTEM), Assoc. Prof. Burçak Kaynak Tezel (İTÜ)
+- **Standards bodies:** CEN TC 264 (Nicole Perschau at VDI/DIN), EPA, WMO, BSI (PAS 4023), VITO (Martine Van Poppel)
+- **Projects:** [[wiki/sources/pace-projesi|PACE Projesi]] (EU/GIZ "Clean Air Hatay"), [[wiki/analyses/teknopark-aq-fusion-proposal|AQ-Fusion]] (Teknopark R&D), MELTEM (TÜBİTAK-GSRI), GEFF Turkey
+- **R&D history:** [[wiki/sources/teknopark-previous-projects|4 completed STB projects]] (070382, 076102, 085513, 093950)
+- **Research:** [[wiki/sources/inegol_pm_presentation|İnegöl PM Assessment]] (ASIC 2026), Eastern Anatolia Observatory, "Clean Air Hatay" metagenomic dust analysis
 
 ---
 
@@ -119,7 +129,9 @@ Open-access real-time air quality map:
 - Fugitive Emissions — industrial monitoring use case (TS EN 15446)
 - [[wiki/concepts/perimeter-monitoring|Perimeter Monitoring]] — core industrial use case
 - Urban Heat Island — use case for cities
-- Sustainability Reporting — ESRS, EU Taxonomy, ESG reporting drivers
+- Sustainability Reporting — ESRS E1/E2 (pollution), TSRS 1/2 (KGK), EU Taxonomy
+- SKDM / CBAM — Carbon Border Adjustment Mechanism (cement, steel exporters)
+- ÇSED / ESIA — Environmental and Social Impact Assessment (EBRD/IFC funded projects)
 
 ---
 
@@ -185,9 +197,12 @@ Open-access real-time air quality map:
 Airqoon builds to **indicative monitoring** standards per 2008/50/EC and is preparing units for **CEN TS 17660** certification.
 
 ### Turkish Regulatory Context
-- Çevre Şehircilik Bakanlığı sets national air quality regulations
+- Çevre Şehircilik Bakanlığı sets national air quality regulations (SKHKKY, HKDYY)
 - İl Müdürlükleri conduct enforcement/inspection
+- SKDM/CBAM: Since 1 Jan 2026, Turkish cement/steel/aluminium exporters must report and pay for embedded carbon emissions to EU
+- TSRS 1/2 (KGK): Turkish Sustainability Reporting Standards — Scope 1/2/3 GHG emissions, aligned with ISSB IFRS S1/S2
 - Growing ESRS/EU Taxonomy compliance pressure on Turkish industry exporting to EU
+- EBRD/IFC funded projects require ÇSED (ESIA), continuous environmental monitoring, and World Bank EHS compliance
 
 ---
 
@@ -211,10 +226,10 @@ Airqoon builds to **indicative monitoring** standards per 2008/50/EC and is prep
 ## Open Questions
 
 - **Unit N specs** — mentioned in internal docs but no details available
-- **ISO 17025 calibration** — Oizom has it; does Airqoon plan to pursue?
-- **Revenue model details** — pricing structure beyond hardware (SaaS? subscription for Lens?)
+- **CEN/TS 17660 certification gap** — No ISO/IEC 17025-accredited lab exists in Europe to certify under this standard. VITO (Martine Van Poppel) confirmed in writing; running a DG ENV project with accreditation to follow
 - **Two Notion databases inaccessible** — IDs `8d49471d` and `347c3f2b` not shared with integration; content unknown
+- **Investment round** — Pre-seed/bootstrapped; ₺9M (~$200K) new investment under discussion
 
 ---
 
-*Sources: 75 raw files (30 Resources Docs + 45 Notion marketing/sales/growth pages and PDFs) | Last updated: 2026-04-26*
+*Sources: 75+ raw files | Last updated: 2026-05-03*
