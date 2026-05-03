@@ -77,6 +77,7 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 | [[wiki/sources/innovathink-iso-27001]] | articles/İNNOVATHİNK 27001.pdf | 2026-04-29 | certificate, iso-27001, information-security, innovathink |
 | [[wiki/sources/ulku-alver-sahin-projects]] | raw/articles/UlkuAlverSahin | 2026-04-30 | academic, projects, ch4, inegol |
 | [[wiki/sources/teknopark-previous-projects]] | raw/articles/Teknopark/* | 2026-04-30 | teknopark, stb, 4blocks, edge-computing, iot, fluorescence |
+| [[wiki/sources/airqoon-cloud-architecture]] | raw/assets/airqoon-cloud-architecture-diagram.png | 2026-05-03 | architecture, cloud, thingsboard, kubernetes, microservices |
 
 ### Raw files pending source pages (ingested to raw/, not yet summarised)
 
@@ -208,4 +209,4 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 
 ---
 
-*Last updated: 2026-05-01 (Created AQ-Fusion Teknopark proposal as wiki article)*
+*Last updated: 2026-05-03 (Ingested cloud architecture diagram as wiki article)*
