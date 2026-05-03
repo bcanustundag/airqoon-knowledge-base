@@ -4,13 +4,13 @@ type: source
 tags: [github, repository, code]
 created: 2026-04-23
 updated: 2026-04-23
-sources: ["raw/github_repos/airqoon-widget-ui.md"]
+sources: ["github/airqoon-widget-ui.md"]
 ---
 
 # Airqoon Widget UI
 
 **Repository:** `airqoon-widget-ui`
-**Source File:** `raw/github_repos/airqoon-widget-ui.md`
+**Source File:** `github/airqoon-widget-ui.md`
 
 ## Description
 Lightweight embeddable widget carousel that renders air quality snapshots per device. This UI consumes the Basic Map API and now targets the v2 widgets aggregate endpoint with AQI scheme selection.

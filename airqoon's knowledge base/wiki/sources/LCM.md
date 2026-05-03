@@ -4,13 +4,13 @@ type: source
 tags: [github, repository, code]
 created: 2026-04-23
 updated: 2026-04-23
-sources: ["raw/github_repos/LCM.md"]
+sources: ["github/LCM.md"]
 ---
 
 # LCM Serial Data Plotter
 
 **Repository:** `LCM`
-**Source File:** `raw/github_repos/LCM.md`
+**Source File:** `github/LCM.md`
 
 ## Description
 A professional real-time serial data plotting application with modern UI and advanced data analysis features.

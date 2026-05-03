@@ -4,13 +4,13 @@ type: source
 tags: [github, repository, code]
 created: 2026-04-23
 updated: 2026-04-23
-sources: ["raw/github_repos/cal-app.md"]
+sources: ["github/cal-app.md"]
 ---
 
 # 🌍 Air Quality Sensor Calibration System
 
 **Repository:** `cal-app`
-**Source File:** `raw/github_repos/cal-app.md`
+**Source File:** `github/cal-app.md`
 
 ## Description
 This repository contains a modular Streamlit application for calibrating low‑cost air quality sensors using reference station data. The app helps you:

@@ -4,13 +4,13 @@ type: source
 tags: [github, repository, code]
 created: 2026-04-23
 updated: 2026-04-23
-sources: ["raw/github_repos/airqoon-data-external-projection.md"]
+sources: ["github/airqoon-data-external-projection.md"]
 ---
 
 # Airqoon Data External Projection
 
 **Repository:** `airqoon-data-external-projection`
-**Source File:** `raw/github_repos/airqoon-data-external-projection.md`
+**Source File:** `github/airqoon-data-external-projection.md`
 
 ## Description
 ```bash pnpm install pnpm run prisma:generate ```

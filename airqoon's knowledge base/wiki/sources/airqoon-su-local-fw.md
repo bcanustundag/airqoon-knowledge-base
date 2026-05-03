@@ -4,13 +4,13 @@ type: source
 tags: [github, repository, code]
 created: 2026-04-23
 updated: 2026-04-23
-sources: ["raw/github_repos/airqoon-su-local-fw.md"]
+sources: ["github/airqoon-su-local-fw.md"]
 ---
 
 # Airqoon Sensor Unit Local Firmware
 
 **Repository:** `airqoon-su-local-fw`
-**Source File:** `raw/github_repos/airqoon-su-local-fw.md`
+**Source File:** `github/airqoon-su-local-fw.md`
 
 ## Description
 **ESP32-based sensor data acquisition system with Modbus RTU interface**

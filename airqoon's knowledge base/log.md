@@ -236,3 +236,18 @@ Updated `index.md` with the new source pages.
 ## [2026-05-01] edit | Created AQ-Fusion proposal as wiki article
 - Saved proposal to `wiki/analyses/teknopark-aq-fusion-proposal.md` with proper frontmatter and cross-references.
 - Updated `index.md` with the new analysis page.
+
+## [2026-05-03] ingest | Ingested Cloud Architecture Diagram
+- Saved original architecture diagram PNG to `raw/assets/airqoon-cloud-architecture-diagram.png`.
+- Created `wiki/sources/airqoon-cloud-architecture.md` — comprehensive architecture document with:
+  - Mermaid diagram mapping all components and data flows
+  - Component inventory tables (ThingsBoard, DBs, queues, Lambdas, microservices, frontends)
+  - Data flow summary (ingestion → processing → statistics → map → lens → reporting → alarms)
+  - Infrastructure notes (DO K8s, Traefik, SigNoz, Garage S3)
+- Updated `index.md` with the new source page.
+
+## [2026-05-03] edit | Enhanced 23 GitHub repo stub pages
+- Batch-updated 23 wiki/sources pages that had "Further synthesis is required" placeholder text.
+- Each page now has: Role in Architecture, Tech Stack, and cross-references to Cloud Architecture page + relevant entity pages (Airqoon Map, Airqoon Lens, Unit L).
+- This connects previously orphaned graph nodes to the architecture document.
+- Pages updated: base-map-consumer, base-map-external-api, base-map-tile-server, base-map-ui, basic-map-api, widget-ui, data-external-projection, sim-feeder, alarm-worker, autoreporter, aqi-calculator, lens-api, lens-ui, acme_aq_simulator, AirqoonCalibrationToolBackend, cal-app, LCF, LCM, airqoon-su-fw, airqoon-su-local-fw, airqoon-ops-engine, airqoon-brief, aq-prov-app.

@@ -4,13 +4,13 @@ type: source
 tags: [github, repository, code]
 created: 2026-04-23
 updated: 2026-04-23
-sources: ["raw/github_repos/aq-prov-app.md"]
+sources: ["github/aq-prov-app.md"]
 ---
 
 # Airqoon Provisioning App
 
 **Repository:** `aq-prov-app`
-**Source File:** `raw/github_repos/aq-prov-app.md`
+**Source File:** `github/aq-prov-app.md`
 
 ## Description
 Flutter application for provisioning Airqoon ESP32 air quality monitoring devices via SoftAP.

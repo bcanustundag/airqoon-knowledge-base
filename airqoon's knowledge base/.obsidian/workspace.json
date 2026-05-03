@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "927261cd4c565277",
+        "id": "af7820dacf1754eb",
         "type": "tabs",
         "children": [
           {
-            "id": "f7cb70008a20adaf",
+            "id": "dd3fe13680f2290d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "wiki/entities/airqoon.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "airqoon"
             }
           }
         ]
@@ -188,15 +192,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f7cb70008a20adaf",
+  "active": "dd3fe13680f2290d",
   "lastOpenFiles": [
-    "scratch/enhance_stubs.py",
+    "DEV_LOG.md",
+    "wiki/sources/airqoon-cloud-architecture.md",
+    "raw/assets/airqoon-cloud-architecture-diagram.jpg",
+    "Users/bcan/code/airqoon-vault/airqoon's.md",
+    "Users/bcan/code/airqoon-vault",
+    "Users/bcan/code",
+    "Users/bcan",
+    "Users",
+    "raw/assets/airqoon-cloud-architecture-diagram.png",
     "Untitled.canvas",
+    "wiki/sources/airqoon-data-external-projection.md",
+    "raw/github_repos/airqoon-autoreporter.md",
+    "raw/articles/notion/airqoon-vs-oizom-comparison.md",
+    "scratch/enhance_stubs.py",
     "wiki/entities/airqoon.md",
     "raw/github_repos/airqoon-data-external-projection.md",
-    "wiki/sources/airqoon-cloud-architecture.md",
-    "raw/assets/Airqoon Architecture(1).jpg",
-    "raw/assets/airqoon-cloud-architecture-diagram.png",
     "wiki/analyses/teknopark-aq-fusion-proposal.md",
     "wiki/analyses/impact-assessment.md",
     "wiki/analyses/airqoon-vs-bettair.md",
@@ -219,20 +232,11 @@
     "raw/articles/Teknopark/2nd-project/WhatsApp Image 2024-02-28 at 15.42.57.jpeg",
     "raw/articles/Teknopark/2nd-project/WhatsApp Image 2024-02-28 at 15.42.57 (2).jpeg",
     "raw/articles/Teknopark/2nd-project/WhatsApp Image 2024-02-28 at 15.42.57 (1).jpeg",
-    "raw/articles/Teknopark/2nd-project/Inovatink - Marmara Teknokent Proje Taslak.docx",
-    "raw/articles/Teknopark/2nd-project/76102 no'lu proje - sonuç raporu revizyonu.pdf",
-    "raw/articles/Teknopark/2nd-project/76102 no'lu proje - sonuç raporu revizyon metinleri.docx",
-    "raw/articles/Teknopark/2nd-project/76102 no'lu proje - sonuç raporu revizyon metinleri",
-    "raw/articles/Teknopark/2nd-project",
     "wiki/entities/baris-can-ustundag.md",
     "index.md",
     "raw/articles/UlkuAlverSahin/2025-BC-CH4/WhatsApp Image 2025-09-16 at 16.06.43.jpeg",
     "raw/articles/2025-BC-CH4/WhatsApp Image 2025-09-16 at 16.06.43.jpeg",
     "wiki/entities/kunak-technologies.md",
-    "wiki/sources/innovathink-iso-9001.md",
-    "wiki/entities/airqoon-lens.md",
-    "wiki/sources/innovathink-iso-27001.md",
-    "CLAUDE.md",
-    "Baris Can Ustundag.md"
+    "wiki/sources/innovathink-iso-9001.md"
   ]
 }

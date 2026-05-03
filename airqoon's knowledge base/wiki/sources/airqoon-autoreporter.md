@@ -4,13 +4,13 @@ type: source
 tags: [github, repository, code]
 created: 2026-04-23
 updated: 2026-04-23
-sources: ["raw/github_repos/airqoon-autoreporter.md"]
+sources: ["github/airqoon-autoreporter.md"]
 ---
 
 # Airqoon Auto Reporter
 
 **Repository:** `airqoon-autoreporter`
-**Source File:** `raw/github_repos/airqoon-autoreporter.md`
+**Source File:** `github/airqoon-autoreporter.md`
 
 ## Description
 A CLI tool for generating and scheduling multi-tenant air quality reports using PostgreSQL data and S3 storage. Reports are produced in Turkish or English Markdown.
