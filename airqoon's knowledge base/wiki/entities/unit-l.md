@@ -20,7 +20,7 @@ sources: [unite-l.md, airqoon-vs-oizom-comparison.md, product-page.md, Unit-L-Ge
 |-----------|-------|
 | **Dimensions** | 35 cm × 25 cm × 18 cm |
 | **Weight** | ~3.2 kg - 3.5 kg (including solar panel) |
-| **Enclosure** | Aluminium; Sensor Box IP34, Core Box IP66 |
+| **Enclosure** | Aluminium; Sensor Box IP34 (Standard), Upgradable to IP66/IP67 for extreme environments |
 | **Operating temperature** | −10 °C to +65 °C |
 | **Operating humidity** | 10–99% RH |
 | **Expected lifespan** | 5+ years |
@@ -68,7 +68,7 @@ sources: [unite-l.md, airqoon-vs-oizom-comparison.md, product-page.md, Unit-L-Ge
 | **Cities** | Urban air quality mapping, citizen health protection, policy monitoring |
 | **Industry** | Perimeter emission monitoring, early warning before limit exceedance, compliance reporting |
 | **OIZ** | Source detection, hotspot identification, environmental KPI tracking |
-| **Mining** | Open-pit dust monitoring, post-blast pollution control |
+| **Mining** | Open-pit dust monitoring, post-blast pollution control, **Underground safety gas monitoring** (O₂, CO, CO₂, CH₄, H₂S) with hardened enclosures |
 | **Oil & Gas** | Fugitive emission detection, leak monitoring |
 
 ---

@@ -256,3 +256,11 @@ Updated `index.md` with the new source pages.
 - Deleted 23 raw markdown files from `raw/github_repos/` — their content was already absorbed into the enhanced wiki/sources pages.
 - Updated frontmatter `sources` field in all 23 wiki pages to remove broken `raw/github_repos/` references.
 - This eliminates duplicate orphan nodes in Obsidian graph view.
+
+## [2026-05-04] ingest | Maden Araştırma Raporu (Demir Export)
+- Ingested technical evaluation report for underground mining gas monitoring.
+- Created `wiki/sources/maden-arastirma.md`.
+- Updated `wiki/entities/unit-l.md` with hardware hardening (IP67) and underground mining use case.
+- Created entity pages for `demir-export.md`, `alphasense.md`, and `senseair.md`.
+- Created concept page `wiki/concepts/underground-mining-air-quality.md`.
+- Updated `index.md`.

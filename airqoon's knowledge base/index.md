@@ -78,6 +78,7 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 | [[wiki/sources/ulku-alver-sahin-projects]] | raw/articles/UlkuAlverSahin | 2026-04-30 | academic, projects, ch4, inegol |
 | [[wiki/sources/teknopark-previous-projects]] | raw/articles/Teknopark/* | 2026-04-30 | teknopark, stb, 4blocks, edge-computing, iot, fluorescence |
 | [[wiki/sources/airqoon-cloud-architecture]] | raw/assets/airqoon-cloud-architecture-diagram.png | 2026-05-03 | architecture, cloud, thingsboard, kubernetes, microservices |
+| [[wiki/sources/maden-arastirma]] | raw/articles/maden-arastirma.md | 2026-05-04 | mining, underground, demir-export, hardware, unit-l, sensors |
 
 ### Raw files pending source pages (ingested to raw/, not yet summarised)
 
@@ -169,6 +170,9 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 | [[wiki/entities/oizom]] | Company | Oizom — primary competitor (Polludrone) |
 | [[wiki/entities/kunak-technologies]] | Company | Kunak Technologies — prominent competitor, focus on certifications |
 | [[wiki/entities/bettair]] | Company | Bettair — competitor, focus on bundled pricing and certifications |
+| [[wiki/entities/demir-export]] | Company | Demir Export — target client for underground mining AQ monitoring |
+| [[wiki/entities/alphasense]] | Company | Alphasense — gas sensor manufacturer (O2, EC dual sensors) |
+| [[wiki/entities/senseair]] | Company | Senseair — gas sensor manufacturer (NDIR CO2 sensors) |
 
 **Software / Platforms**
 - [[wiki/entities/airqoon-lens]]
@@ -191,6 +195,7 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 | [[wiki/concepts/perimeter-monitoring]] | Industrial fence-line monitoring use case |
 | [[wiki/concepts/en17660-standard]] | EN 17660 standard series — classification, test protocol, Classes 1-3, Directive 2024/2881 implications |
 | [[wiki/concepts/competitors]] | Competitive landscape overview (Oizom, Kunak, Bettair) |
+| [[wiki/concepts/underground-mining-air-quality]] | Challenges and regulatory requirements for mining AQ monitoring |
 
 ---
 
@@ -209,4 +214,4 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 
 ---
 
-*Last updated: 2026-05-03 (Ingested cloud architecture diagram as wiki article)*
+*Last updated: 2026-05-04 (Ingested Demir Export underground mining gas monitoring report)*
