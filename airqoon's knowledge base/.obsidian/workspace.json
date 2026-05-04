@@ -11,14 +11,10 @@
             "id": "dd3fe13680f2290d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/sources/airqoon-base-map-ui.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "airqoon-base-map-ui"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -193,8 +189,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4876613da360b23b",
+  "active": "dd3fe13680f2290d",
   "lastOpenFiles": [
+    "wiki/sources/airqoon-base-map-ui.md",
     "wiki/sources/airqoon-base-map-tile-server.md",
     "wiki/sources/airqoon-base-map-external-api.md",
     "wiki/sources/airqoon-base-map-consumer.md",
@@ -220,7 +217,6 @@
     "wiki/entities/airqoon.md",
     "wiki/concepts/perimeter-monitoring.md",
     "wiki/overview.md",
-    "wiki/entities/unit-m.md",
     "raw/assets/airqoon-cloud-architecture-diagram.jpg",
     "Untitled.canvas",
     "Users/bcan/code/airqoon-vault",
