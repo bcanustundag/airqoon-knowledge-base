@@ -11,10 +11,14 @@
             "id": "dd3fe13680f2290d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "wiki/sources/airqoon-cloud-architecture.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "airqoon-cloud-architecture"
             }
           }
         ]
@@ -173,7 +177,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,13 +195,15 @@
   },
   "active": "dd3fe13680f2290d",
   "lastOpenFiles": [
+    "wiki/entities/unit-l.md",
+    "wiki/analyses/airqoon-use-cases.md",
+    "wiki/overview.md",
     "Users/bcan/code/airqoon-vault/airqoon's.md",
     "raw/assets/claude-conv-helper-project-memory.md",
     "wiki/entities/airqoon-lens.md",
     "wiki/entities/airqoon.md",
     "raw/assets/claude-business-project-memory.md",
     "raw/assets/airqoon-cloud-architecture-diagram.jpg",
-    "wiki/overview.md",
     "wiki/sources/airqoon-cloud-architecture.md",
     "CLAUDE.md",
     "Untitled.canvas",
@@ -216,7 +223,6 @@
     "wiki/analyses/teknopark-aq-fusion-proposal.md",
     "wiki/analyses/impact-assessment.md",
     "wiki/analyses/airqoon-vs-bettair.md",
-    "wiki/analyses/airqoon-use-cases.md",
     "wiki/analyses/teknopark-aq-fusion-proposal.md.tmp",
     "wiki/concepts/en17660-standard.md",
     "wiki/concepts/competitors.md",
@@ -224,7 +230,6 @@
     "wiki/concepts/perimeter-monitoring.md",
     "wiki/concepts/clean-air-zones.md",
     "2026-04-30.md",
-    "Unit L.md",
     "raw/articles/Teknopark/3rd-project/İnovathink-İş Planı.xls",
     "raw/articles/Teknopark/3rd-project/İnovathink-4Blocks Yöntemi Uygulanarak IoT Platformunun Geliştirilmesi_bcanu.docx",
     "raw/articles/Teknopark/3rd-project",
