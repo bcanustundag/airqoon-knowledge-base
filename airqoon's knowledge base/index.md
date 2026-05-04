@@ -79,6 +79,7 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 | [[wiki/sources/teknopark-previous-projects]] | raw/articles/Teknopark/* | 2026-04-30 | teknopark, stb, 4blocks, edge-computing, iot, fluorescence |
 | [[wiki/sources/airqoon-cloud-architecture]] | raw/assets/airqoon-cloud-architecture-diagram.png | 2026-05-03 | architecture, cloud, thingsboard, kubernetes, microservices |
 | [[wiki/sources/maden-arastirma]] | raw/articles/maden-arastirma.md | 2026-05-04 | mining, underground, demir-export, hardware, unit-l, sensors |
+| [[wiki/sources/drone-monitoring]] | raw/articles/drone-monitoring.md | 2026-05-04 | drones, uav, integration, sensors, isokinetic, sniffer4d |
 
 ### Raw files pending source pages (ingested to raw/, not yet summarised)
 
@@ -173,6 +174,9 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 | [[wiki/entities/demir-export]] | Company | Demir Export — target client for underground mining AQ monitoring |
 | [[wiki/entities/alphasense]] | Company | Alphasense — gas sensor manufacturer (O2, EC dual sensors) |
 | [[wiki/entities/senseair]] | Company | Senseair — gas sensor manufacturer (NDIR CO2 sensors) |
+| [[wiki/entities/sniffer4d]] | Product | Sniffer4D — state-of-the-art modular drone AQ monitoring system |
+| [[wiki/entities/scentroid]] | Company | Scentroid — producer of DR1000 flying laboratory for UAS |
+| [[wiki/entities/dji]] | Company | DJI — dominant drone manufacturer (Matrice series for enterprise) |
 
 **Software / Platforms**
 - [[wiki/entities/airqoon-lens]]
@@ -196,6 +200,8 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 | [[wiki/concepts/en17660-standard]] | EN 17660 standard series — classification, test protocol, Classes 1-3, Directive 2024/2881 implications |
 | [[wiki/concepts/competitors]] | Competitive landscape overview (Oizom, Kunak, Bettair) |
 | [[wiki/concepts/underground-mining-air-quality]] | Challenges and regulatory requirements for mining AQ monitoring |
+| [[wiki/concepts/drone-based-monitoring]] | Engineering challenges of integrating AQ sensors on UAVs |
+| [[wiki/concepts/isokinetic-sampling]] | Aerodynamic requirement for accurate PM measurement in motion |
 
 ---
 
@@ -214,4 +220,4 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 
 ---
 
-*Last updated: 2026-05-04 (Ingested Demir Export underground mining gas monitoring report)*
+*Last updated: 2026-05-04 (Ingested drone-based monitoring and integration report)*

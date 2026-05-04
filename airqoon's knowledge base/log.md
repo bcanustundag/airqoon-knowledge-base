@@ -264,3 +264,10 @@ Updated `index.md` with the new source pages.
 - Created entity pages for `demir-export.md`, `alphasense.md`, and `senseair.md`.
 - Created concept page `wiki/concepts/underground-mining-air-quality.md`.
 - Updated `index.md`.
+
+## [2026-05-04] ingest | Drone Monitoring Integration
+- Ingested technical report on integrating AQ sensors onto UAVs.
+- Created `wiki/sources/drone-monitoring.md`.
+- Created entity pages for `sniffer4d.md`, `scentroid.md`, and `dji.md`.
+- Created concept pages for `drone-based-monitoring.md` and `isokinetic-sampling.md`.
+- Updated `index.md` with new entries.

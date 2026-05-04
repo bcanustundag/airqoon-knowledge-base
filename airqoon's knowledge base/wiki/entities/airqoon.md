@@ -79,12 +79,12 @@ timeline
 
 ### Software
 
-| Product | Description | See also |
-|---------|-------------|----------|
-| **[[wiki/entities/airqoon-lens|Airqoon Lens]]** | Enterprise analytics platform — dashboards, alarms, reports, data export, device comparison | [[wiki/sources/lens-api|lens-api]], [[wiki/sources/lens-ui|lens-ui]] |
-| **Airqoon Lens AI** | GenAI-backed assessment reports, pollution source detection, trend analysis | Uses Anthropic Claude |
-| **[[wiki/entities/airqoon-map|Airqoon Map]]** | Public real-time AQ map with citizen engagement, heatmaps, wildfire detection | 7 backend services |
-| **Airqoon Brief** | Daily AQ intelligence for all 81 Turkish provinces | [brief.airqoon.com](https://brief.airqoon.com) |
+| Product                        | Description                                                                 | See also                                                                                    |                         |                                    |           |
+| ------------------------------ | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ----------------------- | ---------------------------------- | --------- |
+| **[[wiki/entities/airqoon-lens | Airqoon Lens]]**                                                            | Enterprise analytics platform — dashboards, alarms, reports, data export, device comparison | [[wiki/sources/lens-api | lens-api]], [[wiki/sources/lens-ui | lens-ui]] |
+| **Airqoon Lens AI**            | GenAI-backed assessment reports, pollution source detection, trend analysis | Uses Anthropic Claude                                                                       |                         |                                    |           |
+| **[[wiki/entities/airqoon-map  | Airqoon Map]]**                                                             | Public real-time AQ map with citizen engagement, heatmaps, wildfire detection               | 7 backend services      |                                    |           |
+| **Airqoon Brief**              | Daily AQ intelligence for all 81 Turkish provinces                          | [brief.airqoon.com](https://brief.airqoon.com)                                              |                         |                                    |           |
 
 > Full backend architecture: [[wiki/sources/airqoon-cloud-architecture|Cloud Architecture]]
 
