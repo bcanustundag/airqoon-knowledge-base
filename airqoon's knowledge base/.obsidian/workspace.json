@@ -37,7 +37,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -189,7 +189,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dd3fe13680f2290d",
+  "active": "4876613da360b23b",
   "lastOpenFiles": [
     "wiki/sources/airqoon-base-map-ui.md",
     "wiki/sources/airqoon-base-map-tile-server.md",
