@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/sources/airqoon-cloud-architecture.md",
-                "mode": "preview",
+                "file": "wiki/entities/airqoon-lens.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "airqoon-cloud-architecture"
+              "title": "airqoon-lens"
             }
           }
         ]
@@ -195,6 +195,8 @@
   },
   "active": "dd3fe13680f2290d",
   "lastOpenFiles": [
+    "wiki/sources/ulku-alver-sahin-projects.md",
+    "wiki/sources/airqoon-cloud-architecture.md",
     "wiki/entities/unit-l.md",
     "wiki/analyses/airqoon-use-cases.md",
     "wiki/overview.md",
@@ -204,7 +206,6 @@
     "wiki/entities/airqoon.md",
     "raw/assets/claude-business-project-memory.md",
     "raw/assets/airqoon-cloud-architecture-diagram.jpg",
-    "wiki/sources/airqoon-cloud-architecture.md",
     "CLAUDE.md",
     "Untitled.canvas",
     "log.md",
@@ -229,7 +230,6 @@
     "wiki/concepts/low-cost-air-sensors.md",
     "wiki/concepts/perimeter-monitoring.md",
     "wiki/concepts/clean-air-zones.md",
-    "2026-04-30.md",
     "raw/articles/Teknopark/3rd-project/İnovathink-İş Planı.xls",
     "raw/articles/Teknopark/3rd-project/İnovathink-4Blocks Yöntemi Uygulanarak IoT Platformunun Geliştirilmesi_bcanu.docx",
     "raw/articles/Teknopark/3rd-project",
