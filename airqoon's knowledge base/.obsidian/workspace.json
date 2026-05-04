@@ -11,10 +11,14 @@
             "id": "dd3fe13680f2290d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "wiki/entities/airqoon-lens.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "airqoon-lens"
             }
           }
         ]
@@ -190,15 +194,16 @@
   },
   "active": "dd3fe13680f2290d",
   "lastOpenFiles": [
-    "wiki/sources/airqoon-cloud-architecture.md",
-    "wiki/overview.md",
     "wiki/entities/airqoon.md",
+    "raw/assets/claude-business-project-memory.md",
+    "raw/assets/airqoon-cloud-architecture-diagram.jpg",
+    "wiki/overview.md",
+    "wiki/sources/airqoon-cloud-architecture.md",
     "CLAUDE.md",
     "Untitled.canvas",
     "log.md",
     "index.md",
     "DEV_LOG.md",
-    "raw/assets/airqoon-cloud-architecture-diagram.jpg",
     "Users/bcan/code/airqoon-vault/airqoon's.md",
     "Users/bcan/code/airqoon-vault",
     "Users/bcan/code",
@@ -231,7 +236,6 @@
     "raw/articles/Teknopark/2nd-project/WhatsApp Image 2024-02-28 at 15.42.57.jpeg",
     "raw/articles/Teknopark/2nd-project/WhatsApp Image 2024-02-28 at 15.42.57 (2).jpeg",
     "raw/articles/Teknopark/2nd-project/WhatsApp Image 2024-02-28 at 15.42.57 (1).jpeg",
-    "wiki/entities/baris-can-ustundag.md",
     "raw/articles/UlkuAlverSahin/2025-BC-CH4/WhatsApp Image 2025-09-16 at 16.06.43.jpeg",
     "raw/articles/2025-BC-CH4/WhatsApp Image 2025-09-16 at 16.06.43.jpeg"
   ]

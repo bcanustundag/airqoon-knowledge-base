@@ -67,11 +67,11 @@ timeline
 
 ### Hardware
 
-| Product | Description | Key Specs |
-|---------|-------------|-----------|
-| **[[wiki/entities/unit-l|Unit L]]** | Flagship outdoor air quality sensor | 3.2 kg, IP65, solar-powered, 14-day battery, 4G/NB-IoT, PM1/2.5/10 + NO₂ + O₃ + SO₂ + CO + VOC + T/RH/P + noise + wind |
-| **[[wiki/entities/unit-m|Unit M]]** | Indoor / compact unit | WiFi, noise monitoring, smaller form factor |
-| **Unit N** | Planned next-gen unit | Details TBD |
+| Product    | Description                         | Key Specs                                                                                                              |     |
+| ---------- | ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | --- |
+| **Unit L** | Flagship outdoor air quality sensor | 3.2 kg, IP65, solar-powered, 14-day battery, 4G/NB-IoT, PM1/2.5/10 + NO₂ + O₃ + SO₂ + CO + VOC + T/RH/P + noise + wind |     |
+| **Unit M** | Indoor / compact unit               | WiFi, noise monitoring, smaller form factor                                                                            |     |
+| **Unit N** | Planned next-gen unit               | Details TBD                                                                                                            |     |
 
 **Sensors used:** Alphasense electrochemical (NO₂B43F, O₃A431, CO-B4, SO₂-B4), Sensirion SPS30 (PM), Sensirion SCD4x (CO₂), AethLabs MA350 (black carbon), Cubic Gasboard 2502 (CH₄/TDLAS), CESVA TA150 (Class 1 noise)
 
