@@ -5,7 +5,7 @@ entity_type: product
 tags: [airqoon, software, platform, cloud, analytics, enterprise]
 created: 2026-04-23
 updated: 2026-04-29
-sources: [airqoon-lens.md, product-page.md, airqoon-vs-oizom-comparison.md, airqoon-lens-yeni-ozellik-mesaj.md, unite-l.md, lens-api.md, lens-ui.md]
+sources: [airqoon-lens.md, product-page.md, airqoon-vs-oizom-comparison.md, airqoon-lens-yeni-ozellik-mesaj.md, unite-l.md, lens-api.md, lens-ui.md, 02-2026-Airqoon_Sunum.pdf]
 ---
 
 # Airqoon Lens

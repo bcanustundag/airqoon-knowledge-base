@@ -80,6 +80,7 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 | [[wiki/sources/airqoon-cloud-architecture]] | raw/assets/airqoon-cloud-architecture-diagram.png | 2026-05-03 | architecture, cloud, thingsboard, kubernetes, microservices |
 | [[wiki/sources/maden-arastirma]] | raw/articles/maden-arastirma.md | 2026-05-04 | mining, underground, demir-export, hardware, unit-l, sensors |
 | [[wiki/sources/drone-monitoring]] | raw/articles/drone-monitoring.md | 2026-05-04 | drones, uav, integration, sensors, isokinetic, sniffer4d |
+| [[wiki/sources/02-2026-airqoon_sunum]] | raw/articles/02-2026-Airqoon_Sunum.pdf | 2026-05-05 | presentation, municipalities, sales, marketing, use-cases |
 
 ### Raw files pending source pages (ingested to raw/, not yet summarised)
 
@@ -177,6 +178,10 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 | [[wiki/entities/sniffer4d]] | Product | Sniffer4D — state-of-the-art modular drone AQ monitoring system |
 | [[wiki/entities/scentroid]] | Company | Scentroid — producer of DR1000 flying laboratory for UAS |
 | [[wiki/entities/dji]] | Company | DJI — dominant drone manufacturer (Matrice series for enterprise) |
+| [[wiki/entities/bursa-buyuksehir-belediyesi]] | Organization | Bursa Büyükşehir Belediyesi — client, forest fire & noise monitoring |
+| [[wiki/entities/denizli-buyuksehir-belediyesi]] | Organization | Denizli Büyükşehir Belediyesi — client, traffic-induced pollution monitoring |
+| [[wiki/entities/balikesir-buyuksehir-belediyesi]] | Organization | Balıkesir Büyükşehir Belediyesi — prospect, targeted for mobile sensor networks |
+| [[wiki/entities/cevre-ve-sehircilik-bakanligi]] | Organization | Çevre ve Şehircilik Bakanlığı — national authority, emergency response partner |
 
 **Software / Platforms**
 - [[wiki/entities/airqoon-lens]]
@@ -220,4 +225,4 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 
 ---
 
-*Last updated: 2026-05-04 (Ingested drone-based monitoring and integration report)*
+*Last updated: 2026-05-05 (Ingested Airqoon municipality presentation deck)*
