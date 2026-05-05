@@ -81,6 +81,7 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 | [[wiki/sources/maden-arastirma]] | raw/articles/maden-arastirma.md | 2026-05-04 | mining, underground, demir-export, hardware, unit-l, sensors |
 | [[wiki/sources/drone-monitoring]] | raw/articles/drone-monitoring.md | 2026-05-04 | drones, uav, integration, sensors, isokinetic, sniffer4d |
 | [[wiki/sources/02-2026-airqoon_sunum]] | raw/articles/02-2026-Airqoon_Sunum.pdf | 2026-05-05 | presentation, municipalities, sales, marketing, use-cases |
+| [[wiki/sources/aethlabs-ma-manuals]] | scratch/ma-operating-manual.txt, scratch/ma-quick-start.txt | 2026-05-05 | manual, hardware, black-carbon, aethlabs, ma200, ma300, ma350 |
 
 ### Raw files pending source pages (ingested to raw/, not yet summarised)
 
@@ -182,6 +183,10 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 | [[wiki/entities/denizli-buyuksehir-belediyesi]] | Organization | Denizli Büyükşehir Belediyesi — client, traffic-induced pollution monitoring |
 | [[wiki/entities/balikesir-buyuksehir-belediyesi]] | Organization | Balıkesir Büyükşehir Belediyesi — prospect, targeted for mobile sensor networks |
 | [[wiki/entities/cevre-ve-sehircilik-bakanligi]] | Organization | Çevre ve Şehircilik Bakanlığı — national authority, emergency response partner |
+| [[wiki/entities/aethlabs]] | Company | AethLabs — scientific AQ monitoring instruments, Black Carbon |
+| [[wiki/entities/ma200]] | Product | microAeth MA200 — portable Black Carbon monitor |
+| [[wiki/entities/ma300]] | Product | microAeth MA300 — continuous Black Carbon monitor |
+| [[wiki/entities/ma350]] | Product | microAeth MA350 — outdoor robust Black Carbon monitor |
 
 **Software / Platforms**
 - [[wiki/entities/airqoon-lens]]
@@ -190,6 +195,9 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 **Products / Hardware**
 - [[wiki/entities/unit-l]]
 - [[wiki/entities/unit-m]]
+- [[wiki/entities/ma200]]
+- [[wiki/entities/ma300]]
+- [[wiki/entities/ma350]]
 
 ---
 
@@ -207,6 +215,7 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 | [[wiki/concepts/underground-mining-air-quality]] | Challenges and regulatory requirements for mining AQ monitoring |
 | [[wiki/concepts/drone-based-monitoring]] | Engineering challenges of integrating AQ sensors on UAVs |
 | [[wiki/concepts/isokinetic-sampling]] | Aerodynamic requirement for accurate PM measurement in motion |
+| [[wiki/concepts/aethlabs-ma-series-manual]] | Operational and maintenance synthesis for AethLabs MA Series sensors |
 
 ---
 
@@ -225,4 +234,4 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 
 ---
 
-*Last updated: 2026-05-05 (Ingested Airqoon municipality presentation deck)*
+*Last updated: 2026-05-05 (Ingested AethLabs MA Series manuals)*

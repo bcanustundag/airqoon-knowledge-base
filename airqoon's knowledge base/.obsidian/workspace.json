@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/entities/bettair.md",
+                "file": "wiki/entities/aethlabs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "bettair"
+              "title": "aethlabs"
             }
           }
         ]
@@ -195,6 +195,15 @@
   },
   "active": "dd3fe13680f2290d",
   "lastOpenFiles": [
+    "wiki/entities/ma200.md",
+    "wiki/entities/aethlabs.md",
+    "wiki/sources/aethlabs-ma-manuals.md",
+    "wiki/concepts/aethlabs-ma-series-manual.md",
+    "wiki/entities/ma350.md",
+    "wiki/entities/ma300.md",
+    "wiki/entities/bettair.md",
+    "scratch/ma-quick-start.txt",
+    "scratch/ma-operating-manual.txt",
     "wiki/entities/balikesir-buyuksehir-belediyesi.md",
     "wiki/entities/cevre-ve-sehircilik-bakanligi.md",
     "wiki/entities/denizli-buyuksehir-belediyesi.md",
@@ -215,15 +224,8 @@
     "wiki/entities/senseair.md",
     "wiki/entities/alphasense.md",
     "wiki/entities/demir-export.md",
-    "wiki/sources/maden-arastirma.md",
-    "raw/articles/maden-arastirma.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
-    "2026-05-05.md",
-    "wiki/sources/airqoon-base-map-ui.md",
-    "wiki/sources/airqoon-base-map-tile-server.md",
-    "wiki/sources/airqoon-base-map-external-api.md",
-    "wiki/sources/airqoon-base-map-consumer.md",
     "raw/assets/airqoon-cloud-architecture-diagram.jpg",
     "Users/bcan/code/airqoon-vault",
     "Users/bcan/code",
@@ -233,8 +235,6 @@
     "scratch/enhance_stubs.py",
     "wiki/analyses/teknopark-aq-fusion-proposal.md.tmp",
     "raw/articles/Teknopark/3rd-project/İnovathink-İş Planı.xls",
-    "raw/articles/Teknopark/3rd-project/İnovathink-4Blocks Yöntemi Uygulanarak IoT Platformunun Geliştirilmesi_bcanu.docx",
-    "raw/articles/Teknopark/3rd-project",
     "raw/articles/Teknopark/2nd-project/WhatsApp Image 2024-02-28 at 15.42.57.jpeg",
     "raw/articles/Teknopark/2nd-project/WhatsApp Image 2024-02-28 at 15.42.57 (2).jpeg",
     "raw/articles/Teknopark/2nd-project/WhatsApp Image 2024-02-28 at 15.42.57 (1).jpeg",

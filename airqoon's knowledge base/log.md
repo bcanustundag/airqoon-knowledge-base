@@ -271,3 +271,16 @@ Updated `index.md` with the new source pages.
 - Created entity pages for `sniffer4d.md`, `scentroid.md`, and `dji.md`.
 - Created concept pages for `drone-based-monitoring.md` and `isokinetic-sampling.md`.
 - Updated `index.md` with new entries.
+
+## [2026-05-05] ingest | Airqoon Municipality Presentation
+- Ingested sales/marketing deck (`02-2026-Airqoon_Sunum.pdf`) targeting metropolitan municipalities.
+- Created `wiki/sources/02-2026-airqoon_sunum.md`.
+- Created entity pages for `bursa-buyuksehir-belediyesi.md`, `denizli-buyuksehir-belediyesi.md`, `balikesir-buyuksehir-belediyesi.md`, and `cevre-ve-sehircilik-bakanligi.md`.
+- Updated `index.md` with new entries.
+
+## [2026-05-05] ingest | AethLabs MA Series Manuals
+- Ingested technical and operational manuals for AethLabs microAeth MA Series Black Carbon monitors.
+- Created `wiki/sources/aethlabs-ma-manuals.md`.
+- Created entity pages for `aethlabs.md`, `ma200.md`, `ma300.md`, and `ma350.md`.
+- Created concept page `wiki/concepts/aethlabs-ma-series-manual.md` to centralize operational and maintenance procedures.
+- Updated `index.md` to index the new pages.
