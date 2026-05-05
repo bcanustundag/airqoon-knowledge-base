@@ -1,10 +1,16 @@
 ---
-title: "Bettair"
+title: Bettair
 type: entity
-tags: [competitor, company, hardware]
+tags:
+  - competitor
+  - company
+  - hardware
 created: 2026-04-26
 updated: 2026-04-26
-sources: [bettair-ficha-tecnica.md, bettair-faq-mk2.md]
+sources:
+  - bettair-ficha-tecnica.md
+  - bettair-faq-mk2.md
+entry_count:
 ---
 
 # Bettair
