@@ -284,3 +284,16 @@ Updated `index.md` with the new source pages.
 - Created entity pages for `aethlabs.md`, `ma200.md`, `ma300.md`, and `ma350.md`.
 - Created concept page `wiki/concepts/aethlabs-ma-series-manual.md` to centralize operational and maintenance procedures.
 - Updated `index.md` to index the new pages.
+
+## [2026-05-08] analysis | Go-to-Market Analysis
+- Audited 20+ wiki, source, and raw files for GTM-relevant content.
+- Created `wiki/analyses/gtm-analysis.md` — comprehensive go-to-market assessment covering:
+  - 8-dimension maturity scorecard (value prop, ICP, pricing, sales process, channels, content, competitive intel, international expansion)
+  - Sales funnel audit revealing undefined bottom-of-funnel processes
+  - Pricing threat analysis (Bettair's bundled "Zero Maintenance" model)
+  - Channel strategy gaps (13+ distributors contacted, no partner enablement kit)
+  - Content audit (141-entry calendar mostly empty, no case studies, no English content strategy)
+  - CEN/TS 17660 certification gap identified as #1 GTM risk
+  - 9 prioritized strategic recommendations (urgent / important / strategic)
+  - Vault housekeeping: identified 10 un-ingested raw GTM files and 3 empty Notion database exports
+- Updated `index.md` with the new analysis page.

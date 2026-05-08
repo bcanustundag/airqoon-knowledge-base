@@ -225,13 +225,15 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 
 - [[wiki/analyses/airqoon-use-cases]] - Analysis of the 5 core Airqoon use cases.
 - [[wiki/analyses/impact-assessment]] - Synthesis of social, health, and environmental impacts of air quality monitoring.
+- [[wiki/analyses/gtm-analysis]] - Go-to-Market analysis: maturity scorecard, channel audit, pricing, competitive positioning, strategic recommendations.
 
 | Page | Question / Topic | Date |
 |------|-----------------|------|
 | [[wiki/analyses/airqoon-vs-bettair]] | Competitive Analysis: Airqoon Unit L vs. Bettair MK2 | 2026-04-26 |
 | [[wiki/analyses/airqoon-use-cases]] | Analysis: Airqoon Core Use Cases | 2026-04-29 |
 | [[wiki/analyses/teknopark-aq-fusion-proposal]] | Teknopark AQ-Fusion Project Proposal (Kavramsal Tasarım) | 2026-05-01 |
+| [[wiki/analyses/gtm-analysis]] | Go-to-Market Analysis: Strategy, Channels, Pricing, Gaps | 2026-05-08 |
 
 ---
 
-*Last updated: 2026-05-05 (Ingested AethLabs MA Series manuals)*
+*Last updated: 2026-05-08 (Go-to-Market analysis)*
