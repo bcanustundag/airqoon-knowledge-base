@@ -133,7 +133,7 @@ timeline
 |----------|--------|---------|
 | Akçansa | Cement | BCM/CNK regions, [[wiki/concepts/perimeter-monitoring|perimeter monitoring]] |
 | Oyak Çimento | Cement | Industrial fenceline |
-| Çimsa | Cement | EBRD/Çimsa Mersin tender pursued |
+| [[wiki/entities/cimsa|Çimsa]] | Cement | EBRD Project Limestone — 12-month DMP assignment, Technical Proposal v3 submitted |
 | Çimentaş | Cement | Perimeter monitoring |
 | TÜPRAŞ | Refinery | Industrial monitoring |
 | Enerjisa Üretim | Energy | Calibration reports, daily alerts, EBRD/IFC compliance |
@@ -164,6 +164,7 @@ timeline
 | Project | Type | Details |
 |---------|------|---------|
 | **[[wiki/sources/pace-projesi|PACE Projesi]]** | EU/GIZ | "Clean Air Hatay" — earthquake recovery air monitoring in 11 provinces, 10 pilot schools |
+| **[[wiki/sources/airqoon-cimsa-proposal|Çimsa/EBRD Project Limestone]]** | EBRD Consulting | Satellite-based AI dust monitoring at Mersin cement plant — 12-month DMP, 6-node sensor network, ML attribution |
 | **[[wiki/analyses/teknopark-aq-fusion-proposal|AQ-Fusion]]** | Teknopark R&D | Data fusion + dispersion modeling platform (proposed 2026) |
 | **MELTEM** | TÜBİTAK-GSRI 2+2 | Bilateral project with Boğaziçi University + University of Crete |
 | **GEFF Turkey** | Feasibility | Green finance study |

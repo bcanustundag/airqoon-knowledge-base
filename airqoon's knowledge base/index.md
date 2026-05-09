@@ -82,6 +82,7 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 | [[wiki/sources/drone-monitoring]] | raw/articles/drone-monitoring.md | 2026-05-04 | drones, uav, integration, sensors, isokinetic, sniffer4d |
 | [[wiki/sources/02-2026-airqoon_sunum]] | raw/articles/02-2026-Airqoon_Sunum.pdf | 2026-05-05 | presentation, municipalities, sales, marketing, use-cases |
 | [[wiki/sources/aethlabs-ma-manuals]] | scratch/ma-operating-manual.txt, scratch/ma-quick-start.txt | 2026-05-05 | manual, hardware, black-carbon, aethlabs, ma200, ma300, ma350 |
+| [[wiki/sources/airqoon-cimsa-proposal]] | raw/articles/TOR_TC_CIMSA_Dust Monitoring Assignment_Issued for RFP.pdf, raw/articles/notion/airqoon_cimsa_proposal_v6_final-3.pdf | 2026-05-08 | project, ebrd, cimsa, cement, dust-management, proposal, tender |
 
 ### Raw files pending source pages (ingested to raw/, not yet summarised)
 
@@ -187,6 +188,7 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 | [[wiki/entities/ma200]] | Product | microAeth MA200 — portable Black Carbon monitor |
 | [[wiki/entities/ma300]] | Product | microAeth MA300 — continuous Black Carbon monitor |
 | [[wiki/entities/ma350]] | Product | microAeth MA350 — outdoor robust Black Carbon monitor |
+| [[wiki/entities/cimsa]] | Company | Çimsa Çimento — EBRD client, Mersin cement plant, Project Limestone |
 
 **Software / Platforms**
 - [[wiki/entities/airqoon-lens]]
@@ -236,4 +238,4 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 
 ---
 
-*Last updated: 2026-05-08 (Go-to-Market analysis)*
+*Last updated: 2026-05-08 (Ingested Airqoon–Çimsa EBRD proposal)*

@@ -297,3 +297,17 @@ Updated `index.md` with the new source pages.
   - 9 prioritized strategic recommendations (urgent / important / strategic)
   - Vault housekeeping: identified 10 un-ingested raw GTM files and 3 empty Notion database exports
 - Updated `index.md` with the new analysis page.
+
+## [2026-05-08] ingest | Airqoon–Çimsa EBRD Dust Monitoring Proposal
+- Ingested two PDFs: EBRD Terms of Reference (17pp) and Airqoon Technical Proposal v3.
+- Created `wiki/sources/airqoon-cimsa-proposal.md` — comprehensive source page covering:
+  - EBRD ESAP Action 3.4 context (Project Limestone, Mersin cement plant)
+  - 3 dust categories, 6 TOR tasks, 7 deliverables
+  - Applicable regulations (EBRD ESR3, EU IED, BAT 5/14–18, CAFE 2024/2881, WHO AQGs, Turkish SKHKKY)
+  - 4 work packages across 12 months (baseline → field mapping → modelling/ML → DMP)
+  - Full consortium team table (Airqoon + IUC Environmental Engineering)
+  - ML fusion model architecture (satellite + ground sensors + meteorology + process data)
+  - 9 deliverables with leads, timelines, and TOR cross-references
+- Created `wiki/entities/cimsa.md` — entity page for Çimsa Çimento (company profile, regulatory classification, EBRD relationship, strategic significance).
+- Updated `wiki/entities/airqoon.md` — upgraded Çimsa from "tender pursued" to "proposal submitted"; added Çimsa/EBRD Project Limestone to Key Projects table.
+- Updated `index.md` with new source and entity pages.
