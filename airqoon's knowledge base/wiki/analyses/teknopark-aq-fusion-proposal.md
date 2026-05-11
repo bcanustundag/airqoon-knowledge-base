@@ -122,11 +122,14 @@ bir **hibrit veri füzyonu, dispersiyon modelleme ve trajektori analiz platformu
 
 | Özellik | Airqoon (Mevcut) | BREEZE AERMOD | Envirosuite | Clarity Movement | **AQ-Fusion (Hedef)** |
 |---------|-----------------|---------------|-------------|-----------------|----------------------|
-| **Yaklaşım** | Sensör ağı + IDW heatmap | Dispersiyon modelleme | Sensör + model hibrit | Sensör ağı + analitik | **Sensör + dispersiyon + uydu füzyonu** |
+| **Yaklaşım** | Sensör ağı + IDW heatmap | Dispersiyon modelleme | Sensör + model hibrit | Sensör ağı + analitik | **Sensör + dispersiyon + uydu + trajektori füzyonu** |
 | **Gerçek zamanlı** | ✅ (sensör verisi) | ❌ (statik simülasyon) | ✅ (sınırlı) | ✅ (sensör verisi) | **✅ (tam hibrit)** |
-| **Sensörsüz bölge tahmini** | ❌ (yalnızca IDW) | ✅ (model tabanlı) | ✅ | ❌ | **✅ (OI + dispersiyon)** |
-| **Kaynak belirleme** | Basit rüzgâr gülü | ✅ (baca bazlı) | ✅ | ❌ | **✅ (ters modelleme + sensor)** |
-| **24-72 saat tahmin** | ❌ | ❌ | Sınırlı | ❌ | **✅ (LSTM + meteo)** |
+| **Sensörsüz bölge tahmini** | ❌ (yalnızca IDW) | ✅ (model tabanlı) | ✅ | ❌ | **✅ (OI + dispersiyon + uydu)** |
+| **Kaynak belirleme** | Basit rüzgâr gülü | ✅ (baca bazlı) | ✅ | ❌ | **✅ (ters modelleme + EPA-PMF + sensör)** |
+| **Trajektori analizi** | ❌ | ❌ | ❌ | ❌ | **✅ (HYSPLIT ileri/geri + CWT/PSCF)** |
+| **Uydu plüm takibi** | ❌ | ❌ | ❌ | ❌ | **✅ (Sentinel-2/MODIS timelapse)** |
+| **PNSD modelleme** | ❌ | ❌ | ❌ | ❌ | **✅ (OPC + ERA5 füzyon)** |
+| **24-72 saat tahmin** | ❌ | ❌ | Sınırlı | ❌ | **✅ (LSTM/TFT + meteo)** |
 | **SKHKKY / HKKD raporu** | ❌ | ✅ (manuel) | ❌ | ❌ | **✅ (otomatik)** |
 | **Donanım gereksinimi** | Airqoon Unit L/M | Yok (yazılım) | 3. parti sensör | Clarity Node | **Airqoon Unit L/M** |
 | **Fiyat modeli** | Donanım + SaaS | Lisans ($10K-50K+/yıl) | Enterprise ($50K+/yıl) | Donanım + SaaS | **Donanım + SaaS (katmanlı)** |
@@ -134,17 +137,25 @@ bir **hibrit veri füzyonu, dispersiyon modelleme ve trajektori analiz platformu
 
 ### 2.2 Yenilikçi Yönler
 
-1. **Hibrit veri füzyonu — sektörde boşluk:** Mevcut piyasada düşük maliyetli sensör verisi + uydu verisi + dispersiyon modeli birleştiren, müşteriye hazır SaaS ürün bulunmamaktadır. AERMOD statik raporlar üretir; sensör platformları yalnızca ölçüm noktalarında veri sunar. AQ-Fusion bu ikisini birleştirir.
+1. **Üçlü veri füzyonu — sektörde boşluk:** Mevcut piyasada düşük maliyetli sensör verisi + çoklu uydu verisi (AOD, TROPOMI, multispektral) + dispersiyon modeli birleştiren, müşteriye hazır SaaS ürün bulunmamaktadır. AERMOD statik raporlar üretir; sensör platformları yalnızca ölçüm noktalarında veri sunar. AQ-Fusion her üçünü birleştirir.
 
-2. **Ters dispersiyon modelleme ile kaynak tespiti:** Rüzgâr alanı + sensör gradyenleri kullanılarak "bu kirlilik neden ve nereden kaynaklanıyor?" sorusuna gerçek zamanlı yanıt — endüstriyel tesisler için kritik rekabet avantajı.
+2. **HYSPLIT trajektori analizi ile taşınım yolu haritalama:** İleri/geri trajektori hesabı + CWT/PSCF ile kirletici kaynaklarının bölgesel "parmak izi" haritası — hiçbir rakip bu yeteneği sunmamaktadır.
 
-3. **Mevzuat uyumlu otomatik raporlama:** SKHKKY kapsamında HKKD hesabının otomatik üretimi — Türkiye'de bu hizmeti sunan dijital platform yok. Çevre danışmanlık firmaları bunu yılda 1 kez manuel olarak yapmaktadır.
+3. **EPA-PMF reseptör modelleme + ters dispersiyon:** OPC boyut dağılımı ve çok bileşenli gaz verisinden istatistiksel kaynak profili çıkarma; ters dispersiyon ile konumsal tespit. İki yöntemi birleştiren ticari ürün yok.
 
-4. **Modüler donanım + yazılım ekosistemi:** Airqoon'un mevcut Unit L/M donanımı + Lens platformu üzerine inşa edilecek — rakipler ya sadece yazılım (AERMOD) ya sadece donanım (Clarity) sunmaktadır.
+4. **Uydu arşiv timelapse ve plüm kantifikasyonu:** Sentinel-2 + MODIS arşivinden ≥3 yıllık toz/kirletici plüm alanı ve AOD zaman serisi — operasyonel dönem vs bakım karşılaştırması, trend analizi. Bu yetenek yalnızca akademik çalışmalarda mevcuttur; ticari ürünleştirilmemiştir.
 
-5. **Türkiye'de yerli üretim avantajı:** Kamu ihalelerinde %15 fiyat avantajı; ithal AERMOD lisanslarına alternatif yerli çözüm.
+5. **Partikül boyut dağılımı (PNSD) modelleme:** OPC yer verisi ile ERA5 meteoroloji füzyonu; kaba vs ince fraksiyon ayrımı ve farklı çökelme/taşınım modellemesi — özellikle endüstriyel toz kaynakları (taşocağı, çimento, maden) için kritik.
 
-6. **ÇSED / SKDM / ESRS uyumluluk altyapısı:** Platform, EBRD/IFC fonlu projelerin gerektirdiği Çevresel ve Sosyal Etki Değerlendirmesi (ÇSED) için temel veri kaynağı olarak konumlanacaktır. AB SKDM (CBAM) kapsamında çimento ve demir-çelik sektörlerinin gömülü emisyon raporlaması, ve ESRS E2 (Kirlilik) / TSRS kapsamındaki Scope 3 emisyon beyanları için sürekli, doğrulanabilir çevresel veri sağlayacaktır.
+6. **Ters dispersiyon modelleme ile kaynak tespiti:** Rüzgâr alanı + sensör gradyenleri kullanılarak "bu kirlilik neden ve nereden kaynaklanıyor?" sorusuna gerçek zamanlı yanıt — endüstriyel tesisler için kritik rekabet avantajı.
+
+7. **Mevzuat uyumlu otomatik raporlama:** SKHKKY kapsamında HKKD hesabının otomatik üretimi — Türkiye'de bu hizmeti sunan dijital platform yok. Çevre danışmanlık firmaları bunu yılda 1 kez manuel olarak yapmaktadır.
+
+8. **Modüler donanım + yazılım ekosistemi:** Airqoon'un mevcut Unit L/M donanımı + Lens platformu üzerine inşa edilecek — rakipler ya sadece yazılım (AERMOD) ya sadece donanım (Clarity) sunmaktadır.
+
+9. **Türkiye'de yerli üretim avantajı:** Kamu ihalelerinde %15 fiyat avantajı; ithal AERMOD lisanslarına alternatif yerli çözüm.
+
+10. **ÇSED / SKDM / ESRS uyumluluk altyapısı:** Platform, uluslararası finans kuruluşları fonlu projelerin gerektirdiği Çevresel ve Sosyal Etki Değerlendirmesi (ÇSED) için temel veri kaynağı olarak konumlanacaktır. AB SKDM (CBAM) kapsamında çimento ve demir-çelik sektörlerinin gömülü emisyon raporlaması, ve ESRS E2 (Kirlilik) / TSRS kapsamındaki Scope 3 emisyon beyanları için sürekli, doğrulanabilir çevresel veri sağlayacaktır.
 
 ### 2.3 Ulusal ve Uluslararası Bağlam
 
@@ -157,7 +168,7 @@ bir **hibrit veri füzyonu, dispersiyon modelleme ve trajektori analiz platformu
 **Uluslararası:**
 - AB Direktif 2024/2881 ile PM2.5 limit değeri 25'ten 10 µg/m³'e düşecek, indikatif izleme talebi katlayacaktır.
 - **ESRS E2 (Kirlilik):** AB'de faaliyet gösteren veya AB müşterilerine tedarik zincirinde yer alan firmalar, ESRS E2 kapsamında hava kirletici emisyonlarını (NOx, SOx, PM) raporlamak durumundadır.
-- **EBRD/IFC fonlu projeler:** Türkiye'deki büyük altyapı ve enerji projelerinin önemli bir kısmı EBRD, IFC ve Dünya Bankası fonlarıyla finanse edilmektedir. Bu kurumlar, ulusal mevzuatın ötesinde ÇSED (ESIA), Dünya Bankası EHS Kılavuzları ve DSÖ hava kalitesi değerlerine uyum aramaktadır. Sürekli çevresel izleme, ESMP (Çevresel ve Sosyal Yönetim Planı) kapsamında zorunludur.
+- **Uluslararası finans kuruluşları fonlu projeler:** Türkiye'deki büyük altyapı ve enerji projelerinin önemli bir kısmı uluslararası finans kuruluşları (EBRD, IFC, Dünya Bankası) fonlarıyla finanse edilmektedir. Bu kurumlar, ulusal mevzuatın ötesinde ÇSED (ESIA), Dünya Bankası EHS Kılavuzları ve DSÖ hava kalitesi değerlerine uyum aramaktadır. Sürekli çevresel izleme, ESMP kapsamında zorunludur.
 - Global çevre yazılımı pazarı ~$4B (2025), CAGR %12.
 
 ---
@@ -169,8 +180,12 @@ bir **hibrit veri füzyonu, dispersiyon modelleme ve trajektori analiz platformu
 | Yöntem | Açıklama | Kullanım |
 |--------|----------|----------|
 | **Optimal Interpolation (OI)** | İstatistiksel veri asimilasyonu; gözlem ve arka plan (model/uydu) verisini hata kovaryans matrisleri ile birleştirir | Sensörsüz bölgelerde yüksek doğruluklu konsantrasyon haritası |
-| **Gaussian Puff/Plume Modeli** | Atmosferik yayılımı rüzgâr, kararlılık sınıfı ve karışım yüksekliğine göre hesaplayan fizik tabanlı model | Endüstriyel kaynaklardan kirletici dağılımı |
-| **Ters Modelleme (Inverse Dispersion)** | Sensör ağındaki konsantrasyon gradyenlerinden geriye doğru kaynağa ulaşma | Bilinmeyen/kaçak emisyon kaynaklarının tespiti |
+| **Gaussian Puff/Plume Modeli** | Atmosferik yayılımı rüzgâr, kararlılık sınıfı ve karışım yüksekliğine göre hesaplayan fizik tabanlı model | Endüstriyel kaynaklardan (nokta, alan, fugitif) kirletici dağılımı |
+| **HYSPLIT Trajektori Analizi** | NOAA'nın Hybrid Single-Particle Lagrangian Integrated Trajectory modeli; ileri/geri hava kütle hareketi hesabı | Kirletici taşınım yolları, kaynak bölgesi tespiti (CWT/PSCF) |
+| **EPA-PMF Reseptör Modelleme** | Positive Matrix Factorization; çok değişkenli kimyasal/fiziksel parmak izi verisinden istatistiksel kaynak profili çıkarma | Kaynak katkı payları hesaplama (source apportionment) |
+| **Ters Modelleme (Inverse Dispersion)** | Sensör ağındaki konsantrasyon gradyenlerinden geriye doğru kaynağa ulaşma | Bilinmeyen/kaçak emisyon kaynaklarının konumsal tespiti |
+| **Partikül Boyut Dağılımı (PNSD)** | OPC partikül sayım verisi ile meteoroloji füzyonu; kaba (>2.5µm) vs ince (<2.5µm) fraksiyon ayrımı | Toz kaynağı tipine göre farklı çökelme/taşınım modellemesi |
+| **Uydu Plüm Kantifikasyonu** | Sentinel-2 multispektral + MODIS AOD arşivinden toz plüm alanı ve optik derinlik zaman serisi | Timelapse değişim tespiti, mevsimsel trend analizi |
 | **Kriging / IDW** | Jeo-istatistiksel interpolasyon yöntemleri | Mekânsal hava kalitesi haritaları |
 | **Ko-lokasyon Testi** | CEN/TS 17660 uyumlu sensör-referans karşılaştırması | Sensör verisi kalite güvencesi |
 | **CFD (basitleştirilmiş)** | Kentsel kanyon ve bina etkilerinin rüzgâr alanı üzerindeki etkisi | Şehir içi dispersiyonda bina etkisi düzeltmesi |
@@ -178,11 +193,17 @@ bir **hibrit veri füzyonu, dispersiyon modelleme ve trajektori analiz platformu
 ### 3.2 Kullanılacak Teknolojiler
 
 **Veri Kaynakları:**
-- Airqoon sensör ağı (PM1/2.5/10, NO₂, O₃, SO₂, CO, VOC, T/RH/P, rüzgâr)
-- CAMS/Copernicus Atmosphere Monitoring Service (uydu tabanlı hava kalitesi reanaliz verileri)
+- Airqoon sensör ağı (OPC partikül sayım + PM1/2.5/10 kütle, NO₂, O₃, SO₂, CO, VOC, T/RH/P, rüzgâr)
+- **Uydu verileri:**
+  - MODIS MAIAC AOD (500m, günlük) — bölgesel aerosol optik derinliği
+  - Sentinel-5P/TROPOMI (NO₂, SO₂, CO tropösferik kolon) — gaz dağılım haritası
+  - Sentinel-2 multispektral (10m, 5 günde bir) — toz plüm optik tespiti
+  - CAMS/Copernicus Atmosphere Monitoring Service — reanaliz konsantrasyon
+- **Meteorolojik reanaliz:** ERA5 (0.25°, saatlik), MERRA-2 — rüzgâr, kararlılık, karışım yüksekliği
 - Bakanlık referans istasyon verileri
 - OpenStreetMap / bina yükseklik verileri (kentsel morfoloji)
 - Trafik yoğunluk verileri (belediye API'leri)
+- Endüstriyel proses verileri (opsiyonel — tesis sahibi tarafından paylasılan üretim/söndürme/bakım verileri)
 
 **Yapay Zekâ / Makine Öğrenmesi:**
 - **Algoritmalar:** LSTM, Temporal Fusion Transformer (TFT) — zaman serisi tahmini; XGBoost — kaynak sınıflandırma
@@ -211,8 +232,10 @@ bir **hibrit veri füzyonu, dispersiyon modelleme ve trajektori analiz platformu
 | SKDM / CBAM (AB Reg. 2023/956) | Gömülü karbon emisyon raporlama — çimento, demir-çelik |
 | ESRS E1 (İklim) / E2 (Kirlilik) | AB sürdürülebilirlik raporlama — Scope 1/2/3 emisyon, hava kirletici |
 | TSRS 1 / TSRS 2 (KGK) | Türkiye sürdürülebilirlik raporlama — sera gazı beyanları |
-| IFC Performance Standard 3 | Kaynak Verimliliği ve Kirlilik Önleme — EBRD/IFC fonlu projeler |
+| IFC Performance Standard 3 | Kaynak Verimliliği ve Kirlilik Önleme — uluslararası finans kuruluşları fonlu projeler |
 | Dünya Bankası EHS Kılavuzları | ÇSED kapsamında hava kalitesi baz çalışması ve izleme |
+| EU IED 2010/75/EU | Endüstriyel Emisyon Direktifi — çimento, enerji, atık tesisleri |
+| BAT Conclusions (2013/163/EU) | BAT 5 (izleme), BAT 14–18 (toz kontrol) — çimento/kireç/MgO |
 
 ---
 
@@ -226,6 +249,7 @@ bir **hibrit veri füzyonu, dispersiyon modelleme ve trajektori analiz platformu
 | **Lens Standard SaaS** | Gerçek zamanlı dashboard, alarm, rapor (mevcut) | $500-800/yıl |
 | **🆕 Lens Fusion — Kent** | Şehir genelinde hava kalitesi haritası, sensörsüz bölge tahmini, 24-72 saat öngörü, halk sağlığı erken uyarı | $5,000-15,000/yıl (belediye lisansı) |
 | **🆕 Lens Fusion — Endüstri** | Tesis çevresi dispersiyon haritası, kaynak katkı analizi, otomatik HKKD raporu, uyum takibi | $3,000-10,000/yıl (tesis lisansı) |
+| **🆕 Lens Fusion — Endüstri Pro** | Endüstri + HYSPLIT trajektori + uydu plüm timelapse + EPA-PMF + PNSD modelleme + DMP desteği | $8,000-20,000/yıl (tesis lisansı) |
 | **🆕 Lens Fusion — OSB** | Çok kiracılı kaynak belirleme, kiracı bazlı katkı raporu, OSB çevre KPI'ları | $8,000-20,000/yıl (OSB lisansı) |
 | **🆕 Fusion API** | 3. parti entegrasyon: dispersiyon verileri, tahmin, kaynak analizi API | $2,000-5,000/yıl |
 
@@ -264,26 +288,28 @@ bir **hibrit veri füzyonu, dispersiyon modelleme ve trajektori analiz platformu
 
 ### 4.4 Rekabet Avantajı Özeti
 
-1. **Hibrit yaklaşım:** Tek platformda sensör + model + uydu — rakipler bunu ayrı ayrı sunar
+1. **Üçlü hibrit yaklaşım:** Tek platformda sensör + dispersiyon modeli + uydu + trajektori — rakipler bunları ayrı ayrı sunar
 2. **Fiyat:** Fusion Kent $5K-15K/yıl vs Envirosuite $50K+/yıl — 70-90% maliyet avantajı
 3. **Yerli üretim:** Kamu ihalelerinde %15 fiyat avantajı; AERMOD lisansına alternatif
 4. **Donanım + yazılım ekosistemi:** Müşteri kilitlenmesi (lock-in) — donanım alan müşteri yazılım SaaS'ına geçer
-5. **Mevcut müşteri tabanı:** 20+ aktif müşteri, 200+ saha noktası — çimento sektöründe (Akçansa, Oyak Çimento, Çimsa, Çimentaş) ve belediyelerde (Bursa şehir geneli, Denizli, Kadıköy, İnegöl) hemen pilot uygulama yapılabilir
+5. **Mevcut müşteri tabanı:** 20+ aktif müşteri, 200+ saha noktası — çimento sektöründe ve belediyelerde hemen pilot uygulama yapılabilir
 6. **SKHKKY uyumu:** Otomatik HKKD raporu — Türkiye'de dijital olarak sunan ilk platform
+7. **Trajektori + PMF:** HYSPLIT + EPA-PMF entegrasyonu — hiçbir rakip bu bileşimi sunmamaktadır
+8. **Uydu timelapse:** ≥3 yıllık geriye dönük plüm timelapse ile operasyonel etki kanıtlama — rühsat/denetim süreçlerinde kritik belge
 
 ### 4.5 Regülasyon Kaynaklı Talep Sürücüleri
 
 | Regülasyon | Etkilenen Sektör | AQ-Fusion Değer Önerisi |
 |-----------|-----------------|------------------------|
 | **SKDM / CBAM** | Çimento, demir-çelik, alüminyum ihracatçıları | Tesis çevresinde sürekli emisyon izleme ve kaynak katkı raporları — doğrulanabilir gömülü emisyon verisi |
-| **ÇSED / ESIA (EBRD/IFC)** | Enerji, altyapı, maden projeleri | Baz çalışması (baseline), inşaat/işletme dönemi izleme, ESMP kapsamında sürekli veri — uluslararası fon şartlarına uyum |
+| **ÇSED / ESIA** | Enerji, altyapı, maden projeleri | Baz çalışması (baseline), inşaat/işletme dönemi izleme, ESMP kapsamında sürekli veri — uluslararası fon şartlarına uyum |
 | **ESRS E1/E2** | AB'ye ihracat yapan veya AB tedarik zincirindeki firmalar | Scope 3 emisyon verisi (downstream), hava kirletici beyanları (ESRS E2), doğrulanabilir çevresel performans verisi |
 | **TSRS 1/2** | BİST şirketleri, büyük işletmeler (genişleyen kapsam) | Sera gazı emisyon beyanları (Scope 1/2/3), çevresel risk ve fırsat analizi, iklim senaryosu verisi |
 | **SKHKKY** | Tüm endüstriyel tesisler | Otomatik HKKD raporu, dispersiyon modelleme, kaynak belirleme |
 | **HKDYY** | Belediyeler, Çevre İl Müdürlükleri | Kent geneli hava kalitesi haritası, limit aşım takibi, erken uyarı |
 
 > [!IMPORTANT]
-> **Neden şimdi?** SKDM'nin 1 Ocak 2026'da kesin rejime geçmesi, TSRS raporlamanın kapsamının genişlemesi ve EBRD/IFC'nin Türkiye'deki yeşil dönüşüm fonlamasını artırması, sürekli ve doğrulanabilir çevresel izleme verisine olan talebi tarihsel olarak en yüksek seviyeye çıkarmıştır. AQ-Fusion, bu regülasyon dalgasına tam zamanında yanıt veren bir ürün olarak konumlanmaktadır.
+> **Neden şimdi?** SKDM'nin 1 Ocak 2026'da kesin rejime geçmesi, TSRS raporlamanın kapsamının genişlemesi ve uluslararası finans kuruluşlarının Türkiye'deki yeşil dönüşüm fonlamasını artırması, sürekli ve doğrulanabilir çevresel izleme verisine olan talebi tarihsel olarak en yüksek seviyeye çıkarmıştır. AQ-Fusion, bu regülasyon dalgasına tam zamanında yanıt veren bir ürün olarak konumlanmaktadır.
 
 ---
 
@@ -298,6 +324,7 @@ bir **hibrit veri füzyonu, dispersiyon modelleme ve trajektori analiz platformu
 > **Proje süresi:** 18 ay | **Ekip:** 4-6 Ar-Ge mühendisi (ML/veri, gömülü yazılım, bulut/platform, atmosfer modelleme)
 > **Pilot lokasyonlar:**
 > - *Kent:* Bursa Büyükşehir (şehir geneli ağ), Denizli Büyükşehir
-> - *Endüstri:* Akçansa (BCM/CNK), Oyak Çimento, Çimsa, Çimentaş
+> - *Endüstri:* Akçansa (BCM/CNK), Oyak Çimento, çimento/ağır sanayi tesisleri
 > - *OSB:* İnegöl OSB (mevcut sensör ağı + CFD çalışması verileri)
+> - *Maden/Taşocağı:* Toz kaynağı haritalama ve hassas alıcı etki analizi
 > **Sertifikalar:** ISO 9001:2015 ve ISO 27001:2022 (İnovathink A.Ş.)

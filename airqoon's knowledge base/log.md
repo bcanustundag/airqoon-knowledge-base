@@ -312,3 +312,22 @@ Updated `index.md` with the new source pages.
 - Updated `wiki/entities/airqoon.md` — upgraded Çimsa from "tender pursued" to "proposal submitted"; added Çimsa/EBRD Project Limestone to Key Projects table.
 - Updated `index.md` with new source and entity pages.
 ## [2026-05-11] ingest | Ingested 19 PDF sources (mostly Kunak manuals, case studies, SOGA 2025)
+
+## [2026-05-11] edit | Major revision of AQ-Fusion Teknopark proposal
+- Incorporated dispersion modelling, trajectory analysis, satellite remote sensing, and receptor modelling techniques from the Çimsa EBRD proposal methodology into the generic AQ-Fusion R&D project — without referencing any specific client or funder.
+- **New capabilities added:**
+  - HYSPLIT trajectory analysis (forward/backward + CWT/PSCF source region maps)
+  - EPA-PMF receptor modelling for source apportionment
+  - Particle Number Size Distribution (PNSD) modelling with OPC ground-truth
+  - Satellite plüm quantification and timelapse change detection (Sentinel-2 + MODIS archive)
+  - Multi-source ML fusion model (satellite + ground sensors + ERA5 meteorology + process data)
+  - Specific satellite products: MODIS MAIAC AOD, Sentinel-5P/TROPOMI, Sentinel-2 multispektral
+  - Meteorological reanalysis: ERA5 (0.25°, hourly), MERRA-2
+- **New objectives:** H7 (trajectory module), H8 (satellite plüm tracking)
+- **New product tier:** Lens Fusion — Endüstri Pro ($8K-20K/yr)
+- **New pilot category:** Maden/Taşocağı (mining/quarry dust mapping)
+- Competitor comparison table expanded with 3 new rows (trajectory, satellite plüm, PNSD)
+- Innovation list expanded from 6 to 10 items
+- R&D methods table expanded with 6 new techniques
+- Standards table expanded with EU IED and BAT Conclusions
+- Neutralized all specific EBRD/Çimsa references to generic "uluslararası finans kuruluşları"

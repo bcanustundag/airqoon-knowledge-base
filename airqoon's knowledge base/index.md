@@ -258,4 +258,4 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 
 ---
 
-*Last updated: 2026-05-08 (Ingested Airqoon–Çimsa EBRD proposal)*
+*Last updated: 2026-05-11 (Revised AQ-Fusion proposal with HYSPLIT/PMF/satellite capabilities)*
