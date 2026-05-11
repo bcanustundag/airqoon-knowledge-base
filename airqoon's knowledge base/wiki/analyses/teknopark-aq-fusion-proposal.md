@@ -3,7 +3,7 @@ title: "Analysis: AQ-Fusion Teknopark Project Proposal"
 type: analysis
 tags: [teknopark, aq-fusion, dispersiyon, data-fusion, saas, skdm, cbam, esrs, tsrs, csed]
 created: 2026-05-01
-updated: 2026-05-01
+updated: 2026-05-11
 related:
   - "[[wiki/sources/teknopark-previous-projects|Teknopark Previous Projects]]"
   - "[[wiki/entities/airqoon|Airqoon]]"
@@ -27,51 +27,78 @@ related:
 
 ### 1.1 Problem Tanımı
 
-Hava kalitesi yönetiminde iki temel yaklaşım ayrı ayrı kullanılmaktadır:
+Hava kalitesi yönetiminde üç temel yaklaşım ayrı ayrı kullanılmaktadır:
 
 1. **Ölçüm ağları** (sensörler, referans istasyonlar): Gerçek zamanlı veri sağlar, ancak yalnızca sensör bulunan noktalarda. Sensörsüz bölgeler "karanlık" kalır.
 2. **Dispersiyon modelleri** (AERMOD, CALPUFF, Gaussian plume): Emisyon kaynaklarından kirliliğin yayılımını simüle eder, ancak statik girdi verileriyle çalışır, gerçek zamanlı değildir ve modelleme hatası yüksektir.
+3. **Uzaktan algılama** (uydu görüntüleme, MODIS AOD, Sentinel-5P/TROPOMI): Geniş alanı kapsar ancak düşük mekânsal/zamansal çözünürlükte ve yer doğrulaması olmadan güvenilirliği sınırlıdır.
 
-**Hiçbir mevcut ticari ürün bu iki yaklaşımı gerçek zamanlı olarak birleştirip müşteriye hazır, eyleme dönüştürülebilir bir platform olarak sunmamaktadır.** Mevcut çözümler ya sadece ölçüm (Oizom, Kunak, Bettair), ya sadece modelleme (BREEZE AERMOD, ADMS), ya da ikisinin akademik düzeyde entegrasyonudur (Envirosuite — yüksek maliyet, sınırlı erişim).
+**Hiçbir mevcut ticari ürün bu üç yaklaşımı — yer sensörleri, dispersiyon modelleme ve uydu uzaktan algılama — gerçek zamanlı olarak birleştirip müşteriye hazır, eyleme dönüştürülebilir bir platform olarak sunmamaktadır.** Mevcut çözümler ya sadece ölçüm (Oizom, Kunak, Bettair), ya sadece modelleme (BREEZE AERMOD, ADMS), ya da ikisinin akademik düzeyde entegrasyonudur (Envirosuite — yüksek maliyet, sınırlı erişim). Hiçbiri **HYSPLIT trajektori analizi**, **uydu toz plüm kantitatif takibi** veya **EPA-PMF reseptör modelleme** ile entegre çalışmaz.
 
-Türkiye'de SKHKKY (Sanayi Kaynaklı Hava Kirliliği Kontrol Yönetmeliği) kapsamında AERMOD kullanımı zorunlu olmakla birlikte, bu modeller statik ÇED raporları için kullanılmakta, **gerçek zamanlı operasyonel karar destek sistemi** olarak kullanılmamaktadır.
+Türkiye'de SKHKKY (Sanayi Kaynaklı Hava Kirliliği Kontrol Yönetmeliği) kapsamında AERMOD kullanımı zorunlu olmakla birlikte, bu modeller statik ÇED raporları için kullanılmakta, **gerçek zamanlı operasyonel karar destek sistemi** olarak kullanılmamaktadır. Uydu verileri (MODIS MAIAC AOD, Sentinel-2 optik, Sentinel-5P tropösferik kolon verileri) sistematik olarak yer ölçümleriyle füzyon edilmemektedir.
 
 ### 1.2 Projenin Amacı
 
-Airqoon'un mevcut sensör ağı verilerini, meteorolojik veriler, uydu verileri (CAMS/Copernicus), trafik verileri ve emisyon envanterleri ile füzyon ederek:
+Airqoon'un mevcut sensör ağı verilerini; ERA5/MERRA-2 meteorolojik reanaliz, çoklu uydu verileri (MODIS MAIAC AOD, Sentinel-5P/TROPOMI, Sentinel-2, CAMS/Copernicus), trafik verileri ve emisyon envanterleri ile füzyon ederek:
 
 - **Sensörsüz bölgelerde** yüksek çözünürlüklü (100m×100m) hava kalitesi haritaları üreten,
-- **Kirletici kaynaklarını** (endüstriyel tesis, trafik, ısınma) otomatik olarak belirleyen ve katkı paylarını hesaplayan,
+- **Kirletici kaynaklarını** (endüstriyel tesis, trafik, ısınma) otomatik olarak belirleyen ve katkı paylarını hesaplayan (**EPA-PMF reseptör modelleme** + ters dispersiyon),
+- **Trajektori analizi** (HYSPLIT ileri/geri) ile kirletici taşınım yollarını belirleyen,
+- **Uydu arşiv analizi** ile toz/kirletici plüm alanını ve optik derinliğini zamanlı olarak takip eden (timelapse change detection),
+- **Partikül boyut dağılımı** (PNSD) modelleme ve OPC yer doğrulaması ile kaba/ince fraksiyon ayrımı yapan,
 - **İleriye dönük tahmin** (24-72 saat) yaparak erken uyarı veren,
 - Belediyeler ve endüstriyel tesislere **satılabilir bir SaaS ürün** olarak sunulan
 
-bir **hibrit veri füzyonu ve dispersiyon modelleme platformu** geliştirmektir.
+bir **hibrit veri füzyonu, dispersiyon modelleme ve trajektori analiz platformu** geliştirmektir.
 
 ### 1.3 Hedefler
 
 | #   | Hedef                                   | Ölçülebilir Başarı Kriteri                                                                                                            |
 | --- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| H1  | Hibrit veri füzyon motoru               | Sensör + CAMS + meteo verilerini birleştiren Optimal Interpolation (OI) algoritması; sensörsüz noktalarda RMSE < %30 (referansa göre) |
+| H1  | Hibrit veri füzyon motoru               | Sensör + uydu (MODIS AOD, Sentinel-5P, CAMS) + ERA5 meteo verilerini birleştiren Optimal Interpolation (OI) algoritması; sensörsüz noktalarda RMSE < %30 (referansa göre) |
 | H2  | Gerçek zamanlı dispersiyon modeli       | Gaussian puff/plume tabanlı, rüzgâr alanı ile çalışan, 100m çözünürlükte yayılım haritası; güncelleme sıklığı ≤ 15 dk                 |
-| H3  | Kaynak belirleme (source apportionment) | Rüzgâr yönü + konsantrasyon gradyeni analiziyle emisyon kaynağının konumunu ±200m doğrulukla tespit                                   |
+| H3  | Kaynak belirleme (source apportionment) | EPA-PMF reseptör modelleme + ters dispersiyon ile emisyon kaynağının konumunu ±200m doğrulukla tespit; kaynak katkı paylarını %95 güven aralığında hesaplama |
 | H4  | Tahmin modülü (24-72 saat)              | PM2.5 ve NO₂ için 24 saatlik tahminde R² ≥ 0.80, MAE < 8 µg/m³                                                                        |
 | H5  | Müşteriye hazır SaaS platformu          | Airqoon Lens'e entegre, API + interaktif harita + otomatik rapor                                                                      |
 | H6  | Endüstriyel kaynak katkı raporu         | SKHKKY uyumlu Hava Kirletici Katkı Değeri (HKKD) hesaplama ve raporlama                                                               |
+| H7  | Trajektori analiz modülü                | HYSPLIT ileri/geri trajektori hesabı; 72 saatlik taşınım yolu haritası; CWT/PSCF kaynak bölgesi analizi; güncelleme ≤ 1 saat           |
+| H8  | Uydu plüm takip ve değişim tespiti      | Sentinel-2/MODIS arşivinden toz plüm alanı ve AOD zaman serisi; ≥3 yıllık geriye dönük timelapse; otomatik plüm tespiti F1 ≥ 0.75     |
 
 ### 1.4 Kapsam — İş Paketleri
 
-**İP-1: Veri Füzyon Motoru (Ay 1-7)**
-- Airqoon sensör ağı + CAMS/Copernicus uydu verisi + MGM meteoroloji verisi + referans istasyon verisi entegrasyonu
-- Optimal Interpolation ve kriging algoritmaları ile sensörsüz bölgelerde ara-değer (interpolation) üretimi
+**İP-1: Veri Füzyon Motoru ve Uydu Entegrasyonu (Ay 1-7)**
+- Airqoon sensör ağı (OPC partikül sayım + PM kütle, gazlar) + referans istasyon verisi entegrasyonu
+- **Uydu veri pipeline'ı:**
+  - MODIS MAIAC AOD (500m, günlük) — bölgesel aerosol yükü
+  - Sentinel-5P/TROPOMI (NO₂, SO₂, CO tropösferik kolon) — gaz dağılımı
+  - Sentinel-2 multispektral (10m, 5 günde bir) — toz plüm optik tespiti ve alan hesabı
+  - CAMS/Copernicus reanaliz — arka plan konsantrasyon tahmini
+- **Meteorolojik reanaliz:** ERA5 (0.25°, saatlik) ve MERRA-2 — rüzgâr alanı, kararlılık sınıfı, karışım yüksekliği, sıcaklık profili
+- Optimal Interpolation (OI), Ensemble Kalman Filter (EnKF) ve kriging algoritmaları ile sensörsüz bölgelerde ara-değer (interpolation) üretimi
 - Çoklu veri kaynağı kalite değerlendirmesi ve ağırlıklandırma
+- **Partikül boyut dağılımı (PNSD) modelleme:** OPC yer verisi ile ERA5 meteoroloji füzyonu; kaba (>2.5µm) vs ince (<2.5µm) fraksiyon ayrımı
 
-**İP-2: Dispersiyon Modelleme Motoru (Ay 4-12)**
-- Gaussian puff modeli ile rüzgâr alanına dayalı kirletici yayılım simülasyonu
+**İP-2: Dispersiyon Modelleme ve Trajektori Analiz Motoru (Ay 4-12)**
+- **Plüm/puff modelleme:** Gaussian puff modeli ile rüzgâr alanına dayalı kirletici yayılım simülasyonu (nokta, alan ve fugitif kaynaklar)
+- **Partikül dispersiyon modelleme:** Kaba vs ince fraksiyon ayrımında farklı çökelme hızları ve taşınım mesafeleri
+- **HYSPLIT trajektori analizi:**
+  - İleri trajektori: Belirli bir kaynaktan kirletici nereye taşınıyor? (72 saat)
+  - Geri trajektori: Yüksek konsantrasyon ölçülen noktaya kirletici nereden geliyor? (72 saat)
+  - CWT (Concentration Weighted Trajectory) ve PSCF (Potential Source Contribution Function) kaynak bölgesi haritaları
+- **Ters modelleme (inverse dispersion):** Sensör ağındaki konsantrasyon gradyenlerinden geriye doğru kaynağa ulaşma — "kirlilik nereden geliyor?"
+- **EPA-PMF reseptör modelleme:** Fizikokimyasal parmak izi verisi (OPC boyut dağılımı, çok bileşenli gaz oranları) ile kaynak profilleri çıkarma ve katkı paylarını istatistiksel olarak hesaplama
 - CFD (Computational Fluid Dynamics) basitleştirilmiş kentsel kanyon modeli — bina/arazi etkisi
-- Ters modelleme (inverse modeling) ile kaynak belirleme — "kirlilik nereden geliyor?"
-- Emisyon envanteri entegrasyonu (trafik, endüstri, ısınma kaynakları)
+- Emisyon envanteri entegrasyonu (trafik, endüstri, ısınma, maden, taşocağı kaynakları)
 
-**İP-3: Tahmin ve Karar Destek Modülü (Ay 8-15)**
+**İP-3: Uydu Arşiv Analizi, Tahmin ve Karar Destek Modülü (Ay 8-15)**
+- **Uydu zaman serisi plüm takibi (Timelapse Change Detection):**
+  - Sentinel-2 + MODIS arşivinden ≥3 yıllık geriye dönük toz/kirletici plüm alanı ve AOD zaman serisi
+  - Otomatik plüm tespiti (ML tabanlı segmentasyon) ve alan/yoğunluk trendleri
+  - Mevsimsel ve yıllık değişim analizi — operasyonel dönem vs bakım/duruş karşılaştırması
+- **ML tabanlı çok kaynaklı füzyon modeli:**
+  - Girdi: uydu görüntüleme, yer sensör verileri, ERA5 meteoroloji, proses/trafik verileri
+  - Çıktı: kaynak atıfı (source attribution) ve katkı payları
+  - Algoritmalar: LSTM, Temporal Fusion Transformer (TFT), XGBoost
 - LSTM/Transformer tabanlı 24-72 saat hava kalitesi tahmini
 - Meteorolojik tahmin verileri ile dispersiyon modeli birleştirmesi
 - Erken uyarı sistemi: "Yarın batı rüzgârı ile X tesisinden kaynaklı PM10 artışı bekleniyor"
@@ -79,10 +106,12 @@ bir **hibrit veri füzyonu ve dispersiyon modelleme platformu** geliştirmektir.
 
 **İP-4: Platform Entegrasyonu ve Pilot Uygulama (Ay 12-18)**
 - Airqoon Lens platformuna entegrasyon (harita katmanı, rapor modülü, API)
+- Yeni Lens katmanları: dispersiyon haritası, trajektori haritası, uydu plüm timelapse, kaynak katkı pie-chart, PNSD dağılım grafiği
 - Pilot uygulamalar:
   - **Kent ölçeği:** Bursa Büyükşehir (şehir geneli ağ) ve/veya Denizli Büyükşehir
-  - **Endüstriyel:** Akçansa (BCM/CNK bölgeleri), Oyak Çimento, Çimsa veya Çimentaş tesisleri
+  - **Endüstriyel:** Akçansa (BCM/CNK bölgeleri), Oyak Çimento, çimento/ağır sanayi tesisleri
   - **OSB:** İnegöl OSB (mevcut sensör ağı ve CFD çalışması verileri mevcut)
+  - **Maden/Taşocağı:** Toz kaynağı haritalama ve hassas alıcı (yerleşim) etki analizi
 - Müşteri geri bildirimi ve ürün iterasyonu
 
 ---
