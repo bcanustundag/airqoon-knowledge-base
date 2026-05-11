@@ -1,10 +1,18 @@
 ---
 title: "Kunak AIR Pro Performance Test Results & Co-location Field Studies"
 type: source
-tags: [testing, kunak, competitor, performance, co-location]
+tags: [testing, kunak, competitor, performance, co-location, cen-ts-17660]
 created: 2026-04-26
-updated: 2026-04-26
+updated: 2026-05-12
 sources: [b7a6f0fc2fd37207330aa809fa5557c0304f80e39f6d3b5d09d3dbaaf6d725a2.pdf]
+related:
+  - "[[wiki/entities/kunak-technologies|Kunak Technologies]]"
+  - "[[wiki/sources/kunak-standardization-intro|Standardization & Certifications]]"
+  - "[[wiki/sources/kunak-air-pro-mcert|MCERTS Certificate]]"
+  - "[[wiki/sources/kunak-air-datasheet|Kunak AIR Pro Datasheet]]"
+  - "[[wiki/concepts/en17660-standard|EN 17660 Standard]]"
+  - "[[wiki/concepts/low-cost-air-sensors|Low-Cost Air Sensors]]"
+  - "[[wiki/entities/unit-l|Unit L]]"
 ---
 
 # Kunak AIR Pro Performance Test Results

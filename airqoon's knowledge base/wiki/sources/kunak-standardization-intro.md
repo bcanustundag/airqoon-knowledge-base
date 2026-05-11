@@ -1,10 +1,17 @@
 ---
 title: "An Introduction to International Standarization, Testing & Certifications"
 type: source
-tags: [certification, standard, kunak, competitor]
+tags: [certification, standard, kunak, competitor, cen-ts-17660, mcerts]
 created: 2026-04-26
-updated: 2026-04-26
+updated: 2026-05-12
 sources: [1a5a8ef68ae3edcafb87c70f9bad47b7e4e1e48bf5a07bb3cb524df1fe445839.pdf]
+related:
+  - "[[wiki/entities/kunak-technologies|Kunak Technologies]]"
+  - "[[wiki/sources/kunak-air-pro-performance-tests|Performance Test Results]]"
+  - "[[wiki/sources/kunak-air-pro-mcert|MCERTS Certificate]]"
+  - "[[wiki/sources/kunak-air-datasheet|Kunak AIR Pro Datasheet]]"
+  - "[[wiki/concepts/en17660-standard|EN 17660 Standard]]"
+  - "[[wiki/concepts/low-cost-air-sensors|Low-Cost Air Sensors]]"
 ---
 
 # An Introduction to International Standarization, Testing & Certifications

@@ -1,10 +1,15 @@
 ---
 title: "Case Study: Mining air pollution monitoring network"
 type: source
-tags: [use-case, mining, kunak]
+tags: [use-case, mining, kunak, case-study, perimeter-monitoring]
 created: 2026-05-11
-updated: 2026-05-11
+updated: 2026-05-12
 sources: [raw/articles/notion/case-study-Mining_air_pollution_monitoring_network.pdf]
+related:
+  - "[[wiki/entities/kunak-technologies|Kunak Technologies]]"
+  - "[[wiki/sources/case-study-cement-plant|Cement Plant Case Study]]"
+  - "[[wiki/sources/case-study-port-areas|Port Case Study]]"
+  - "[[wiki/concepts/perimeter-monitoring|Perimeter Monitoring]]"
 ---
 
 # Case Study: Mining air pollution monitoring network

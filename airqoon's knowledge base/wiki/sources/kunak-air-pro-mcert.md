@@ -3,8 +3,14 @@ title: "Kunak Air Pro MCERT Certification"
 type: source
 tags: [competitor, kunak, certification, mcerts]
 created: 2026-05-11
-updated: 2026-05-11
+updated: 2026-05-12
 sources: [raw/articles/notion/Kunak_Air_Pro_MCERT_certification.pdf]
+related:
+  - "[[wiki/entities/kunak-technologies|Kunak Technologies]]"
+  - "[[wiki/sources/kunak-air-pro-performance-tests|Performance Test Results]]"
+  - "[[wiki/sources/kunak-standardization-intro|Standardization & Certifications]]"
+  - "[[wiki/sources/kunak-air-datasheet|Kunak AIR Pro Datasheet]]"
+  - "[[wiki/concepts/en17660-standard|EN 17660 Standard]]"
 ---
 
 # Kunak Air Pro MCERT Certification

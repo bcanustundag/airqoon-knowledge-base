@@ -1,10 +1,15 @@
 ---
 title: "Kunak Cartridge VOCs Response Factor"
 type: source
-tags: [competitor, kunak, voc, sensors]
+tags: [competitor, kunak, voc, sensors, cartridge]
 created: 2026-05-11
-updated: 2026-05-11
+updated: 2026-05-12
 sources: [raw/articles/notion/Kunak_Cartridge_VOCs_Response_Factor.pdf]
+related:
+  - "[[wiki/entities/kunak-technologies|Kunak Technologies]]"
+  - "[[wiki/sources/kunak-air-cartridge-fitting|Cartridge Fitting]]"
+  - "[[wiki/sources/kunak-air-datasheet|Kunak AIR Pro Datasheet]]"
+  - "[[wiki/sources/kunak-air-pro-user-manual|User Manual]]"
 ---
 
 # Kunak Cartridge VOCs Response Factor
