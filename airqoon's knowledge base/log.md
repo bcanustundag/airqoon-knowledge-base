@@ -331,3 +331,16 @@ Updated `index.md` with the new source pages.
 - R&D methods table expanded with 6 new techniques
 - Standards table expanded with EU IED and BAT Conclusions
 - Neutralized all specific EBRD/Çimsa references to generic "uluslararası finans kuruluşları"
+
+## [2026-05-11] edit | Final polish of AQ-Fusion proposal — aligned with submitted Teknopark text
+- Softened aggressive claims: H1 RMSE → "en az %30 azalma (IDW'ye göre)"; H2 güncelleme ≤ 1 saat (was 15dk); H3 ±500m (was ±200m); H4 R² ≥ 0.65 (was 0.80); H8 ≥1 yıl (was ≥3 yıl), F1 ≥ 0.70 (was 0.75)
+- Removed specific company names from pilot and customer sections (Akçansa BCM/CNK, Oyak Çimento, Çimsa, Çimentaş, TÜPRAŞ)
+- Revenue projections right-sized: removed hardware sales row; Fusion-only totals $85K-170K → $660K-1.23M (3-yr)
+- Customer targets made conservative: 3-11 pilot (was 15-24) → 46-80 (was 110-190) year 3
+- Product tier table: removed Fiyat column
+- Innovation list: consolidated from 10 to 7 items
+- Competitor table: Envirosuite trajectory/uydu cells → "Sınırlı" (was ❌)
+- CWT/PSCF moved to batch analiz (not real-time)
+- İP-2 renamed to "Dağılım Yolu (Trajectory)"
+- Section 3: removed OpenStreetMap and trafik verileri from veri kaynakları
+- "Pazar zamanlaması" section simplified

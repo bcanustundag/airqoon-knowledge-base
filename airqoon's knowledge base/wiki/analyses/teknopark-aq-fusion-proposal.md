@@ -155,7 +155,7 @@ bir **hibrit veri füzyonu, dispersiyon modelleme ve trajektori analiz platformu
 **Uluslararası:**
 - AB Direktif 2024/2881 ile PM2.5 limit değeri 25'ten 10 µg/m³'e düşürülecek; bu durum indikatif izleme talebini önemli ölçüde artıracaktır.
 - **ESRS E2 (Kirlilik):** AB'de faaliyet gösteren veya AB müşterilerine tedarik zincirinde yer alan firmalar, ESRS E2 kapsamında hava kirletici emisyonlarını (NOx, SOx, PM) raporlamak durumundadır.
-- Global çevre yazılımı pazarı ~$4B (2025), CAGR %12.
+- **Uluslararası finans kuruluşları fonlu projeler:** Türkiye'deki büyük altyapı ve enerji projelerinin önemli bir kısmı uluslararası finans kuruluşları (EBRD, IFC, Dünya Bankası) fonlarıyla finanse edilmektedir. Bu kurumlar, ulusal mevzuatın ötesinde ÇSED (ESIA), Dünya Bankası EHS Kılavuzları ve DSÖ hava kalitesi değerlerine uyum aramaktadır. Sürekli çevresel izleme, ESMP kapsamında zorunludur.
 
 ---
 
@@ -167,9 +167,9 @@ bir **hibrit veri füzyonu, dispersiyon modelleme ve trajektori analiz platformu
 |--------|----------|----------|
 | **Optimal Interpolation (OI)** | İstatistiksel veri asimilasyonu; gözlem ve arka plan (model/uydu) verisini hata kovaryans matrisleri ile birleştirir | Sensörsüz bölgelerde yüksek doğruluklu konsantrasyon haritası |
 | **Gaussian Puff/Plume Modeli** | Atmosferik yayılımı rüzgâr, kararlılık sınıfı ve karışım yüksekliğine göre hesaplayan fizik tabanlı model | Endüstriyel kaynaklardan (nokta, alan, fugitif) kirletici dağılımı |
-| **HYSPLIT Trajektori Analizi** | NOAA'nın Hybrid Single-Particle Lagrangian Integrated Trajectory modeli; ileri/geri hava kütle hareketi hesabı | Kirletici taşınım yolları, kaynak bölgesi tespiti (CWT/PSCF) |
+| **HYSPLIT Trajektori Analizi** | NOAA'nın Hybrid Single-Particle Lagrangian Integrated Trajectory modeli; ileri/geri hava kütle hareketi hesabı | Kirletici taşınım yolları, kaynak bölgesi tespiti (CWT/PSCF batch analiz) |
 | **EPA-PMF Reseptör Modelleme** | Positive Matrix Factorization; çok değişkenli kimyasal/fiziksel parmak izi verisinden istatistiksel kaynak profili çıkarma | Kaynak katkı payları hesaplama (source apportionment) |
-| **Ters Modelleme (Inverse Dispersion)** | Sensör ağındaki konsantrasyon gradyenlerinden geriye doğru kaynağa ulaşma | Bilinmeyen/kaçak emisyon kaynaklarının konumsal tespiti |
+| **Ters Modelleme (Inverse Dispersion)** | Sensör ağındaki konsantrasyon gradyenlerinden geriye doğru kaynak konumuna yaklaşma | Bilinmeyen/kaçak emisyon kaynaklarının konumsal tespiti |
 | **Partikül Boyut Dağılımı (PNSD)** | OPC partikül sayım verisi ile meteoroloji füzyonu; kaba (>2.5µm) vs ince (<2.5µm) fraksiyon ayrımı | Toz kaynağı tipine göre farklı çökelme/taşınım modellemesi |
 | **Uydu Plüm Kantifikasyonu** | Sentinel-2 multispektral + MODIS AOD arşivinden toz plüm alanı ve optik derinlik zaman serisi | Timelapse değişim tespiti, mevsimsel trend analizi |
 | **Kriging / IDW** | Jeo-istatistiksel interpolasyon yöntemleri | Mekânsal hava kalitesi haritaları |
@@ -181,15 +181,13 @@ bir **hibrit veri füzyonu, dispersiyon modelleme ve trajektori analiz platformu
 **Veri Kaynakları:**
 - Airqoon sensör ağı (OPC partikül sayım + PM1/2.5/10 kütle, NO₂, O₃, SO₂, CO, VOC, T/RH/P, rüzgâr)
 - **Uydu verileri:**
-  - MODIS MAIAC AOD (500m, günlük) — bölgesel aerosol optik derinliği
-  - Sentinel-5P/TROPOMI (NO₂, SO₂, CO tropösferik kolon) — gaz dağılım haritası
-  - Sentinel-2 multispektral (10m, 5 günde bir) — toz plüm optik tespiti
-  - CAMS/Copernicus Atmosphere Monitoring Service — reanaliz konsantrasyon
-- **Meteorolojik reanaliz:** ERA5 (0.25°, saatlik), MERRA-2 — rüzgâr, kararlılık, karışım yüksekliği
+  - MODIS MAIAC AOD (500m, günlük), bölgesel aerosol optik derinliği
+  - Sentinel-5P/TROPOMI (NO₂, SO₂, CO tropösferik kolon), gaz dağılım haritası
+  - Sentinel-2 multispektral (10m, 5 günde bir),  toz plüm optik tespiti
+  - CAMS/Copernicus Atmosphere Monitoring Service,  analiz konsantrasyon
+- **Meteorolojik analiz:** ERA5 (0.25°, saatlik), MERRA-2,  rüzgâr, kararlılık, karışım yüksekliği
 - Bakanlık referans istasyon verileri
-- OpenStreetMap / bina yükseklik verileri (kentsel morfoloji)
-- Trafik yoğunluk verileri (belediye API'leri)
-- Endüstriyel proses verileri (opsiyonel — tesis sahibi tarafından paylasılan üretim/söndürme/bakım verileri)
+- Endüstriyel proses verileri (opsiyonel — tesis sahibi tarafından paylaşılan üretim/söndürme/bakım verileri)
 
 **Yapay Zekâ / Makine Öğrenmesi:**
 - **Algoritmalar:** LSTM, Temporal Fusion Transformer (TFT) — zaman serisi tahmini; XGBoost — kaynak sınıflandırma
@@ -203,7 +201,7 @@ bir **hibrit veri füzyonu, dispersiyon modelleme ve trajektori analiz platformu
 - **MLOps:** MLflow (deney takibi), Airflow/Prefect (veri pipeline orkestrasyonu)
 - **Hesaplama:** Fourier dönüşümleri, Kalman filtresi, Bayes optimizasyonu
 - **CI/CD:** GitHub Actions, Docker, Kubernetes (mevcut altyapı)
-- **Lisanslar:** Tüm kullanılan yazılımlar açık kaynak — ek lisans maliyeti yok
+- **Lisanslar:** Kullanılan ana yazılım bileşenleri açık kaynak — ek lisans maliyeti minimuma indirilmektedir
 
 ### 3.3 İlgili Standartlar
 
@@ -211,7 +209,7 @@ bir **hibrit veri füzyonu, dispersiyon modelleme ve trajektori analiz platformu
 |----------|----------|
 | SKHKKY (Sanayi Kaynaklı HK Kontrol Yönetmeliği) | HKKD hesaplama zorunluluğu |
 | HKDYY (Hava Kalitesi Değerlendirme ve Yönetim Yönetmeliği) | Limit değerler ve izleme gereksinimleri |
-| CEN/TS 17660-1/2 | Sensör kalibrasyon ve doğrulama |
+| CEN/TS 17660-1/2 | Sensör kalibrasyon ve performans doğrulama |
 | Directive 2024/2881 (AB) | Yeni limit değerler (PM2.5: 10 µg/m³) |
 | US EPA AERMOD metodolojisi | Dispersiyon modelleme referans yaklaşımı |
 | ISO 14001 | Çevre yönetim sistemi uyumu |
@@ -229,59 +227,57 @@ bir **hibrit veri füzyonu, dispersiyon modelleme ve trajektori analiz platformu
 
 ### 4.1 Satılabilir Ürün Katmanları
 
-| Ürün / Hizmet | Açıklama | Fiyat |
-|---------------|----------|-------|
-| **Unit L/M Donanım** | Fiziksel sensör ünitesi (mevcut) | $2,500-5,500 |
-| **Lens Standard SaaS** | Gerçek zamanlı dashboard, alarm, rapor (mevcut) | $500-800/yıl |
-| **🆕 Lens Fusion — Kent** | Şehir genelinde hava kalitesi haritası, sensörsüz bölge tahmini, 24-72 saat öngörü, halk sağlığı erken uyarı | $5,000-15,000/yıl (belediye lisansı) |
-| **🆕 Lens Fusion — Endüstri** | Tesis çevresi dispersiyon haritası, kaynak katkı analizi, otomatik HKKD raporu, uyum takibi | $3,000-10,000/yıl (tesis lisansı) |
-| **🆕 Lens Fusion — Endüstri Pro** | Endüstri + HYSPLIT trajektori + uydu plüm timelapse + EPA-PMF + PNSD modelleme + DMP desteği | $8,000-20,000/yıl (tesis lisansı) |
-| **🆕 Lens Fusion — OSB** | Çok kiracılı kaynak belirleme, kiracı bazlı katkı raporu, OSB çevre KPI'ları | $8,000-20,000/yıl (OSB lisansı) |
-| **🆕 Fusion API** | 3. parti entegrasyon: dispersiyon verileri, tahmin, kaynak analizi API | $2,000-5,000/yıl |
+| Ürün / Hizmet | Açıklama |
+|---------------|----------|
+| **Unit L/M Donanım** | Fiziksel sensör ünitesi (mevcut) |
+| **Lens Standard SaaS** | Gerçek zamanlı dashboard, alarm, rapor (mevcut) |
+| **🆕 Lens Fusion — Kent** | Şehir genelinde hava kalitesi haritası, sensörsüz bölge tahmini, 24-72 saat öngörü, halk sağlığı erken uyarı |
+| **🆕 Lens Fusion — Endüstri** | Tesis çevresi dispersiyon haritası, kaynak katkı analizi, otomatik HKKD raporu, uyum takibi |
+| **🆕 Lens Fusion — Endüstri Pro** | Endüstri + HYSPLIT trajektori + uydu plüm timelapse + EPA-PMF + PNSD modelleme + DMP desteği |
+| **🆕 Lens Fusion — OSB** | Çok kiracılı kaynak belirleme, kiracı bazlı katkı raporu, OSB çevre KPI'ları |
+| **🆕 Fusion API** | 3. parti entegrasyon: dispersiyon verileri, tahmin, kaynak analizi API |
 
 ### 4.2 Gelir Modeli (3 Yıl Projeksiyon)
 
 | Gelir Kalemi | 1. Yıl | 2. Yıl | 3. Yıl |
 |-------------|--------|--------|--------|
-| Donanım satışı (80-120 adet) | $300K-500K | $800K-1.4M | $2M-3.5M |
-| Lens Standard SaaS | $80K-120K | $200K-350K | $400K-600K |
-| **🆕 Fusion Kent lisansları** | $25K-60K | $150K-300K | $400K-750K |
-| **🆕 Fusion Endüstri lisansları** | $30K-80K | $200K-400K | $500K-1M |
-| **🆕 Fusion OSB lisansları** | $15K-40K | $80K-200K | $250K-500K |
-| **🆕 Fusion API** | $5K-10K | $30K-60K | $80K-150K |
-| **TOPLAM** | **$455K-810K** | **$1.46M-2.71M** | **$3.63M-6.5M** |
+| Lens Standard SaaS (mevcut) | $60K-90K | $120K-180K | $200K-300K |
+| **🆕 Fusion Kent lisansları** | $10K-25K | $50K-120K | $150K-280K |
+| **🆕 Fusion Endüstri lisansları** | $15K-35K | $80K-180K | $200K-400K |
+| **🆕 Fusion OSB lisansları** | $0-15K | $30K-80K | $80K-180K |
+| **🆕 Fusion API** | $0-5K | $10K-25K | $30K-70K |
+| **TOPLAM** | **$85K-170K** | **$290K-585K** | **$660K-1.23M** |
 
-> [!IMPORTANT]
-> **Yazılım gelirinin toplama oranı:** 1. Yıl ~%17 → 3. Yıl ~%40. Donanım satışından yazılım ağırlıklı gelir modeline geçiş — sürdürülebilir tekrarlayan gelir (ARR).
+> [!NOTE]
+> Projeksiyonlar uygun tabanda hesaplanmıştır. Projenin ilk 12 ayı Ar-Ge ve pilot uygulama dönemini kapsadığından, 1. yıl Fusion gelirleri pilot/referans müşteri seviyesindedir.
 
 ### 4.3 Hedef Pazar ve Müşteri Sayıları
 
 **Birincil Pazarlar:**
-- **Türkiye — Belediyeler:** 30 büyükşehir belediyesi hedef. Mevcut müşteriler: Bursa Büyükşehir (şehir geneli), Denizli, Kadıköy, Mudanya, İnegöl, Avcılar belediyeleri.
-- **Türkiye — Çimento Sektörü:** Akçansa (mevcut müşteri — BCM/CNK), Oyak Çimento, Çimsa, Çimentaş, TÜPRAŞ ve diğer ağır sanayi tesisleri. Sektörde ~50+ büyük tesis SKHKKY kapsamında HKKD raporu ihtiyacı duymaktadır.
-- **Türkiye — OSB'ler:** 300+ OSB'nin çevre yönetimi için kaynak belirleme ve kiracı bazlı katkı analizi kritik ihtiyaçtır.
-- **AB:** Direktif 2024/2881 ile genişleyen indikatif izleme pazarı (Doğu Avrupa, Balkanlar)
+- **Türkiye — Çimento ve Ağır Sanayi:** Sektörde 50'yi aşkın büyük tesis SKHKKY kapsamında HKKD raporu ihtiyacı duymaktadır. Çimento sektörü öncelikli hedef segmenttir.
+- **Türkiye — OSB'ler:** 300'ü aşkın OSB'nin çevre yönetimi için kaynak belirleme ve kiracı bazlı katkı analizi büyüyen bir ihtiyaçtır.
+- **Türkiye — Belediyeler:** Türkiye'de 30 büyükşehir belediyesi hava kalitesi yönetim ihtiyacına sahiptir; orta vadede bu pazarın %20-30'una ulaşma stratejisi izlenmektedir. Mevcut belediye müşteri ilişkileri Bursa, Denizli, Kadıköy, Mudanya, İnegöl, Avcılar gibi referanslara dayanmaktadır.
+- **AB:** Direktif 2024/2881 ile genişleyen indikatif izleme pazarı (özellikle Doğu Avrupa, Balkanlar).
 
-**İkincil Pazarlar:** Orta Doğu (Azerbaycan, Irak, S. Arabistan), Kuzey Afrika (Mısır), Avustralya
+**İkincil Pazarlar:** Orta Doğu (BAE, Azerbaycan, Suudi Arabistan), Kuzey Afrika (Mısır), Avustralya.
 
 | Segment | 1. Yıl | 2. Yıl | 3. Yıl |
 |---------|--------|--------|--------|
-| Belediyeler (Fusion Kent) | 3-5 | 10-20 | 25-50 |
-| Endüstriyel Tesisler (Fusion Endüstri) | 8-12 | 25-40 | 50-80 |
-| OSB'ler (Fusion OSB) | 2-4 | 8-15 | 20-35 |
-| API müşterileri | 2-3 | 8-12 | 15-25 |
-| **Toplam Fusion müşteri** | **15-24** | **51-87** | **110-190** |
+| Belediyeler (Fusion Kent) | 1-3 (pilot) | 4-8 | 10-18 |
+| Endüstriyel Tesisler (Fusion Endüstri) | 2-5 (pilot) | 8-15 | 20-35 |
+| OSB'ler (Fusion OSB) | 0-2 (pilot) | 3-6 | 8-15 |
+| API müşterileri | 0-1 | 3-6 | 8-12 |
+| **Toplam Fusion müşteri** | **3-11** | **18-35** | **46-80** |
 
 ### 4.4 Rekabet Avantajı Özeti
 
-1. **Üçlü hibrit yaklaşım:** Tek platformda sensör + dispersiyon modeli + uydu + trajektori — rakipler bunları ayrı ayrı sunar
-2. **Fiyat:** Fusion Kent $5K-15K/yıl vs Envirosuite $50K+/yıl — 70-90% maliyet avantajı
-3. **Yerli üretim:** Kamu ihalelerinde %15 fiyat avantajı; AERMOD lisansına alternatif
-4. **Donanım + yazılım ekosistemi:** Müşteri kilitlenmesi (lock-in) — donanım alan müşteri yazılım SaaS'ına geçer
-5. **Mevcut müşteri tabanı:** 20+ aktif müşteri, 200+ saha noktası — çimento sektöründe ve belediyelerde hemen pilot uygulama yapılabilir
-6. **SKHKKY uyumu:** Otomatik HKKD raporu — Türkiye'de dijital olarak sunan ilk platform
-7. **Trajektori + PMF:** HYSPLIT + EPA-PMF entegrasyonu — hiçbir rakip bu bileşimi sunmamaktadır
-8. **Uydu timelapse:** ≥3 yıllık geriye dönük plüm timelapse ile operasyonel etki kanıtlama — rühsat/denetim süreçlerinde kritik belge
+1. **Entegre hibrit yaklaşım:** Tek platformda sensör + dispersiyon modeli + uydu + dağılım yolu,  Türkiye pazarında bu bileşenleri SKHKKY uyumlu otomatik raporlama ile birleştiren erişilebilir fiyatlı çözüm sınırlıdır.
+2. **Erişilebilir fiyat segmenti:** Fusion Kent ve Fusion Endüstri lisansları KOBİ, orta ölçekli belediyeler ve OSB'ler için erişilebilir bir fiyat aralığında konumlandırılacaktır, kurumsal ölçekli rakiplerle kıyaslandığında belirgin bir maliyet avantajı.
+3. **Donanım + yazılım ekosistemi:** Müşteri ilişkisinin derinleşmesi (lock-in), donanım alan müşteri yazılım SaaS'ına geçer; cross-sell ve up-sell potansiyeli.
+4. **Mevcut müşteri tabanı:** Türkiye'de 30'u aşkın şehirde aktif kurulumlar, çimento sektöründe ve büyükşehir belediyelerinde referans müşteriler, pilot uygulamalar için doğrudan saha erişimi.
+5. **SKHKKY uyumu:** Otomatik HKKD raporu — Türkiye'de dijital sürekli izleme verisi ile otomatik üretim sunan sınırlı sayıdaki çözümden biri olma potansiyeli.
+6. **Trajektori + PMF entegrasyonu:** HYSPLIT operasyonel modülü + EPA-PMF reseptör modellemenin ticari platforma entegrasyonu, yaygın bulunmayan bir bileşim.
+7. **Uydu timelapse:** ≥3 yıllık geriye dönük plüm timelapse ile operasyonel etki kanıtlama — ruhsat/denetim süreçlerinde değerli destek dokümanı.
 
 ### 4.5 Regülasyon Kaynaklı Talep Sürücüleri
 
@@ -294,23 +290,22 @@ bir **hibrit veri füzyonu, dispersiyon modelleme ve trajektori analiz platformu
 | **SKHKKY** | Tüm endüstriyel tesisler | Otomatik HKKD raporu, dispersiyon modelleme, kaynak belirleme |
 | **HKDYY** | Belediyeler, Çevre İl Müdürlükleri | Kent geneli hava kalitesi haritası, limit aşım takibi, erken uyarı |
 
-> [!IMPORTANT]
-> **Neden şimdi?** SKDM'nin 1 Ocak 2026'da kesin rejime geçmesi, TSRS raporlamanın kapsamının genişlemesi ve uluslararası finans kuruluşlarının Türkiye'deki yeşil dönüşüm fonlamasını artırması, sürekli ve doğrulanabilir çevresel izleme verisine olan talebi tarihsel olarak en yüksek seviyeye çıkarmıştır. AQ-Fusion, bu regülasyon dalgasına tam zamanında yanıt veren bir ürün olarak konumlanmaktadır.
+> **Pazar zamanlaması:** SKDM'nin 1 Ocak 2026'da tam uygulamaya geçmesi, TSRS raporlamanın kapsamının genişlemesi ve uluslararası finans kuruluşlarının Türkiye'deki yeşil dönüşüm fonlamasını artırması, sürekli ve doğrulanabilir çevresel izleme verisine olan talebi belirgin biçimde artırmaktadır. AQ-Fusion bu regülasyon ortamına yönelik bir ürün olarak konumlanmaktadır.
 
 ---
 
 > [!NOTE]
 > **Önceki Projelerle Süreklilik**
 >
-> - **070382 — Akıllı Uç Bilişim:** Edge computing altyapısı → Bu projede uç cihazda basit tahmin modeli
-> - **076102 — Analiz ve Görselleştirme:** Lens platformu → Bu projede Fusion harita katmanları ve raporlar
-> - **085513 — Floresans Sensör:** Sensör Ar-Ge uzmanlığı → Bu projede sensör veri kalite değerlendirmesi
-> - **093950 — 4Blocks:** Modüler donanım → Bu projede anemometre ve çevre sensör modülleri
+> - **070382 — Akıllı Uç Bilişim:** Edge computing altyapısı → Bu projede uç cihazda basit tahmin modeli.
+> - **076102 — Analiz ve Görselleştirme:** Lens platformu → Bu projede Fusion harita katmanları ve raporlar.
+> - **085513 — Floresans Sensör:** Sensör Ar-Ge uzmanlığı → Bu projede sensör veri kalite değerlendirmesi.
+> - **093950 — 4Blocks:** Modüler donanım → Bu projede anemometre ve çevre sensör modülleri.
 >
 > **Proje süresi:** 18 ay | **Ekip:** 4-6 Ar-Ge mühendisi (ML/veri, gömülü yazılım, bulut/platform, atmosfer modelleme)
 > **Pilot lokasyonlar:**
 > - *Kent:* Bursa Büyükşehir (şehir geneli ağ), Denizli Büyükşehir
-> - *Endüstri:* Akçansa (BCM/CNK), Oyak Çimento, çimento/ağır sanayi tesisleri
+> - *Endüstri:* Çimento ve ağır sanayi tesisleri (mevcut müşteri ilişkileri çerçevesinde)
 > - *OSB:* İnegöl OSB (mevcut sensör ağı + CFD çalışması verileri)
 > - *Maden/Taşocağı:* Toz kaynağı haritalama ve hassas alıcı etki analizi
 > **Sertifikalar:** ISO 9001:2015 ve ISO 27001:2022 (İnovathink A.Ş.)
