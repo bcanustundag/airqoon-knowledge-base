@@ -1,10 +1,13 @@
 ---
 title: "Case Study: Gas and particle monitoring in transport"
 type: source
-tags: [use-case, transport, metro, kunak]
+tags: [use-case, transport, metro, kunak, case-study]
 created: 2026-05-11
-updated: 2026-05-11
+updated: 2026-05-12
 sources: [raw/articles/notion/case-study-Continuous_gas_and_particle_monitoring_in_transport.pdf]
+related:
+  - "[[wiki/entities/kunak-technologies|Kunak Technologies]]"
+  - "[[wiki/sources/case-study-albacete-noise|Albacete Urban Case Study]]"
 ---
 
 # Case Study: Gas and particle monitoring in transport

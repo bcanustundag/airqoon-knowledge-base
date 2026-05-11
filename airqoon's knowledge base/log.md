@@ -344,3 +344,12 @@ Updated `index.md` with the new source pages.
 - İP-2 renamed to "Dağılım Yolu (Trajectory)"
 - Section 3: removed OpenStreetMap and trafik verileri from veri kaynakları
 - "Pazar zamanlaması" section simplified
+
+## [2026-05-12] edit | Enhanced Kunak article relations — 18 files updated
+- **Entity page** (`kunak-technologies.md`): added `entity_type: company`, `related` frontmatter with 7 cross-links; rebuilt body with structured tables for Technical Documentation (6 docs) and Case Studies (8 entries) with wiki links
+- **Source pages** (10 docs): added `related` frontmatter with contextual cross-links to entity, sibling sources, and relevant concepts
+  - Certification cluster: `performance-tests` ↔ `standardization-intro` ↔ `mcert` ↔ `datasheet`
+  - Hardware cluster: `user-manual` ↔ `calibration` ↔ `gashood` ↔ `cartridge-fitting` ↔ `simcard` ↔ `configurator`
+  - Sensor cluster: `vocs-response` ↔ `cartridge-fitting` ↔ `datasheet`
+- **Case study pages** (8 docs): added `related` frontmatter linking each to Kunak entity + thematically related case studies (industrial fenceline group, urban group)
+- Tags enriched across all files (added `case-study`, `perimeter-monitoring`, `smart-city`, `construction`, `cartridge`, `connectivity`, `configurator`, `cen-ts-17660`, `mcerts`)
