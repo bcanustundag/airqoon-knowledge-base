@@ -4,8 +4,8 @@ type: entity
 entity_type: company
 tags: [competitor, air-quality, oizom, polludrone]
 created: 2026-04-23
-updated: 2026-04-23
-sources: [airqoon-vs-oizom-comparison.md]
+updated: 2026-05-11
+sources: [airqoon-vs-oizom-comparison.md, Report Sample Oct2024.pdf]
 ---
 
 # Oizom
@@ -59,7 +59,7 @@ Features shared with Airqoon Lens:
 - Higher IP66 protection — better for harsh outdoor environments
 - Wider operating temperature range (−20 °C)
 - More connectivity options (LoRa, Ethernet, Satellite)
-- ISO 17025 calibration certification
+- ISO 17025 calibration certification (provides detailed gas calibration reports per device, e.g., Polludrone PM01P0013)
 - More gas measurement capability (9 vs 8)
 - UV radiation measurement
 

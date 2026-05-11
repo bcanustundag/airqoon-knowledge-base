@@ -84,6 +84,26 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 | [[wiki/sources/aethlabs-ma-manuals]] | scratch/ma-operating-manual.txt, scratch/ma-quick-start.txt | 2026-05-05 | manual, hardware, black-carbon, aethlabs, ma200, ma300, ma350 |
 | [[wiki/sources/airqoon-cimsa-proposal]] | raw/articles/TOR_TC_CIMSA_Dust Monitoring Assignment_Issued for RFP.pdf, raw/articles/notion/airqoon_cimsa_proposal_v6_final-3.pdf | 2026-05-08 | project, ebrd, cimsa, cement, dust-management, proposal, tender |
 
+| [[wiki/sources/kunak-air-datasheet]] | raw/articles/notion/Kunak_AIR_Datasheet_EN.pdf | 2026-05-11 | competitor, kunak, datasheet, specs |
+| [[wiki/sources/kunak-air-calibration-gashood]] | raw/articles/notion/Kunak_Air_CalibrationProcedure_Gashood_EN.pdf | 2026-05-11 | competitor, kunak, calibration, hardware |
+| [[wiki/sources/kunak-air-cartridge-fitting]] | raw/articles/notion/Kunak_Air_Correct_cartridge_fitting_EN.pdf | 2026-05-11 | competitor, kunak, hardware, manual |
+| [[wiki/sources/kunak-air-pro-calibration]] | raw/articles/notion/Kunak_Air_Pro_Calibration_EN.pdf | 2026-05-11 | competitor, kunak, calibration |
+| [[wiki/sources/kunak-air-pro-mcert]] | raw/articles/notion/Kunak_Air_Pro_MCERT_certification.pdf | 2026-05-11 | competitor, kunak, certification, mcerts |
+| [[wiki/sources/kunak-air-pro-simcard]] | raw/articles/notion/Kunak_Air_Pro_SIMcard_Installation_EN.pdf | 2026-05-11 | competitor, kunak, hardware, sim |
+| [[wiki/sources/kunak-air-pro-user-manual]] | raw/articles/notion/Kunak_Air_Pro_UserManual_EN.pdf | 2026-05-11 | competitor, kunak, user-manual |
+| [[wiki/sources/kunak-cartridge-vocs-response]] | raw/articles/notion/Kunak_Cartridge_VOCs_Response_Factor.pdf | 2026-05-11 | competitor, kunak, voc, sensors |
+| [[wiki/sources/kunak-device-configurator]] | raw/articles/notion/Kunak_DeviceConfigurator_UserManual_EN.pdf | 2026-05-11 | competitor, kunak, software |
+| [[wiki/sources/oizom-polludrone-calibration-report]] | raw/articles/notion/Report Sample Oct2024.pdf | 2026-05-11 | competitor, oizom, calibration, report |
+| [[wiki/sources/case-study-port-areas]] | raw/articles/notion/case-study-Air_pollution_monitoring_in_port_areas.pdf | 2026-05-11 | use-case, port, kunak, case-study |
+| [[wiki/sources/case-study-cement-plant]] | raw/articles/notion/case-study-Air_quality_monitoring_at_cement_plant.pdf | 2026-05-11 | use-case, cement, kunak, case-study |
+| [[wiki/sources/case-study-albacete-noise]] | raw/articles/notion/case-study-Atmospheric_pollution_and_environmental_noise_control.pdf | 2026-05-11 | use-case, urban, noise, kunak |
+| [[wiki/sources/case-study-valparaiso-metro]] | raw/articles/notion/case-study-Continuous_gas_and_particle_monitoring_in_transport.pdf | 2026-05-11 | use-case, transport, metro, kunak |
+| [[wiki/sources/case-study-demolition]] | raw/articles/notion/case-study-Environmental_monitoring_in_works_&_demolitions.pdf | 2026-05-11 | use-case, demolition, kunak |
+| [[wiki/sources/case-study-colombia-mining]] | raw/articles/notion/case-study-Mining_air_pollution_monitoring_network.pdf | 2026-05-11 | use-case, mining, kunak |
+| [[wiki/sources/case-study-us-epa-wildfire]] | raw/articles/notion/case-study-Wildland_fire_pollution_monitoring_in_US_EPA_tests.pdf | 2026-05-11 | use-case, wildfire, epa, kunak |
+| [[wiki/sources/case-study-odour-wwtp]] | raw/articles/notion/case_study_Odour_emissions_control_in_WWTP.pdf | 2026-05-11 | use-case, odour, wwtp, kunak |
+| [[wiki/sources/soga-2025-report]] | raw/articles/notion/soga-2025-annual-report-executive-summary-infographic.pdf | 2026-05-11 | research, report, health-impact |
+
 ### Raw files pending source pages (ingested to raw/, not yet summarised)
 
 <details>

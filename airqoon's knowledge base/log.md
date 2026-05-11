@@ -311,3 +311,4 @@ Updated `index.md` with the new source pages.
 - Created `wiki/entities/cimsa.md` — entity page for Çimsa Çimento (company profile, regulatory classification, EBRD relationship, strategic significance).
 - Updated `wiki/entities/airqoon.md` — upgraded Çimsa from "tender pursued" to "proposal submitted"; added Çimsa/EBRD Project Limestone to Key Projects table.
 - Updated `index.md` with new source and entity pages.
+## [2026-05-11] ingest | Ingested 19 PDF sources (mostly Kunak manuals, case studies, SOGA 2025)
