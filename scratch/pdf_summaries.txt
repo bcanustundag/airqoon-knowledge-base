@@ -1,0 +1,1016 @@
+--- Kunak_AIR_Datasheet_EN.pdf ---
+DATASHEET
+
+The most advanced and reliable
+solution for air quality monitoring
+
+Meets EPA performance
+targets for air sensors
+
+Most accurate
+multi-pollutant sensor
+
+www.kunakair.com
+
+CSA MC230418/00
+
+Kunak AIR Pro
+Air quality monitor
+
+Meets EPA performance
+targets for air sensors
+
+CSA MC230418/00
+
+Most accurate
+multi-pollutant sensor
+
+Measure air pollution with accurate
+and reliable data.
+SENSOR BASED | NEAR REFERENCE DATA
+Simultaneously monitor particles and up to 5 gas pollutants from our
+wide portfolio of sensors, and obtain continuous, real-time data on
+ambient air. Kunak AIR Pro delivers near-reference measurements
+in multiple environments, providing reliable insights for air quality
+monitoring.
+All collected data can be visualised and analysed anytime, anywhere
+through the Kunak AIR Cloud web platform.
+Get the most versatile solution. Our plug & play gas cartridge
+technology lets you easily combine and switch sensors at any time to
+fit your project needs.
+Data quality is guaranteed. All of our sensors are factory calibrated
+and tested according to the European CEN/TS 17660 and EPA/600/R
+protocols, metrics and target values for air sensors.
+Data traceability to reference standards: European Directive 2024/2881
+and USEPA 40 CFR Part 53.
+
+Patented plug&play
+cartridge system
+
+Up to 16 pollutants
+Combine 5
+
+Proven accuracy
+
+Traceable back
+to reference
+standards
+
+Easy & remote
+maintenance
+
+Autonomous
+operation
+
+(EPA, Mcerts, Airlab,
+CEN/TS 17660)
+
+Simplify your daily operatio
+
+--- Kunak_Air_CalibrationProcedure_Gashood_EN.pdf ---
+Calibration procedure using a gashood
+Guide Application Note
+
+Rev: 0
+
+Calibration procedure using a gashood - Guide Application Note v.0
+
+Summary
+1. Gashood ........................................................................................................................................................................ 3
+2. Initial considerations for calibration ........................................................................................................................ 3
+3. Baseline Calibration (Zero Calibration) .................................................................................................................. 5
+4. Span Calibration (Sensitivity Calibration) .............................................................................................................6
+
+Tables
+Table 1 – Change log ....................................................................................................................................................... 2
+Table 2 – Temperature, humidity and pressure conditions for calibration .......................................................... 4
+
+Figures
+Figure 1 – Gashood for AIR Pro (K-GASHOOD-AP-01) and for AIR Lite (K-GASHOOD-AL-01) ............................ 3
+Figure 2 – Adjusting the sampling period in KunakCloud......................................................................................... 3
+Figure 3 – Adjusting the sending period ...............................................................
+
+--- Kunak_Air_Correct_cartridge_fitting_EN.pdf ---
+
+
+--- Kunak_Air_Pro_Calibration_EN.pdf ---
+ºrari
+
+Kunak Air Pro Calibration
+Aplication Note
+
+Ref: KP-A-MU-02
+Date: 18/05/2021
+Reproduction in whole or in part is expressly prohibited without the written consent of KUNAK TECHNOLOGIES S.L.
+
+P. E. La Muga 9, 4º Ofic. 1, Orcoyen, 31160, Navarra, Spain +34 848470055 info@Kunak.es www.Kunak.es
+
+i
+
+SUMMARY
+1. GAS AND PARTICLE CALIBRATION ................................................................................................................................ 1
+1.1 Gas calibration .............................................................................................................................................................. 1
+1.1.1 Outdoor calibration ............................................................................................................................................. 1
+
+1.1.1.1 With reference station .............................................................................................................. 1
+1.1.1.2 With GOLD device...................................................................................................................... 2
+1.1.1.3 Without reference ..................................................................................................................... 2
+1.1.2 Laboratory calibration......................................................................................................................................... 2
+
+1.1.2.1 Initial Set Up ................................................
+
+--- Kunak_Air_Pro_MCERT_certification.pdf ---
+PRODUCT CONFORMITY CERTIFICATE
+This is to certify that the
+
+Kunak AIR Pro
+Manufactured by:
+
+Kunak Technologies SL
+Parque Empresarial La Muga, 9
+Floor 4, Office 1 – Orcoyen
+Navarra
+Spain
+has been assessed by CSA Group
+and for the conditions stated on this certificate complies with:
+
+MCERTS Performance Standards for Indicative Ambient Particulate Monitors, Environment
+Agency, August 2017, version 4
+
+Certification ranges:
+PM2.5 0-1,500 µg/m3
+PM10 0-2,000 µg/m3
+
+Project No.:
+Certificate No:
+Initial Certification:
+This Certificate issued:
+Renewal Date:
+
+80150788
+CSA MC230418/00
+9 June 2023
+9 June 2023
+8 June 2028
+
+Andrew Young
+Environmental Team Manager
+
+MCERTS is operated on behalf of the Environment Agency by
+
+CSA Group Testing UK Ltd
+Unit 6, Hawarden Industrial Park
+Hawarden, Deeside, CH5 3US
+Tel: +44 (0)1244 670 900
+The MCERTS certificate consists of this document in its entirety.
+For conditions of use, please consider all the information within.
+This certificate may only be reproduced in its entirety and without change
+To authenticate the validity of this certificate please visit www.csagroupuk.org/mcerts
+
+Page 1 of 6
+Form 1335
+Issue 11
+
+Certificate Contents
+Approved Site Application ........................................................................................................ 2
+Basis of Certification ............................................................................................................... 2
+Product Certified...................................
+
+--- Kunak_Air_Pro_SIMcard_Installation_EN.pdf ---
+Kunak AIR Pro
+External SIM card installation
+
+Date: 02/11/2022
+
+Rev: 0
+
+www.kunakair.com
+
+SUMMARY
+1.1 Communication by 2G/3G/4G ....................................................................................................................... 1
+1.2 Install or Change the external SIM card ........................................................................................................ 1
+
+TABLES
+Table 2 – Install or change of SIM card .................................................................................................................. 3
+
+FIGURES
+Figure 1 – Location of the mini-SIM card and USB configurator ........................................................................... 2
+Figure 2 – Device configuration: Detecting devices ............................................................................................... 4
+Figure 3 – Device configuration: node .................................................................................................................... 4
+Figure 4 – Device configuration: PIN ....................................................................................................................... 5
+Figure 5 – Device configuration: Connection ......................................................................................................... 6
+Figure 6 – Device configuration: node status ......................................................................................................... 7
+
+P. E. La Muga
+
+--- Kunak_Air_Pro_UserManual_EN.pdf ---
+Kunak AIR Pro
+User Manual
+
+Date: 22/09/2023
+
+Rev: 8.2
+
+www.kunakair.com
+
+SUMMARY
+1. INTRODUCTION ....................................................................................................................................... 1
+1.1 About this document ...................................................................................................................................... 1
+1.2 Glossary .......................................................................................................................................................... 1
+1.3 Safety Instructions ......................................................................................................................................... 2
+2. OVERVIEW ............................................................................................................................................... 3
+2.1 Description ...................................................................................................................................................... 3
+2.2 Key features .................................................................................................................................................... 4
+2.3 Technical Data ................................................................................................................................................ 6
+2.3.1 Mechanical Specifications ............................................................................
+
+--- Kunak_Cartridge_VOCs_Response_Factor.pdf ---
+Kunak
+VOCs Response Factor
+
+Kunak - VOCs Response Factor v.2
+
+Summary
+1. VOLATILE ORGANIC COMPOUNDS (VOCS) ............................................................................................................. 3
+
+Tables
+Table 1 – Change log ....................................................................................................................................................... 2
+
+Figures
+Figure 1 – VOCs cartridge ............................................................................................................................................... 3
+
+Revision history
+Date
+
+Revision
+
+Changes
+
+22/10/2021
+
+1
+
+Initial Release
+
+17/10/2023
+
+2
+
+Improved search in table
+
+Table 1 – Change log
+
+P. E. La Muga 9, 4º Ofic. 1, Orcoyen, 31160, Navarra, Spain +34 848470055 contact@kunakair.com | www.kunakair.com
+
+2
+
+Kunak - VOCs Response Factor v.2
+
+1. VOLATILE ORGANIC COMPOUNDS (VOCS)
+
+Figure 1 – VOCs cartridge
+
+The VOCs sensor cartridge ionises ambient air generating small amounts of O3, so avoid
+installing it near O3, NO2 or SO2 sensors. For example, place the VOCs sensor in slot 5 and
+the O3, NO2 and SO2 sensors in slots 1, 2 and 4; avoid placing them in slot 3.
+Photoionization Detectors (PIDs) respond to a broad range of Volatile Organic Compouns (VOCs). For a
+PID sensor to respond to a specific VOC, the photon energy of the lamp must be greater than its ionization
+energy (IE). The PID sensor is provided with a 10.6 eV lamp. The table below, shows a list of 
+
+--- Kunak_DeviceConfigurator_UserManual_EN.pdf ---
+User Manual
+Kunak Device Configurator
+
+User Manual - Kunak Device Configurator v.2
+
+Summary
+1. Introduction .................................................................................................................................................................. 4
+1.1 Systems requirements .......................................................................................................................................... 4
+1.2 Supported Kunak devices .................................................................................................................................... 4
+2. Configuration............................................................................................................................................................... 5
+2.1 Kunak Configurator setup ................................................................................................................................... 5
+2.2 Manual drivers setup............................................................................................................................................ 7
+2.3 Kunak Configurator ............................................................................................................................................ 10
+2.3.1 Initial Setup.................................................................................................................................................... 10
+2.3.2 Initial Setup ...............................
+
+--- Report Sample Oct2024.pdf ---
+‭CALIBRATION REPORT‬
+‭Report No.:‬‭ENV23CR460‬
+
+‭Issue Date:‬‭21-10-2024‬
+
+‭Device ID:‬ ‭PM01P0013‬
+
+‭Customer:‬
+
+‭Product:‬‭Polludrone‬
+
+‭Manufacturer:‬‭OIZOM‬
+
+‭Validity:‬‭1 year‬
+
+‭GAS CALIBRATION‬
+‭Test Ambient conditions‬
+‭Temp.:‬‭20+/- 2‬‭O‬‭C‬
+
+‭Test Operating conditions‬
+‭Humidity:‬‭54 +/- 10 %‬
+
+‭Pressure:‬‭14.56 psi‬
+
+‭Gas Temp.:‬‭22+/- 2‬‭O‬‭C‬
+
+‭Gas Hum‬‭#‬.‭:‬‭30+/- 10%RH‬
+
+‭Gas Pressure:‬‭2.94 psi‬
+
+‭Gas Flow*:‬‭2000 sccm‬
+
+‬
+‭*using Alicat manufactured MFC sr nos. MCS-500SCCM-D, MC-500SCCM-D-SV with an accuracy of +/- 0.2 % FS |‬ ‭#‭u
+sing Nafion tube‬
+
+‭CALIBRATION DATA (ppm)‬
+
+‭Gas‬
+
+‭Zero‬
+‭Resolu-‬
+‭Air‬
+‭Range‬
+‭tion‬ ‭Output‬
+
+‭SO‬‭2‬
+
+‭0-10‬
+
+‭0.001‬
+
+‭0‬
+
+‭NO‬‭2‬
+
+‭0-10‬
+
+‭0.001‬
+
+‭0‬
+
+‭CO‬
+
+‭0-5‬
+
+‭0.01‬
+
+‭0‬
+
+‭O‭‬3‬
+
+‭0-10‬
+
+‭0.001‬
+
+‭0‬
+
+‭Std. gas Output‬
+
+‭Std.‬
+‭gas‬
+‭conc.‬
+
+‭1‬
+
+‭2‬
+
+‭3‬
+
+‭Avg‬
+
+‭Abs‬
+‭Error‬
+
+‭2.72‬
+
+‭2.73‬
+
+‭2.74‬
+
+‭2.73‬
+
+‭2.734‬
+
+‭0.01‬
+
+‭5.4‬
+
+‭5.39‬
+
+‭5.37‬
+
+‭5.38‬
+
+‭5.38‬
+
+‭0.02‬
+
+‭2.5‬
+
+‭2.53‬
+
+‭2.54‬
+
+‭2.54‬
+
+‭2.54‬
+
+‭0.01‬
+
+‭5‬
+
+‭5.04‬
+
+‭5.01‬
+
+‭5‬
+
+‭5.01‬
+
+‭0.01‬
+
+‭2.67‬
+
+‭2.68‬
+
+‭2.69‬
+
+‭2.78‬
+
+‭2.68‬
+
+‭0.01‬
+
+‭4‬
+
+‭4.02‬
+
+‭4.02‬
+
+‭4.01‬
+
+‭4.02‬
+
+‭0.02‬
+
+‭-‬
+
+‭N/A‬
+
+‭N/A‬
+
+‭N/A‬
+
+‭N/A‬
+
+‭N/A‬
+
+‭REFERENCE STANDARDS‬
+
+‭(Note: CSLPL - Chemtron Science Laboratories Pvt; VGL - Vadilal Gases Limited)‬
+
+‭SO‬‭2‬:‭ Certificate No. CSL-060224-13906-3-1 Make: CSLPL,‬‭Expiry: Feb. 2025;‬
+‭NO‬‭2‬:‭ Certificate No. CSL-080524-10071-7-1 Make: CSLPL,‬‭Expiry: May. 2025;‬
+‭CO: Certificate No. 13022024-4692 Make: VGL, Expiry: Feb. 2025
+
+--- case-study-Air_pollution_monitoring_in_port_areas.pdf ---
+Air pollution and noise emission monitoring
+in the port areas of the Balearic Islands
+CLIENT
+
+SECTOR
+
+LOCATION
+
+PRODUCTS
+
+Balearic Port Authority
+(APB)
+
+Ports
+
+Balearic Islands, Spain
+
+Kunak AIR Pro
+Kunak AIR Cloud
+
+Need
+The APB, in its goal to intensify the concern for the
+environment, has designed an environmental management system certiﬁed by AENOR according to ISO
+14001: 2015.
+Its objective was "to monitor the air quality by measuring the pollutant emissions in the air of the port area
+as well as the noise levels".
+This monitoring will allow them to know the origins
+and magnitudes of the pollutant and noise sources
+to study proposals that contribute to improving the
+quality of life of users and citizens.
+With the aim of “monitoring air quality by measuring
+pollutant emissions in the air of the port area and
+acoustic levels”, the Balearic Islands Port Authority
+sought to design a network of air quality stations
+
+in the ports of Palma, Eivissa, Maó, Alcudia and La
+Savina.
+This monitoring network will allow them to know
+the origins and magnitudes of pollutant and noise
+sources in order to study proposals that contribute
+to improving air quality and the quality of life of users
+and citizens.
+
+Case study
+
+Air pollution and noise emission monitoring in the port areas of the Balearic Islands
+
+The APB wanted to improve the operation and sustainability of its operations with an air
+quality network in the ports of the Balearic Islands.
+
+Solution
+
+Results
+
+Deployment of a network o
+
+--- case-study-Air_quality_monitoring_at_cement_plant.pdf ---
+Air quality monitoring at the Cemex plant in
+Monterrey
+CLIENT
+
+SECTOR
+
+LOCATION
+
+PRODUCTS
+
+Cemex
+
+Industry
+
+Monterrey, Mexico
+
+Kunak AIR Pro
+Kunak AIR Cloud
+
+Need
+Cemex, one of the world’s leading cement manufacturers develops a proactive policy that seeks to resolve in advance the possible problems that its production activity may generate. For this reason, it asked us
+to deploy a solution that would protect the health of
+the population and workers at its facilities, as well as
+ensure the conservation of the natural environment.
+To this end, they contacted Rossbach, the distributor
+of Kunak products in Mexico, to ask for the installation of a perimeter monitoring ring at its production
+plant in Monterrey (Mexico).
+This Mexican multinational has been investing heavily
+in sustainability for several years, so this measure
+was a continuation of its commitment to the well-being of the local population, its employees and compliance with environmental regulations.
+
+The monitoring network records the main parameters
+to alert when any of them are altered through a notification system and thus helps in taking preventive
+measures.
+
+Case study
+
+Air quality monitoring at the Cemex plant in Monterrey
+
+The monitoring network records the main parameters to alert when any of them are
+altered through a notification system and thus helps in taking preventive measures.
+
+Solution
+
+Results
+
+Deployment of a perimeter network of Kunak AIR Pro
+stations for air quality monitoring as well as an anemo
+
+--- case-study-Atmospheric_pollution_and_environmental_noise_control.pdf ---
+Atmospheric pollution and environmental
+noise control in the city of Albacete
+CLIENT
+
+SECTOR
+
+LOCATION
+
+PRODUCTS
+
+Albacete City Council
+
+Urban
+
+Albacete, Spain
+
+Kunak AIR Pro
+Kunak AIR Cloud
+Kunak Noise
+
+Need
+The city council of Albacete, within its Sustainable
+and Integrated Urban Development Strategy (EDUSI),
+needed to deploy an air quality monitoring system
+using sensors to monitor the levels of air pollution
+and environmental noise control in the city and thus
+achieve one of its strategic objectives of reducing
+pollution levels in the city.
+The monitoring network registers the main parameters to alert when any of them are altered through a
+notification system and thus help decision-making. In
+the same way, it will contribute to the fulfilment of the
+Sustainable Development Goals (SDGs) of the United
+Nations.
+In addition, it provides greater transparency for the
+population as it includes visible information panels
+that will inform citizens in real-time of the different
+
+indicators measured in a simple and intuitive way, as
+well as in the Environment section of the municipal
+website.
+The project involves an investment of €271,764, 80%
+of which is financed with European funds through
+the Sustainable and Integrated Urban Development
+Strategy (EDUSI) supported by ERDF funds.
+
+Case study
+
+Atmospheric pollution and environmental noise control in the city of Albacete
+
+Albacete City Council [...] needed to implement a sensor monitoring network to monitor
+air pollution levels and 
+
+--- case-study-Continuous_gas_and_particle_monitoring_in_transport.pdf ---
+Continuous gas and particle monitoring in
+the metro of Valparaíso
+CLIENT
+
+SECTOR
+
+LOCATION
+
+PRODUCTS
+
+EFE Trenes de Chile
+
+Transport
+
+Valparaíso, Chile
+
+Kunak AIR Pro
+Kunak AIR Cloud
+
+Need
+
+Measured parameters
+
+Empresa de los Ferrocarriles del Estado, known by its
+acronym EFE and called EFE Trenes de Chile, needed
+to conduct a study on the air quality in the Valparaiso
+metro stations.
+
+• CO (carbon monoxide)
+• CO2 (carbon dioxide)
+• NO2 (nitrogen dioxide)
+• Particulate Matter (PM1, PM2.5, PM4, PM10, TSP and
+TPC).
+• Temperature, relative humidity, dew point and atmospheric pressure.
+
+The Valparaíso metro currently has 2 main uses:
+•
+•
+
+Passenger transport during the day with an electriﬁed system.
+Transport of materials during the night with a
+diesel engine.
+
+The objective of the study is to improve the ventilation system installed on the metro lines in order to
+improve the air quality and comply with the Chilean
+law 594 to protect the health of both workers and
+users of the metro.
+
+Case study
+
+Continuous gas and particle monitoring in the metro of Valparaíso
+
+The aim is to enhance the ventilation system implemented on the metro lines, with the
+purpose of improving the air quality and ensuring compliance with Chilean law 594.
+
+Solution
+
+Results
+
+This study of air quality will be carried out on the
+basis of 3 lines of work:
+
+The 4 monitoring stations will collect key information
+with a higher spatial resolution of the pollution and
+will complement the data collected by the pers
+
+--- case-study-Environmental_monitoring_in_works_&_demolitions.pdf ---
+Environmental monitoring in the demolition
+of the Vicente Calderon Stadium
+CLIENT
+
+SECTOR
+
+LOCATION
+
+PRODUCTS
+
+AFC Ingenieros
+
+Works & Demolitions
+
+Madrid, Spain
+
+Kunak AIR
+Kunak AIR Cloud
+
+Need
+According to the indications of the Madrid City Council, ﬁrms in charge of demolition works must carry out
+environmental monitoring in their works to ensure the
+air quality in the zones where those works are being
+done.
+These are places where a more vulnerable population
+live (among others, schools and sports facilities) and
+whose health is even more delicate than average.
+It is necessary to offer tools that allow monitoring
+the effects on air quality derived from demolition and
+construction works that offer reliable and quality information that facilitate its control and environmental
+monitoring.
+
+For this reason, AFC Ingenieros contacted Kunak in
+order to develop a solution capable of measuring
+reliably and accurately and offering a system of alerts
+when thresholds are exceeded.
+
+Case study
+
+Environmental monitoring in the demolition of the Vicente Calderon Stadium
+
+Demolition works must carry out environmental monitoring in all their works to ensure
+the air quality in the zones where those works are being done
+
+Solution
+
+Results
+
+Deployment of a Kunak AIR sensor network with
+embedded wireless communications for monitoring
+parameters of polluting gases, particulates and noise
+pollution in real time.
+
+Development of an environmental monitoring solution with the following features:
+
+
+
+--- case-study-Mining_air_pollution_monitoring_network.pdf ---
+CASE STUDY
+
+Mining air pollution monitoring network at
+Las Palmeras coal mine in Colombia
+CLIENT
+
+SECTOR
+
+LOCATION
+
+PRODUCTS
+
+GECELCA S.A. E.S.P.
+
+Mining
+
+Cordoba, Colombia
+
+Kunak AIR Pro
+Kunak AIR Cloud
+
+Need
+Gecelca S.A. E.S.P. (La Generadora y Comercializadora
+de Energía del Caribe) contacted Ambientalia with
+the need to create a mining air pollution monitoring
+system to validate the air quality at Las Palmeras coal
+mine in Cordoba, Colombia.
+In 2020, during the mine’s construction phase, a first
+diagnosis phase was carried out using a mobile solar
+station for measuring particulate matter (PMs / PM10
+and PM2.5) with Grimm EDM180 technology.
+In 2022, during the operation phase, it was decided to reinforce control through a hybrid air quality
+monitoring network consisting of 3 mobile stations
+Grimm EDM180 for measuring PMs and 3 Kunak AIR
+Pro stations for measuring polluting gases and PMs,
+both systems powered by solar panels to allow measurement at points of interest without the need for a
+connection to the electricity grid.
+
+The objective was to measure, control, and analyze
+in real-time the environmental impact of mining and
+the activities carried out in the mine at different
+critical points, using the information as a tool for
+decision-making that continuously improves the air
+quality in the area.
+To manage the generated information, it was necessary to have software that integrates the data from
+all the network’s stations, control the equipment and
+systems’ functioning,
+
+--- case-study-Wildland_fire_pollution_monitoring_in_US_EPA_tests.pdf ---
+Wildland fire pollution monitoring in US EPA
+tests
+CLIENT
+
+SECTOR
+
+LOCATION
+
+PRODUCTS
+
+US EPA
+
+Research &
+Consultancy
+
+North Carolina, USA
+
+Kunak AIR
+Kunak AIR Cloud
+
+Need
+
+Measured parameters
+
+In 2017, the EPA and five other federal agencies
+issued a challenge to detect wildfires early using gas
+and particulate sensors to protect public health.
+
+• CO (carbon monoxide)
+• O3 (ozone)
+• Particulate Matter PM2.5
+• Temperature, relative humidity, dew point and atmospheric pressure.
+
+Smoke from wildfires is harmful to health and can
+irritate the eyes, nose and throat, cause persistent
+coughing, wheezing and shortness of breath, and
+worsen heart and lung disease.
+The main objectives were:
+• Evaluating air quality sensor-based technologies to
+measure smoke pollutants during wildfires.
+• Encourage innovation through the analysis of new
+air monitoring systems for remote areas.
+
+Case study
+
+Wildland fire pollution monitoring in US EPA tests
+
+The challenge has raised awareness of the importance of monitoring forest fires, driving
+the development of sensor technology to protect public health.
+
+Solution
+
+Results
+
+Deployment of the Kunak AIR system to measure
+particulate matter and pollutants required for the
+challenge (PM2.5, CO and O3).
+
+The project underlines the critical importance of
+early detection of wildfires to protect public health.
+Smoke from wildfires can have serious health effects,
+including irritation of the respiratory tract and aggravation of heart and lung diseases.
+
+• Ai
+
+--- case_study_Odour_emissions_control_in_WWTP.pdf ---
+Odour emissions control and dispersion
+analysis of H2S concentrations in a WWTP
+CLIENT
+
+SECTOR
+
+LOCATION
+
+PRODUCTS
+
+Shafdan WWTP
+
+Industry
+
+Rishon LeZion, Israel
+
+Kunak AIR Pro
+Kunak AIR Lite
+Kunak AIR Cloud
+
+Need
+Rishon LeZion municipality claims that the operation
+of the Wastewater Treatment Plant (WWTP) affects
+the residential areas around the plant with odours
+due to the emission of H2S.
+The client has invested a lot of resources in order to
+prevent such emissions and wants to ensure that H2S
+levels at the perimeter of the plant are according to
+the Clean Air Act or to get early alerts in case of any
+deviation.
+Meteo-Tech, the official distributor of Kunak solutions
+for Israel, thanks to its extensive experience in
+environmental and meteorological monitoring, was in
+charge of deploying a fence line monitoring network
+to control H2S emissions derived from the wastewater
+treatment plant activities that could affect nearby
+populations.
+
+Case study
+
+Odour emissions control and dispersion analysis of H2S concentrations in a WWTP
+
+When H2S episodes occur, Kunak AIR sensors can detect them and Kunak AIR Cloud
+sends alerts when thresholds are exceeded.
+
+Solution
+
+Results
+
+Deployment of 7 Kunak AIR stations on the perimeter
+of the Shafdan Wastewater Treatment Plant (fenceline monitoring nearby the residential areas).
+
+The client has continuous measurements of H2S
+levels at the perimeter of the plant and knows the
+situation with H2S emissions with a high level of confidence and va
+
+--- soga-2025-annual-report-executive-summary-infographic.pdf ---
+STATE OF
+
+GLOBAL AIR /2025
+36%
+
+11%
+
+of the world’s population is exposed to
+levels of PM2.5 above the least stringent
+interim target of 35 µg/m3 (IT-1).
+
+Low- and middle-income countries face the
+largest burden. 90% of all air pollution
+deaths were in these countries:
+
+of the global population lives in areas
+where there are no national air quality
+standards.
+
+Air pollution continues to be the second
+leading risk factor for early death,
+surpassed only by high blood pressure.
+
+7.9 million
+
+deaths attributed to air pollution in 2023,
+
+about 1 in 8 deaths worldwide.
+7.9 million
+
+Of this total, 4.9 million deaths were
+attributable to ambient PM2.5 exposure,
+2.8 million were from household air
+pollution, and
+470,000 were from ozone.
+
+India and China each had more than 2 million deaths
+attributable to air pollution in 2023.
+Bangladesh, Pakistan, and Nigeria each saw more than
+200,000 deaths.
+Indonesia, Myanmar, and Egypt each saw more than
+100,000 deaths.
+
+Noncommunicable diseases accounted for
+6.8 million deaths.
+
+86%
+
+of global deaths were attributable
+to air pollution in 2023.
+
+In 2023, dementia attributable to air
+pollution resulted in 626,000 deaths and
+11.6 million healthy years of life lost.
+
+95%
+
+of deaths in adults over the age of 60
+are due to noncommunicable diseases.
+
+1 in 2 chronic obstructive
+1 in 4 heart disease deaths
+pulmonary disease (COPD) deaths
+More than 1 in 4 dementia
+deaths
+
+October 2025
+www.stateofglobalair.org
+
+Nearly 1 in 6 diabetes
+deaths
+
+© 2025 Health 
+
