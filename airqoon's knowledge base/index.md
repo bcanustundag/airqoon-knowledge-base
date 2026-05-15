@@ -83,6 +83,7 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 | [[wiki/sources/02-2026-airqoon_sunum]] | raw/articles/02-2026-Airqoon_Sunum.pdf | 2026-05-05 | presentation, municipalities, sales, marketing, use-cases |
 | [[wiki/sources/aethlabs-ma-manuals]] | scratch/ma-operating-manual.txt, scratch/ma-quick-start.txt | 2026-05-05 | manual, hardware, black-carbon, aethlabs, ma200, ma300, ma350 |
 | [[wiki/sources/airqoon-cimsa-proposal]] | raw/articles/TOR_TC_CIMSA_Dust Monitoring Assignment_Issued for RFP.pdf, raw/articles/notion/airqoon_cimsa_proposal_v6_final-3.pdf | 2026-05-08 | project, ebrd, cimsa, cement, dust-management, proposal, tender |
+| [[wiki/sources/airqoon-starhub-sanayi-2026]] | raw/articles/Airqoon_StarHub_Sanayi_14May2026-final.pptx | 2026-05-14 | presentation, industry, sales, fenceline, cement, petrochemical, esg, ebrd, starhub |
 
 | [[wiki/sources/kunak-air-datasheet]] | raw/articles/notion/Kunak_AIR_Datasheet_EN.pdf | 2026-05-11 | competitor, kunak, datasheet, specs |
 | [[wiki/sources/kunak-air-calibration-gashood]] | raw/articles/notion/Kunak_Air_CalibrationProcedure_Gashood_EN.pdf | 2026-05-11 | competitor, kunak, calibration, hardware |
@@ -258,4 +259,4 @@ Master catalog of all wiki pages. The LLM reads this first when answering querie
 
 ---
 
-*Last updated: 2026-05-11 (Revised AQ-Fusion proposal with HYSPLIT/PMF/satellite capabilities)*
+*Last updated: 2026-05-14 (Ingested StarHub Sanayi industrial pitch deck)*

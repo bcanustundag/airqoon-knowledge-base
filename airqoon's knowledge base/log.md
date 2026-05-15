@@ -353,3 +353,17 @@ Updated `index.md` with the new source pages.
   - Sensor cluster: `vocs-response` ↔ `cartridge-fitting` ↔ `datasheet`
 - **Case study pages** (8 docs): added `related` frontmatter linking each to Kunak entity + thematically related case studies (industrial fenceline group, urban group)
 - Tags enriched across all files (added `case-study`, `perimeter-monitoring`, `smart-city`, `construction`, `cartridge`, `connectivity`, `configurator`, `cen-ts-17660`, `mcerts`)
+
+## [2026-05-14] ingest | Airqoon StarHub Sanayi Industrial Pitch (14 May 2026)
+- Ingested `Airqoon_StarHub_Sanayi_14May2026-final.pptx` (9 slides, Google Slides → PPTX).
+- Created `wiki/sources/airqoon-starhub-sanayi-2026.md` — full slide-by-slide breakdown plus strategic analysis.
+- Event: İstanbul StarHub — Kurum-Girişim İş Birlikleri.
+- Audience: industrial decision-makers (cement, petrochemical, WWTP).
+- Key narrative shift vs earlier municipality deck:
+  - Pain → Solution → Proof → Value → Credibility arc targeting corporate clients
+  - Fenceline monitoring + complaint management as primary value driver
+  - "Single data, triple compliance" framing: CSRD/ESRS E2 + EBRD/IFC PS3 + brand/transparency
+- New quantified claims captured: 80% complaint reduction, 2→0.4 complaints/month, days→minutes response time.
+- New credentials highlighted: EBRD Green Technology Selector listing, EPA/600/R-20/280 calibration reference.
+- Updated `index.md` with new source entry.
+
