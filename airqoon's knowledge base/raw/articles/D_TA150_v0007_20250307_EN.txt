@@ -1,0 +1,175 @@
+TA150 Spectrum analyser sensor for noise measurement (1/3 octave)*
+DATASHEET
+
+*Optional
+
+D_TA150_v0007_20250307_EN
+
+takes a step forward in monitoring by presenting the new TA150 sensor which is characterized by:
+
+ Oveall levels of the equivalent level with frequency
+
+weighting A, C and Z and time weighting F, S and I,
+in addition to their maximums and peak level.
+
+ 1/3 octave band levels* from 6,3 Hz to 20 kHz.
+• Class 1 precision according to IEC 61672-1.
+• It allows obtaining audio files* (mp3, flac or wav format)
+
+with automatisms (by level, time or emergency).
+
+Mains power, POE, 5-12 VDC (Solar panels, external batteries), public lighting network with daily battery backup
+(BA150*) or BA151* battery.
+
+• Mini OLED screen,
+
+Allows quick verification with an acoustic calibrator
+• Protection against external agents with outdoor kit.
+• Volatile memory with capacity of up to 2 months.
+• It has a web server for configuration.
+• Minimum annual maintenance.
+• 100% IoT integrable in different platforms.
+
+COMPLETE
+
+NUMERICAL
+
+COMMUNICATIONS
+
+POWER
+
+1
+
+TA150 Spectrum analyser sensor for noise measurement (1/3 octave)*
+*Optional
+
+TECHNICAL SPECIFICATIONS (PRELIMINARY)
+
+ACOUSTIC MEASUREMENT ACCORDING
+61672-1
+
+CONNECTIVITY
+Ethernet COMMUNICATION for data transmission:
+PORT:
+RJ45, 10/100 Mbps
+Wi-Fi COMMUNICATION for data transmission:
+TYPE:
+2,4GHz WPA2
+
+MEASURED ACOUSTIC FUNCTIONS:
+Equivalent levels(1)
+LAT, LCT, LZT and LAIT
+
+OPTIONAL CONNECTIVITY
+for data transmission
+
+Maximum levels(1)
+LAFmaxT, LASmaxT and LAImaxT
+
+4G LTE + GPS COMMUNICATION
+MR154* module required
+BUCLE DE CORRIENTE 4-20 mA
+CL150* module required
+RS232 COMMUNICATION (MODBUS included)
+RS152* module required
+RS485 COMMUNICATION (MODBUS included 2 or 4 wires)
+RS154* module required
+
+Peak level(1)
+LCpeakT and LZpeakT
+(1)
+
+with a programmable time between 1 s and 60 min
+
+Percentiles
+L10, L50 and L90
+ACCURACY according toIEC 61672-1:
+
+class 1
+
+LF, LS, LI and LT:
+
+TRANSMISSION PROTOCOLS
+
+Measurement range (without scales): from 25,5 to 137 dBA
+Lineality range 1kHz:
+de 30,5 a 137 dBA
+LCpeak:
+Margen de medición (sin escalas):
+de 29,1 a 140 dBC
+Margen de linealidad a 1kHz:
+de 55,0 a 140 dBC
+
+PROTOCOL :
+IP ADDRESS:
+FORMAT :
+
+VERIFICATION: With an acoustics calibration (IEC 60942)
+
+MICROPHONE
+TYPE:
+½” condenser microphone
+POLARIZATION:
+0 V
+NOMINAL SENSITIVITY:
+16,0 mV/Pa
+
+POWER
+
+HTTP, HTTPS, MQTT/TLP and MQTT/TLS
+Dynamic (DHCP) and Static
+Sentilo, JSON, Ultralight 2.0, others
+(consult)
+
+OPTIONS*:
+FR150
+
+Module for
+
+GA150
+MR154
+CL150
+RS152
+RS154
+BA150
+BA151
+
+Module for audio files acquisition
+Module for data transmission 4G+
+Analog output for 4-20mA current loop
+Module for digital comunication RS232
+Module for digital comunication RS485
+Internal lithium battery for 24h cycles
+Internal lithium battery for 5 days cycles
+
+MAINS (100/240 V~ 0,6 A | 50/60 Hz)
+URBAN LIGHTNING NETWORK (Battery required BA150*)
+PoE (Power Over Ethernet)
+5-12 VDC INPUT
+BA151* Battery
+
+APPLICATIONS
+•
+•
+
+Smart Cities sensing
+Noise surveillance networks (permanent monitoring):
+Recognition, detection and identification of sound
+sources.
+• Declaration of smart tourist destinations (ITD).
+•
+
+•
+
+Noise monitoring leisure areas:
+− Concerts, festivals, major events and exhibitions.
+− Sports events and racetracks.
+
+The characteristics, technical specifications and accessories
+may be altered without prior notice
+
+info@cesva.com · www.cesva.com
+
+2
+
+

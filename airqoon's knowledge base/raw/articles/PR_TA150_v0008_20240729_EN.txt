@@ -1,0 +1,1764 @@
+TA150
+COMMUNICATION PROTOCOLS
+PR_TA150_v0007_20240729_EN
+
+CONTENTS
+
+0
+
+1. INTRODUCTION ............................................................................................................... 3
+1.1 Sensor configuration (webserver) ........................................................................ 3
+1.2 Function’s names table ........................................................................................ 4
+1.3 Online command table ......................................................................................... 5
+1.4 Seeing the server-device communication............................................................. 6
+2. PLATFORM REGISTERS PROTOCOLS .......................................................................... 7
+2.1 UltraLight 2.0 (UL2.0) .......................................................................................... 7
+2.1.1 Sending data ................................................................................................................. 7
+2.1.2 Response data .............................................................................................................. 9
+2.1.3 Sending commands o orders ........................................................................................ 9
+2.1.4 Example ...................................................................................................................... 10
+
+2.2 Generic JSON Format ....................................................................................... 11
+2.2.1 Sending data ............................................................................................................... 11
+2.2.2 Response data ............................................................................................................ 14
+2.2.3 Sending commands o orders ...................................................................................... 14
+2.2.4 Example ...................................................................................................................... 15
+
+2.3 Sentilo API ......................................................................................................... 16
+2.3.1 Sending data ............................................................................................................... 16
+2.3.2 Response data ............................................................................................................ 18
+2.3.3 Retrieving orders ......................................................................................................... 19
+2.3.4 Examples .................................................................................................................... 20
+
+3. PLATFORM AUDIO PROTOCOLS ................................................................................. 22
+3.1 Custom .............................................................................................................. 22
+3.1.1 Sending files ................................................................................................................ 22
+3.1.2 Examples .................................................................................................................... 23
+
+-2-
+
+INTRODUCTION
+1. INTRODUCTION
+
+1
+
+1.1 Sensor configuration (webserver)
+
+To configure the sensor, you must enter the sensor's webserver. Access to the webserver is
+done with an external device that has a web browser and WIFI connection: desktop or laptop
+computer, tablet, smartphone, etc.
+The access to the webserver must be done by activating the direct mode of the TA150, to do
+this:
+- Press once on the push button to activate the display.
+- Keep the button pressed until the bar that appears on the display is complete.
+- After the bar is completed, the sensor activates the direct mode of communication by
+generating a WIFI wireless communication.
+Communication ends when you press the button again until the bar is complete on the display,
+or after 60 minutes of inactivity.
+To communicate the desired device (PC, tablet, smartphone ...) with the TA150 sensor follow
+the next steps:
+- Search for WIFI networks with the device you want to connect to the TA150 sensor.
+- Select the WIFI network that generates the TA150 sensor (displayed on the sensor
+display).
+- Connect the device to the WIFI network and enter the required password (displayed
+on the sensor display). If the operating system reports that this network does not allow
+access to the Internet, indicate that you want to maintain the connection.
+- Finally open an Internet browser and write in the address bar the webserver’s IP
+address (displayed on the sensor display).
+Now you can access the sensor configuration by browsing the webserver pages. For more
+information, please refer to the sensor manual.
+
+-3-
+
+1.2 Function’s names table
+The TA150 register the follow functions:
+Overall functions:
+Function
+
+Level
+
+Overload
+
+Underrange
+
+Function
+
+Level
+
+Overload
+
+Underrange
+
+LAT
+
+la
+
+la-o
+
+la-u
+
+LAImaxT
+
+laimx
+
+laimx-o
+
+laimx-u
+
+LCT
+
+lc
+
+lc-o
+
+lc-u
+
+LCpeakT
+
+lcpk
+
+lcpk-o
+
+lcpk-u
+
+LZT
+
+lz
+
+lz-o
+
+lz-u
+
+LZpeakT
+
+lzpk
+
+lzpk-o
+
+lzpk-u
+
+LAIT
+
+lai
+
+lai-o
+
+lai-u
+
+L10
+
+L10
+
+L10-o
+
+L10-u
+
+LAFmaxT
+
+lafmx
+
+lafmx-o
+
+lafmx-u
+
+L50
+
+L50
+
+L50-o
+
+L50-u
+
+LASmaxT
+
+lasmx
+
+lasmx-o
+
+lasmx-u
+
+L90
+
+l90
+
+l90-o
+
+l90-u
+
+Spectrum (1/3 octave) functions (only available if the FR150 module is installed):
+Function
+
+Level
+
+Overload
+
+Underrange
+
+Function
+
+Level
+
+Overload
+
+Underrange
+
+6 Hz
+
+l006
+
+l006-o
+
+l006-u
+
+400 Hz
+
+l400
+
+l400-o
+
+l400-u
+
+8 Hz
+
+l008
+
+l008-o
+
+l008-u
+
+500 Hz
+
+l500
+
+l500-o
+
+l500-u
+
+10 Hz
+
+l010
+
+l010-o
+
+l010-u
+
+630 Hz
+
+l630
+
+l630-o
+
+l630-u
+
+12.5 Hz
+
+l012
+
+l012-o
+
+l012-u
+
+800 Hz
+
+l800
+
+l800-o
+
+l800-u
+
+16 Hz
+
+l016
+
+l016-o
+
+l016-u
+
+1000 Hz
+
+l1k0
+
+l1k0-o
+
+l1k0-u
+
+20 Hz
+
+l020
+
+l020-o
+
+l020-u
+
+1250 Hz
+
+l1k2
+
+l1k2-o
+
+l1k2-u
+
+25 Hz
+
+l025
+
+l025-o
+
+l025-u
+
+1600 Hz
+
+l1k6
+
+l1k6-o
+
+l1k6-u
+
+31.5 Hz
+
+l031
+
+l031-o
+
+l031-u
+
+2000 Hz
+
+l2k0
+
+l2k0-o
+
+l2k0-u
+
+40 Hz
+
+l040
+
+l040-o
+
+l040-u
+
+2500 Hz
+
+l2k5
+
+l2k5-o
+
+l2k5-u
+
+50 Hz
+
+l050
+
+l050-o
+
+l050-u
+
+3150 Hz
+
+l3k1
+
+l3k1-o
+
+l3k1-u
+
+63 Hz
+
+l063
+
+l063-o
+
+l063-u
+
+4000 Hz
+
+l4k0
+
+l4k0-o
+
+l4k0-u
+
+80 Hz
+
+l080
+
+l080-o
+
+l080-u
+
+5000 Hz
+
+l5k0
+
+l5k0-o
+
+l5k0-u
+
+100 Hz
+
+l100
+
+l100-o
+
+l100-u
+
+6300 Hz
+
+l6k3
+
+l6k3-o
+
+l6k3-u
+
+125 Hz
+
+l125
+
+l125-o
+
+l125-u
+
+8000 Hz
+
+l8k0
+
+l8k0-o
+
+l8k0-u
+
+160 Hz
+
+l160
+
+l160-o
+
+l160-u
+
+10000 Hz
+
+l10k
+
+l10k-o
+
+l10k-u
+
+200 Hz
+
+l200
+
+l200-o
+
+l200-u
+
+12500 Hz
+
+l12k
+
+l12k-o
+
+l12k-u
+
+250 Hz
+
+l250
+
+l250-o
+
+l250-u
+
+16000 Hz
+
+l16k
+
+l16k-o
+
+l16k-u
+
+315 Hz
+
+l315
+
+l315-o
+
+l315-u
+
+20000 Hz
+
+l20k
+
+l20k-o
+
+l20k-u
+
+-4-
+
+1.3 Online command table
+The TA150 accepts the follow commands:
+Command
+name
+
+Command
+value
+
+Format
+value
+
+tl
+
+0001
+to 3600
+
+Number
+(4 digits)
+
+Averaging time parameter in seconds
+default is 0060
+
+fa-ou
+
+1 or 0
+true or false
+
+Boolean
+
+Deactivate or activate the “LAT function Overload/Underrange” option
+
+fc
+fz
+fai
+fafmx
+fasmx
+faimx
+fcpk
+fzpk
+f10
+f50
+f90
+
+1 or 0
+true or false
+
+Boolean
+
+Deactivate or activate the “functions registers” option
+
+fex-ou
+
+1 or 0
+true or false
+
+Boolean
+
+Deactivate or activate the “functions overload/Underrange” option
+
+f1s
+
+1 or 0
+true or false
+
+Boolean
+
+(*2) Activate or deactivate the “1s registers” option
+
+Description
+
+f1s_n
+
+1…9
+
+Number
+
+(*2) Selects the 1s registers' function:
+1 = LA
+2 = LC
+3 = LZ
+4 = LAI
+5 = LAFmax
+6 = LASmax
+7 = LAImax
+8 = LCpeak
+9 = LZpeak
+
+f1s-ou
+
+1 or 0
+true or false
+
+Boolean
+
+(*1) Deactivate or activate the “1s reg. Overload/Underrange” option
+
+fto
+
+1 or 0
+true or false
+
+Boolean
+
+(*1) Deactivate or activate the “1/3 registers” option
+
+fto-ou
+
+1 or 0
+true or false
+
+Boolean
+
+(*1) Deactivate or activate the “1/3 Overload/Underrange” option
+
+*1: If FR150 module is installed
+*2: If t =< 60s
+
+-5-
+
+1.4 Seeing the server-device communication
+After the device is configured, you can view the HTTP/HTTPS communication between server
+and device through the USB interface.
+To do this, you need to connect the device to a PC with a USB-B cable and have an emulator
+terminal installed (for example, Tera Term). After connection, you may check the "Serial"
+option and select the USB port.
+Once communication is established, you can use two commands:
+-
+
+Command with letter "X" (upper case): allows you to view the HTTP/HTTPS
+shipments from the device and the HTTP/HTTPS responses from the server.
+Remember that this information will be displayed based on the integration time
+configured in the sensor (TL parameter).
+
+-
+
+Command with letter "x" (lower case): deactivates the display of "X".
+
+-6-
+
+PLATFORM
+REGISTERS PROTOCOLS
+
+2
+
+2. PLATFORM REGISTERS PROTOCOLS
+
+2.1 UltraLight 2.0 (UL2.0)
+2.1.1 Sending data
+Format
+
+Protocol
+
+Method
+
+UL2.0 DEVICE API
+
+HTTP, HTTPS
+MQTT-TCP, MQTT-TLS
+
+POST
+
+Header description:
+POST/<path>?k=<key>&i=TA150-<serialnum>&t=<time>&getCmd=<gc>
+Host: <host>
+Content-Type: text/plain; charset=UTF-8
+
+URL
+
+Parameters
+
+Name
+
+Description
+
+host
+
+(*1) Server API domain name or IP
+
+path
+
+(*1) Server API path
+
+HTTP/1.1
+
+Name
+
+Value
+
+Description
+
+k
+
+key
+
+(*1) server API Key
+
+i
+
+serialnum
+
+t
+
+time
+
+Timestamp (in Zulu format: yyyy-mm-ddThh:ii:ssZ)
+
+getCmd
+
+gc
+
+request for receive commands ( boolean: 1 = yes -default-, 0 = no )
+
+Device serial number (Txxxxxx)
+
+*1: Programmable by webserver
+
+Body description:
+Generic line structure (separated by “|” character):
+<name1>|<value1>|<name2>|<value2> ... |<nameX>|<valueX>
+
+There are 5 parts in the body structure:
+Overall values:
+tl|<tl>|la|<la>|la-o|<la-o>|la-u|<la-u>| ... |l90|<l90>|l90-o|<l90-o>|l90-u|<l90-u>
+
+Name
+Tl
+la … l90
+
+Description
+Averaging time in seconds (s)
+Level function’s sound pressure level in dB (see section 1.2)
+
+la-o … l90-o
+
+(*2) Level function’s Overload [ boolean: 1 = true, 0 = false ] (see section 1.2)
+
+la-u … l90-u
+
+(*2) Level function’s Underrange [ boolean: 1 = true, 0 = false ] (see section 1.2)
+
+*2: If “Send Overload/Underrange” is activated (programmable by Webserver)
+
+-7-
+
+Seconds values:
+|f1s_n|<1sf>
+|l1s|<f01s>;<f02s>; ... ;<fxxs>
+|l1s-o|<f01s-o>;<f02s-o>; ... ;<fxxs-o>
+|l1s-u|<f01s-u>;<f02s-u>; ... ;<fxxs-u>
+
+Name
+
+Description
+
+f1s_n
+
+(*3) Level function’s 1s name (see section 1.2)
+
+1s
+
+(*3) Seconds value separated by “;” [register format: value]
+
+l1s-o
+
+(*3) (*5) Overload values separated by “;” [register format: boolean: true or false]
+
+l1s-u
+
+(*3) ( *5) Underrange values separated by “;” [register format: boolean: true or false]
+
+*3: If TLeq=<60s, “Send 1s registers” activated and a “1s function” selected (programmable by Webserver)
+*5: If “Send 1s Overload/Underrange” is activated (programmable by Webserver)
+
+Spectrum values: (optional, needs FR150 module)
+|l006|<l006>|l006-o|<l006-o>|l006-u|< l006-u>| ... |l20k|<l20k>|l20k-o|<l20k-o>|l20k-u|<l20k-u>
+
+Name
+l006 … l20k
+
+Description
+(*4) 1/3 Octave filter’s sound pressure level (see section 1.2)
+
+l006-o … l20k-o
+
+(*4) (*5) 1/3 Octave filter’s Overload [ boolean: 1 = true, 0 = false ] (see section 1.2)
+
+l006-u … l20k-u
+
+(*4) (*5) 1/3 Octave filter’s Underrange [ boolean: 1 = true, 0 = false ] (see section 1.2)
+
+*4: If optional FR150 module is installed and activated (programmable by Webserver)
+*5: If “Send 1/3 Overload/Underrange” is activated (programmable by Webserver)
+
+System values:
+|<name1>|<value1>|<name2>|<value2> ... |<nameX>|<valueX>
+
+Name
+
+Description
+
+pwr
+
+Power supply status [1 = 230V, 2 = battery, 3 = 12V, 4 = POE ]
+
+wifi
+
+(*6) Wi-fi strength ( % )
+
+bat
+
+(*7) Battery level ( % )
+
+modem
+gps
+
+Optional module MR154 OR MR151 - Modem strength ( % )
+Optional module MR154 OR MR151 - Sensor coordinates in latitude and longitude
+
+*6: If transmission by WiFi is activated
+*7: If a BA150 or BA157 battery is connected to sensor
+
+-8-
+
+2.1.2 Response data
+The server will respond with an HTTP/HTTPS status code “200” if the request was accepted
+and processed correctly.
+Other code different to “200”, the sensor will consider a server’s error and will save the
+register for the next connection.
+
+2.1.3 Sending commands o orders
+The sensor can receive commands/orders to change the configuration of sending registers
+data. These commands can be received in the body of the server response.
+If there is a command or various commands to change the configuration, the server must
+respond with the following format within the body of the response:
+TA150-<serialnum>@setConfig|<cmd_name>=<cmd_value>
+HTTP/1.1
+Parameter
+
+Description
+
+serialnum
+
+Device serial number (Txxxxxx)
+
+cmd_name
+
+Command name
+
+cmd_value
+
+Command value
+
+The TA150 accepts a lot of prebuilt online commands.
+Please see section 1.3 for those online commands.
+
+-9-
+
+2.1.4 Example
+-
+
+Optional modules: BA150 (battery) and MR150
+(4G modem)
+Serial numer sensor: T123456
+URL: yourserver.com/sensor/data/
+Port: 80
+Token: 98765abcdefgh
+
+-
+
+Integration time: 60s
+“Send Overload/Underrange” activated
+“Send 1s registers” activated, and “LAFmaxT
+function” selected
+“Send 1/3 registers” activated
+“Send 1/3 Overload/Underrange” activated
+
+The sensor data:
+POST /sensor/data/?k=98765abcdefgh&i=TA150-T123456&t=2028-06-10T14:12:14Z&getCmd=1
+Host: yourserver.com:0080
+Content-Type: None
+Content-Type: text/plain; charset=UTF-8
+Content-Length: 1910
+
+Connection: close
+tl|60|la|29.5|la-o|0|la-u|0|lc|34.5|lc-o|0|lc-u|0|lz|37.6|lz-o|0|lz-u|0|lai|43.6|lai-o|0|lai-u|0|lafmx|54.0|lafmx-o|0|lafmxu|0|lasmx|45.7|lasmx-o|0|lasmx-u|0|laimx|59.1|laimx-o|0|laimx-u|0|lcpk|80.7|lcpk-o|0|lcpk-u|0|lzZpk|80.8|lzpk-o|0|lzpku|0|l10|23.0|l10-o|0|l10-u|0|l50|22.7|l50-o|0|l50-u|0|l90|22.5|l90-o|0|l90-u|0|f1s_n|lafmx|l1s|23.2;23.0;23.4;23.2;23.2;23.2;
+23.3;23.3;23.0;23.0;23.1;23.0;23.3;23.4;23.1;23.1;22.9;22.7;22.9;23.1;23.0;23.1;22.9;22.9;23.0;23.0;22.9;23.0;22.9;22.9;23.0;
+23.0;22.9;22.7;22.8;22.8;24.0;22.9;22.9;22.7;22.9;23.0;22.7;22.7;23.1;23.0;22.8;23.0;46.5;54.0;40.0;22.9;22.7;22.8;22.9;22.9;
+22.9;22.8;22.6;22.8|l1s-o|0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;
+0;0; 0;0;0;0;0;0;0;0;0|l1s-u|0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;0;0|l006|27.7|l006-o|0|l006-u|0|l008|25.9|l008-o|0|l008-u|0|l010|26.4|l010-o|0|l010-u|0|l012|26.1|l012o|0|l012-u|0|l016|26.5|l016-o|0|l016-u|0|l020|26.5|l020-o|0|l020-u|0|l025|25.5|l025-o|0|l025-u|0|l031|24.6|l031-o|0|l031-u|0
+|l040|24.3|l040-o|0|l040-u|0|l050|28.9|l050-o|0|l050-u|0|l063|22.3|l063-o|0|l063-u|0|l080|21.1|l080-o|0|l080-u|0|l100|19.8
+|l100-o|0|l100-u|0|l125|18.4|l125-o|0|l125-u|0|l160|20.9|l160-o|0|l160-u|0|l200|18.2|l200-o|0|l200-u|0|l250|16.9|l250-o|0
+|l250-u|0|l315|18.5|l315-o|0|l315-u|0|l400|15.3|l400-o|0|l400-u|0|l500|21.3|l500-o|0|l500-u|0|l630|20.5|l630-o|0|l630-u|0
+|l800|19.1|l800-o|0|l800-u|0|l1k0|19.4|l1k0-o|0|l1k0-u|0|l1k2|21.9|l1k2-o|0|l1k2-u|0|l1k6|17.4|l1k6-o|0|l1k6-u|0|l2k0|17.9
+|l2k0-o|0|l2k0-u|0|l2k5|18.5|l2k5-o|0|l2k5-u|0|l3k1|10.1|l3k1-o|0|l3k1-u|0|l4k0|9.6|l4k0-o|0|l4k0-u|0|l5k0|8.5|l5k0-o|0
+|l5k0-u|0|l6k3|10.5|l6k3-o|0|l6k3-u|0|l8k0|13.5|l8k0-o|0|l8k0-u|0|l10k|18.2|l10k-o|0|l10k-u|0|l12k|23.2|l12k-o|0|l12k-u|0
+|l16k|17.3|l16k-o|0|l16k-u|0|l20k|12.9|l20k-o|0|l20k-u|0|wifi|0|pwr|1
+
+When there isn’t a command to change, the server will respond the following data:
+HTTP/1.1 200 OK
+Date: Thu, 10 Jun 2028 14:13:38 GMT
+Content-Type: none
+Content-Length: 0
+Connection: close
+
+And if there is a command (f.e. change the averaging time to 30 seconds), the server will
+respond the following data:
+HTTP/1.1 200 OK
+Date: Thu, 10 Jun 2028 14:13:38 GMT
+Content-Type: text/plain; charset=UTF-8
+Content-Length: 32
+Connection: close
+TA150-T123456@setConfig|tl=0030
+
+- 10 -
+
+2.2 Generic JSON Format
+2.2.1 Sending data
+Format
+
+Protocol
+
+Method
+
+JSON
+
+HTTP, HTTPS
+MQTT-TCP, MQTT-TLS
+
+PUT
+
+Header description:
+PUT/<path>
+HTTP/1.1
+Host: <host>
+API-KEY: <token>
+Content-Type: application/json; charset=UTF-8
+
+Parameters
+
+Name
+
+Description
+
+host
+
+(*1) Server API domain name or IP
+
+path
+
+(*1) Server API path
+
+token
+
+(*1) Server API key secure
+
+*1: Programmable by webserver
+
+Body description:
+There are 5 parts in the JSON structure:
+{
+[information values]
+"overall": {
+[Overall values]
+},
+"system": {
+[system values]
+},
+"seconds": {
+[seconds values]
+},
+"spectrum": {
+[spectrum values]
+}
+}
+
+- 11 -
+
+Information values:
+"name": "TA150-<serialnum>",
+"manufacturer": "CESVA",
+"model": "TA150",
+"serial": "<serialnum>",
+"timestamp": "<time>",
+"averagingtime": <tl>,
+
+Name
+serialnum
+
+Description
+Device serial number (Txxxxxx)
+
+time
+
+Timestamp (in Zulu format: yyyy-mm-ddThh:ii:ssZ)
+
+tl
+
+Averaging time in seconds (s)
+
+Overall values:
+"la": <la>, "la-o": <la-o>, "la-u": <la-u>,
+[ .. ]
+"l90": <l90>, "l90-o": <l90-o>,"l90-u": <l90-u>
+
+Name
+
+Description
+
+la … l90
+
+Level function’s sound pressure level in dB (see section 1.2)
+
+la-o … l90-o
+
+(*2) Level function’s Overload [ boolean: true, false ] (see section 1.2)
+
+la-u … l90-u
+
+(*2) Level function’s Underrange [ boolean: true, false ] (see section 1.2)
+
+*2: If “Send Overload/Underrange” is activated (programmable by Webserver)
+
+System values:
+"<name1>": <value1>,
+"<name2>": <value2>,
+[ .. ]
+"<nameX>": <valueX>
+
+Name
+
+Description
+
+pwr
+
+Power supply status [1 = 230V, 2 = battery, 3 = 12V, 4 = POE ]
+
+Wifi
+
+(*6) Wi-fi strength ( % )
+
+bat
+
+(*7) Battery level ( % )
+
+modem
+gps
+
+(*8) Optional module MR154 or MR151 - Modem strength ( % )
+(*8) Optional module MR154 OR MR151 - Sensor coordinates in latitude and longitude
+
+*6: If transmission by WiFi is activated
+*7: If a BA150 or BA157 battery is connected to sensor
+*8: If transmission by modem is activated
+
+- 12 -
+
+Seconds values:
+"f1s_n": "<1sf>",
+"l1s" : "<f01s>;<f02s>; ... ;<fxxs>",
+"l1s-o": "<f01s-o>;<f02s-o>; ... ;<fxxs-o>",
+"l1s-u": "<f01s-u>;<f02s-u>; ... ;<fxxs-u>"
+
+Name
+
+Description
+
+f1s_n
+
+(*3) Level function’s 1s name (see section 1.2)
+
+1s
+
+(*3) Seconds value separated by “;” [register format: value]
+
+l1s-o
+
+(*3) (*5) Overload values separated by “;” [register format: boolean: true or false]
+
+l1s-u
+
+(*3) ( *5) Underrange values separated by “;” [register format: boolean: true or false]
+
+*3: If TLeq=<60s, “Send 1s registers” activated and a “1s function” selected (programmable by Webserver)
+*5: If “Send 1s Overload/Underrange” is activated (programmable by Webserver)
+
+Optional spectrum values:
+"l006": <l006>, "l006-o": <l006-o>, "l006-u": <l006-u>,
+[ .. ]
+" l20k": < l20k>, "l20k-o": < l20k-o>," l20k-u": < l20k-u>
+
+Name
+l006 … l20k
+
+Description
+(*4) 1/3 Octave filter’s sound pressure level (see section 1.2)
+
+l006-o … l20k-o
+
+(*4) (*5) 1/3 Octave filter’s Overload [ boolean: 1 = true, 0 = false ] (see section 1.2)
+
+l006-u … l20k-u
+
+(*4) (*5) 1/3 Octave filter’s Underrange [ boolean: 1 = true, 0 = false ] (see section 1.2)
+
+*4: If optional FR150 module is installed and activated (programmable by Webserver)
+*5: If “Send 1/3 Overload/Underrange” is activated (programmable by Webserver)
+
+- 13 -
+
+2.2.2 Response data
+The server will respond with an HTTP/HTTPS status code “200” if the request was accepted
+and processed correctly.
+Other code different to “200”, the sensor will consider a server’s error and will save the
+register for the next connection.
+
+2.2.3 Sending commands o orders
+The sensor can receive commands/orders to change the configuration of sending registers
+data. These commands can be received in the body of the server response.
+If there is a command or various commands to change the configuration, the server must
+respond with the following format within the body of the response:
+{
+"setConfig": {
+"<cmd_name2>”: “<cmd_value1>",
+[..]
+"<cmd_nameX>”: “<cmd_valueX>"
+}
+}
+
+Parameter
+
+Description
+
+cmd_name
+
+Command name
+
+cmd_value
+
+Command value
+
+The TA150 accepts a lot of prebuilt online commands.
+Please see section 1.3 for those online commands.
+
+- 14 -
+
+2.2.4 Example
+-
+
+Optional modules: BA150 (battery) and MR150 (4G modem)
+Serial numer sensor: T123456
+URL: yourserver.com/sensor/data/
+Port: 80
+Token: 98765abcdefgh
+
+-
+
+Integration time: 60s
+“Send Overload/Underrange” activated
+“Send 1s registers” activated, and “Lz function” +
+“Overload/Underrange” selected
+“Send 1/3 registers” activated
+“Send 1/3 Overload/Underrange” activated
+
+POST /sensor/data/
+Host: yourserver.com:0080
+Content-Type: text/plain; charset=UTF-8
+Connection: close
+{
+"name": "TA150-T123456",
+"manufacturer": "CESVA",
+"model": "TA150",
+"serial": "T123456",
+"timestamp": "2028-06-10T14:12:14Z",
+"averagingtime": 60,
+"overall": {
+"la": 63.2, "la-o": false, "la-u": false,
+"lc": 63.2, "lc-o": false, "lc-u": false,
+"lz": 63.2, "lz-o": false, "lz-u": false,
+"lai": 63.2, "lai-o": false, "lai-u": false,
+"lafmx": 63.2, "lafmx-o": false, "lafmx-u": false,
+"lasmx": 63.2, "lasmx-o": false, "lasmx-u": false,
+"laimx": 63.2,"laimx-o": false, "laimx-u": false,
+"lcpk": 63.2, "lcpk-o": false, "lcpk-u": false,
+"lzpk": 63.2, "lzpk-o": false, "lzpk-u": false,
+"l10": 63.2, "l10-o": false, "l10-u": false,
+"l50": 63.2, "l50-o": false, "l50-u": false,
+"l90": 63.2, "l90-o": false, "l90-u": false
+},
+"system": {
+"pwr": 1,
+"bat": 78,
+"modem": 89,
+"gps": "41.44195289443725, 2.2036654046947652"
+},
+"seconds": {
+"f1s_n": "lz",
+"l1s": "63.2;63.2;63.2;63.2;63.2; [..] 63.2;63.2;63.2;63.2;63.2",
+"l1s-o": "false;false;false;false;false; [..] false;false;false;false;false”
+"l1s-u": "false;false;false;false;false; [..] false;false;false;false;false”
+},
+"spectrum": {
+"l006": 59.1, "l006-o": false, "l006-u": false,
+"l008": 59.1, "l008-o": false, "l008-u": false,
+"l010": 59.1, "l010-o": false, "l010-u": false,
+"l012": 59.1, "l012-o": false, "l012-u": false,
+[..]
+"l10k": 59.1, "l10k-o": false, "l10k-u": false,
+"l12k": 59.1, "l12k-o": false, "l12k-u": false,
+"l16k": 59.1, "l16k-o": false, "l16k-u": false,
+"l20k": 59.1, "l20k-o": false, "l20k-u": false
+}
+}
+
+When there isn’t a command to change, the server will respond the following data:
+HTTP/1.1 200 OK
+Date: Thu, 10 Jun 2028 14:13:38 GMT
+Content-Type: none
+Content-Length: 0
+Connection: close
+
+And if there is a command (f.e. change the averaging time to 30 seconds and deactivate seconds),
+the server will respond the following data:
+HTTP/1.1 200 OK
+Date: Thu, 10 Jun 2028 14:13:38 GMT
+Content-Type: text/plain; charset=UTF-8
+Content-Length: 32
+Connection: close
+{
+"setConfig": {
+"tl": 30,
+"1s": 0
+}
+}
+
+- 15 -
+
+2.3 Sentilo API
+2.3.1 Sending data
+Format
+
+Protocol
+
+Method
+
+JSON
+
+HTTP, HTTPS
+MQTT-TCP, MQTT-TLS
+
+PUT
+
+Header description:
+PUT/data/<provider_id>
+HTTP/1.1
+Host: <host>:<port>
+IDENTITY_KEY: <token>
+Content-Type: application/json; charset=UTF-8
+Parameters
+
+Name
+provider_id
+
+Description
+(*1) Sentilo provider ID
+
+host
+
+(*1) Server API domain name or IP
+
+port
+
+(*1) Server API port in 4 digits
+
+token
+
+(*1) Server API key secure
+
+*1: Programmable by Webserver
+
+Body description:
+Basic format standar:
+{"sensors":[
+{
+"sensor":"TA150-<serialnum>-<name1>",
+"observations":[{"value":"<value1>", "timestamp":"<time>"}]
+},{
+"sensor":"TA150-<serialnum>-<name2>",
+"observations":[{"value":"<value2>", "timestamp":"<time>"}]
+},{
+...
+...
+},{
+"sensor":"TA150-<serialnum>-<nameX>",
+"observations":[{"value":"<valueX>", "timestamp":"<time>"}]
+}
+]}
+Name
+serialnum
+Id
+values
+
+Value description
+Device serial number (Txxxxxx)
+
+time
+
+Timestamp (in UTC format: dd/mm/yyyyThh:ii:ssUTC)
+
+nameX
+
+Sensor name’s parameter
+
+valueX
+
+Sensor value’s parameter
+
+- 16 -
+
+{
+"sensor":"TA150-<serialnum>-tl",
+"observations":[{"value":"<tl value>", "timestamp":"<time>"}]
+},{
+"sensor":"TA150-<serialnum>-la",
+"observations":[{"value":"<la value>", "timestamp":"<time>"}]
+},{
+"sensor":"TA150-<serialnum>-la-o",
+"observations":[{"value":"<la-o value>", "timestamp":"<time>"}]
+},{
+"sensor":"TA150-<serialnum>-la-u",
+"observations":[{"value":"<la-u value>", "timestamp":"<time>"}]
+},{
+...
+},{
+"sensor":"TA150-<serialnum>-pwr",
+"observations":[{"value":"<pwr value>", "timestamp":"<time>"}]
+},{
+...
+
+Overall
+values
+
+System
+values
+
+Name
+
+Value description
+
+la … lzpk
+
+Level function’s sound pressure level in dB (see section 1.2)
+
+la-o … lzpk-o
+
+(*2) Level function’s Overload [ boolean]
+
+la-u … lzpk-u
+
+(*2) Level function’s Underrange [ boolean]
+
+tl
+
+Averaging time in seconds (s)
+
+pwr
+
+Power supply status [1 = 230V, 2 = battery, 3 = 12V, 4 = POE ]
+
+wifi
+
+(*6) Wi-fi strength ( % )
+
+bat
+
+(*7) Battery level ( % )
+
+modem
+gps
+
+Optional MR154 OR MR151 module - Modem strength ( % )
+Optional MR154 OR MR151 module - Sensor coordinates in latitude and longitude
+
+*2: If “Send Overload/Underrange” is activated (programmable by Webserver)
+*6: If transmission by WiFi is activated
+*7: If a BA150 or BA157 battery is connected to sensor
+
+- 17 -
+
+{
+"sensor":"TA150-<serialnum>-f1s_n",
+"observations":[{"value":"<f1s value>", "timestamp":"<time>"}]
+},{
+"sensor":"TA150-<serialnum>-l1s",
+"observations":[{"value":"<S1 value>;<S2 value>;<S3 value>;...;<Sxx value>",
+"timestamp":"<time>"}]
+},{
+"sensor":"TA150-<serialnum>-l1s-o",
+"observations":[{"value":"<S1-o value>;<S2-o value>;<S3-o value>;...;<Sxx-o value>",
+"timestamp":"<time>"}]
+},{
+"sensor":"TA150-<serialnum>-l1s-u",
+"observations":[{"value":"<S1-u value>;<S2-u value>;<S3-u value>;...;<Sxx-u value>",
+"timestamp":"<time>"}]
+}
+
+Seconds pack
+values
+
+Name
+
+Value description
+
+f1s_n
+
+(*3) Level function’s 1s name (see section 1.2)
+
+l1s
+
+(*3) Seconds values separated by “;” [register format: value]
+
+l1s-o
+
+(*3) (*5) Overload values separated by “;” [register format: boolean (true or false)]
+
+l1s-u
+
+(*3) ( *5) Underrange values separated by “;” [register format: boolean (true or false)]
+
+*3: If TLeq=<60s, “Send 1s registers” activated and a “1s function” selected (programmable by Webserver)
+*5: If “Send 1s Overload/Underrange” is activated (programmable by Webserver)
+
+{
+"sensor":"TA150-<serialnum>-lto",
+"observations":[{"value":"<S1 value>;<S2 value>;<S3 value>;...;<S60 value>",
+"timestamp":"<time>"}]
+},{
+"sensor":"TA150-<serialnum>-lto-o",
+"observations":[{"value":"<S1-o value>;<S2-o value>;<S3-o value>;...;<S60-o value>",
+"timestamp":"<time>"}]
+},{
+"sensor":"TA150-<serialnum>-lto-u",
+"observations":[{"value":"<S1-u value>;<S2-u value>;<S3-u value>;...;<S60-u value>",
+"timestamp":"<time>"}]
+}
+Name
+Optional
+spectrum
+values
+
+l006 … l20k
+
+Value description
+(*4) 1/3 Octave filter’s sound pressure level (see section 1.2)
+
+l006-o … l20k-o
+
+(*4) (*5) 1/3 Octave filter’s Overload [ boolean]
+
+l006-u … l20k-u
+
+(*4) (*5) 1/3 Octave filter’s Underrange [ boolean]
+
+*4: If optional FR150 module is installed and activated (programmable by Webserver)
+*5: If “Send 1/3 Overload/Underrange” is activated (programmable by Webserver)
+
+2.3.2 Response data
+The server will respond with an HTTP/HTTPS status code “200” if the request was accepted
+and processed correctly. Other code different to “200”, the sensor will consider a server’s
+error.
+
+- 18 -
+
+2.3.3 Retrieving orders
+An API must be created on the server with domain host_name and located in the path link_order.
+
+The API makes a GET to the TA150. And then the TA150 reads the Command name and
+value.
+Protocol description:
+Format
+
+Protocol
+
+Method
+
+JSON
+
+HTTP, HTTPS
+MQTT-TCP, MQTT-TLS
+
+GET
+
+Header description:
+GET /order/<provider_id>/TA150-<serialnum>
+Host: <host>:<port>
+API-KEY: <token>
+Content-Type: application/json; charset=UTF-8
+Parameters
+
+Name
+
+Description
+
+provider_id
+
+(*) Sentilo provider ID
+
+serialnum
+
+Device serial number (Txxxxxx)
+
+host
+
+(*) Server API domain name or IP
+
+port
+
+(*) Server API port in 4 digits
+
+token
+
+(*) Server API key secure
+
+*: Programmable by Webserver
+
+If there is an order, the server response body will be:
+{"orders":[{"order":"<cmd_name> <cmd_value>"}]}
+Parameter
+
+Description
+
+cmd_name
+
+Command name
+
+cmd_value
+
+Command value
+
+The TA150 accepts a lot of prebuilt online commands.
+Please see section 1.3 for those online commands.
+
+- 19 -
+
+HTTP/1.1
+
+2.3.4 Examples
+To send data:
+-
+
+Optional modules: BA150 (battery)
+Serial numer sensor: T123456
+URL: yourserver.com/sensor/data/
+Port: 80
+Token: abcdefgh12345678
+Integration time: 60s
+
+-
+
+“Send Overload/Underrange” deactivated
+“Send 1s registers” activated, and “LASmax
+function” selected
+“Send 1/3 registers” activated
+“Send 1/3 Overload/Underrange” deactivated
+
+The sensor data:
+PUT /data/path/ HTTP/1.1
+Host: yourserver.com
+IDENTITY_KEY: abcdefgh12345678
+Content-Type: application/json; charset=UTF-8
+{"sensors":[
+{
+"sensor":"TA150-T123456-tl",
+"observations":[{"value":"60", "timestamp":"12/04/2023T11:44:00UTC"}]
+},{
+"sensor":"TA150-T123456-la",
+"observations":[{"value":"22.7", "timestamp":"12/04/2023T11:44:00UTC"}]
+},{
+"sensor":"TA150-T123456-lc",
+"observations":[{"value":"31.3", "timestamp":"12/04/2023T11:44:00UTC"}]
+},{
+"sensor":"TA150-T123456-lz",
+"observations":[{"value":"35.1", "timestamp":"12/04/2023T11:44:00UTC"}]
+},{
+"sensor":"TA150-T123456-lai",
+"observations":[{"value":"23.1", "timestamp":"12/04/2023T11:44:00UTC"}]
+},{
+"sensor":"TA150-T123456-lafmx",
+"observations":[{"value":"23.3", "timestamp":"12/04/2023T11:44:00UTC"}]
+},{
+"sensor":"TA150-T123456-lasmx",
+"observations":[{"value":"23.1", "timestamp":"12/04/2023T11:44:00UTC"}]
+},{
+"sensor":"TA150-T123456-laimx",
+"observations":[{"value":"23.6", "timestamp":"12/04/2023T11:44:00UTC"}]
+},{
+"sensor":"TA150-T123456-lcpk",
+"observations":[{"value":"45.5", "timestamp":"12/04/2023T11:44:00UTC"}]
+},{
+"sensor":"TA150-T123456-lzpk",
+"observations":[{"value":"49.1", "timestamp":"12/04/2023T11:44:00UTC"}]
+},{
+"sensor":"TA150-T123456-f1s_n",
+"observations":[{"value":"lasmx", "timestamp":"12/04/2023T11:44:00UTC"}]
+},{
+"sensor":"TA150-T123456-l1s",
+"observations":[{"value":"22.7;22.7;22.5;22.6;22.7;22.7;22.7;22.7;22.9;22.9;22.9;22.8;22.8;22.7;22.9;22.8;2
+2.8;22.9;22.9;22.9;22.9;23.0;23.0;22.9;22.8;22.7;22.6;22.6;22.5;22.3;22.3;22.4;22.4;22.3;22.5;22.4;22.4;22.
+5;22.4;22.5;22.5;22.6;22.7;22.8;22.8;22.9;22.9;23.0;22.9;22.9;22.8;22.8;22.8;22.9;22.9;22.9;22.9;22.9;23.0;
+23.1", "timestamp":"12/04/2023T11:44:00UTC"}]
+},{
+"sensor":"TA150-T123456-lto",
+"observations":[{"value":"23.5;23.3;24.0;24.3;23.8;23.7;23.5;22.9;22.2;27.5;20.5;19.3;18.1;16.4;20.4;12.9;1
+2.2;11.7;9.0;7.3;5.3;7.9;8.4;8.7;6.3;6.0;5.3;5.5;7.3;6.6;15.5;16.9;18.3;14.6;12.6;23.6",
+"timestamp":"12/04/2023T11:44:00UTC"}]
+},{
+"sensor":"TA150-T123456-bat",
+"observations":[{"value":"78", "timestamp":"12/04/2023T11:44:00UTC"}]
+}},{
+"sensor":"TA150-T123456-pwr",
+"observations":[{"value":"3", "timestamp":"12/04/2023T11:44:00UTC"}]
+}
+]}
+
+The server will respond the following data:
+HTTP/1.1 200 OK
+Date: Thu, 12 Apr 2023 11:44:38 GMT
+Content-Type: application/json; charset=UTF-8
+
+- 20 -
+
+To retrieve orders:
+-
+
+api_host = yourserver.com
+api_linkorder = order/path/
+api_token = abcdefgh12345678
+id_value = T123456
+
+The data sensor:
+GET /order/path/TA150-T123456 HTTP/1.1
+Host: yourserver.com
+IDENTITY_KEY: abcdefgh12345678
+Content-Type: application/json; charset=UTF-8
+
+When there isn’t an order to change, the server will respond the following data:
+HTTP/1.1 200 OK
+Date: Thu, 26 Mar 2020 09:50:41 GMT
+Content-Type: application/json; charset=UTF-8
+
+And when there is an order (f.e. change the averaging time to 30 seconds), the server will respond the
+following data:
+HTTP/1.1 200 OK
+Date: Thu, 26 Mar 2020 09:50:41 GMT
+Content-Type: application/json; charset=UTF-8
+{"orders":[{"order":"t 0030"}]}
+
+- 21 -
+
+PLATFORM
+AUDIO PROTOCOLS
+
+3
+
+3. PLATFORM AUDIO PROTOCOLS
+
+3.1 Custom
+3.1.1 Sending files
+Header description:
+POST/<audiopath>
+Host: <audiohost>
+IDKEY: <audiokey>
+Model: <model>
+Serialnum: <serialnum>
+Version: <version>
+filename: <name>
+filetype: <type>
+Parameters
+
+HTTP/1.1
+
+Name
+
+Description
+
+host
+
+(*1) (*4) Server API domain name or IP
+
+path
+
+(*1) (*4) Server API path
+
+key
+
+(*1) (*4) Server API Key secure
+
+model
+
+model of the device
+
+serialnum
+
+Device serial number (Txxxxxx)
+
+version
+
+Firmware version of the model
+
+filetype
+
+(*1) (*4) File type: mp3, flac or wav
+
+filename
+
+File name (serial num. + UTC timestamp: Txxxxxxx_yyyy_mm_dd_hh-ii_ss)
+
+*1: Programmable by Webserver
+*8: If optional GA150 module is installed and activated (programmable by Webserver)
+
+Body description:
+Audio file content in binary.
+
+- 22 -
+
+3.1.2 Examples
+To send data:
+-
+
+Optional modules: GA150 (Audio)
+Serial numer sensor: T123456
+URL: http://yourserver.com/sensor/audio/
+Port: 80
+Token: abcdefgh12345678
+
+-
+
+The sensor data:
+POST /sensor/audio/ HTTP/1.1
+Host: yourserver.com
+Idkey: abcdefgh12345678
+model: TA150
+serialnum: T123456
+version: 99.00
+filename: T259382_2033-04-12_11-43-00.flac
+filetype: flac
+Content-Length: 1277005
+Connection: close
+[..audio file content..]
+
+The server will respond the following data:
+HTTP/1.1 200 OK
+Date: Thu, 12 Apr 2033 11:44:38 GMT
+Content-Type: application/json; charset=UTF-8
+
+- 23 -
+
+Audio type: FLAC
+Audio trigger 1
+o Trigger mode: Continuos
+o Interval: 24h
+
+Reserves the right to amend the characteristics and
+accessories in this manual without prior notice.
+
+Maracaibo, 6 • 08030 BARCELONA, SPAIN
+Tel. (+34) 934 335 240 • FAX (+34) 933 479 310
+info@cesva.com • www.cesva.com
+
+

@@ -11,10 +11,10 @@
             "id": "50ecdd828ce2610b",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "start-page-view",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "home",
+              "title": "Start page"
             }
           }
         ]
@@ -191,6 +191,11 @@
   },
   "active": "50ecdd828ce2610b",
   "lastOpenFiles": [
+    "raw/articles/PR_TA150_v0008_20240729_EN.txt",
+    "raw/articles/PR2_TA150_v0002_20250415_EN.txt",
+    "raw/articles/M_TA150_v0007_20250723_EN.txt",
+    "raw/articles/D_TA150_v0007_20250307_EN.txt",
+    "raw/articles/CL_TA150-APPLUS-FILTERS_v0001_EN.txt",
     "wiki/entities/airqoon.md",
     "wiki/concepts/competitors.md",
     "wiki/analyses/gtm-analysis.md",
@@ -222,11 +227,6 @@
     "raw/articles/notion/Kunak_Air_CalibrationProcedure_Gashood_EN.pdf",
     "raw/articles/notion/Kunak_Air_Correct_cartridge_fitting_EN.pdf",
     "raw/articles/notion/Kunak_Cartridge_VOCs_Response_Factor.pdf",
-    "raw/articles/notion/Kunak_Air_Pro_SIMcard_Installation_EN.pdf",
-    "raw/articles/notion/case-study-Atmospheric_pollution_and_environmental_noise_control.pdf",
-    "raw/articles/notion/case-study-Continuous_gas_and_particle_monitoring_in_transport.pdf",
-    "raw/articles/notion/case-study-Environmental_monitoring_in_works_&_demolitions.pdf",
-    "wiki/entities/cimsa.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "raw/assets/airqoon-cloud-architecture-diagram.jpg",
