@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "896b31e0da642920",
+        "id": "80c4ba970b819c38",
         "type": "tabs",
         "children": [
           {
-            "id": "2064077b1e9b1fbe",
+            "id": "e0537a1254b6f950",
             "type": "leaf",
             "state": {
-              "type": "start-page-view",
+              "type": "empty",
               "state": {},
-              "icon": "home",
-              "title": "Start page"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -190,7 +190,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "2064077b1e9b1fbe",
+  "active": "4876613da360b23b",
   "lastOpenFiles": [
     "wiki/sources/case-study-albacete-noise.md",
     "wiki/sources/cesva-ta150-communication-protocols.md",
